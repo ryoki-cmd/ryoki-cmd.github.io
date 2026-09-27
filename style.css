@@ -13,7 +13,7 @@ header{position:sticky;top:0;z-index:10;background:color-mix(in srgb,var(--bg) 8
 .bar{display:flex;align-items:center;justify-content:space-between;height:60px}
 .logo{display:flex;align-items:center;gap:10px;text-decoration:none;font-weight:700;font-size:1.1rem}
 .logo img{width:36px;height:36px;border-radius:50%}
-.ig{font-size:.85rem;text-decoration:none;border:1px solid var(--line);border-radius:999px;padding:6px 14px;background:var(--card)}
+.sns{display:flex;gap:6px}.ig{font-size:.85rem;text-decoration:none;border:1px solid var(--line);border-radius:999px;padding:6px 14px;background:var(--card)}
 .chips{display:flex;gap:8px;overflow-x:auto;padding:0 16px 12px;scrollbar-width:none;max-width:1080px;margin:0 auto}
 .chips::-webkit-scrollbar{display:none}
 .chips a{flex:0 0 auto;text-decoration:none;font-size:.85rem;padding:6px 14px;border-radius:999px;background:var(--card);border:1px solid var(--line);color:var(--sub)}
