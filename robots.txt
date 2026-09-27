@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+Disallow: /media/
+Sitemap: https://kurashi-seiri.com/sitemap.xml
