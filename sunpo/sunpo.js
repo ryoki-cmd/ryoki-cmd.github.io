@@ -64,6 +64,8 @@
   var each = function (sel, fn) { Array.prototype.forEach.call(root.querySelectorAll(sel), fn); };
   var TYPE_IMG = {};
   var svgIcon = function (t) { return '<svg viewBox="0 0 44 44" aria-hidden="true">' + (ICON[t] || ICON[ICON_ALIAS[t]] || ICON.basket) + "</svg>"; };
+  // 「・」「の」の後と「（」の前だけで折り返す。後ろに1文字しか残らないところ（「家電の上」の「上」）では折らない
+  var wrapLabel = function (t) { return esc(t).replace(/(・|の)(?=[^（]{2,})/g, "$1<wbr>").replace(/（/g, "<wbr>（"); };
   var icon = function (t) {
     return TYPE_IMG[t] ? '<img src="' + esc(TYPE_IMG[t]) + '" alt="" loading="lazy" decoding="async" data-t="' + t + '">' : svgIcon(t);
   };
@@ -99,8 +101,8 @@
   // ---- 場所の選択（部屋 → 場所 → 形の違い） ----
   function renderRooms() {
     var html = DATA.rooms.map(function (r) {
-      return '<button type="button" role="tab" class="sunpo-room" data-r="' + r.id + '" aria-selected="' + (r.id === S.room) + '">' + esc(r.name) + "</button>";
-    }).join("") + '<button type="button" role="tab" class="sunpo-room" data-r="none" aria-selected="' + (S.room === "none") + '">場所を選ばない</button>';
+      return '<button type="button" role="tab" class="sunpo-room" data-r="' + r.id + '" aria-selected="' + (r.id === S.room) + '"><span class="sp-long">' + wrapLabel(r.name) + '</span><span class="sp-short">' + esc(r.short || r.name) + "</span></button>";
+    }).join("") + '<button type="button" role="tab" class="sunpo-room" data-r="none" aria-selected="' + (S.room === "none") + '"><span class="sp-long">場所を<wbr>選ばない</span><span class="sp-short">指定なし</span></button>';
     $("sunpoRooms").innerHTML = html;
     each(".sunpo-room", function (b) {
       b.addEventListener("click", function () {
@@ -233,8 +235,8 @@
       renderTypes(); return;
     }
     box.innerHTML = room.places.map(function (p) {
-      if (PREP[p.id]) return '<button type="button" class="sunpo-chip sp-prep" disabled aria-disabled="true">' + esc(p.name) + "（準備中）</button>";
-      return '<button type="button" class="sunpo-chip" data-p="' + p.id + '" aria-pressed="' + (p.id === S.place) + '">' + esc(p.name) + "</button>";
+      if (PREP[p.id]) return '<button type="button" class="sunpo-chip sp-prep" disabled aria-disabled="true">' + wrapLabel(p.name + "（準備中）") + "</button>";
+      return '<button type="button" class="sunpo-chip" data-p="' + p.id + '" aria-pressed="' + (p.id === S.place) + '">' + wrapLabel(p.name) + "</button>";
     }).join("");
     each("#sunpoPlaces .sunpo-chip", function (b) {
       if (!b.dataset.p) return;
@@ -244,8 +246,8 @@
     if (p && p.variants.length > 1) {
       vbox.hidden = false;
       vbox.innerHTML = p.variants.map(function (v) {
-        if (PREP[v.id]) return '<button type="button" class="sp-prep" disabled aria-disabled="true">' + esc(v.name) + "（準備中）</button>";
-        return '<button type="button" data-v="' + v.id + '" aria-pressed="' + (v.id === S.variant) + '">' + esc(v.name) + "</button>";
+        if (PREP[v.id]) return '<button type="button" class="sp-prep" disabled aria-disabled="true">' + wrapLabel(v.name + "（準備中）") + "</button>";
+        return '<button type="button" data-v="' + v.id + '" aria-pressed="' + (v.id === S.variant) + '">' + wrapLabel(v.name) + "</button>";
       }).join("");
       each("#sunpoVariants button", function (b) {
         if (!b.dataset.v) return;

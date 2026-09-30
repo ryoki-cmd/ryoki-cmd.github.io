@@ -132,6 +132,7 @@
   {
    "id": "kitchen",
    "name": "キッチン",
+   "short": "キッチン",
    "places": [
     {
      "id": "sink",
@@ -503,6 +504,7 @@
   {
    "id": "sanitary",
    "name": "洗面所・トイレ",
+   "short": "洗面・トイレ",
    "places": [
     {
      "id": "washbasin",
@@ -696,6 +698,7 @@
   {
    "id": "closet",
    "name": "クローゼット・押入れ",
+   "short": "押入れ・服",
    "places": [
     {
      "id": "oshiire",
@@ -786,6 +789,7 @@
   {
    "id": "entrance",
    "name": "玄関",
+   "short": "玄関",
    "places": [
     {
      "id": "shoebox",
@@ -843,6 +847,7 @@
   {
    "id": "living",
    "name": "リビング・寝室",
+   "short": "リビング",
    "places": [
     {
      "id": "colorbox",

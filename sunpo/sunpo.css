@@ -269,3 +269,14 @@
     box-shadow:0 6px 18px rgba(60,40,20,.25);cursor:pointer}
   .sunpo-jump[hidden]{display:none}
 }
+
+/* ボタンの文字は単語の途中で折らない（<wbr> の位置だけで折り返す） */
+.sunpo-room,.sunpo-chip,.sunpo-variants button{word-break:keep-all;overflow-wrap:normal}
+.sunpo-room .sp-short{display:none}
+@media (max-width:860px){
+  .sunpo-room .sp-long{display:none}
+  .sunpo-room .sp-short{display:inline}
+  .sunpo-room{font-size:.8125rem}
+  .sunpo-chip,.sunpo-variants button{font-size:.8125rem}
+}
+@media (max-width:860px){.sunpo-room .sp-short{white-space:nowrap}.sunpo-room{padding-inline:2px}}
