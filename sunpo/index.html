@@ -25,15 +25,32 @@
     <p>置く場所を選んで、横幅・奥行・高さを入れてください。その場所に合う種類の収納から、外寸で収まる見込みのものと、あと何cm余るかを出します。</p>
   </section>
 
+  <section class="sunpo-intro" id="sunpoIntro" aria-label="例の結果">
+    <p class="sunpo-introcond"><span class="sunpo-extag" id="sunpoIntroEx">例の寸法</span><span id="sunpoIntroCond"></span></p>
+    <p class="sunpo-introcount" id="sunpoIntroCount"></p>
+    <div class="sunpo-introphotos" id="sunpoIntroPhotos"></div>
+    <button type="button" class="sunpo-cta" data-go="place">自分の場所で探す</button>
+    <button type="button" class="sunpo-sub" data-go="res">例の候補をそのまま見る</button>
+  </section>
+
   <ol class="sunpo-steps" id="sunpoSteps" aria-label="進み具合">
-    <li data-step="1">場所</li>
-    <li data-step="2">採寸</li>
-    <li data-step="3">候補</li>
+    <li data-step="1"><button type="button" data-go="place">1 場所</button></li>
+    <li data-step="2"><button type="button" data-go="dims">2 寸法</button></li>
+    <li data-step="3"><button type="button" data-go="res">3 候補</button></li>
   </ol>
+
+  <section class="sunpo-howto" id="sunpoHowto">
+    <h2>使い方</h2>
+    <ol>
+      <li>置く場所を選びます（シンク下・洗濯機の横・押入れなど）。</li>
+      <li>幅・奥行・高さを測って入れます。出っぱりを避けた、一番狭いところを測ってください。扉の厚みや取っ手、排水管の出っぱりも避けます。</li>
+      <li>外寸で収まる見込みの収納と、あと何cm余るかが出ます。購入前に商品ページの寸法を確認してください。</li>
+    </ol>
+  </section>
 
   <div class="sunpo-tool">
     <form class="sunpo-panel" id="sunpoForm" novalidate>
-      <div class="sunpo-group">
+      <div class="sunpo-group sp-g-place">
         <span class="sunpo-label">1. どこに置きますか</span>
         <div class="sunpo-rooms" id="sunpoRooms" role="tablist" aria-label="部屋"></div>
         <div class="sunpo-presets" id="sunpoPlaces" role="group" aria-label="場所"></div>
@@ -41,26 +58,27 @@
         <p class="sunpo-hint" id="sunpoPlaceNote"></p>
       </div>
 
-      <div class="sunpo-group">
+      <div class="sunpo-group sp-g-dims">
         <span class="sunpo-label">2. 内側の寸法</span>
         <p class="sunpo-lead">幅・奥行・高さは、出っぱりを避けた一番狭いところを測ってください。</p>
         <p class="sunpo-example" id="sunpoExampleBand" hidden>例の寸法で表示中です。ご自宅で測った数字に書きかえてください。</p>
         <div class="sunpo-dims">
           <div class="sunpo-dim">
             <label for="sunpoW">横幅</label>
-            <div class="sunpo-field"><input id="sunpoW" inputmode="decimal" autocomplete="off" placeholder="例：70" aria-describedby="sunpoUnit"><span>cm</span></div>
+            <div class="sunpo-field"><input id="sunpoW" inputmode="decimal" enterkeyhint="next" autocomplete="off" placeholder="例：70" aria-describedby="sunpoUnit"><span>cm</span></div>
           </div>
           <div class="sunpo-dim">
             <label for="sunpoD">奥行</label>
-            <div class="sunpo-field"><input id="sunpoD" inputmode="decimal" autocomplete="off" placeholder="例：50" aria-describedby="sunpoUnit"><span>cm</span></div>
+            <div class="sunpo-field"><input id="sunpoD" inputmode="decimal" enterkeyhint="next" autocomplete="off" placeholder="例：50" aria-describedby="sunpoUnit"><span>cm</span></div>
           </div>
           <div class="sunpo-dim">
             <label for="sunpoH">高さ</label>
-            <div class="sunpo-field"><input id="sunpoH" inputmode="decimal" autocomplete="off" placeholder="例：55" aria-describedby="sunpoUnit"><span>cm</span></div>
+            <div class="sunpo-field"><input id="sunpoH" inputmode="decimal" enterkeyhint="done" autocomplete="off" placeholder="例：55" aria-describedby="sunpoUnit"><span>cm</span></div>
           </div>
         </div>
         <button type="button" class="sunpo-trybtn" id="sunpoTry">この場所の例の寸法で試す</button>
         <span class="sunpo-hint" id="sunpoUnit">扉の厚みや取っ手、排水管の出っぱりも避けて測ります。</span>
+        <button type="button" class="sunpo-trapsum" id="sunpoTrapSum" hidden></button>
         <details class="sunpo-guide" id="sunpoGuideBox">
           <summary>測り方（この場所の場合）</summary>
           <div id="sunpoGuide"></div>
@@ -94,6 +112,11 @@
     </form>
 
     <div class="sunpo-results" id="sunpoResults">
+      <div class="sunpo-cond" id="sunpoCond">
+        <button type="button" class="sp-condtext" data-go="place"><span id="sunpoCondPlace"></span><b id="sunpoCondDims"></b><span class="sunpo-extag" id="sunpoCondEx">例の寸法</span></button>
+        <button type="button" class="sp-condbtn" data-go="dims">変える</button>
+      </div>
+      <button type="button" class="sunpo-figbtn" id="sunpoFigBtn" aria-controls="sunpoDiagram" aria-expanded="false">置いたときの図を見る</button>
       <div class="sunpo-diagram" id="sunpoDiagram">
         <div class="sunpo-seg sunpo-viewtab" id="sunpoView" role="group" aria-label="図の向き">
           <button type="button" data-v="front">正面から</button>
@@ -128,6 +151,10 @@
       </div>
       <p class="sunpo-foot">寸法は各ショップの商品説明に書かれた外寸（公称値）を自動で読み取ったもので、まだ人の目で確認していません。外寸で収まる見込みでも、取っ手・フタ・脚の位置などで使えないことがあります。購入前に商品ページの寸法を必ず確認してください。価格は表示の日付時点のもので、変わることがあります。サイズ違いがある商品は、サイズごとの価格が分からないため価格を出していません。並び順は寸法の合い具合などで決めていて、広告の報酬額では変えていません。</p>
     </div>
+  </div>
+  <div class="sunpo-mnav" id="sunpoMnav">
+    <button type="button" class="sp-back" id="sunpoBack">戻る</button>
+    <button type="button" class="sp-next" id="sunpoNext">次へ</button>
   </div>
 </div>
 <button type="button" class="sunpo-jump" id="sunpoJump" hidden>候補を見る</button>
