@@ -149,6 +149,8 @@ body:has(#f-guide:checked) [data-kind=money],body:has(#f-money:checked) [data-ki
 .pick .price{display:flex;flex-wrap:wrap;align-items:baseline;gap:6px 10px;margin:0 0 12px}
 .pick .price b{font-size:1.05rem}.pick .price span{font-size:.85rem;color:var(--sub)}.pick .price small{font-size:.75rem;color:var(--sub);width:100%}
 .pick .btn{width:100%}
+.pick .pimg{width:132px;height:132px;object-fit:contain;background:#fff;border:1px solid var(--line);border-radius:var(--r-sm);float:right;margin:0 0 10px 12px}
+.pick::after{content:"";display:block;clear:both}
 /* 次に読む・CTA */
 .next{margin:var(--s6) 0 0}
 .cta{background:var(--soft);border-radius:var(--r-lg);padding:20px;text-align:center;margin:var(--s6) 0 0}
