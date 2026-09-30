@@ -375,6 +375,27 @@
     el.hidden = false;
   }
   // 携帯の進み具合（場所 → 採寸 → 候補）
+  // ---- 携帯：細かい条件は最初たたむ。下に「候補◯件を見る」の帯を出し、候補が画面に入ったら隠す ----
+  var MOBILE = window.matchMedia ? window.matchMedia("(max-width: 860px)") : { matches: false };
+  if (MOBILE.matches) $("sunpoMore").open = false;
+  var resultsSeen = false;
+  if ("IntersectionObserver" in window) {
+    // 候補の欄（図から最後のカードまで）が少しでも画面に入っている間は隠す
+    new IntersectionObserver(function (es) { resultsSeen = es[0].isIntersecting; jumpBar(); }, { rootMargin: "0px 0px -15% 0px" })
+      .observe($("sunpoResults"));
+  }
+  var lastCount = null;
+  function jumpBar(n) {
+    if (typeof n === "number") lastCount = n;
+    var bar = $("sunpoJump");
+    bar.hidden = !MOBILE.matches || resultsSeen || lastCount === null;
+    if (lastCount !== null) bar.textContent = "候補 " + lastCount + "件を見る ↓";
+  }
+  $("sunpoJump").addEventListener("click", function () {
+    var top = $("sunpoResults").getBoundingClientRect().top + window.pageYOffset - 64;
+    try { window.scrollTo({ top: top, behavior: "smooth" }); } catch (e) { window.scrollTo(0, top); }
+  });
+
   function steps(done) {
     var st = { 1: !!(S.place || S.room === "none"), 2: [S.w, S.d, S.h].every(function (v) { return isFinite(v) && v > 0; }), 3: !!done };
     each("#sunpoSteps li", function (li) { li.classList.toggle("sp-done", !!st[li.dataset.step]); });
@@ -451,6 +472,7 @@
     near.sort(function (a, b) { return a.r.short - b.r.short; });
 
     $("sunpoCount").innerHTML = (place ? esc(place.name) + "に" : "") + "収まりそうな収納 <b>" + fit.length + "</b>件";
+    jumpBar(fit.length);
 
     var html = "";
     fit.forEach(function (x) {

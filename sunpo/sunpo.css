@@ -201,3 +201,71 @@
 .sunpo-steps li.sp-done{color:#fff;background:var(--accent);border-color:var(--accent)}
 @media (max-width:860px){.sunpo-steps{display:flex;position:sticky;top:56px;z-index:5;background:var(--bg);padding-block:6px}}/* サイトの固定ヘッダー（56px）の下に止める */
 .sunpo-field input::placeholder{font-size:1rem;color:var(--sub);opacity:.8}
+
+/* 細かい条件のまとまり：パソコンでは見出しを出さず、いつも開いておく */
+.sunpo-more{display:flex;flex-direction:column;gap:18px}
+.sunpo-more > summary{display:none}
+.sunpo-more > .sunpo-group + .sunpo-group{margin-top:18px}
+.sunpo-jump{display:none}
+
+/* ===== 携帯（860px以下）だけの見た目 ===== */
+@media (max-width:860px){
+  .sunpo{gap:16px;padding-block:8px 88px}
+  .sunpo-hero h1{font-size:1.35rem}
+  .sunpo-hero p{font-size:.875rem;line-height:1.7}
+  .sunpo-pr{font-size:.75rem;padding:6px 10px}
+  .sunpo-tool{gap:16px}
+  .sunpo-panel{padding:14px;gap:14px;border-radius:16px}
+  /* 部屋は3列、場所は2列のボタンにして縦の長さを半分に */
+  .sunpo-rooms{display:grid;grid-template-columns:repeat(3,1fr);gap:6px;border:0}
+  .sunpo-room{border:1px solid var(--line);border-radius:10px;margin:0;padding:6px 4px;min-height:40px;font-size:.8rem;background:var(--bg)}
+  .sunpo-room[aria-selected="true"]{border-color:var(--accent);background:var(--soft);color:var(--accent-ink)}
+  .sunpo-presets{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:6px}
+  .sunpo-chip{min-height:40px;padding:6px 8px;font-size:.8rem;border-radius:10px;white-space:normal;line-height:1.35}
+  .sunpo-variants button{min-width:0;font-size:.8rem;padding:6px 4px}
+  .sunpo-hint{font-size:.78rem;line-height:1.6}
+  .sunpo-lead{font-size:.85rem}
+  .sunpo-field{min-height:48px}
+  .sunpo-field input{font-size:1.35rem}
+  .sunpo-trapamt{padding-left:0}
+  /* 細かい条件は、たたんだ見出しから開く */
+  .sunpo-more{border:1px solid var(--line);border-radius:12px;gap:0}
+  .sunpo-more > summary{display:flex;align-items:center;justify-content:space-between;min-height:44px;padding:0 12px;font-weight:700;font-size:.85rem;cursor:pointer;list-style:none}
+  .sunpo-more > summary::-webkit-details-marker{display:none}
+  .sunpo-more > summary::after{content:"＋";color:var(--sub)}
+  .sunpo-more[open] > summary::after{content:"−"}
+  .sunpo-more > .sunpo-group{padding:0 12px 12px}
+  .sunpo-more > .sunpo-group + .sunpo-group{margin-top:0;border-top:1px dashed var(--line);padding-top:12px}
+  /* 種類は横に流して1〜2行に */
+  .sunpo-types{flex-wrap:nowrap;overflow-x:auto;padding-bottom:4px;-webkit-overflow-scrolling:touch}
+  .sunpo-type{flex:0 0 auto}
+  /* 図は小さめに */
+  .sunpo-diagram{padding:8px}
+  .sunpo-diagram svg{max-height:210px}
+  .sunpo-zonetext{font-size:.78rem}
+  /* 並び順は横に流す */
+  .sunpo-sort{flex-wrap:nowrap;overflow-x:auto;width:100%;padding-bottom:2px}
+  .sunpo-sort button{flex:0 0 auto}
+  /* 商品カード：画像を小さく、行間を詰めて1画面に2件入るように */
+  .sunpo-cards{grid-template-columns:1fr;gap:10px}
+  .sunpo-card{padding:12px;gap:8px}
+  .sunpo-card .sp-row{gap:10px}
+  .sunpo-photo{flex-basis:84px;width:84px;height:84px}
+  .sunpo-typetag{width:22px;height:22px}
+  .sunpo-card h3{font-size:.9rem;line-height:1.45}
+  .sunpo-shop,.sunpo-spec{font-size:.72rem}
+  .sunpo-badges{gap:4px}
+  .sunpo-badge{font-size:.72rem;padding:1px 8px}
+  .sunpo-auto{font-size:.7rem;margin-top:-2px}
+  .sunpo-slack{padding:6px;font-size:.7rem}
+  .sunpo-slack b{font-size:.9rem}
+  .sunpo-caution,.sunpo-info{font-size:.72rem;padding:5px 8px;line-height:1.55}
+  .sunpo-basis summary{min-height:32px}
+  .sunpo-links a{min-height:42px;padding:8px}
+  .sunpo-price{font-size:.72rem}
+  /* 下の「候補◯件を見る」 */
+  .sunpo-jump{display:block;position:fixed;left:16px;right:16px;bottom:calc(12px + env(safe-area-inset-bottom, 0px));z-index:20;
+    min-height:48px;border:0;border-radius:999px;background:var(--accent);color:#fff;font-weight:700;font-size:.95rem;
+    box-shadow:0 6px 18px rgba(60,40,20,.25);cursor:pointer}
+  .sunpo-jump[hidden]{display:none}
+}

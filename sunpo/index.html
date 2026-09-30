@@ -73,6 +73,8 @@
         <p class="sunpo-eff" id="sunpoEff" hidden></p>
       </div>
 
+      <details class="sunpo-more" id="sunpoMore" open>
+      <summary>探す種類・すき間・向きを変える</summary>
       <div class="sunpo-group" id="sunpoTypeBox">
         <span class="sunpo-label">3. 探す種類</span>
         <div class="sunpo-types" id="sunpoTypes" role="group" aria-label="探す種類"></div>
@@ -88,9 +90,10 @@
         <span class="sunpo-hint">置き場所の幅・奥行・高さから、この分を引いて判定します。</span>
         <label class="sunpo-toggle" for="sunpoRot"><span>横向きに置いてもいい<small>そのままで収まらないとき、幅と奥行を入れ替えて判定します</small></span><input type="checkbox" id="sunpoRot"></label>
       </div>
+      </details>
     </form>
 
-    <div class="sunpo-results">
+    <div class="sunpo-results" id="sunpoResults">
       <div class="sunpo-diagram" id="sunpoDiagram">
         <div class="sunpo-seg sunpo-viewtab" id="sunpoView" role="group" aria-label="図の向き">
           <button type="button" data-v="front">正面から</button>
@@ -127,6 +130,7 @@
     </div>
   </div>
 </div>
+<button type="button" class="sunpo-jump" id="sunpoJump" hidden>候補を見る</button>
 <script src="sunpo.js" defer></script>
 </main>
 <footer><div class="wrap">
