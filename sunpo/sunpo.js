@@ -223,7 +223,7 @@
     // 図：司令塔が用意した絵があれば使い、読めなければ線画（SVG）に戻す
     var gkey = p.id === "colorbox" ? "colorbox" : (/引き出し/.test(v.name) || /drawer|freezer/.test(v.id) ? "A2" : sp);
     var gimg = (DATA.guide_img || {})[gkey];
-    var pic = gimg ? '<img class="sunpo-guideimg" src="' + esc(gimg) + '" alt="' + esc(p.name + "の測り方の図") + '" loading="lazy" data-guide="' + sp + '">'
+    var pic = gimg ? '<img class="sunpo-guideimg" src="' + esc(gimg) + '" alt="' + esc(p.name + "の測り方の図") + '" loading="eager" data-guide="' + sp + '">'
       : '<svg viewBox="0 0 300 180" role="img" aria-label="測り方の図">' + GUIDE_SVG[sp] + "</svg>";
     $("sunpoGuide").innerHTML = pic +
       "<ul>" + GUIDE_TEXT[sp].map(function (t) { return "<li>" + esc(t) + "</li>"; }).join("") +
