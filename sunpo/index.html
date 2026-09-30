@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="ja"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>寸法アシスタント｜くらし整えメモ</title>
+<meta name="description" content="置きたい場所の幅・奥行・高さを入れると、外寸で収まりそうな収納用品と余りの寸法がわかる計算機。">
+<meta name="robots" content="max-image-preview:large">
+<meta property="og:title" content="寸法アシスタント｜くらし整えメモ"><meta property="og:type" content="website"><meta property="og:site_name" content="くらし整えメモ">
+<meta property="og:image" content="https://kurashi-seiri.com/assets/hero.jpg"><meta name="twitter:card" content="summary_large_image">
+<meta name="p:domain_verify" content="439341b4c86ceae408738eda8be1a077"><meta name="google-site-verification" content="4CEwRkSevmyOUOtMr1hN8rGQIhGerHyM3hYFhX4pSpE"><script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "bd0e70c39d7c488da6f97a8f768bfe2e"}'></script>
+<link rel="icon" href="../app-icon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&family=Zen+Maru+Gothic:wght@700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../style.css">
+</head><body>
+
+<header><div class="bar-wrap"><div class="wrap bar">
+<a class="logo" href="../index.html"><img src="../app-icon.png" alt="">くらし整えメモ</a>
+<div class="sns"><a class="ig" href="https://www.youtube.com/channel/UC68uPO-ILFDWbT0DFZCfQUw" target="_blank" rel="noopener">YouTube</a><a class="ig" href="https://www.instagram.com/kurashi__seiri/" target="_blank" rel="noopener">Instagram</a></div>
+</div></div><nav class="chips"><a href="../index.html" class="">ホーム</a><a href="../category/kitchen.html" class="">キッチン収納</a><a href="../category/laundry.html" class="">洗面所</a><a href="../category/small-room.html" class="">一人暮らし</a><a href="../category/money.html" class="money ">固定費の見直し</a><a href="../guides/index.html" class="">選び方ガイド</a><a href="../sunpo/index.html" class="on">寸法アシスタント</a></nav></header>
+<main class="wrap"><link rel="stylesheet" href="sunpo.css"><div class="sunpo" id="sunpo">
+  <p class="sunpo-pr">この計算機にはアフィリエイト広告（楽天アフィリエイト）を含みます</p>
+
+  <section class="sunpo-hero">
+    <h1>測った数字を入れるだけ。収まりそうな収納の候補が出ます</h1>
+    <p>置く場所を選んで、横幅・奥行・高さを入れてください。その場所に合う種類の収納から、外寸で収まる見込みのものと、あと何cm余るかを出します。</p>
+  </section>
+
+  <ol class="sunpo-steps" id="sunpoSteps" aria-label="進み具合">
+    <li data-step="1">場所</li>
+    <li data-step="2">採寸</li>
+    <li data-step="3">候補</li>
+  </ol>
+
+  <div class="sunpo-tool">
+    <form class="sunpo-panel" id="sunpoForm" novalidate>
+      <div class="sunpo-group">
+        <span class="sunpo-label">1. どこに置きますか</span>
+        <div class="sunpo-rooms" id="sunpoRooms" role="tablist" aria-label="部屋"></div>
+        <div class="sunpo-presets" id="sunpoPlaces" role="group" aria-label="場所"></div>
+        <div class="sunpo-seg sunpo-variants" id="sunpoVariants" role="group" aria-label="形の違い" hidden></div>
+        <p class="sunpo-hint" id="sunpoPlaceNote"></p>
+      </div>
+
+      <div class="sunpo-group">
+        <span class="sunpo-label">2. 内側の寸法</span>
+        <p class="sunpo-lead">幅・奥行・高さは、出っぱりを避けた一番狭いところを測ってください。</p>
+        <p class="sunpo-example" id="sunpoExampleBand" hidden>例の寸法で表示中です。ご自宅で測った数字に書きかえてください。</p>
+        <div class="sunpo-dims">
+          <div class="sunpo-dim">
+            <label for="sunpoW">横幅</label>
+            <div class="sunpo-field"><input id="sunpoW" inputmode="decimal" autocomplete="off" placeholder="例：70" aria-describedby="sunpoUnit"><span>cm</span></div>
+          </div>
+          <div class="sunpo-dim">
+            <label for="sunpoD">奥行</label>
+            <div class="sunpo-field"><input id="sunpoD" inputmode="decimal" autocomplete="off" placeholder="例：50" aria-describedby="sunpoUnit"><span>cm</span></div>
+          </div>
+          <div class="sunpo-dim">
+            <label for="sunpoH">高さ</label>
+            <div class="sunpo-field"><input id="sunpoH" inputmode="decimal" autocomplete="off" placeholder="例：55" aria-describedby="sunpoUnit"><span>cm</span></div>
+          </div>
+        </div>
+        <button type="button" class="sunpo-trybtn" id="sunpoTry">この場所の例の寸法で試す</button>
+        <span class="sunpo-hint" id="sunpoUnit">扉の厚みや取っ手、排水管の出っぱりも避けて測ります。</span>
+        <details class="sunpo-guide" id="sunpoGuideBox">
+          <summary>測り方（この場所の場合）</summary>
+          <div id="sunpoGuide"></div>
+        </details>
+        <p class="sunpo-warn" id="sunpoWarn" hidden></p>
+        <div class="sunpo-traps" id="sunpoTraps" hidden>
+          <span class="sunpo-label">この場所の落とし穴</span>
+          <div id="sunpoTrapList"></div>
+        </div>
+        <p class="sunpo-eff" id="sunpoEff" hidden></p>
+      </div>
+
+      <div class="sunpo-group" id="sunpoTypeBox">
+        <span class="sunpo-label">3. 探す種類</span>
+        <div class="sunpo-types" id="sunpoTypes" role="group" aria-label="探す種類"></div>
+      </div>
+
+      <div class="sunpo-group sunpo-opts">
+        <span class="sunpo-label">出し入れのすき間</span>
+        <div class="sunpo-seg" id="sunpoMargin" role="group" aria-label="出し入れのすき間">
+          <button type="button" data-m="0">ぴったり</button>
+          <button type="button" data-m="0.5">5mm</button>
+          <button type="button" data-m="1">1cm</button>
+        </div>
+        <span class="sunpo-hint">置き場所の幅・奥行・高さから、この分を引いて判定します。</span>
+        <label class="sunpo-toggle" for="sunpoRot"><span>横向きに置いてもいい<small>そのままで収まらないとき、幅と奥行を入れ替えて判定します</small></span><input type="checkbox" id="sunpoRot"></label>
+      </div>
+    </form>
+
+    <div class="sunpo-results">
+      <div class="sunpo-diagram" id="sunpoDiagram">
+        <div class="sunpo-seg sunpo-viewtab" id="sunpoView" role="group" aria-label="図の向き">
+          <button type="button" data-v="front">正面から</button>
+          <button type="button" data-v="top">上から</button>
+        </div>
+        <span class="sunpo-hint sunpo-viewnote">正面は横幅と高さ、上からは横幅と奥行を見る図です。</span>
+        <p class="sunpo-example sp-small" id="sunpoExampleFig" hidden>例の寸法で表示中</p>
+        <svg id="sunpoSvg" viewBox="0 0 340 230" role="img" aria-labelledby="sunpoCap"></svg>
+        <span class="sunpo-hint" id="sunpoCap">置いたときの図</span>
+        <p class="sunpo-zonetext" id="sunpoZoneText" hidden></p>
+      </div>
+
+      <div class="sunpo-rhead">
+        <h2 id="sunpoCount" aria-live="polite">候補</h2>
+        <div class="sunpo-sort" role="group" aria-label="並び順">
+          <button type="button" data-s="fit">この場所の定番順</button>
+          <button type="button" data-s="tight">ぴったり順</button>
+          <button type="button" data-s="count">たくさん並ぶ順</button>
+          <button type="button" data-s="price">価格の安い順</button>
+        </div>
+      </div>
+      <p class="sunpo-example" id="sunpoExampleRes" hidden>例の寸法で表示中です。</p>
+      <div class="sunpo-cards" id="sunpoCards"></div>
+      <details class="sunpo-near" id="sunpoNear" open>
+        <summary id="sunpoNearSum">惜しい商品</summary>
+        <div class="sunpo-nearlist" id="sunpoNearList"></div>
+      </details>
+      <div class="sunpo-share" id="sunpoShare">
+        <span>この条件のページ</span>
+        <code id="sunpoUrl"></code>
+        <button type="button" id="sunpoCopy">リンクをコピー</button>
+      </div>
+      <p class="sunpo-foot">寸法は各ショップの商品説明に書かれた外寸（公称値）を自動で読み取ったもので、まだ人の目で確認していません。外寸で収まる見込みでも、取っ手・フタ・脚の位置などで使えないことがあります。購入前に商品ページの寸法を必ず確認してください。価格は表示の日付時点のもので、変わることがあります。サイズ違いがある商品は、サイズごとの価格が分からないため価格を出していません。並び順は寸法の合い具合などで決めていて、広告の報酬額では変えていません。</p>
+    </div>
+  </div>
+</div>
+<script src="sunpo.js" defer></script>
+</main>
+<footer><div class="wrap">
+<div class="links"><a href="../about.html">このサイトについて</a><a href="../guides/index.html">選び方ガイド</a><a href="../sunpo/index.html">寸法アシスタント</a><a href="../privacy.html">プライバシーポリシー</a><a href="../terms.html">利用規約</a><a href="../contact.html">お問い合わせ</a><a href="https://www.instagram.com/kurashi__seiri/" target="_blank" rel="noopener">Instagram</a><a href="https://www.youtube.com/channel/UC68uPO-ILFDWbT0DFZCfQUw" target="_blank" rel="noopener">YouTube</a></div>
+<p>当サイトの一部の記事にはアフィリエイト広告（楽天アフィリエイト・A8.net 等）を含みます。</p>
+<p><a href="https://developers.rakuten.com/" target="_blank" rel="noopener">Supported by Rakuten Developers</a></p>
+<p>© 2026 くらし整えメモ</p>
+</div></footer>
+</body></html>
