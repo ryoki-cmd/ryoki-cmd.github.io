@@ -436,7 +436,7 @@
   }
 
   function linksHtml(p) {
-    return '<span class="sunpo-prtag" aria-label="広告">PR</span>' + ["rakuten", "yahoo", "amazon"].map(function (k) {
+    return ["rakuten", "yahoo", "amazon"].map(function (k) {
       var u = p.links && p.links[k];
       return u ? '<a href="' + esc(u) + '" rel="sponsored noopener" target="_blank" data-track="' + esc(p.id) + '" data-shop="' + k + '">' + SHOP_LABEL[k] + "</a>" : "";
     }).join("");
@@ -636,7 +636,7 @@
     $("sunpoIntroCond").textContent = placeLabel() + (ok ? "　幅" + fmt(S.w) + "×奥行" + fmt(S.d) + "×高さ" + fmt(S.h) + "cm" : "");
     $("sunpoIntroCount").innerHTML = fit ? "収まりそうな収納 <b>" + fit.length + "</b>件" : "";
     var shots = (fit || []).filter(function (x) { return x.p.img; }).slice(0, 3);
-    $("sunpoIntroPhotos").innerHTML = shots.length ? '<span class="sunpo-prtag" aria-label="広告">PR</span>' + shots.map(function (x) {
+    $("sunpoIntroPhotos").innerHTML = shots.length ? shots.map(function (x) {
       return '<a href="' + esc(x.p.links && x.p.links.rakuten || "#") + '" rel="sponsored noopener" target="_blank" data-track="' + esc(x.p.id) + '">' +
         '<img src="' + esc(x.p.img) + '" alt="' + esc(x.p.name) + '（楽天市場の商品画像）" decoding="async"></a>';
     }).join("") + '<span class="sp-cap">楽天市場の商品</span>' : "";

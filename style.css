@@ -22,6 +22,9 @@ header .bar-wrap{position:sticky;top:0;z-index:10;background:color-mix(in srgb,v
 .logo{display:flex;align-items:center;gap:10px;text-decoration:none;font-weight:700;font-size:1.05rem}
 .logo img{width:34px;height:34px;border-radius:50%}
 .sns{display:flex;gap:6px}.ig{font-size:.8rem;text-decoration:none;border:1px solid var(--line);border-radius:999px;padding:7px 12px;background:var(--card);min-height:36px;display:inline-flex;align-items:center}
+.card.item .pts{list-style:none;padding:0;margin:6px 0 2px;display:flex;flex-direction:column;gap:3px}
+.card.item .pts li{font-size:.82rem;color:var(--sub);padding-left:1.1em;position:relative}
+.card.item .pts li::before{content:"✓";position:absolute;left:0;color:var(--accent)}
 .menu-btn{width:44px;height:44px;margin-left:4px;border:1px solid var(--line);border-radius:12px;background:var(--card);color:var(--ink);font-size:1.25rem;line-height:1;cursor:pointer;display:inline-flex;align-items:center;justify-content:center}
 .menu-btn:hover{background:var(--soft)}
 .menu{position:fixed;inset:0;z-index:50}.menu[hidden]{display:none}
