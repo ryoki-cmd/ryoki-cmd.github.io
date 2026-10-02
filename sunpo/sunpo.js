@@ -57,6 +57,12 @@
     if (!url || !navigator.sendBeacon) return;
     var body = { e: ev, place: data.place || "", cause: data.cause || data.to || "", n: typeof data.count === "number" ? data.count : null };
     if (data.shop) body.shop = data.shop;
+    // クリックには来た元（SNS の #from= をサイト共通の処理が sessionStorage に残したもの）を添える
+    if (ev === "product_click" || ev === "ad_click") {
+      var from = "";
+      try { from = sessionStorage.getItem("kurashi_from") || ""; } catch (e) { /* 読めなければ付けない */ }
+      if (/^[a-z]{1,10}$/.test(from)) body.from = from;
+    }
     try { navigator.sendBeacon(url, new Blob([JSON.stringify(body)], { type: "text/plain" })); } catch (e) { /* 送れなくても画面は止めない */ }
   }
   var trackState = { started: false, doneKey: "", shownKey: "", timer: 0 };
