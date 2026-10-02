@@ -10520,7 +10520,7 @@
   },
   {
    "id": "tenmafitsworld:10005139#1",
-   "name": "フィッツケース ワイドディープ クラシック（幅45cm） 幅45cm・高さ30cm",
+   "name": "フィッツケース ワイドディープ クラシック（幅45cm）",
    "w": 45.0,
    "d": 45.0,
    "h": 30.0,
@@ -10549,41 +10549,6 @@
    "variant": "幅45cm",
    "evidence": "ー カプチーノ 最大外寸(約) 幅45×奥行45×高さ30cm",
    "dim_kind": "外寸",
-   "unit": "cm",
-   "confidence": "中",
-   "status": "自動抽出（未確認）"
-  },
-  {
-   "id": "tenmafitsworld:10005139#2",
-   "name": "フィッツケース ワイドディープ クラシック（幅45cm） 幅45cm・高さ20cm",
-   "w": 45.0,
-   "d": 45.0,
-   "h": 20.0,
-   "shop": "テンマフィッツワールド楽天市場店",
-   "price": null,
-   "checked_at": "2026-10-02",
-   "type": "drawer_case",
-   "places": [
-    "sink",
-    "washbasin",
-    "oshiire",
-    "closet",
-    "colorbox",
-    "steelrack",
-    "bed",
-    "desk",
-    "counter"
-   ],
-   "links": {
-    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/g00qg64o.d4l2117d.g00qg64o.d4l22008/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Ftenmafitsworld%2F4904746136114%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Ftenmafitsworld%2Fi%2F10005139%2F&rafcid=wsc_i_is_f39725d4-39b5-46c2-8048-e2b2a03cda3a"
-   },
-   "item_url": "https://hb.afl.rakuten.co.jp/hgc/g00qg64o.d4l2117d.g00qg64o.d4l22008/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Ftenmafitsworld%2F4904746136114%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Ftenmafitsworld%2Fi%2F10005139%2F&rafcid=wsc_i_is_f39725d4-39b5-46c2-8048-e2b2a03cda3a",
-   "source": "rakuten",
-   "img": "https://thumbnail.image.rakuten.co.jp/@0_mall/tenmafitsworld/cabinet/fits/komono/4904746136114_r5.jpg?_ex=300x300",
-   "src": "商品説明から抽出（サイズ違いを分割）",
-   "variant": "幅45cm",
-   "evidence": "このページは「小物収納サイズ」【幅45×奥行45×高さ20cm",
-   "dim_kind": "外寸（表記から判断）",
    "unit": "cm",
    "confidence": "中",
    "status": "自動抽出（未確認）"
