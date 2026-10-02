@@ -401,3 +401,12 @@
 .sunpo .sunpo-pr{font-size:.8125rem;line-height:1.6;color:var(--sub);background:none;border-radius:0;padding:0;margin-top:-8px}
 /* ショップ名（楽天市場／Yahoo!ショッピング）は小さく */
 .sp-mcard .sp-src{font-size:.8125rem;color:var(--sub)}
+
+/* 入る商品がないときの広告1枠（本文と同じ灰色基調。PR は見出しの1か所） */
+.sunpo-ad{display:flex;flex-direction:column;gap:6px}
+.sunpo-ad[hidden]{display:none}
+.sunpo-adhead{font-size:.8125rem;color:var(--sub);font-weight:700}
+.sunpo-adcard{background:var(--card);border:1px solid var(--line);border-radius:var(--r-md);padding:14px;display:flex;flex-direction:column;gap:8px;font-size:.875rem;color:var(--ink)}
+.sunpo-adcard ul{margin:0;padding-left:1.2em;color:var(--sub);font-size:.875rem;line-height:1.7}
+.sunpo-adchk{font-size:.8125rem;color:var(--sub)}
+.sunpo-adcard a{align-self:stretch;text-align:center;min-height:44px;display:flex;align-items:center;justify-content:center;border:1px solid var(--line);border-radius:999px;color:var(--ink);text-decoration:none;font-weight:700}
