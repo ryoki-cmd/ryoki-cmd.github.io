@@ -47,9 +47,17 @@
   var S = { room: "kitchen", place: "sink", variant: "sink-door", type: "all", w: NaN, d: NaN, h: NaN, example: false, m: 0.5, rot: true, sort: "fit", view: "front", traps: {}, amt: {}, pipePos: NaN, mstep: "intro" };
   var DATA = { items: [], rooms: [], types: [], unreadable: 0 };
   var PREP = {}; // 商品がそろっていない場所・形の違い（「準備中」）
+  // 計測：window.SUNPO_TRACK_URL があれば、件数を数えるための最小限だけ送る（寸法の数字・商品ID・利用者を識別するものは送らない）
   function track(ev, data) {
-    if (typeof window.SUNPO_TRACK !== "function") return;
-    try { window.SUNPO_TRACK(ev, data || {}); } catch (e) { /* 計測の失敗で画面を止めない */ }
+    data = data || {};
+    if (typeof window.SUNPO_TRACK === "function") {
+      try { window.SUNPO_TRACK(ev, data); } catch (e) { /* 計測の失敗で画面を止めない */ }
+    }
+    var url = window.SUNPO_TRACK_URL;
+    if (!url || !navigator.sendBeacon) return;
+    var body = { e: ev, place: data.place || "", cause: data.cause || data.to || "", n: typeof data.count === "number" ? data.count : null };
+    if (data.shop) body.shop = data.shop;
+    try { navigator.sendBeacon(url, new Blob([JSON.stringify(body)], { type: "text/plain" })); } catch (e) { /* 送れなくても画面は止めない */ }
   }
   var trackState = { started: false, doneKey: "", shownKey: "", timer: 0 };
   // 「入りましたか？」の送り先。#sunpo の data-feedback か window.SUNPO_FEEDBACK_URL にあるときだけボタンを出す
@@ -561,6 +569,8 @@
     trackState.timer = setTimeout(function () {
       if (trackState.started && trackState.doneKey !== cond) { trackState.doneKey = cond; track("input_done", { place: S.variant || "none", w: S.w, d: S.d, h: S.h }); }
       if (trackState.shownKey !== cond) { trackState.shownKey = cond; track("results_shown", { place: S.variant || "none", count: fit.length }); }
+      // 0件の原因も、入力が落ち着いてから1回だけ（打っている途中の数字で数えない）
+      if (cause && trackState.zeroKey !== cond) { trackState.zeroKey = cond; track("zero_result", { cause: cause, place: S.variant || "none" }); }
     }, 900);
     if (DATA.unreadable) html += '<p class="sunpo-unread">商品説明から寸法を読み取れなかった商品（' + DATA.unreadable + '件）は、判定できないため候補に出していません。</p>';
     var cause = "";
@@ -572,7 +582,6 @@
           ? "今の条件では入る商品がありません。すき間なし・横向きOK・種類を「すべて」にすると、" + relaxedCount + '件あります。<br><button type="button" class="sunpo-trybtn" id="sunpoRelax">条件をゆるめて探す</button>'
           : "この寸法に入る商品は見つかりませんでした。" + (near.length ? "下の「惜しい商品」に、あと少しで入る商品と足りない寸法を出しています。" : "") +
             "測る場所を少し変える（棚板を外す・手前だけ使う）か、物を減らして置き場所を空けるのも一つの方法です。") + "</div>";
-      if (trackState.zeroKey !== cond) { trackState.zeroKey = cond; track("zero_result", { cause: cause, place: S.variant || "none" }); }
     }
     $("sunpoCards").innerHTML = html;
     renderAd(cause === "none");
