@@ -41,5 +41,5 @@
 <p>© 2026 くらし整えメモ</p>
 </div></footer>
 <script>var vc_pid = "892718572";</script><script src="//aml.valuecommerce.com/vcdal.js" async></script>
-<script>(function(){try{var m=location.hash.match(/from=([a-z0-9_-]{1,16})/);if(!m)return;sessionStorage.setItem('kurashi_from',m[1]);var p=location.pathname.split('/').filter(Boolean),c=(p[0]||'top').replace(/\.html$/,'').toLowerCase();if(!/^[a-z0-9_-]{1,32}$/.test(c))c='other';if(navigator.sendBeacon)navigator.sendBeacon("https://t.kurashi-seiri.com/",JSON.stringify({e:'pageview',place:m[1],cause:c}));history.replaceState(null,'',location.pathname+location.search);}catch(e){}})();</script>
+<script>(function(){try{var m=location.hash.match(/from=([a-z0-9_-]{1,16})/)||location.search.match(/[?&]from=([a-z0-9_-]{1,16})/);if(!m)return;sessionStorage.setItem('kurashi_from',m[1]);var p=location.pathname.split('/').filter(Boolean),c=(p[0]||'top').replace(/\.html$/,'').toLowerCase();if(!/^[a-z0-9_-]{1,32}$/.test(c))c='other';if(navigator.sendBeacon)navigator.sendBeacon("https://t.kurashi-seiri.com/",JSON.stringify({e:'pageview',place:m[1],cause:c}));var s=location.search.replace(/([?&])from=[^&]*&?/,'$1').replace(/[?&]$/,'');history.replaceState(null,'',location.pathname+s);}catch(e){}})();</script>
 </body></html>
