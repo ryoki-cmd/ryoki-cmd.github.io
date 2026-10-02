@@ -1141,7 +1141,7 @@
   "D": "types/guide-d-floor.jpg",
   "colorbox": "types/guide-colorbox.jpg"
  },
- "unreadable": 378,
+ "unreadable": 375,
  "items": [
   {
    "id": "nitori:10202123",
@@ -16618,32 +16618,6 @@
    "status": "自動抽出（未確認）"
   },
   {
-   "id": "irisplaza-r:10157263",
-   "name": "\\★楽天1位 ★/2年保証 冷蔵庫 170L 2ドア",
-   "d": 53.6,
-   "h": 151.8,
-   "w": 44.4,
-   "shop": "アイリスオーヤマ公式 楽天市場店",
-   "price": 39800,
-   "checked_at": "2026-10-02",
-   "type": "fridge_case",
-   "places": [
-    "fridge"
-   ],
-   "links": {
-    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/g00t3zto.d4l21d33.g00t3zto.d4l22088/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Firisplaza-r%2F106460%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Firisplaza-r%2Fi%2F10157263%2F&rafcid=wsc_i_is_f39725d4-39b5-46c2-8048-e2b2a03cda3a"
-   },
-   "item_url": "https://hb.afl.rakuten.co.jp/hgc/g00t3zto.d4l21d33.g00t3zto.d4l22088/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Firisplaza-r%2F106460%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Firisplaza-r%2Fi%2F10157263%2F&rafcid=wsc_i_is_f39725d4-39b5-46c2-8048-e2b2a03cda3a",
-   "source": "rakuten",
-   "img": "https://thumbnail.image.rakuten.co.jp/@0_mall/irisplaza-r/cabinet/12113165/imgrc0118410355.jpg?_ex=300x300",
-   "src": "商品説明から抽出",
-   "evidence": "kWh/年 ●外形寸法(cm) 幅約44.4×奥行約53.6×高さ約151.8",
-   "dim_kind": "外寸（表記から判断）",
-   "unit": "cm",
-   "confidence": "中",
-   "status": "自動抽出（未確認）"
-  },
-  {
    "id": "yahoo:e-kurashi_op-q2m40",
    "name": "カラーボックス 3段 2個セット 収納 収納ボックス",
    "d": 29.0,
@@ -16725,84 +16699,6 @@
    "img": "https://item-shopping.c.yimg.jp/i/g/inskagu-y_p282747",
    "src": "商品説明から抽出",
    "evidence": "れ コミックラック 薄型 4段 幅約60 奥行15 高さ84",
-   "dim_kind": "外寸（表記から判断）",
-   "unit": "cm",
-   "confidence": "中",
-   "status": "自動抽出（未確認）"
-  },
-  {
-   "id": "yahoo:e-kurashi_13337",
-   "name": "スコッティ ティッシュペーパー フラワーボックス 250組",
-   "d": 34.6,
-   "h": 47.0,
-   "w": 65.3,
-   "shop": "くらしのeショップ",
-   "price": 7999,
-   "checked_at": "2026-10-02",
-   "type": "basket",
-   "places": [
-    "sink",
-    "stove",
-    "wall",
-    "cupboard",
-    "appliance-top",
-    "fridge-top",
-    "washbasin",
-    "oshiire",
-    "closet",
-    "shoebox",
-    "colorbox",
-    "tvboard",
-    "bookshelf",
-    "steelrack",
-    "counter"
-   ],
-   "links": {
-    "yahoo": "https://store.shopping.yahoo.co.jp/e-kurashi/13337.html"
-   },
-   "item_url": "https://store.shopping.yahoo.co.jp/e-kurashi/13337.html",
-   "source": "yahoo",
-   "jan": "4901750412555",
-   "img": "https://item-shopping.c.yimg.jp/i/g/e-kurashi_13337",
-   "src": "商品説明から抽出（幅×奥行×高さの順と推定）",
-   "evidence": "ンボールサイズ:幅65.3×34.6×47cm",
-   "dim_kind": "外寸（推定）",
-   "unit": "cm",
-   "confidence": "要確認",
-   "status": "自動抽出（未確認）"
-  },
-  {
-   "id": "yahoo:attention8-25_000000128360",
-   "name": "物置 屋外 倉庫 大型 小型 屋外物置 屋外収納庫 物置き",
-   "d": 50.0,
-   "h": 82.0,
-   "w": 80.0,
-   "shop": "attention",
-   "price": 9980,
-   "checked_at": "2026-10-02",
-   "type": "lid_box",
-   "places": [
-    "wall",
-    "fridge-top",
-    "oshiire",
-    "closet",
-    "steelrack",
-    "bed"
-   ],
-   "links": {
-    "yahoo": "https://store.shopping.yahoo.co.jp/attention8-25/000000128360.html"
-   },
-   "item_url": "https://store.shopping.yahoo.co.jp/attention8-25/000000128360.html",
-   "source": "yahoo",
-   "jan": "4582228238725",
-   "img": "https://item-shopping.c.yimg.jp/i/g/attention8-25_000000128360",
-   "src": "商品説明から抽出",
-   "inner": {
-    "w": 74.0,
-    "d": 37.5,
-    "h": 74.0
-   },
-   "evidence": "屋外収納庫 物置き小型収納庫 幅80×奥行50×高さ82cm",
    "dim_kind": "外寸（表記から判断）",
    "unit": "cm",
    "confidence": "中",
@@ -19057,153 +18953,6 @@
    "img": "https://item-shopping.c.yimg.jp/i/g/e-kurashi_q2d28",
    "src": "商品説明から抽出",
    "evidence": "ープンラック 棚 ラック 4段 幅85.5 奥行き41.5 高さ123.5cm",
-   "dim_kind": "外寸（表記から判断）",
-   "unit": "cm",
-   "confidence": "中",
-   "status": "自動抽出（未確認）"
-  },
-  {
-   "id": "yahoo:grazia-doris_dr-knorke1#1",
-   "name": "ソファー ソファ 2人掛け 収納引き出し カウチソファー（幅140cm）",
-   "w": 140.0,
-   "d": 70.0,
-   "h": 32.0,
-   "shop": "doris",
-   "price": null,
-   "checked_at": "2026-10-02",
-   "type": "drawer_case",
-   "places": [
-    "sink",
-    "washbasin",
-    "oshiire",
-    "closet",
-    "colorbox",
-    "steelrack",
-    "bed",
-    "desk",
-    "counter"
-   ],
-   "links": {
-    "yahoo": "https://store.shopping.yahoo.co.jp/grazia-doris/dr-knorke1.html"
-   },
-   "item_url": "https://store.shopping.yahoo.co.jp/grazia-doris/dr-knorke1.html",
-   "source": "yahoo",
-   "img": "https://item-shopping.c.yimg.jp/i/g/grazia-doris_dr-knorke1",
-   "src": "商品説明から抽出（サイズ違いを分割）",
-   "variant": "幅140cm",
-   "evidence": "ーケ】  ◆サイズ: 【本体】:幅140×奥行70〜88×高さ32〜65.5",
-   "dim_kind": "外寸（表記から判断）",
-   "unit": "cm",
-   "confidence": "中",
-   "ranges": {
-    "d": [
-     70.0,
-     88.0
-    ],
-    "h": [
-     32.0,
-     65.5
-    ]
-   },
-   "note": "調整範囲 奥行70〜88cm・高さ32〜65.5cm。縮めたときの寸法で判定しています。置き場所の寸法がこの範囲に入るか確認してください",
-   "status": "自動抽出（未確認）"
-  },
-  {
-   "id": "yahoo:grazia-doris_dr-knorke1#2",
-   "name": "ソファー ソファ 2人掛け 収納引き出し カウチソファー（スツール）",
-   "w": 46.0,
-   "d": 88.0,
-   "h": 32.0,
-   "shop": "doris",
-   "price": null,
-   "checked_at": "2026-10-02",
-   "type": "drawer_case",
-   "places": [
-    "sink",
-    "washbasin",
-    "oshiire",
-    "closet",
-    "colorbox",
-    "steelrack",
-    "bed",
-    "desk",
-    "counter"
-   ],
-   "links": {
-    "yahoo": "https://store.shopping.yahoo.co.jp/grazia-doris/dr-knorke1.html"
-   },
-   "item_url": "https://store.shopping.yahoo.co.jp/grazia-doris/dr-knorke1.html",
-   "source": "yahoo",
-   "img": "https://item-shopping.c.yimg.jp/i/g/grazia-doris_dr-knorke1",
-   "src": "商品説明から抽出（サイズ違いを分割）",
-   "variant": "スツール",
-   "evidence": "65.5(cm) 【スツール】:幅46×奥行88×高さ32",
-   "dim_kind": "外寸（表記から判断）",
-   "unit": "cm",
-   "confidence": "中",
-   "status": "自動抽出（未確認）"
-  },
-  {
-   "id": "yahoo:grazia-doris_dr-knorke1#3",
-   "name": "ソファー ソファ 2人掛け 収納引き出し カウチソファー（アーム(コの字ラック)）",
-   "w": 30.0,
-   "d": 43.0,
-   "h": 14.5,
-   "shop": "doris",
-   "price": null,
-   "checked_at": "2026-10-02",
-   "type": "drawer_case",
-   "places": [
-    "sink",
-    "washbasin",
-    "oshiire",
-    "closet",
-    "colorbox",
-    "steelrack",
-    "bed",
-    "desk",
-    "counter"
-   ],
-   "links": {
-    "yahoo": "https://store.shopping.yahoo.co.jp/grazia-doris/dr-knorke1.html"
-   },
-   "item_url": "https://store.shopping.yahoo.co.jp/grazia-doris/dr-knorke1.html",
-   "source": "yahoo",
-   "img": "https://item-shopping.c.yimg.jp/i/g/grazia-doris_dr-knorke1",
-   "src": "商品説明から抽出（サイズ違いを分割）",
-   "variant": "アーム(コの字ラック)",
-   "evidence": ") 【アーム(コの字ラック)】:幅30×奥行43×高さ14.5",
-   "dim_kind": "外寸（表記から判断）",
-   "unit": "cm",
-   "confidence": "中",
-   "status": "自動抽出（未確認）"
-  },
-  {
-   "id": "yahoo:grazia-doris_dr-knorke1#4",
-   "name": "ソファー ソファ 2人掛け 収納引き出し カウチソファー（アーム(A4収納付き)）",
-   "w": 23.5,
-   "d": 66.5,
-   "h": 46.0,
-   "shop": "doris",
-   "price": null,
-   "checked_at": "2026-10-02",
-   "type": "chest_multi",
-   "places": [
-    "wash-gap",
-    "oshiire",
-    "closet",
-    "desk",
-    "counter"
-   ],
-   "links": {
-    "yahoo": "https://store.shopping.yahoo.co.jp/grazia-doris/dr-knorke1.html"
-   },
-   "item_url": "https://store.shopping.yahoo.co.jp/grazia-doris/dr-knorke1.html",
-   "source": "yahoo",
-   "img": "https://item-shopping.c.yimg.jp/i/g/grazia-doris_dr-knorke1",
-   "src": "商品説明から抽出（サイズ違いを分割）",
-   "variant": "アーム(A4収納付き)",
-   "evidence": ") 【アーム(A4収納付き)】:幅23.5×奥行66.5×高さ46",
    "dim_kind": "外寸（表記から判断）",
    "unit": "cm",
    "confidence": "中",
@@ -26290,60 +26039,6 @@
    "img": "https://item-shopping.c.yimg.jp/i/g/ttwo_sh32-yh",
    "src": "商品説明から抽出",
    "evidence": "ゴミ箱上ラック 洗濯機ラック W60×D40×H180",
-   "dim_kind": "外寸（表記から判断）",
-   "unit": "cm",
-   "confidence": "中",
-   "status": "自動抽出（未確認）"
-  },
-  {
-   "id": "yahoo:insair-y_572638#1",
-   "name": "冷蔵庫 170L 2ドア ひとり暮らし 野菜ケース スリム（幅47.4cm）",
-   "w": 47.4,
-   "d": 53.5,
-   "h": 149.6,
-   "shop": "照明とエアコン イエプロYahoo!店",
-   "price": null,
-   "checked_at": "2026-10-02",
-   "type": "fridge_case",
-   "places": [
-    "fridge"
-   ],
-   "links": {
-    "yahoo": "https://store.shopping.yahoo.co.jp/insair-y/572638.html"
-   },
-   "item_url": "https://store.shopping.yahoo.co.jp/insair-y/572638.html",
-   "source": "yahoo",
-   "img": "https://item-shopping.c.yimg.jp/i/g/insair-y_572638",
-   "src": "商品説明から抽出（サイズ違いを分割）",
-   "variant": "幅47.4cm",
-   "evidence": "L→50L  外形寸法(cm):幅約47.4×奥行約53.5×高さ149.6",
-   "dim_kind": "外寸（表記から判断）",
-   "unit": "cm",
-   "confidence": "中",
-   "status": "自動抽出（未確認）"
-  },
-  {
-   "id": "yahoo:insair-y_572638#2",
-   "name": "冷蔵庫 170L 2ドア ひとり暮らし 野菜ケース スリム（幅44.4cm）",
-   "w": 44.4,
-   "d": 53.6,
-   "h": 151.8,
-   "shop": "照明とエアコン イエプロYahoo!店",
-   "price": null,
-   "checked_at": "2026-10-02",
-   "type": "fridge_case",
-   "places": [
-    "fridge"
-   ],
-   "links": {
-    "yahoo": "https://store.shopping.yahoo.co.jp/insair-y/572638.html"
-   },
-   "item_url": "https://store.shopping.yahoo.co.jp/insair-y/572638.html",
-   "source": "yahoo",
-   "img": "https://item-shopping.c.yimg.jp/i/g/insair-y_572638",
-   "src": "商品説明から抽出（サイズ違いを分割）",
-   "variant": "幅44.4cm",
-   "evidence": "奥行約53.5×高さ149.6→幅約44.4×奥行約53.6×高さ151.8",
    "dim_kind": "外寸（表記から判断）",
    "unit": "cm",
    "confidence": "中",
