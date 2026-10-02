@@ -654,11 +654,19 @@
     var ad = ads.filter(function (a) { return a && /^https:\/\//.test(a.url || "") && a.label; })[0];
     if (!show || !ad) { box.hidden = true; box.innerHTML = ""; return; }
     box.hidden = false;
+    // 見た目はサイトのカード（.card）に合わせる：絵（上半分だけ横長に）→ 共感の一文 → 見出し → ✓利点2つ → 主ボタン → 日付の注記
+    var img = /^https:\/\//.test(ad.image || "") ? ad.image : "";
     box.innerHTML = '<p class="sunpo-adhead">PR　置き場所そのものが足りないときは</p>' +
-      '<div class="sunpo-adcard"><b>' + esc(ad.label) + "</b>" +
-      ((ad.points || []).length ? "<ul>" + ad.points.slice(0, 2).map(function (t) { return "<li>" + esc(t) + "</li>"; }).join("") + "</ul>" : "") +
+      '<div class="sunpo-adcard">' +
+      (img ? '<a class="sunpo-adimg" href="' + esc(ad.url) + '" rel="sponsored noopener" target="_blank" data-ad="' + esc(ad.id || "") + '" tabindex="-1" aria-hidden="true">' +
+        '<img src="' + esc(img) + '" alt="" loading="lazy" decoding="async"></a>' : "") +
+      '<div class="sunpo-adbody">' +
+      '<p class="sunpo-adlead">' + esc(ad.lead || "物を減らしても入りきらないなら") + "</p>" +
+      '<p class="sunpo-adtitle">' + esc(ad.label) + "</p>" +
+      ((ad.points || []).length ? '<ul class="sunpo-adpts">' + ad.points.slice(0, 2).map(function (t) { return "<li>" + esc(t) + "</li>"; }).join("") + "</ul>" : "") +
+      '<a class="sunpo-adbtn" href="' + esc(ad.url) + '" rel="sponsored noopener" target="_blank" data-ad="' + esc(ad.id || "") + '">' + esc(ad.cta || "空き状況と料金を見る") + "</a>" +
       (ad.checked_at ? '<p class="sunpo-adchk">条件は ' + esc(ymd(ad.checked_at)) + " 時点の情報です。最新は公式サイトで</p>" : "") +
-      '<a href="' + esc(ad.url) + '" rel="sponsored noopener" target="_blank" data-ad="' + esc(ad.id || "") + '">公式サイトで見る</a></div>';
+      "</div></div>";
   }
   // 0件の原因：input＝数字がありえない大きさ／strict＝条件をゆるめれば見つかる／none＝それでもない
   var relaxedCount = 0;
