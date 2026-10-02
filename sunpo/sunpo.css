@@ -399,3 +399,5 @@
 
 /* 広告の表示はページ上部の1行だけ（帯にしない。小さすぎ・背景と同化はさせない：13px・本文の灰色） */
 .sunpo .sunpo-pr{font-size:.8125rem;line-height:1.6;color:var(--sub);background:none;border-radius:0;padding:0;margin-top:-8px}
+/* ショップ名（楽天市場／Yahoo!ショッピング）は小さく */
+.sp-mcard .sp-src{font-size:.8125rem;color:var(--sub)}

@@ -8,6 +8,14 @@
   var FRONT_TYPES = ["drawer_case", "chest_multi", "file_box", "inner_box", "gap_rack", "kitchen_wagon", "ext_rack", "media", "desk_wagon", "toilet_rack", "shoe_rack"];
   var BOXY_TYPES = ["drawer_case", "chest_multi", "file_box", "inner_box", "basket", "lid_box", "soft", "under_bed", "media", "small_case", "fridge_case"];
   var SHOP_LABEL = { rakuten: "楽天市場で見る", yahoo: "Yahoo!ショッピングで見る", amazon: "Amazonで見る" };
+  var SHOP_SHORT = { rakuten: "楽天で見る", yahoo: "Yahoo!で見る", amazon: "Amazonで見る" }; // 1枚のカードにボタンが2つ以上のとき
+  var SRC_NAME = { rakuten: "楽天市場", yahoo: "Yahoo!ショッピング" };
+  var SRC_SHORT = { rakuten: "楽天", yahoo: "Yahoo!" };
+  // 商品の出どころ（寸法・写真を取った方のショップ）と、写真から飛ぶ先
+  var srcOf = function (p) { return p.source || "rakuten"; };
+  var mainLink = function (p) { return (p.links && (p.links[srcOf(p)] || p.links.rakuten || p.links.yahoo)) || "#"; };
+  var shopsLabel = function (p) { return Object.keys(p.links || {}).map(function (k) { return SRC_NAME[k] || k; }).join("・"); };
+  var photoAlt = function (p) { return p.name + "（" + (SRC_NAME[srcOf(p)] || "") + "の商品画像）"; };
   var ICON = {
     drawer: '<rect x="6" y="8" width="32" height="28" rx="2" fill="none" stroke="currentColor" stroke-width="2"/><path d="M6 22h32M18 15h8M18 29h8" stroke="currentColor" stroke-width="2"/>',
     chest: '<rect x="8" y="4" width="28" height="36" rx="2" fill="none" stroke="currentColor" stroke-width="2"/><path d="M8 13h28M8 22h28M8 31h28M19 8.5h6M19 17.5h6M19 26.5h6M19 35.5h6" stroke="currentColor" stroke-width="2"/>',
@@ -379,10 +387,10 @@
         "（すき間" + fmt(S.m) + "cm" + (E.notes.length ? "・" + E.notes.join("・") : "") + "）"],
       ["商品の寸法", (p.dim_kind || "外寸") + " 幅" + fmt(p.w) + "×奥行" + fmt(p.d) + "×高さ" + fmt(p.h) + (p.unit === "mm" ? "cm（mm表記から換算）" : "cm") +
         (r.o.rot ? "・横向きで判定" : "")],
-      ["出典", p.evidence ? "楽天市場の商品説明「" + p.evidence + "」" : "楽天市場の商品説明"],
+      ["出典", SRC_NAME[srcOf(p)] + "の商品説明" + (p.evidence ? "「" + p.evidence + "」" : "")],
       ["確度", (p.confidence || "中") + "（" + (p.status || "自動抽出") + "）"]
     ];
-    var page = p.links && p.links.rakuten;
+    var page = p.links && p.links[srcOf(p)];
     return "<dl>" +
       rows.map(function (x) { return "<dt>" + x[0] + "</dt><dd>" + esc(x[1]) + "</dd>"; }).join("") + "</dl>" +
       '<p class="sunpo-basislinks">' + (page ? '<a href="' + esc(page) + '" rel="sponsored noopener" target="_blank" data-track="' + esc(p.id) + '">商品ページで寸法を確認</a>' : "") +
@@ -437,8 +445,8 @@
 
   function linksHtml(p) {
     return ["rakuten", "yahoo", "amazon"].map(function (k) {
-      var u = p.links && p.links[k];
-      return u ? '<a href="' + esc(u) + '" rel="sponsored noopener" target="_blank" data-track="' + esc(p.id) + '" data-shop="' + k + '">' + SHOP_LABEL[k] + "</a>" : "";
+      var u = p.links && p.links[k], many = Object.keys(p.links || {}).length > 1;
+      return u ? '<a href="' + esc(u) + '" rel="sponsored noopener" target="_blank" data-track="' + esc(p.id) + '" data-shop="' + k + '">' + (many ? SHOP_SHORT[k] : SHOP_LABEL[k]) + "</a>" : "";
     }).join("");
   }
 
@@ -519,14 +527,14 @@
         : (boxy ? '<span class="sunpo-spec sp-est">内寸の目安 幅' + fmt(Math.max(p.w - 2, 0)) + "×奥行" + fmt(Math.max(p.d - 2, 0)) + "×高さ" + fmt(Math.max(p.h - 2, 0)) + "cm（外寸−2cmの推定）</span>" : "");
       var lv = x.lv;
       var shot = p.img
-        ? '<a class="sunpo-photo" href="' + esc(p.links && p.links.rakuten || "#") + '" rel="sponsored noopener" target="_blank" data-track="' + esc(p.id) + '">' +
-          '<img src="' + esc(p.img) + '" alt="' + esc(p.name) + '（楽天市場の商品画像）" loading="lazy" decoding="async" data-t="' + p.type + '" data-photo="1">' +
+        ? '<a class="sunpo-photo" href="' + esc(mainLink(p)) + '" rel="sponsored noopener" target="_blank" data-track="' + esc(p.id) + '" data-shop="' + srcOf(p) + '">' +
+          '<img src="' + esc(p.img) + '" alt="' + esc(photoAlt(p)) + '" loading="lazy" decoding="async" data-t="' + p.type + '" data-photo="1">' +
           '<span class="sunpo-typetag">' + icon(p.type) + "</span></a>"
         : '<div class="sunpo-thumb">' + icon(p.type) + "</div>";
       html += '<article class="sunpo-card sp-lv-' + lv.id + '">' +
         '<div class="sp-row">' + shot +
         '<div style="display:flex;flex-direction:column;gap:2px;min-width:0">' +
-        '<span class="sunpo-shop">' + esc(TYPE_NAME[p.type] || "") + " ・ " + esc(p.shop) + "</span><h3>" + esc(p.name) + "</h3>" +
+        '<span class="sunpo-shop">' + esc(TYPE_NAME[p.type] || "") + " ・ " + esc(shopsLabel(p)) + " ・ " + esc(p.shop) + "</span><h3>" + esc(p.name) + "</h3>" +
         '<span class="sunpo-spec">外寸 幅' + fmt(p.w) + "×奥行" + fmt(p.d) + "×高さ" + fmt(p.h) + "cm</span>" + inner + "</div></div>" +
         '<div class="sunpo-badges">' +
         '<span class="sunpo-badge ' + lv.cls + '">' + lv.label + "</span>" +
@@ -535,7 +543,7 @@
         (r.n > 1 ? '<span class="sunpo-badge sp-cnt">' + (r.ny > 1 ? "横" + r.nx + "×奥" + r.ny + "で" : "") + r.n + "個並ぶ</span>" : "") + "</div>" +
         '<p class="sunpo-auto">寸法は商品説明から自動で読み取り（未確認）' + (p.confidence === "高" ? "" : "・確度" + esc(p.confidence || "中")) + "</p>" +
         '<div class="sunpo-slack" aria-label="あと何cm余るか"><div>' + (r.nxZones && r.nxZones.length > 1 ? "横（片側・1個）" : "横（1個）") + "<b" + z(r.sw) + ">+" + fmt(r.sw) + "</b></div><div>奥行<b" + z(r.sd) + ">+" + fmt(r.sd) + "</b></div><div>高さ<b" + z(r.sh) + ">+" + fmt(r.sh) + "</b></div></div>" +
-        (p.price ? '<span class="sunpo-price">' + Number(p.price).toLocaleString("ja-JP") + "円（" + ymd(p.checked_at) + " 時点）</span>" : "") +
+        (p.price ? '<span class="sunpo-price">' + priceText(p) + "（" + ymd(p.checked_at) + " 時点）</span>" : "") +
         (lv.why ? '<p class="sunpo-caution">' + esc(lv.why) + "</p>" : "") +
         (r.straddle ? '<p class="sunpo-info">排水管をまたいで置ける可能性があります（脚の位置・棚板の切り欠きは商品ページで確認してください）。' +
           (p.w_range ? "伸縮範囲は幅" + fmt(p.w_range[0]) + "〜" + fmt(p.w_range[1]) + "cmです。" : "伸縮範囲も商品ページで確認してください。") + "</p>" : "") +
@@ -591,17 +599,18 @@
     var r = x.r, p = x.p, lv = x.lv;
     var zones = r.nxZones && r.nxZones.length > 1;
     var shot = p.img
-      ? '<a class="sunpo-photo" href="' + esc(p.links && p.links.rakuten || "#") + '" rel="sponsored noopener" target="_blank" data-track="' + esc(p.id) + '">' +
-        '<img src="' + esc(p.img) + '" alt="' + esc(p.name) + '（楽天市場の商品画像）" loading="lazy" decoding="async" data-t="' + p.type + '" data-photo="1">' +
+      ? '<a class="sunpo-photo" href="' + esc(mainLink(p)) + '" rel="sponsored noopener" target="_blank" data-track="' + esc(p.id) + '" data-shop="' + srcOf(p) + '">' +
+        '<img src="' + esc(p.img) + '" alt="' + esc(photoAlt(p)) + '" loading="lazy" decoding="async" data-t="' + p.type + '" data-photo="1">' +
         '<span class="sunpo-typetag">' + icon(p.type) + "</span></a>"
       : '<div class="sunpo-thumb">' + icon(p.type) + "</div>";
     var inner = p.inner ? "内寸 幅" + fmt(p.inner.w) + "×奥行" + fmt(p.inner.d) + "×高さ" + fmt(p.inner.h) + "cm" : "";
     return '<article class="sunpo-card sp-mcard sp-lv-' + lv.id + '">' +
       '<div class="sp-row">' + shot + '<div class="sp-main">' +
       "<h3>" + esc(p.name) + "</h3>" +
+      '<span class="sp-src">' + esc(shopsLabel(p)) + "</span>" +
       '<span class="sunpo-badge ' + lv.cls + '">' + lv.label + "</span>" +
       '<p class="sp-slack1" aria-label="あと何cm余るか">余り <span>' + (zones ? "横(片側)" : "横") + "<b>+" + fmt(r.sw) + "</b></span><span>奥<b>+" + fmt(r.sd) + "</b></span><span>上<b>+" + fmt(r.sh) + "</b></span></p>" +
-      (p.price ? '<p class="sunpo-price"><b>' + Number(p.price).toLocaleString("ja-JP") + "円</b>（" + ymd(p.checked_at).slice(5) + "時点）</p>" : "") +
+      (p.price ? '<p class="sunpo-price">' + priceText(p, true) + "（" + ymd(p.checked_at).slice(5) + "時点）</p>" : "") +
       "</div></div>" +
       '<div class="sunpo-badges"><span class="sunpo-badge sp-auto">自動読み取り（未確認）</span>' +
       reasons(p, r).map(function (t) { return '<span class="sunpo-badge sp-tight">要確認：' + t + "</span>"; }).join("") +
@@ -609,7 +618,7 @@
       (p.set_available ? '<span class="sunpo-badge sp-cnt">セット販売あり</span>' : "") + "</div>" +
       '<div class="sunpo-links">' + linksHtml(p) + "</div>" +
       '<details class="sunpo-mdetail"><summary>詳しく（寸法・注意・根拠）</summary>' +
-      '<p class="sp-dline">' + esc(TYPE_NAME[p.type] || "") + " ・ " + esc(p.shop) + "</p>" +
+      '<p class="sp-dline">' + esc(TYPE_NAME[p.type] || "") + " ・ " + esc(p.shops ? [p.shops.rakuten, p.shops.yahoo].filter(Boolean).join("／") : p.shop) + "</p>" +
       '<p class="sp-dline">外寸 幅' + fmt(p.w) + "×奥行" + fmt(p.d) + "×高さ" + fmt(p.h) + "cm" + (inner ? "／" + inner : "") + "</p>" +
       (r.ny > 1 ? '<p class="sp-dline">横' + r.nx + "×奥" + r.ny + "で" + r.n + "個並びます</p>" : "") +
       (lv.why ? '<p class="sunpo-caution">' + esc(lv.why) + "</p>" : "") +
@@ -620,6 +629,12 @@
       "</details></article>";
   }
 
+  function priceText(p, bold) {
+    var yen = function (v) { var t = Number(v).toLocaleString("ja-JP") + "円"; return bold ? "<b>" + t + "</b>" : t; };
+    var ks = Object.keys(p.prices || {});
+    if (ks.length < 2) return yen(p.price);
+    return ks.map(function (k) { return (SRC_SHORT[k] || k) + " " + yen(p.prices[k]); }).join("／");
+  }
   function placeLabel() {
     var p = currentPlace();
     if (!p) return "場所の指定なし";
@@ -637,9 +652,9 @@
     $("sunpoIntroCount").innerHTML = fit ? "収まりそうな収納 <b>" + fit.length + "</b>件" : "";
     var shots = (fit || []).filter(function (x) { return x.p.img; }).slice(0, 3);
     $("sunpoIntroPhotos").innerHTML = shots.length ? shots.map(function (x) {
-      return '<a href="' + esc(x.p.links && x.p.links.rakuten || "#") + '" rel="sponsored noopener" target="_blank" data-track="' + esc(x.p.id) + '">' +
-        '<img src="' + esc(x.p.img) + '" alt="' + esc(x.p.name) + '（楽天市場の商品画像）" decoding="async"></a>';
-    }).join("") + '<span class="sp-cap">楽天市場の商品</span>' : "";
+      return '<a href="' + esc(mainLink(x.p)) + '" rel="sponsored noopener" target="_blank" data-track="' + esc(x.p.id) + '" data-shop="' + srcOf(x.p) + '">' +
+        '<img src="' + esc(x.p.img) + '" alt="' + esc(photoAlt(x.p)) + '" decoding="async"></a>';
+    }).join("") + '<span class="sp-cap">' + esc(shots.map(function (x) { return SRC_NAME[srcOf(x.p)]; }).filter(function (v, i, a) { return a.indexOf(v) === i; }).join("・")) + "の商品</span>" : "";
     // 候補の画面の上の条件
     $("sunpoCondPlace").textContent = placeLabel();
     $("sunpoCondDims").textContent = dims;
