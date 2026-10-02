@@ -1141,7 +1141,7 @@
   "D": "types/guide-d-floor.jpg",
   "colorbox": "types/guide-colorbox.jpg"
  },
- "unreadable": 375,
+ "unreadable": 371,
  "items": [
   {
    "id": "nitori:10202123",
@@ -3045,7 +3045,7 @@
   },
   {
    "id": "nitori:10315993",
-   "name": "パッと開いてピタッと閉じる収納ボックス (パピタ",
+   "name": "パッと開いてピタッと閉じる収納ボックス (パピタ)",
    "d": 38.0,
    "h": 24.0,
    "w": 26.0,
@@ -3987,7 +3987,7 @@
   },
   {
    "id": "nitori:10313208",
-   "name": "すき間なく並べるコロ付きストッカー(クラネ ホワイト",
+   "name": "すき間なく並べるコロ付きストッカー(クラネ ホワイト)",
    "d": 40.0,
    "h": 24.0,
    "w": 13.0,
@@ -4140,7 +4140,7 @@
   },
   {
    "id": "nitori:10325717",
-   "name": "シンク下引き出し用伸縮ラック 引っ掛け・置き (2WAY",
+   "name": "シンク下引き出し用伸縮ラック 引っ掛け・置き (2WAY)",
    "d": 15.0,
    "h": 20.0,
    "w": 45.0,
@@ -10519,6 +10519,76 @@
    "status": "自動抽出（未確認）"
   },
   {
+   "id": "tenmafitsworld:10005139#1",
+   "name": "フィッツケース ワイドディープ クラシック（幅45cm） 幅45cm・高さ30cm",
+   "w": 45.0,
+   "d": 45.0,
+   "h": 30.0,
+   "shop": "テンマフィッツワールド楽天市場店",
+   "price": null,
+   "checked_at": "2026-10-02",
+   "type": "drawer_case",
+   "places": [
+    "sink",
+    "washbasin",
+    "oshiire",
+    "closet",
+    "colorbox",
+    "steelrack",
+    "bed",
+    "desk",
+    "counter"
+   ],
+   "links": {
+    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/g00qg64o.d4l2117d.g00qg64o.d4l22008/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Ftenmafitsworld%2F4904746136114%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Ftenmafitsworld%2Fi%2F10005139%2F&rafcid=wsc_i_is_f39725d4-39b5-46c2-8048-e2b2a03cda3a"
+   },
+   "item_url": "https://hb.afl.rakuten.co.jp/hgc/g00qg64o.d4l2117d.g00qg64o.d4l22008/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Ftenmafitsworld%2F4904746136114%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Ftenmafitsworld%2Fi%2F10005139%2F&rafcid=wsc_i_is_f39725d4-39b5-46c2-8048-e2b2a03cda3a",
+   "source": "rakuten",
+   "img": "https://thumbnail.image.rakuten.co.jp/@0_mall/tenmafitsworld/cabinet/fits/komono/4904746136114_r5.jpg?_ex=300x300",
+   "src": "商品説明から抽出（サイズ違いを分割）",
+   "variant": "幅45cm",
+   "evidence": "ー カプチーノ 最大外寸(約) 幅45×奥行45×高さ30cm",
+   "dim_kind": "外寸",
+   "unit": "cm",
+   "confidence": "中",
+   "status": "自動抽出（未確認）"
+  },
+  {
+   "id": "tenmafitsworld:10005139#2",
+   "name": "フィッツケース ワイドディープ クラシック（幅45cm） 幅45cm・高さ20cm",
+   "w": 45.0,
+   "d": 45.0,
+   "h": 20.0,
+   "shop": "テンマフィッツワールド楽天市場店",
+   "price": null,
+   "checked_at": "2026-10-02",
+   "type": "drawer_case",
+   "places": [
+    "sink",
+    "washbasin",
+    "oshiire",
+    "closet",
+    "colorbox",
+    "steelrack",
+    "bed",
+    "desk",
+    "counter"
+   ],
+   "links": {
+    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/g00qg64o.d4l2117d.g00qg64o.d4l22008/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Ftenmafitsworld%2F4904746136114%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Ftenmafitsworld%2Fi%2F10005139%2F&rafcid=wsc_i_is_f39725d4-39b5-46c2-8048-e2b2a03cda3a"
+   },
+   "item_url": "https://hb.afl.rakuten.co.jp/hgc/g00qg64o.d4l2117d.g00qg64o.d4l22008/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Ftenmafitsworld%2F4904746136114%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Ftenmafitsworld%2Fi%2F10005139%2F&rafcid=wsc_i_is_f39725d4-39b5-46c2-8048-e2b2a03cda3a",
+   "source": "rakuten",
+   "img": "https://thumbnail.image.rakuten.co.jp/@0_mall/tenmafitsworld/cabinet/fits/komono/4904746136114_r5.jpg?_ex=300x300",
+   "src": "商品説明から抽出（サイズ違いを分割）",
+   "variant": "幅45cm",
+   "evidence": "このページは「小物収納サイズ」【幅45×奥行45×高さ20cm",
+   "dim_kind": "外寸（表記から判断）",
+   "unit": "cm",
+   "confidence": "中",
+   "status": "自動抽出（未確認）"
+  },
+  {
    "id": "nitori:10317602",
    "name": "洗面台下丸ごと収納7点セット(幅29〜45cm) 洗面台",
    "w": 29.0,
@@ -10741,7 +10811,7 @@
   },
   {
    "id": "irisplaza-r:10103262#1",
-   "name": "\\高さ3段階調節/ベッド ベッドフレーム ベッド（幅98cm）",
+   "name": "ベッド ベッドフレーム マットレス付き ベッド下収納（幅98cm）",
    "w": 98.0,
    "d": 200.0,
    "h": 10.0,
@@ -10773,7 +10843,7 @@
   },
   {
    "id": "irisplaza-r:10103262#2",
-   "name": "\\高さ3段階調節/ベッド ベッドフレーム ベッド（幅97cm）",
+   "name": "ベッド ベッドフレーム マットレス付き ベッド下収納（幅97cm）",
    "w": 97.0,
    "d": 195.0,
    "h": 16.5,
@@ -11462,7 +11532,7 @@
   },
   {
    "id": "nitori:10274299",
-   "name": "扉の向きを自由に設置できる隙間収納 (幅15cm 上台:板扉",
+   "name": "扉の向きを自由に設置できる隙間収納 (幅15cm 上台:板扉)",
    "d": 40.0,
    "h": 180.3,
    "w": 15.0,
@@ -11494,7 +11564,7 @@
   },
   {
    "id": "nitori:10299306",
-   "name": "扉付き隙間収納 (幅15cm) メーカー直送・送料無料",
+   "name": "扉付き隙間収納 (幅15cm)",
    "d": 44.5,
    "h": 170.0,
    "w": 15.0,
@@ -12190,7 +12260,7 @@
   },
   {
    "id": "nitori:10277748",
-   "name": "ランドリーラック (2段) メーカー直送・送料無料",
+   "name": "ランドリーラック (2段)",
    "d": 45.0,
    "h": 78.5,
    "w": 33.5,
@@ -12923,7 +12993,7 @@
   },
   {
    "id": "irisplaza-r:10154287",
-   "name": "ランドリーラック 縦型 スリム 洗濯機ラック 可動棚送料無料",
+   "name": "ランドリーラック 縦型 スリム 洗濯機ラック 可動棚",
    "d": 29.0,
    "h": 162.0,
    "w": 70.0,
@@ -13775,7 +13845,7 @@
   },
   {
    "id": "nitori:10326241",
-   "name": "突っ張り壁面収納 Nポルダ ディープ2 (幅80cm",
+   "name": "突っ張り壁面収納 Nポルダ ディープ2 (幅80cm)",
    "d": 42.5,
    "h": 200.0,
    "w": 96.5,
@@ -13809,7 +13879,7 @@
   },
   {
    "id": "nitori:10326110",
-   "name": "突っ張り壁面収納 Nポルダ ディープ2 (幅40cm",
+   "name": "突っ張り壁面収納 Nポルダ ディープ2 (幅40cm)",
    "d": 42.5,
    "h": 200.0,
    "w": 57.5,
@@ -14116,7 +14186,7 @@
   },
   {
    "id": "nitori:10326109",
-   "name": "突っ張り壁面収納 Nポルダ ディープ2 (幅60cm",
+   "name": "突っ張り壁面収納 Nポルダ ディープ2 (幅60cm)",
    "d": 42.5,
    "h": 200.0,
    "w": 76.5,
@@ -14790,7 +14860,7 @@
   },
   {
    "id": "nitori:10283370",
-   "name": "ナチュラルな木目調の扉付シューズボックス (1ドア",
+   "name": "ナチュラルな木目調の扉付シューズボックス (1ドア)",
    "d": 36.0,
    "h": 103.0,
    "w": 45.0,
@@ -14843,7 +14913,7 @@
   },
   {
    "id": "nitori:10289043",
-   "name": "組み合わせて使えるシューズボックス (ロータイプ",
+   "name": "組み合わせて使えるシューズボックス (ロータイプ)",
    "d": 37.0,
    "h": 92.0,
    "w": 83.5,
@@ -14942,7 +15012,7 @@
   },
   {
    "id": "nitori:10283371",
-   "name": "ナチュラルな木目調の扉付シューズボックス (2ドア",
+   "name": "ナチュラルな木目調の扉付シューズボックス (2ドア)",
    "d": 36.0,
    "h": 103.0,
    "w": 60.0,
@@ -15140,7 +15210,7 @@
   },
   {
    "id": "irisplaza-r:10157108",
-   "name": "\\45%ポイントバック☆彡〜10/13迄/消臭除湿剤 防ダニ",
+   "name": "消臭除湿剤 防ダニ カビ対策 天然素材 竹炭消臭除湿「炭人」",
    "d": 17.0,
    "h": 3.0,
    "w": 7.0,
@@ -16139,7 +16209,7 @@
   },
   {
    "id": "nitori:10227228",
-   "name": "デスクワゴン (GRC) メーカー直送・送料無料",
+   "name": "デスクワゴン (GRC)",
    "d": 45.0,
    "h": 59.0,
    "w": 40.0,
@@ -16449,7 +16519,7 @@
   },
   {
    "id": "nitori:10287395",
-   "name": "シンプルな冷蔵庫ラック (幅62) メーカー直送・送料無料",
+   "name": "シンプルな冷蔵庫ラック (幅62)",
    "d": 40.0,
    "h": 190.5,
    "w": 62.5,
@@ -16475,7 +16545,7 @@
   },
   {
    "id": "nitori:10281359",
-   "name": "冷蔵庫ラック メーカー直送・送料無料",
+   "name": "冷蔵庫ラック",
    "d": 41.0,
    "h": 180.0,
    "w": 60.0,
@@ -16567,10 +16637,8 @@
    "shop": "アイリスオーヤマ公式 楽天市場店",
    "price": 9300,
    "checked_at": "2026-10-02",
-   "type": "fridge_case",
-   "places": [
-    "fridge"
-   ],
+   "type": "furniture",
+   "places": [],
    "links": {
     "rakuten": "https://hb.afl.rakuten.co.jp/hgc/g00t3zto.d4l21d33.g00t3zto.d4l22088/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Firisplaza-r%2F252623%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Firisplaza-r%2Fi%2F10102967%2F&rafcid=wsc_i_is_f39725d4-39b5-46c2-8048-e2b2a03cda3a"
    },
@@ -17111,7 +17179,7 @@
   },
   {
    "id": "yahoo:don2_ysb004-s",
-   "name": "本日P+4% ベッド ベッドフレーム シングル 収納付き",
+   "name": "ベッド ベッドフレーム シングル 収納付き コンセント付き",
    "d": 212.5,
    "h": 70.0,
    "w": 98.0,
@@ -17389,7 +17457,7 @@
   },
   {
    "id": "yahoo:livingut_4990127201052#1",
-   "name": "収納ボックス 収納ケース ナチュラ インボックス L（ッキングできる収納ケースサイズ）",
+   "name": "収納ボックス 収納ケース ナチュラ インボックス L（幅38.9cm）",
    "w": 38.9,
    "d": 26.6,
    "h": 23.6,
@@ -17413,7 +17481,7 @@
    "source": "yahoo",
    "img": "https://item-shopping.c.yimg.jp/i/g/livingut_4990127201052",
    "src": "商品説明から抽出（サイズ違いを分割）",
-   "variant": "ッキングできる収納ケースサイズ",
+   "variant": "幅38.9cm",
    "evidence": "できる収納ケースサイズ/外寸:約幅38.9×奥行26.6×高さ23.6cm",
    "dim_kind": "外寸",
    "unit": "cm",
@@ -17625,7 +17693,7 @@
   },
   {
    "id": "yahoo:livingut_4903208063142",
-   "name": "特典付き 山崎実業 tower 引っ掛け式スリッパラック",
+   "name": "山崎実業 tower 引っ掛け式スリッパラック タワー",
    "d": 14.5,
    "h": 70.5,
    "w": 22.0,
@@ -17868,7 +17936,7 @@
   },
   {
    "id": "yahoo:livingut_273265",
-   "name": "洗面下フリーラック 伸縮タイプ ( 洗面所 収納棚 シンク下",
+   "name": "洗面下フリーラック 伸縮タイプ 洗面所 収納棚 シンク下",
    "d": 30.3,
    "h": 30.9,
    "w": 75.0,
@@ -17898,7 +17966,7 @@
   },
   {
    "id": "yahoo:livingut_414421",
-   "name": "特典付き ビーワーススタイル すっきり暮らす水切りかご 深型",
+   "name": "ビーワーススタイル すっきり暮らす水切りかご 深型",
    "d": 20.3,
    "h": 9.5,
    "w": 35.8,
@@ -18104,7 +18172,7 @@
   },
   {
    "id": "yahoo:livingut_297633#1",
-   "name": "隙間収納 洗面所 段差をまたげる隙間ストッカー 3段（段差をまたげるストッカーサイズ） 幅14cm",
+   "name": "隙間収納 洗面所 段差をまたげる隙間ストッカー 3段（幅14cm）",
    "w": 14.0,
    "d": 46.5,
    "h": 82.0,
@@ -18127,7 +18195,7 @@
    "source": "yahoo",
    "img": "https://item-shopping.c.yimg.jp/i/g/livingut_297633",
    "src": "商品説明から抽出（サイズ違いを分割）",
-   "variant": "段差をまたげるストッカーサイズ",
+   "variant": "幅14cm",
    "evidence": "カーサイズ/アジャスターなし:約幅14×奥行46.5×高さ82cm",
    "dim_kind": "外寸（表記から判断）",
    "unit": "cm",
@@ -18284,7 +18352,7 @@
   },
   {
    "id": "yahoo:e-alamode_0155-0460",
-   "name": "like-it キッチン 10/2はP+9%! ストッカー",
+   "name": "like-it キッチン ストッカー FTS-111L",
    "d": 46.5,
    "h": 82.0,
    "w": 14.0,
@@ -18376,7 +18444,7 @@
   },
   {
    "id": "yahoo:k-lalala_lise-sslimw-",
-   "name": "\\期間限定特価/隙間収納 12cm 収納ケース",
+   "name": "隙間収納 12cm 収納ケース スリムストッカー",
    "d": 40.0,
    "h": 85.0,
    "w": 12.0,
@@ -18435,7 +18503,7 @@
   },
   {
    "id": "yahoo:livingut_297634#1",
-   "name": "隙間収納 洗面所 段差をまたげる隙間ストッカー 3段（段差をまたげるストッカーサイズ） 幅17cm",
+   "name": "隙間収納 洗面所 段差をまたげる隙間ストッカー 3段（幅17cm）",
    "w": 17.0,
    "d": 46.5,
    "h": 82.0,
@@ -18458,7 +18526,7 @@
    "source": "yahoo",
    "img": "https://item-shopping.c.yimg.jp/i/g/livingut_297634",
    "src": "商品説明から抽出（サイズ違いを分割）",
-   "variant": "段差をまたげるストッカーサイズ",
+   "variant": "幅17cm",
    "evidence": "カーサイズ/アジャスターなし:約幅17×奥行46.5×高さ82cm",
    "dim_kind": "外寸（表記から判断）",
    "unit": "cm",
@@ -19202,7 +19270,7 @@
   },
   {
    "id": "yahoo:livingut_4976790558044",
-   "name": "スライドストッカー シンク下 深型 2段 アレンジフリー (",
+   "name": "スライドストッカー シンク下 深型 2段 アレンジフリー",
    "d": 39.5,
    "h": 45.0,
    "w": 23.0,
@@ -19680,7 +19748,7 @@
   },
   {
    "id": "yahoo:livingut_281440",
-   "name": "キッチン収納ケース 吊り戸棚ボックスワイド 幅24cm (",
+   "name": "キッチン収納ケース 吊り戸棚ボックスワイド 幅24cm",
    "d": 33.4,
    "h": 22.0,
    "w": 24.0,
@@ -19705,41 +19773,6 @@
    "item_url": "https://store.shopping.yahoo.co.jp/livingut/281440.html",
    "source": "yahoo",
    "img": "https://item-shopping.c.yimg.jp/i/g/livingut_281440",
-   "src": "商品説明から抽出",
-   "evidence": "入れラクラク取っ手付きサイズ/約幅24×奥行33.4×高さ22cm",
-   "dim_kind": "外寸（表記から判断）",
-   "unit": "cm",
-   "confidence": "中",
-   "status": "自動抽出（未確認）",
-   "set_available": true
-  },
-  {
-   "id": "yahoo:livingut_281440set",
-   "name": "キッチン収納ケース 吊り戸棚ボックスワイド 幅24cm",
-   "d": 33.4,
-   "h": 22.0,
-   "w": 24.0,
-   "shop": "リビングート ヤフー店",
-   "price": 5680,
-   "checked_at": "2026-10-02",
-   "type": "drawer_case",
-   "places": [
-    "sink",
-    "washbasin",
-    "oshiire",
-    "closet",
-    "colorbox",
-    "steelrack",
-    "bed",
-    "desk",
-    "counter"
-   ],
-   "links": {
-    "yahoo": "https://store.shopping.yahoo.co.jp/livingut/281440set.html"
-   },
-   "item_url": "https://store.shopping.yahoo.co.jp/livingut/281440set.html",
-   "source": "yahoo",
-   "img": "https://item-shopping.c.yimg.jp/i/g/livingut_281440set",
    "src": "商品説明から抽出",
    "evidence": "入れラクラク取っ手付きサイズ/約幅24×奥行33.4×高さ22cm",
    "dim_kind": "外寸（表記から判断）",
@@ -19838,7 +19871,7 @@
   },
   {
    "id": "yahoo:livingut_309031#2",
-   "name": "収納ボックス L 幅34×奥行49×高さ23cm（いいフタ付き収納ボックスサイズ）",
+   "name": "収納ボックス L 幅34×奥行49×高さ23cm（幅33.5cm）",
    "w": 33.5,
    "d": 49.0,
    "h": 23.0,
@@ -19870,12 +19903,13 @@
    "source": "yahoo",
    "img": "https://item-shopping.c.yimg.jp/i/g/livingut_309031",
    "src": "商品説明から抽出（サイズ違いを分割）",
-   "variant": "いいフタ付き収納ボックスサイズ",
+   "variant": "幅33.5cm",
    "evidence": "付き収納ボックスサイズ/外寸:約幅33.5×奥行49×高さ23cm",
    "dim_kind": "外寸",
    "unit": "cm",
    "confidence": "中",
-   "status": "自動抽出（未確認）"
+   "status": "自動抽出（未確認）",
+   "set_available": true
   },
   {
    "id": "yahoo:livingut_281441",
@@ -19911,6 +19945,90 @@
    "confidence": "中",
    "status": "自動抽出（未確認）",
    "set_available": true
+  },
+  {
+   "id": "yahoo:yh-beans_eed#1",
+   "name": "キッチン収納 吊り戸棚ボックス レギュラー（幅24cm）",
+   "w": 24.0,
+   "d": 33.4,
+   "h": 22.0,
+   "shop": "びーんず生活雑貨デポ",
+   "price": null,
+   "checked_at": "2026-10-02",
+   "type": "basket",
+   "places": [
+    "sink",
+    "stove",
+    "wall",
+    "cupboard",
+    "appliance-top",
+    "fridge-top",
+    "washbasin",
+    "oshiire",
+    "closet",
+    "shoebox",
+    "colorbox",
+    "tvboard",
+    "bookshelf",
+    "steelrack",
+    "counter"
+   ],
+   "links": {
+    "yahoo": "https://store.shopping.yahoo.co.jp/yh-beans/eed.html"
+   },
+   "item_url": "https://store.shopping.yahoo.co.jp/yh-beans/eed.html",
+   "source": "yahoo",
+   "jan": "4962191015293",
+   "img": "https://item-shopping.c.yimg.jp/i/g/yh-beans_eed",
+   "src": "商品説明から抽出（サイズ違いを分割）",
+   "variant": "幅24cm",
+   "evidence": "1個あたりサイズ(約):ワイド/幅24×奥行33.4×高さ22cm",
+   "dim_kind": "外寸（表記から判断）",
+   "unit": "cm",
+   "confidence": "中",
+   "status": "自動抽出（未確認）"
+  },
+  {
+   "id": "yahoo:yh-beans_eed#2",
+   "name": "キッチン収納 吊り戸棚ボックス レギュラー（幅18.5cm）",
+   "w": 18.5,
+   "d": 33.4,
+   "h": 22.0,
+   "shop": "びーんず生活雑貨デポ",
+   "price": null,
+   "checked_at": "2026-10-02",
+   "type": "basket",
+   "places": [
+    "sink",
+    "stove",
+    "wall",
+    "cupboard",
+    "appliance-top",
+    "fridge-top",
+    "washbasin",
+    "oshiire",
+    "closet",
+    "shoebox",
+    "colorbox",
+    "tvboard",
+    "bookshelf",
+    "steelrack",
+    "counter"
+   ],
+   "links": {
+    "yahoo": "https://store.shopping.yahoo.co.jp/yh-beans/eed.html"
+   },
+   "item_url": "https://store.shopping.yahoo.co.jp/yh-beans/eed.html",
+   "source": "yahoo",
+   "jan": "4962191015293",
+   "img": "https://item-shopping.c.yimg.jp/i/g/yh-beans_eed",
+   "src": "商品説明から抽出（サイズ違いを分割）",
+   "variant": "幅18.5cm",
+   "evidence": "33.4×高さ22cm スリム/幅18.5×奥行33.4×高さ22cm",
+   "dim_kind": "外寸（表記から判断）",
+   "unit": "cm",
+   "confidence": "中",
+   "status": "自動抽出（未確認）"
   },
   {
    "id": "yahoo:pratique-kk_4962191400006",
@@ -20036,47 +20154,6 @@
    "status": "自動抽出（未確認）"
   },
   {
-   "id": "yahoo:livingut_309031set#2",
-   "name": "収納ボックス L 幅34×奥行49×高さ23cm（超PayPay祭サイズ）",
-   "w": 33.5,
-   "d": 49.0,
-   "h": 23.0,
-   "shop": "リビングート ヤフー店",
-   "price": null,
-   "checked_at": "2026-10-02",
-   "type": "basket",
-   "places": [
-    "sink",
-    "stove",
-    "wall",
-    "cupboard",
-    "appliance-top",
-    "fridge-top",
-    "washbasin",
-    "oshiire",
-    "closet",
-    "shoebox",
-    "colorbox",
-    "tvboard",
-    "bookshelf",
-    "steelrack",
-    "counter"
-   ],
-   "links": {
-    "yahoo": "https://store.shopping.yahoo.co.jp/livingut/309031set.html"
-   },
-   "item_url": "https://store.shopping.yahoo.co.jp/livingut/309031set.html",
-   "source": "yahoo",
-   "img": "https://item-shopping.c.yimg.jp/i/g/livingut_309031set",
-   "src": "商品説明から抽出（サイズ違いを分割）",
-   "variant": "超PayPay祭サイズ",
-   "evidence": "超PayPay祭サイズ/外寸:約幅33.5×奥行49×高さ23cm",
-   "dim_kind": "外寸",
-   "unit": "cm",
-   "confidence": "中",
-   "status": "自動抽出（未確認）"
-  },
-  {
    "id": "yahoo:pratique-kk_4962191401003",
    "name": "不動技研 吊り戸棚ボックス F-2401 スリム",
    "d": 33.4,
@@ -20165,7 +20242,7 @@
   },
   {
    "id": "yahoo:livingut_309025#2",
-   "name": "収納ボックス S 幅25×奥行34×高さ16cm（超PayPay祭サイズ）",
+   "name": "収納ボックス S 幅25×奥行34×高さ16cm（幅24.5cm）",
    "w": 24.5,
    "d": 33.5,
    "h": 15.5,
@@ -20197,7 +20274,7 @@
    "source": "yahoo",
    "img": "https://item-shopping.c.yimg.jp/i/g/livingut_309025",
    "src": "商品説明から抽出（サイズ違いを分割）",
-   "variant": "超PayPay祭サイズ",
+   "variant": "幅24.5cm",
    "evidence": "超PayPay祭サイズ/外寸:約幅24.5×奥行33.5×高さ15.5cm",
    "dim_kind": "外寸",
    "unit": "cm",
@@ -20848,7 +20925,7 @@
   },
   {
    "id": "yahoo:k-lalala_a442639-1500-#1",
-   "name": "隙間収納 キャスター付き 幅18cm(リセ（幅18cm）",
+   "name": "隙間収納 キャスター付き 幅18cm(リセ)（幅18cm）",
    "w": 18.0,
    "d": 40.0,
    "h": 85.0,
@@ -20881,7 +20958,7 @@
   },
   {
    "id": "yahoo:k-lalala_a442639-1500-#2",
-   "name": "隙間収納 キャスター付き 幅18cm(リセ（Sサイズ）",
+   "name": "隙間収納 キャスター付き 幅18cm(リセ)（Sサイズ）",
    "w": 12.7,
    "d": 36.0,
    "h": 11.4,
@@ -20914,7 +20991,7 @@
   },
   {
    "id": "yahoo:k-lalala_a442639-1500-#3",
-   "name": "隙間収納 キャスター付き 幅18cm(リセ（Mサイズ）",
+   "name": "隙間収納 キャスター付き 幅18cm(リセ)（Mサイズ）",
    "w": 12.6,
    "d": 36.0,
    "h": 18.2,
@@ -20947,7 +21024,7 @@
   },
   {
    "id": "yahoo:k-lalala_a442639-1500-#4",
-   "name": "隙間収納 キャスター付き 幅18cm(リセ（Lサイズ）",
+   "name": "隙間収納 キャスター付き 幅18cm(リセ)（Lサイズ）",
    "w": 12.4,
    "d": 35.8,
    "h": 32.0,
@@ -21012,7 +21089,7 @@
   },
   {
    "id": "yahoo:livingut_4528302261500#1",
-   "name": "キッチンストッカー LISE リセ スリムストッカー（超PayPay祭サイズ）",
+   "name": "キッチンストッカー LISE リセ スリムストッカー（幅18cm）",
    "w": 18.0,
    "d": 40.0,
    "h": 85.0,
@@ -21035,16 +21112,17 @@
    "source": "yahoo",
    "img": "https://item-shopping.c.yimg.jp/i/g/livingut_4528302261500",
    "src": "商品説明から抽出（サイズ違いを分割）",
-   "variant": "超PayPay祭サイズ",
+   "variant": "幅18cm",
    "evidence": "う! 超PayPay祭サイズ/約幅18×奥行40×高さ85cm",
    "dim_kind": "外寸（表記から判断）",
    "unit": "cm",
    "confidence": "中",
-   "status": "自動抽出（未確認）"
+   "status": "自動抽出（未確認）",
+   "set_available": true
   },
   {
    "id": "yahoo:livingut_4528302261500#2",
-   "name": "キッチンストッカー LISE リセ スリムストッカー（(Sサイズ）",
+   "name": "キッチンストッカー LISE リセ スリムストッカー（Sサイズ）",
    "w": 12.7,
    "d": 36.0,
    "h": 11.4,
@@ -21067,7 +21145,7 @@
    "source": "yahoo",
    "img": "https://item-shopping.c.yimg.jp/i/g/livingut_4528302261500",
    "src": "商品説明から抽出（サイズ違いを分割）",
-   "variant": "(Sサイズ",
+   "variant": "Sサイズ",
    "evidence": "【引き出し内寸】 (Sサイズ)約幅12.7×奥行36×高さ11.4cm",
    "dim_kind": "外寸（表記から判断）",
    "unit": "cm",
@@ -21077,7 +21155,7 @@
   },
   {
    "id": "yahoo:livingut_4528302261500#3",
-   "name": "キッチンストッカー LISE リセ スリムストッカー（(Mサイズ）",
+   "name": "キッチンストッカー LISE リセ スリムストッカー（Mサイズ）",
    "w": 12.6,
    "d": 36.0,
    "h": 18.2,
@@ -21100,7 +21178,7 @@
    "source": "yahoo",
    "img": "https://item-shopping.c.yimg.jp/i/g/livingut_4528302261500",
    "src": "商品説明から抽出（サイズ違いを分割）",
-   "variant": "(Mサイズ",
+   "variant": "Mサイズ",
    "evidence": "高さ11.4cm (Mサイズ)約幅12.6×奥行36×高さ18.2cm",
    "dim_kind": "外寸（表記から判断）",
    "unit": "cm",
@@ -21110,7 +21188,7 @@
   },
   {
    "id": "yahoo:livingut_4528302261500#4",
-   "name": "キッチンストッカー LISE リセ スリムストッカー（(Lサイズ）",
+   "name": "キッチンストッカー LISE リセ スリムストッカー（Lサイズ）",
    "w": 12.4,
    "d": 35.8,
    "h": 32.0,
@@ -21133,7 +21211,7 @@
    "source": "yahoo",
    "img": "https://item-shopping.c.yimg.jp/i/g/livingut_4528302261500",
    "src": "商品説明から抽出（サイズ違いを分割）",
-   "variant": "(Lサイズ",
+   "variant": "Lサイズ",
    "evidence": "高さ18.2cm (Lサイズ)約幅12.4×奥行35.8×高さ32cm",
    "dim_kind": "外寸（表記から判断）",
    "unit": "cm",
@@ -21544,7 +21622,7 @@
   },
   {
    "id": "yahoo:livingut_284821",
-   "name": "山崎実業 tower ハンドル付きスリムワゴン タワー (",
+   "name": "山崎実業 tower ハンドル付きスリムワゴン タワー",
    "d": 47.5,
    "h": 80.5,
    "w": 13.0,
@@ -21673,7 +21751,7 @@
   },
   {
    "id": "yahoo:livingut_266856#1",
-   "name": "キッチンストッカー LISE リセ ミドルストッカー（超PayPay祭サイズ）",
+   "name": "キッチンストッカー LISE リセ ミドルストッカー（幅26cm）",
    "w": 26.0,
    "d": 40.0,
    "h": 85.0,
@@ -21696,7 +21774,7 @@
    "source": "yahoo",
    "img": "https://item-shopping.c.yimg.jp/i/g/livingut_266856",
    "src": "商品説明から抽出（サイズ違いを分割）",
-   "variant": "超PayPay祭サイズ",
+   "variant": "幅26cm",
    "evidence": "揃う 超PayPay祭サイズ/約幅26×奥行40×高さ85cm",
    "dim_kind": "外寸（表記から判断）",
    "unit": "cm",
@@ -21705,7 +21783,7 @@
   },
   {
    "id": "yahoo:livingut_266856#2",
-   "name": "キッチンストッカー LISE リセ ミドルストッカー（(Sサイズ）",
+   "name": "キッチンストッカー LISE リセ ミドルストッカー（Sサイズ）",
    "w": 20.7,
    "d": 36.0,
    "h": 11.4,
@@ -21728,7 +21806,7 @@
    "source": "yahoo",
    "img": "https://item-shopping.c.yimg.jp/i/g/livingut_266856",
    "src": "商品説明から抽出（サイズ違いを分割）",
-   "variant": "(Sサイズ",
+   "variant": "Sサイズ",
    "evidence": "【引き出し内寸】 (Sサイズ)約幅20.7×奥行36×高さ11.4cm",
    "dim_kind": "外寸（表記から判断）",
    "unit": "cm",
@@ -21737,7 +21815,7 @@
   },
   {
    "id": "yahoo:livingut_266856#3",
-   "name": "キッチンストッカー LISE リセ ミドルストッカー（(Mサイズ）",
+   "name": "キッチンストッカー LISE リセ ミドルストッカー（Mサイズ）",
    "w": 20.7,
    "d": 36.0,
    "h": 18.2,
@@ -21760,7 +21838,7 @@
    "source": "yahoo",
    "img": "https://item-shopping.c.yimg.jp/i/g/livingut_266856",
    "src": "商品説明から抽出（サイズ違いを分割）",
-   "variant": "(Mサイズ",
+   "variant": "Mサイズ",
    "evidence": "高さ11.4cm (Mサイズ)約幅20.7×奥行36×高さ18.2cm",
    "dim_kind": "外寸（表記から判断）",
    "unit": "cm",
@@ -21769,7 +21847,7 @@
   },
   {
    "id": "yahoo:livingut_266856#4",
-   "name": "キッチンストッカー LISE リセ ミドルストッカー（(Lサイズ）",
+   "name": "キッチンストッカー LISE リセ ミドルストッカー（Lサイズ）",
    "w": 20.4,
    "d": 35.8,
    "h": 32.0,
@@ -21792,40 +21870,8 @@
    "source": "yahoo",
    "img": "https://item-shopping.c.yimg.jp/i/g/livingut_266856",
    "src": "商品説明から抽出（サイズ違いを分割）",
-   "variant": "(Lサイズ",
+   "variant": "Lサイズ",
    "evidence": "高さ18.2cm (Lサイズ)約幅20.4×奥行35.8×高さ32cm",
-   "dim_kind": "外寸（表記から判断）",
-   "unit": "cm",
-   "confidence": "中",
-   "status": "自動抽出（未確認）"
-  },
-  {
-   "id": "yahoo:interior-palette_4528302261500#1",
-   "name": "キッチンストッカー LISE リセ スリムストッカー（ンの高さにピッタリ揃う!サイズ）",
-   "w": 18.0,
-   "d": 40.0,
-   "h": 85.0,
-   "shop": "インテリアパレットヤフー店",
-   "price": null,
-   "checked_at": "2026-10-02",
-   "type": "lid_box",
-   "places": [
-    "wall",
-    "fridge-top",
-    "oshiire",
-    "closet",
-    "steelrack",
-    "bed"
-   ],
-   "links": {
-    "yahoo": "https://store.shopping.yahoo.co.jp/interior-palette/4528302261500.html"
-   },
-   "item_url": "https://store.shopping.yahoo.co.jp/interior-palette/4528302261500.html",
-   "source": "yahoo",
-   "img": "https://item-shopping.c.yimg.jp/i/g/interior-palette_4528302261500",
-   "src": "商品説明から抽出（サイズ違いを分割）",
-   "variant": "ンの高さにピッタリ揃う!サイズ",
-   "evidence": "の高さにピッタリ揃う!サイズ/約幅18×奥行40×高さ85cm",
    "dim_kind": "外寸（表記から判断）",
    "unit": "cm",
    "confidence": "中",
@@ -22517,7 +22563,7 @@
   },
   {
    "id": "yahoo:livingut_326385",
-   "name": "山崎実業 tower 洗濯機防水パン上ラック タワー (",
+   "name": "山崎実業 tower 洗濯機防水パン上ラック タワー",
    "d": 64.0,
    "h": 2.0,
    "w": 15.0,
@@ -22972,7 +23018,7 @@
   },
   {
    "id": "yahoo:chikou_walls-345#1",
-   "name": "年間一位 ウォールシェルフ 賃貸 壁掛け 3枚セット（Sサイズ）",
+   "name": "ウォールシェルフ 賃貸 壁掛け 3枚セット 壁を傷つけない（Sサイズ）",
    "w": 30.0,
    "d": 15.0,
    "h": 16.0,
@@ -23001,7 +23047,7 @@
   },
   {
    "id": "yahoo:chikou_walls-345#2",
-   "name": "年間一位 ウォールシェルフ 賃貸 壁掛け 3枚セット（Mサイズ）",
+   "name": "ウォールシェルフ 賃貸 壁掛け 3枚セット 壁を傷つけない（Mサイズ）",
    "w": 40.0,
    "d": 15.0,
    "h": 16.0,
@@ -23030,7 +23076,7 @@
   },
   {
    "id": "yahoo:chikou_walls-345#3",
-   "name": "年間一位 ウォールシェルフ 賃貸 壁掛け 3枚セット（Lサイズ）",
+   "name": "ウォールシェルフ 賃貸 壁掛け 3枚セット 壁を傷つけない（Lサイズ）",
    "w": 50.0,
    "d": 15.0,
    "h": 16.0,
@@ -23789,7 +23835,7 @@
   },
   {
    "id": "yahoo:tansu_68110009",
-   "name": "本日+4% シューズボックス 幅60 靴箱 下駄箱 スリム",
+   "name": "シューズボックス 幅60 靴箱 下駄箱 スリム 玄関収納",
    "d": 34.5,
    "h": 93.0,
    "w": 60.0,
@@ -24395,7 +24441,7 @@
   },
   {
    "id": "yahoo:smile-hg_4903208048965-",
-   "name": "ハンギングかさたて スマート 「送料無料」/ smart",
+   "name": "ハンギングかさたて スマート smart ハンキング かさ",
    "d": 15.0,
    "h": 97.0,
    "w": 26.5,
@@ -24422,7 +24468,7 @@
   },
   {
    "id": "yahoo:yh-beans_0849646#1",
-   "name": "山崎実業 シューズラック frame フレーム（隙サイズ）",
+   "name": "山崎実業 シューズラック frame フレーム（幅41cm）",
    "w": 41.0,
    "d": 25.0,
    "h": 17.5,
@@ -24442,7 +24488,7 @@
    "jan": "4903208072090",
    "img": "https://item-shopping.c.yimg.jp/i/g/yh-beans_0849646",
    "src": "商品説明から抽出（サイズ違いを分割）",
-   "variant": "隙サイズ",
+   "variant": "幅41cm",
    "evidence": "収納 下駄箱 隙サイズ(約):幅41〜70×奥行25×高さ17.5cm",
    "dim_kind": "外寸（表記から判断）",
    "unit": "cm",
@@ -24515,7 +24561,7 @@
   },
   {
    "id": "yahoo:livingut_4979625197432",
-   "name": "靴 収納 6個入り くつホルダー ワイド ( 靴ホルダー",
+   "name": "靴 収納 6個入り くつホルダー ワイド 靴ホルダー",
    "d": 26.0,
    "h": 13.5,
    "w": 10.0,
@@ -24570,7 +24616,7 @@
   },
   {
    "id": "yahoo:livingut_298357",
-   "name": "靴 収納 くつホルダー 10個入り WEB限定販売 ブラック",
+   "name": "靴 収納 くつホルダー 10個入り ブラック 靴ホルダー",
    "d": 26.0,
    "h": 13.5,
    "w": 10.0,
@@ -25108,7 +25154,7 @@
   },
   {
    "id": "yahoo:tansu_66600000",
-   "name": "本日+4% デスクワゴン スリム キャスター付き 3段",
+   "name": "デスクワゴン スリム キャスター付き 3段 引き出し",
    "d": 50.5,
    "h": 60.5,
    "w": 39.0,
@@ -25231,15 +25277,8 @@
    "shop": "doris",
    "price": 14990,
    "checked_at": "2026-10-02",
-   "type": "u_rack",
-   "places": [
-    "sink",
-    "stove",
-    "cupboard",
-    "appliance-top",
-    "fridge-top",
-    "washbasin"
-   ],
+   "type": "furniture",
+   "places": [],
    "links": {
     "yahoo": "https://store.shopping.yahoo.co.jp/grazia-doris/dr-mona.html"
    },
@@ -25262,15 +25301,8 @@
    "shop": "LOWYA(ロウヤ)Yahoo!ショッピング店",
    "price": null,
    "checked_at": "2026-10-02",
-   "type": "lid_box",
-   "places": [
-    "wall",
-    "fridge-top",
-    "oshiire",
-    "closet",
-    "steelrack",
-    "bed"
-   ],
+   "type": "furniture",
+   "places": [],
    "links": {
     "yahoo": "https://store.shopping.yahoo.co.jp/low-ya/s-s200111.html"
    },
@@ -25294,15 +25326,8 @@
    "shop": "LOWYA(ロウヤ)Yahoo!ショッピング店",
    "price": null,
    "checked_at": "2026-10-02",
-   "type": "lid_box",
-   "places": [
-    "wall",
-    "fridge-top",
-    "oshiire",
-    "closet",
-    "steelrack",
-    "bed"
-   ],
+   "type": "furniture",
+   "places": [],
    "links": {
     "yahoo": "https://store.shopping.yahoo.co.jp/low-ya/s-s200111.html"
    },
@@ -25326,15 +25351,8 @@
    "shop": "LOWYA(ロウヤ)Yahoo!ショッピング店",
    "price": null,
    "checked_at": "2026-10-02",
-   "type": "lid_box",
-   "places": [
-    "wall",
-    "fridge-top",
-    "oshiire",
-    "closet",
-    "steelrack",
-    "bed"
-   ],
+   "type": "furniture",
+   "places": [],
    "links": {
     "yahoo": "https://store.shopping.yahoo.co.jp/low-ya/s-s200111.html"
    },
@@ -25358,15 +25376,8 @@
    "shop": "エア・リゾームインテリア",
    "price": 12990,
    "checked_at": "2026-10-02",
-   "type": "u_rack",
-   "places": [
-    "sink",
-    "stove",
-    "cupboard",
-    "appliance-top",
-    "fridge-top",
-    "washbasin"
-   ],
+   "type": "furniture",
+   "places": [],
    "links": {
     "yahoo": "https://store.shopping.yahoo.co.jp/air-r/air-kc47.html"
    },
@@ -25425,22 +25436,15 @@
   },
   {
    "id": "yahoo:tansu_45400101",
-   "name": "本日+4% レンジ台 幅60 レンジラック スリム",
+   "name": "レンジ台 幅60 レンジラック スリム ゴミ箱上ラック",
    "d": 45.0,
    "h": 168.5,
    "w": 60.0,
    "shop": "タンスのゲン Design the Future",
    "price": 9999,
    "checked_at": "2026-10-02",
-   "type": "u_rack",
-   "places": [
-    "sink",
-    "stove",
-    "cupboard",
-    "appliance-top",
-    "fridge-top",
-    "washbasin"
-   ],
+   "type": "furniture",
+   "places": [],
    "links": {
     "yahoo": "https://store.shopping.yahoo.co.jp/tansu/45400101.html"
    },
@@ -25463,15 +25467,8 @@
    "shop": "doris",
    "price": 9990,
    "checked_at": "2026-10-02",
-   "type": "u_rack",
-   "places": [
-    "sink",
-    "stove",
-    "cupboard",
-    "appliance-top",
-    "fridge-top",
-    "washbasin"
-   ],
+   "type": "furniture",
+   "places": [],
    "links": {
     "yahoo": "https://store.shopping.yahoo.co.jp/grazia-doris/dr-regalia.html"
    },
@@ -25519,15 +25516,8 @@
    "shop": "エア・リゾームインテリア",
    "price": null,
    "checked_at": "2026-10-02",
-   "type": "u_rack",
-   "places": [
-    "sink",
-    "stove",
-    "cupboard",
-    "appliance-top",
-    "fridge-top",
-    "washbasin"
-   ],
+   "type": "furniture",
+   "places": [],
    "links": {
     "yahoo": "https://store.shopping.yahoo.co.jp/air-r/miy-ar-kc44.html"
    },
@@ -25551,15 +25541,8 @@
    "shop": "エア・リゾームインテリア",
    "price": null,
    "checked_at": "2026-10-02",
-   "type": "u_rack",
-   "places": [
-    "sink",
-    "stove",
-    "cupboard",
-    "appliance-top",
-    "fridge-top",
-    "washbasin"
-   ],
+   "type": "furniture",
+   "places": [],
    "links": {
     "yahoo": "https://store.shopping.yahoo.co.jp/air-r/miy-ar-kc44.html"
    },
@@ -25611,10 +25594,8 @@
    "shop": "ラクチーナ Yahoo!店",
    "price": 10480,
    "checked_at": "2026-10-02",
-   "type": "fridge_case",
-   "places": [
-    "fridge"
-   ],
+   "type": "furniture",
+   "places": [],
    "links": {
     "yahoo": "https://store.shopping.yahoo.co.jp/takuhaibin/m7064007.html"
    },
@@ -25774,10 +25755,8 @@
    "shop": "収納 本棚&食器棚 ラック YMWORLD",
    "price": null,
    "checked_at": "2026-10-02",
-   "type": "fridge_case",
-   "places": [
-    "fridge"
-   ],
+   "type": "furniture",
+   "places": [],
    "links": {
     "yahoo": "https://store.shopping.yahoo.co.jp/futureoffice/00-341.html"
    },
@@ -25802,10 +25781,8 @@
    "shop": "収納 本棚&食器棚 ラック YMWORLD",
    "price": null,
    "checked_at": "2026-10-02",
-   "type": "fridge_case",
-   "places": [
-    "fridge"
-   ],
+   "type": "furniture",
+   "places": [],
    "links": {
     "yahoo": "https://store.shopping.yahoo.co.jp/futureoffice/00-341.html"
    },
@@ -25830,15 +25807,8 @@
    "shop": "TTWO",
    "price": 9280,
    "checked_at": "2026-10-02",
-   "type": "u_rack",
-   "places": [
-    "sink",
-    "stove",
-    "cupboard",
-    "appliance-top",
-    "fridge-top",
-    "washbasin"
-   ],
+   "type": "furniture",
+   "places": [],
    "links": {
     "yahoo": "https://store.shopping.yahoo.co.jp/ttwo/sh26.html"
    },
@@ -25963,15 +25933,8 @@
    "shop": "エムール EMOOR 健康家具専門店",
    "price": null,
    "checked_at": "2026-10-02",
-   "type": "u_rack",
-   "places": [
-    "sink",
-    "stove",
-    "cupboard",
-    "appliance-top",
-    "fridge-top",
-    "washbasin"
-   ],
+   "type": "furniture",
+   "places": [],
    "links": {
     "yahoo": "https://store.shopping.yahoo.co.jp/at-emoor/yo-kr90d-hi.html"
    },
@@ -25995,15 +25958,8 @@
    "shop": "エムール EMOOR 健康家具専門店",
    "price": null,
    "checked_at": "2026-10-02",
-   "type": "u_rack",
-   "places": [
-    "sink",
-    "stove",
-    "cupboard",
-    "appliance-top",
-    "fridge-top",
-    "washbasin"
-   ],
+   "type": "furniture",
+   "places": [],
    "links": {
     "yahoo": "https://store.shopping.yahoo.co.jp/at-emoor/yo-kr90d-hi.html"
    },
@@ -26039,130 +25995,6 @@
    "img": "https://item-shopping.c.yimg.jp/i/g/ttwo_sh32-yh",
    "src": "商品説明から抽出",
    "evidence": "ゴミ箱上ラック 洗濯機ラック W60×D40×H180",
-   "dim_kind": "外寸（表記から判断）",
-   "unit": "cm",
-   "confidence": "中",
-   "status": "自動抽出（未確認）"
-  },
-  {
-   "id": "yahoo:livingut_325594",
-   "name": "山崎実業 tower 密閉ぬか漬けケース タワー 水取り器付",
-   "d": 16.5,
-   "h": 12.2,
-   "w": 28.0,
-   "shop": "リビングート ヤフー店",
-   "price": 2420,
-   "checked_at": "2026-10-02",
-   "type": "basket",
-   "places": [
-    "sink",
-    "stove",
-    "wall",
-    "cupboard",
-    "appliance-top",
-    "fridge-top",
-    "washbasin",
-    "oshiire",
-    "closet",
-    "shoebox",
-    "colorbox",
-    "tvboard",
-    "bookshelf",
-    "steelrack",
-    "counter"
-   ],
-   "links": {
-    "yahoo": "https://store.shopping.yahoo.co.jp/livingut/325594.html"
-   },
-   "item_url": "https://store.shopping.yahoo.co.jp/livingut/325594.html",
-   "source": "yahoo",
-   "jan": "4903208049443",
-   "img": "https://item-shopping.c.yimg.jp/i/g/livingut_325594",
-   "src": "商品説明から抽出",
-   "evidence": "!しっかり密閉! 爆買サイズ/約幅28×奥行16.5×高さ12.2cm",
-   "dim_kind": "外寸（表記から判断）",
-   "unit": "cm",
-   "confidence": "中",
-   "status": "自動抽出（未確認）",
-   "set_available": true
-  },
-  {
-   "id": "yahoo:e-alamode_3605-3320",
-   "name": "山崎実業 タワー 密閉ぬか漬けケース 水取り器付 tower",
-   "d": 16.5,
-   "h": 12.2,
-   "w": 28.0,
-   "shop": "ヤマソロ Yahoo!店",
-   "price": 2420,
-   "checked_at": "2026-10-02",
-   "type": "basket",
-   "places": [
-    "sink",
-    "stove",
-    "wall",
-    "cupboard",
-    "appliance-top",
-    "fridge-top",
-    "washbasin",
-    "oshiire",
-    "closet",
-    "shoebox",
-    "colorbox",
-    "tvboard",
-    "bookshelf",
-    "steelrack",
-    "counter"
-   ],
-   "links": {
-    "yahoo": "https://store.shopping.yahoo.co.jp/e-alamode/3605-3320.html"
-   },
-   "item_url": "https://store.shopping.yahoo.co.jp/e-alamode/3605-3320.html",
-   "source": "yahoo",
-   "jan": "4903208049443",
-   "img": "https://item-shopping.c.yimg.jp/i/g/e-alamode_3605-3320",
-   "src": "商品説明から抽出",
-   "evidence": "れます。  【本体サイズ】  約W28×D16.5×H12.2cm",
-   "dim_kind": "外寸（表記から判断）",
-   "unit": "cm",
-   "confidence": "中",
-   "status": "自動抽出（未確認）"
-  },
-  {
-   "id": "yahoo:yh-beans_1102490",
-   "name": "山崎実業 ぬか漬けケース tower タワー 密閉",
-   "d": 16.5,
-   "h": 12.2,
-   "w": 28.0,
-   "shop": "びーんず生活雑貨デポ",
-   "price": 2420,
-   "checked_at": "2026-10-02",
-   "type": "basket",
-   "places": [
-    "sink",
-    "stove",
-    "wall",
-    "cupboard",
-    "appliance-top",
-    "fridge-top",
-    "washbasin",
-    "oshiire",
-    "closet",
-    "shoebox",
-    "colorbox",
-    "tvboard",
-    "bookshelf",
-    "steelrack",
-    "counter"
-   ],
-   "links": {
-    "yahoo": "https://store.shopping.yahoo.co.jp/yh-beans/1102490.html"
-   },
-   "item_url": "https://store.shopping.yahoo.co.jp/yh-beans/1102490.html",
-   "source": "yahoo",
-   "jan": "4903208049443",
-   "img": "https://item-shopping.c.yimg.jp/i/g/yh-beans_1102490",
-   "src": "商品説明から抽出",
-   "evidence": "庫 キッチン 雑貨サイズ(約):幅28×奥行16.5×高さ12.2cm",
    "dim_kind": "外寸（表記から判断）",
    "unit": "cm",
    "confidence": "中",
@@ -26232,7 +26064,7 @@
   },
   {
    "id": "yahoo:livingut_270545",
-   "name": "米びつ 5kg用 システムキッチン用 引き出し米びつ (",
+   "name": "米びつ 5kg用 システムキッチン用 引き出し米びつ",
    "d": 32.7,
    "h": 16.4,
    "w": 22.3,
@@ -26513,7 +26345,7 @@
   },
   {
    "id": "yahoo:livingut_4528302117104#1",
-   "name": "収納ケース ベッド下 幅39×奥行80×高さ17cm（幅39cm）",
+   "name": "収納ケース ベッド下 幅39×奥行80×高さ17cm（幅39cm） 幅39cm・高さ17cm",
    "w": 39.0,
    "d": 80.0,
    "h": 17.0,
@@ -26540,7 +26372,7 @@
   },
   {
    "id": "yahoo:livingut_4528302117104#2",
-   "name": "収納ケース ベッド下 幅39×奥行80×高さ17cm（超PayPay祭サイズ）",
+   "name": "収納ケース ベッド下 幅39×奥行80×高さ17cm（幅39cm） 幅39cm・高さ16.5cm",
    "w": 39.0,
    "d": 80.0,
    "h": 16.5,
@@ -26558,7 +26390,7 @@
    "source": "yahoo",
    "img": "https://item-shopping.c.yimg.jp/i/g/livingut_4528302117104",
    "src": "商品説明から抽出（サイズ違いを分割）",
-   "variant": "超PayPay祭サイズ",
+   "variant": "幅39cm",
    "evidence": "超PayPay祭サイズ/外寸:約幅39×奥行80×高さ16.5cm",
    "dim_kind": "外寸",
    "unit": "cm",
