@@ -410,3 +410,7 @@
 .sunpo-adcard ul{margin:0;padding-left:1.2em;color:var(--sub);font-size:.875rem;line-height:1.7}
 .sunpo-adchk{font-size:.8125rem;color:var(--sub)}
 .sunpo-adcard a{align-self:stretch;text-align:center;min-height:44px;display:flex;align-items:center;justify-content:center;border:1px solid var(--line);border-radius:999px;color:var(--ink);text-decoration:none;font-weight:700}
+
+/* 購入ボタン直前の「PR」：目立たせないが読める灰色（Yahoo!のガイドライン対応） */
+.sunpo .sunpo-prtag{color:var(--sub);background:none;border:1px solid var(--line);font-weight:700;font-size:.75rem;padding:1px 6px;border-radius:6px}
+@media (max-width:860px){.sunpo .sunpo-prtag{font-size:.8125rem}}

@@ -443,8 +443,9 @@
     each("#sunpoSteps li", function (li) { li.classList.toggle("sp-done", !!st[li.dataset.step]); li.classList.toggle("sp-cur", li.dataset.step === cur); });
   }
 
+  // 購入ボタンの直前に「PR」（Yahoo!ショッピングのガイドラインで、商品の直上または直下にも必要。目立たない灰色）
   function linksHtml(p) {
-    return ["rakuten", "yahoo", "amazon"].map(function (k) {
+    return '<span class="sunpo-prtag" aria-label="広告">PR</span>' + ["rakuten", "yahoo", "amazon"].map(function (k) {
       var u = p.links && p.links[k], many = Object.keys(p.links || {}).length > 1;
       return u ? '<a href="' + esc(u) + '" rel="sponsored noopener" target="_blank" data-track="' + esc(p.id) + '" data-shop="' + k + '">' + (many ? SHOP_SHORT[k] : SHOP_LABEL[k]) + "</a>" : "";
     }).join("");
@@ -518,6 +519,7 @@
     $("sunpoCount").innerHTML = (place ? esc(place.name) + "に" : "") + "収まりそうな収納 <b>" + fit.length + "</b>件";
     jumpBar(fit.length);
 
+    var cond = [S.variant, S.w, S.d, S.h, S.m, S.rot, S.type].join("|");
     var html = "";
     fit.forEach(function (x) {
       if (WIZ()) { html += cardM(x); return; }
@@ -555,16 +557,25 @@
           '<button type="button" data-fb="fit">入った</button><button type="button" data-fb="tight">きつかった</button><button type="button" data-fb="no">入らなかった</button></div>' : "") +
         "</article>";
     });
-    var cond = [S.variant, S.w, S.d, S.h, S.m, S.rot, S.type].join("|");
     clearTimeout(trackState.timer);
     trackState.timer = setTimeout(function () {
       if (trackState.started && trackState.doneKey !== cond) { trackState.doneKey = cond; track("input_done", { place: S.variant || "none", w: S.w, d: S.d, h: S.h }); }
       if (trackState.shownKey !== cond) { trackState.shownKey = cond; track("results_shown", { place: S.variant || "none", count: fit.length }); }
     }, 900);
     if (DATA.unreadable) html += '<p class="sunpo-unread">商品説明から寸法を読み取れなかった商品（' + DATA.unreadable + '件）は、判定できないため候補に出していません。</p>';
-    if (!fit.length) html = '<div class="sunpo-empty">この寸法に入る商品は見つかりませんでした。' + (near.length ? "下の「惜しい商品」に、あと少しで入る商品と足りない寸法を出しています。" : "数字の単位（cm）と、すき間・向きの設定を確かめてください。") + "</div>";
+    var cause = "";
+    if (!fit.length) {
+      cause = zeroCause(place);
+      html = '<div class="sunpo-empty">' + (cause === "input"
+        ? "幅・奥行・高さに、とても小さい（または大きい）数字があります。cmで入っているか確かめてください（例：385mm → 38.5cm）。"
+        : cause === "strict"
+          ? "今の条件では入る商品がありません。すき間を「ぴったり」・横向きOK・種類を「すべて」にすると、" + relaxedCount + '件あります。<br><button type="button" class="sunpo-trybtn" id="sunpoRelax">条件をゆるめて探す</button>'
+          : "この寸法に入る商品は見つかりませんでした。" + (near.length ? "下の「惜しい商品」に、あと少しで入る商品と足りない寸法を出しています。" : "") +
+            "測る場所を少し変える（棚板を外す・手前だけ使う）か、物を減らして置き場所を空けるのも一つの方法です。") + "</div>";
+      if (trackState.zeroKey !== cond) { trackState.zeroKey = cond; track("zero_result", { cause: cause, place: S.variant || "none" }); }
+    }
     $("sunpoCards").innerHTML = html;
-    renderAd(!fit.length);
+    renderAd(cause === "none");
 
     var nh = "";
     near.forEach(function (x) {
@@ -649,6 +660,23 @@
       (ad.checked_at ? '<p class="sunpo-adchk">条件は ' + esc(ymd(ad.checked_at)) + " 時点の情報です。最新は公式サイトで</p>" : "") +
       '<a href="' + esc(ad.url) + '" rel="sponsored noopener" target="_blank" data-ad="' + esc(ad.id || "") + '">公式サイトで見る</a></div>';
   }
+  // 0件の原因：input＝数字がありえない大きさ／strict＝条件をゆるめれば見つかる／none＝それでもない
+  var relaxedCount = 0;
+  function zeroCause(place) {
+    if ([S.w, S.d, S.h].some(function (v) { return v < 3 || v >= 300; })) return "input";
+    var keep = { m: S.m, rot: S.rot };
+    S.m = 0; S.rot = true;
+    var types = place ? place.types : DATA.types.map(function (t) { return t.id; });
+    relaxedCount = DATA.items.filter(function (it) {
+      return types.indexOf(it.type) >= 0 && (!place || !it.places || it.places.indexOf(place.id) >= 0) && evaluate(it).best;
+    }).length;
+    S.m = keep.m; S.rot = keep.rot;
+    return relaxedCount ? "strict" : "none";
+  }
+  root.addEventListener("click", function (e) {
+    if (!e.target || e.target.id !== "sunpoRelax") return;
+    S.m = 0; S.rot = true; S.type = "all"; syncInputs(); renderTypes(); render();
+  });
   function placeLabel() {
     var p = currentPlace();
     if (!p) return "場所の指定なし";
@@ -668,7 +696,7 @@
     $("sunpoIntroPhotos").innerHTML = shots.length ? shots.map(function (x) {
       return '<a href="' + esc(mainLink(x.p)) + '" rel="sponsored noopener" target="_blank" data-track="' + esc(x.p.id) + '" data-shop="' + srcOf(x.p) + '">' +
         '<img src="' + esc(x.p.img) + '" alt="' + esc(photoAlt(x.p)) + '" decoding="async"></a>';
-    }).join("") + '<span class="sp-cap">' + esc(shots.map(function (x) { return SRC_NAME[srcOf(x.p)]; }).filter(function (v, i, a) { return a.indexOf(v) === i; }).join("・")) + "の商品</span>" : "";
+    }).join("") + '<span class="sp-cap">PR　' + esc(shots.map(function (x) { return SRC_NAME[srcOf(x.p)]; }).filter(function (v, i, a) { return a.indexOf(v) === i; }).join("・")) + "の商品</span>" : "";
     // 候補の画面の上の条件
     $("sunpoCondPlace").textContent = placeLabel();
     $("sunpoCondDims").textContent = dims;
