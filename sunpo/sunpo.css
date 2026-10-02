@@ -405,7 +405,8 @@
 /* 入る商品がないときの広告1枠（サイトの .card・.pts・.btn に合わせる。PR は灰色の小見出し1か所） */
 .sunpo-ad{display:flex;flex-direction:column;gap:6px}
 .sunpo-ad[hidden]{display:none}
-.sunpo-adhead{font-size:.8125rem;color:var(--sub);font-weight:700}
+.sunpo-adhead{font-size:.875rem;color:var(--ink);font-weight:700;display:flex;align-items:center;gap:8px}
+.sunpo-adpr{border:1.5px solid var(--ink);border-radius:4px;padding:0 6px;font-size:.8125rem;line-height:1.5}
 .sunpo-adcard{background:var(--card);border:1px solid var(--line);border-top:3px solid var(--accent);border-radius:var(--r-md);box-shadow:var(--shadow);overflow:hidden;display:flex;flex-direction:column}
 .sunpo-adimg{display:block;aspect-ratio:12/5;overflow:hidden;background:var(--soft)}
 .sunpo-adimg img{width:100%;height:100%;object-fit:cover;object-position:top;display:block}

@@ -569,7 +569,7 @@
       html = '<div class="sunpo-empty">' + (cause === "input"
         ? "幅・奥行・高さに、とても小さい（または大きい）数字があります。cmで入っているか確かめてください（例：385mm → 38.5cm）。"
         : cause === "strict"
-          ? "今の条件では入る商品がありません。すき間を「ぴったり」・横向きOK・種類を「すべて」にすると、" + relaxedCount + '件あります。<br><button type="button" class="sunpo-trybtn" id="sunpoRelax">条件をゆるめて探す</button>'
+          ? "今の条件では入る商品がありません。すき間なし・横向きOK・種類を「すべて」にすると、" + relaxedCount + '件あります。<br><button type="button" class="sunpo-trybtn" id="sunpoRelax">条件をゆるめて探す</button>'
           : "この寸法に入る商品は見つかりませんでした。" + (near.length ? "下の「惜しい商品」に、あと少しで入る商品と足りない寸法を出しています。" : "") +
             "測る場所を少し変える（棚板を外す・手前だけ使う）か、物を減らして置き場所を空けるのも一つの方法です。") + "</div>";
       if (trackState.zeroKey !== cond) { trackState.zeroKey = cond; track("zero_result", { cause: cause, place: S.variant || "none" }); }
@@ -586,7 +586,7 @@
         if (r.sd < 0) why.push("奥行が" + fmt(-r.sd) + "cm足りません");
         if (r.sh < 0) why.push("高さが" + fmt(-r.sh) + "cm足りません");
         var other = fit.filter(function (q) { return q.p.type === p.type; })[0];
-        alt = other ? "同じ種類なら「" + other.p.name + "」が入ります" : (S.m > 0 ? "すき間を「ぴったり」にすると入る場合があります" : "");
+        alt = other ? "同じ種類なら「" + other.p.name + "」が入ります" : (S.m > 0 ? "出し入れのすき間を「すき間なし」にすると入る場合があります" : "");
       }
       nh += '<div class="sunpo-nitem"><div><div>' + esc(p.name) + '</div><div class="sunpo-why">' + why.join("・") + "</div>" +
         (alt ? '<div class="sunpo-alt">' + esc(alt) + "</div>" : "") + '</div><span class="sunpo-nsize">' + fmt(p.w) + "×" + fmt(p.d) + "×" + fmt(p.h) + "</span></div>";
@@ -656,7 +656,7 @@
     box.hidden = false;
     // 見た目はサイトのカード（.card）に合わせる：絵（上半分だけ横長に）→ 共感の一文 → 見出し → ✓利点2つ → 主ボタン → 日付の注記
     var img = /^https:\/\//.test(ad.image || "") ? ad.image : "";
-    box.innerHTML = '<p class="sunpo-adhead">PR　置き場所そのものが足りないときは</p>' +
+    box.innerHTML = '<p class="sunpo-adhead"><span class="sunpo-adpr">PR</span>置き場所そのものが足りないときは</p>' +
       '<div class="sunpo-adcard">' +
       (img ? '<a class="sunpo-adimg" href="' + esc(ad.url) + '" rel="sponsored noopener" target="_blank" data-ad="' + esc(ad.id || "") + '" tabindex="-1" aria-hidden="true">' +
         '<img src="' + esc(img) + '" alt="" loading="lazy" decoding="async"></a>' : "") +
