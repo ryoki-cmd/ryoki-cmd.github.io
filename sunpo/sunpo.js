@@ -562,7 +562,7 @@
       if (trackState.shownKey !== cond) { trackState.shownKey = cond; track("results_shown", { place: S.variant || "none", count: fit.length }); }
     }, 900);
     if (DATA.unreadable) html += '<p class="sunpo-unread">商品説明から寸法を読み取れなかった商品（' + DATA.unreadable + '件）は、判定できないため候補に出していません。</p>';
-    if (!fit.length) html = '<div class="sunpo-empty">この寸法に入る商品は見つかりませんでした。下の「惜しい商品」に、あと少しで入る商品と足りない寸法を出しています。</div>';
+    if (!fit.length) html = '<div class="sunpo-empty">この寸法に入る商品は見つかりませんでした。' + (near.length ? "下の「惜しい商品」に、あと少しで入る商品と足りない寸法を出しています。" : "数字の単位（cm）と、すき間・向きの設定を確かめてください。") + "</div>";
     $("sunpoCards").innerHTML = html;
     renderAd(!fit.length);
 
@@ -646,7 +646,7 @@
     box.innerHTML = '<p class="sunpo-adhead">PR　置き場所そのものが足りないときは</p>' +
       '<div class="sunpo-adcard"><b>' + esc(ad.label) + "</b>" +
       ((ad.points || []).length ? "<ul>" + ad.points.slice(0, 2).map(function (t) { return "<li>" + esc(t) + "</li>"; }).join("") + "</ul>" : "") +
-      (ad.checked_at ? '<p class="sunpo-adchk">条件は ' + esc(ymd(ad.checked_at)) + " に公式サイトで確認</p>" : "") +
+      (ad.checked_at ? '<p class="sunpo-adchk">条件は ' + esc(ymd(ad.checked_at)) + " 時点の情報です。最新は公式サイトで</p>" : "") +
       '<a href="' + esc(ad.url) + '" rel="sponsored noopener" target="_blank" data-ad="' + esc(ad.id || "") + '">公式サイトで見る</a></div>';
   }
   function placeLabel() {
