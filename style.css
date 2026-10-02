@@ -54,6 +54,7 @@ body.menu-open{overflow:hidden}
 .btn{display:inline-flex;align-items:center;justify-content:center;gap:6px;text-decoration:none;font-weight:700;border-radius:999px;padding:12px 20px;min-height:44px;background:var(--accent);color:#fff;font-size:.95rem;transition:transform .18s,box-shadow .18s}
 .btn.sub{background:var(--card);color:var(--ink);border:1px solid var(--line)}
 .ybtn{margin-left:6px}
+.prmark{display:block;font-size:13px;color:var(--sub);margin:0 0 4px;font-weight:400}
 .btn:hover{transform:translateY(-1px);box-shadow:var(--shadow)}.btn:active{transform:scale(.98)}
 @media (min-width:860px){.hero{grid-template-columns:1.1fr 1fr;align-items:center;padding:var(--s6) 0 var(--s4)}.hero img{max-height:none}}
 /* 見出し */
