@@ -470,7 +470,7 @@
     return '<span class="sunpo-prtag" aria-label="広告">PR</span>' + ["rakuten", "yahoo", "amazon"].map(function (k) {
       var u = p.links && p.links[k];
       return u ? '<a href="' + esc(u) + '" rel="sponsored noopener" target="_blank" data-track="' + esc(p.id) + '" data-shop="' + k + '">' + (many ? SHOP_SHORT[k] : SHOP_LABEL[k]) + "</a>" : "";
-    }).join("") + (az ? '<a class="sunpo-azs" href="' + esc(az) + '" rel="sponsored noopener" target="_blank" data-track="' + esc(p.id) + '" data-shop="amazon">Amazonで探す</a>' : "");
+    }).join("") + (az ? '<a class="sunpo-azs" href="' + esc(az) + '" rel="sponsored nofollow noopener" referrerpolicy="no-referrer-when-downgrade" attributionsrc target="_blank" data-track="' + esc(p.id) + '" data-shop="amazon">Amazonで探す</a>' : "");
   }
 
   function render() {
