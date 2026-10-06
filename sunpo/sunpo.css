@@ -423,3 +423,5 @@
 .sunpo .sunpo-prtag{color:var(--sub);background:none;border:1px solid var(--line);font-weight:700;font-size:.75rem;padding:1px 6px;border-radius:6px}
 @media (max-width:860px){.sunpo .sunpo-prtag{font-size:.8125rem}}
 @media (min-width:861px){.sunpo-ad{max-width:460px}}
+/* Amazon は商品名での検索ページへ飛ぶだけなので、楽天・Yahoo!より一段控えめに */
+.sunpo .sunpo-links a.sunpo-azs{border-color:var(--line);color:var(--ink);font-weight:600}

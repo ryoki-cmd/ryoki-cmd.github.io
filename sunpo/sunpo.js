@@ -458,11 +458,19 @@
   }
 
   // 購入ボタンの直前に「PR」（Yahoo!ショッピングのガイドラインで、商品の直上または直下にも必要。目立たない灰色）
+  // Amazon は商品ごとのリンクを持てない（もしもに API が無い）ので、商品名で Amazon の検索ページへ飛ばす。
+  // 司令塔が window.SUNPO_AMAZON_SEARCH に {q} 入りの URL ひな形を渡したときだけ出す
+  function amazonSearch(p) {
+    var t = window.SUNPO_AMAZON_SEARCH;
+    if (typeof t !== "string" || t.indexOf("{q}") < 0 || (p.links && p.links.amazon)) return "";
+    return t.replace("{q}", encodeURIComponent(p.name));
+  }
   function linksHtml(p) {
+    var az = amazonSearch(p), many = Object.keys(p.links || {}).length + (az ? 1 : 0) > 1;
     return '<span class="sunpo-prtag" aria-label="広告">PR</span>' + ["rakuten", "yahoo", "amazon"].map(function (k) {
-      var u = p.links && p.links[k], many = Object.keys(p.links || {}).length > 1;
+      var u = p.links && p.links[k];
       return u ? '<a href="' + esc(u) + '" rel="sponsored noopener" target="_blank" data-track="' + esc(p.id) + '" data-shop="' + k + '">' + (many ? SHOP_SHORT[k] : SHOP_LABEL[k]) + "</a>" : "";
-    }).join("");
+    }).join("") + (az ? '<a class="sunpo-azs" href="' + esc(az) + '" rel="sponsored noopener" target="_blank" data-track="' + esc(p.id) + '" data-shop="amazon">Amazonで探す</a>' : "");
   }
 
   function render() {
