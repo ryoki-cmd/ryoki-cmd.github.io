@@ -425,3 +425,7 @@
 @media (min-width:861px){.sunpo-ad{max-width:460px}}
 /* Amazon は商品名での検索ページへ飛ぶだけなので、楽天・Yahoo!より一段控えめに */
 .sunpo .sunpo-links a.sunpo-azs{border-color:var(--line);color:var(--ink);font-weight:600}
+/* 家電の置き場所チェック（/sunpo/kaden/）への入口 */
+.sunpo .sunpo-kaden{margin:0 0 12px;font-size:.875rem}
+.sunpo .sunpo-kaden a{display:inline-flex;align-items:center;min-height:44px;color:var(--accent-ink);font-weight:700}
+.sunpo .sunpo-kaden a::after{content:"→";margin-left:4px}
