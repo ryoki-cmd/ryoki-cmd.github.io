@@ -23,6 +23,17 @@
   var SHOP_LABEL = { rakuten: "楽天市場で見る", yahoo: "Yahoo!ショッピングで見る" };
   var SRC_NAME = { rakuten: "楽天市場", yahoo: "Yahoo!ショッピング" };
 
+  // 隣接商品（acc.json）。なぜ要るかは仕様ベースの一言だけ（効果は書かない）
+  var ACC = { items: {}, keywords: {} };
+  var ACC_TEXT = {
+    "fridge-mat": "冷蔵庫の下に敷く板です。床のへこみや傷を防ぐために使われます。冷蔵庫の幅・奥行より大きいサイズを選びます。",
+    "fridge-belt": "冷蔵庫の背面と壁をつなぐ固定具です。壁の下地（柱）に留められるかと、取り付け方法を商品ページで確認してください。",
+    "washer-lift": "洗濯機の脚の下に置いて本体を持ち上げる台です。真下排水の配管や、防水パンに脚が合わないときに使われます。耐荷重と高さを確認してください。",
+    "washer-base": "防水パンが無い床に置く台です。設置面の広さが洗濯機の脚の位置に合うかを確認してください。",
+    "washer-hose": "蛇口と洗濯機をつなぐホースです。蛇口の形（ワンタッチ・ニップル付き）と長さを確認してください。",
+    "washer-drain": "排水口まで届かないときに足すホースです。洗濯機の機種に合う太さかを確認してください。",
+    "washer-mat": "洗濯機の脚の下に敷くゴムです。脚の大きさに合うかを確認してください。"
+  };
   var S = { k: "fridge", w: NaN, d: NaN, h: NaN, pw: NaN, pd: NaN, f: NaN, gt: NaN, gs: NaN, gb: NaN, drain: "", cap: "", type: "", sort: "cap" };
   var ITEMS = [], UPDATED = "";
   var $ = function (id) { return document.getElementById(id); };
@@ -159,6 +170,48 @@
       "</article>";
   }
 
+  // 入力の条件に合う隣接商品を最大3種類。データが無い種類は飛ばす
+  function accWanted(hits) {
+    var has = function (a) { return ACC.items[a] && ACC.items[a].length; };
+    if (S.k === "fridge") return ["fridge-mat", "fridge-belt"].filter(has);
+    // かさ上げ台は、真下排水のときか、防水パンの内寸より大きい本体が候補にあるときだけ
+    var panBig = ok(S.pw) && ok(S.pd) && hits.some(function (x) { return x.it.w > S.pw || x.it.d > S.pd; });
+    var lift = S.drain === "under" || panBig;
+    var list = [];
+    if (lift) list.push("washer-lift");
+    if (!ok(S.pw)) list.push("washer-base");
+    list.push("washer-hose");
+    if (S.drain === "side") list.push("washer-drain");
+    if (!lift) list.push("washer-mat");
+    return list.filter(has).slice(0, 3);
+  }
+  function accCard(a) {
+    var x = ACC.items[a][0], kw = ACC.keywords[a] || "";
+    var t = window.SUNPO_AMAZON_SEARCH, az = typeof t === "string" && t.indexOf("{q}") >= 0 && kw ? t.replace("{q}", encodeURIComponent(kw)) : "";
+    var ks = ["rakuten", "yahoo"].filter(function (k) { return x.links && x.links[k]; });
+    var many = ks.length + (az ? 1 : 0) > 1;
+    return '<article class="kd-acccard">' +
+      '<div class="kd-row">' + (x.img && ks.length ? '<a class="kd-photo" href="' + esc(x.links[ks[0]]) + '" rel="sponsored noopener" target="_blank" data-track="1" data-acc="' + a + '" data-shop="' + ks[0] + '"><img src="' + esc(x.img) + '" alt="' + esc(x.name) + '（商品画像）" loading="lazy" decoding="async"></a>' : "") +
+      '<div class="kd-main"><h3>' + esc(x.name) + "</h3>" +
+      (x.price ? '<p class="kd-price"><b>' + yen(x.price) + "</b>（" + ymd(x.checked_at).slice(5) + "時点）</p>" : "") + "</div></div>" +
+      '<p class="kd-accwhy">' + esc(ACC_TEXT[a] || "") + "</p>" +
+      '<div class="kd-links"><span class="kd-prtag" aria-label="広告">PR</span>' + ks.map(function (k) {
+        return '<a href="' + esc(x.links[k]) + '" rel="sponsored noopener" target="_blank" data-track="1" data-acc="' + a + '" data-shop="' + k + '">' + (many ? SHOP_SHORT[k] : SHOP_LABEL[k]) + "</a>";
+      }).join("") + (az ? '<a class="kd-azs" href="' + esc(az) + '" rel="sponsored nofollow noopener" referrerpolicy="no-referrer-when-downgrade" attributionsrc target="_blank" data-track="1" data-acc="' + a + '" data-shop="amazon">Amazonで探す</a>' : "") +
+      "</div></article>";
+  }
+  function renderAcc(hits) {
+    var box = $("kdAcc"), list = hits.length ? accWanted(hits) : [];
+    if (!list.length) { box.hidden = true; box.innerHTML = ""; return; }
+    box.hidden = false;
+    box.innerHTML = "<h2>置くときに一緒に要るもの</h2>" +
+      '<p class="kd-accnote">' + (S.k === "fridge" ? "床と壁まわりに使う物です。" : "入れた条件（防水パン・排水口）から選んでいます。") + "サイズと取り付け方法は商品ページで確認してください。</p>" +
+      '<div class="kd-acclist">' + list.map(accCard).join("") + "</div>" +
+      (S.k === "washer" && ok(S.f) ? '<p class="kd-accnote">蛇口の部品（壁ピタ水栓など）は、交換に工事が要ることがあるので、ここには出していません。</p>' : "") +
+      '<p class="kd-acclink"><a href="' + (S.k === "fridge" ? "/sunpo/?place=fgap-15" : "/sunpo/?place=washer-top") + '">' +
+      (S.k === "fridge" ? "冷蔵庫の横のすき間に入るラックを、寸法アシスタントで探す" : "洗濯機の上に置くラックを、寸法アシスタントで探す") + "</a></p>";
+  }
+
   var timer = 0, shownKey = "";
   function render() {
     var ex = !(ok(S.w) && ok(S.d) && (S.k === "washer" || ok(S.h)));
@@ -181,11 +234,17 @@
     });
     var nOk = hits.filter(function (x) { return x.r.lv === "ok"; }).length;
     $("kdCount").textContent = (S.k === "fridge" ? "置けそうな冷蔵庫 " : "置けそうな洗濯機 ") + hits.length + "件" + (hits.length ? "（うち目安を満たす見込み " + nOk + "件）" : "");
+    // 隣接商品のブロックは一覧の作り直しで消えないよう、いったん一覧の外へ戻す
+    var cardsEl = $("kdCards"), accEl = $("kdAcc");
+    cardsEl.parentNode.insertBefore(accEl, cardsEl.nextSibling);
     $("kdCards").innerHTML = hits.length ? hits.map(card).join("") :
       '<div class="kd-empty">この寸法で置けそうな' + (S.k === "fridge" ? "冷蔵庫" : "洗濯機") + "は見つかりませんでした。" +
       (S.cap || S.type ? "容量や種類の絞り込みを「すべて」にすると見つかることがあります。" : "") +
       "寸法は、出っぱり（巾木・コンセント・蛇口）を避けた一番狭いところで測っているか確かめてください。</div>";
     each(".kd-sort button", function (b) { b.setAttribute("aria-pressed", String(b.dataset.s === S.sort)); });
+    renderAcc(hits);
+    // 結果が多いと一覧の下まで見られないので、3件目のすぐ後に差し込む
+    if (cardsEl.children.length > 3) cardsEl.insertBefore(accEl, cardsEl.children[3]);
     if (!ex) {
       clearTimeout(timer);
       var key = [S.k, S.w, S.d, S.h, S.cap, S.type].join("|");
@@ -230,7 +289,7 @@
   root.addEventListener("click", function (e) {
     var b = e.target.closest("button");
     var a = e.target.closest("a[data-track]");
-    if (a) track("product_click", { shop: a.dataset.shop });
+    if (a) track("product_click", { shop: a.dataset.shop, cause: a.dataset.acc ? "acc-" + a.dataset.acc : "" });
     if (!b) return;
     if (b.dataset.k) {
       S.k = b.dataset.k; S.cap = ""; S.type = "";
@@ -260,6 +319,12 @@
     each("#kdType button", function (x) { x.setAttribute("aria-pressed", String(x.dataset.v === S.type)); });
     render();
   }
+  // 隣接商品は別ファイル。読めなくても本体の判定はそのまま出す
+  var accLoad = window.KADEN_ACC ? Promise.resolve(window.KADEN_ACC)
+    : fetch(root.getAttribute("data-acc") || "acc.json", { cache: "no-cache" }).then(function (r) { return r.ok ? r.json() : null; }).catch(function () { return null; });
+  accLoad.then(function (d) {
+    if (d && d.items) { ACC = { items: d.items, keywords: d.keywords || {} }; if (ITEMS.length) render(); }
+  });
   (window.KADEN_DATA ? Promise.resolve(window.KADEN_DATA) : fetch(root.getAttribute("data-src") || "appliances.json", { cache: "no-cache" }).then(function (r) { return r.json(); }))
     .then(start)
     .catch(function () { $("kdCards").innerHTML = '<div class="kd-empty">商品の一覧を読み込めませんでした。時間をおいて開き直してください。</div>'; });

@@ -82,3 +82,16 @@
   .kd-cards{grid-template-columns:repeat(2,minmax(0,1fr))}
   .kd-form{display:block}
 }
+/* 置くときに一緒に要るもの（隣接商品）。本体のカードより一段控えめに */
+.kd-acc{margin-top:20px;padding:14px;border:1px solid var(--line);border-radius:var(--r-lg,20px);background:var(--bg)}
+.kd-acc h2{font-size:1.05rem;margin:0 0 4px}
+.kd-accnote{font-size:.8125rem;color:var(--sub);margin:4px 0 10px}
+.kd-acclist{display:grid;gap:10px}
+.kd-acccard{background:var(--card);border:1px solid var(--line);border-radius:var(--r-md,14px);padding:12px;min-width:0}
+.kd-acccard .kd-photo{flex-basis:72px;width:72px;height:72px}
+.kd-acccard h3{font-size:.9375rem;line-height:1.45;margin:0 0 2px;overflow-wrap:anywhere}
+.kd-accwhy{font-size:.875rem;margin:8px 0 0}
+.kd-acclink{font-size:.875rem;margin:10px 0 0}
+.kd-acclink a{color:var(--accent-ink);font-weight:700;display:inline-flex;align-items:center;min-height:44px}
+@media (min-width:861px){.kd-acclist{grid-template-columns:repeat(3,minmax(0,1fr))}}
+.kd-cards>.kd-acc{grid-column:1/-1;margin-top:0}
