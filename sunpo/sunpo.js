@@ -1,5 +1,7 @@
 /* 寸法アシスタント（/sunpo/）。外部ライブラリなし。products.json を同じフォルダから読む。
-   流れ：場所を選ぶ → その場所に合う種類だけに絞る → 寸法で判定する。 */
+   流れ：場所を選ぶ → その場所に合う種類だけに絞る → 寸法で判定する。
+   2026-10-19：第一画面は入力だけ（よくある置き場所4つ＋幅・奥行・高さ＋「入る収納を見る」）。初期値は空欄、見本は入力の下。
+   計測は input_done（入る収納を見る）・results_shown（cause＝件数の帯）・product_click（cause＝位置 p1〜、shop）と、もとからの ad_click だけ。 */
 (function () {
   "use strict";
   var root = document.getElementById("sunpo");
@@ -44,7 +46,7 @@
     u_rack: "sink_rack", gap_rack: "gap_wagon", kitchen_wagon: "gap_wagon", hanger_rack: "hanger", fridge_case: "fridge",
     door_pocket: "fridge", desk_wagon: "drawer", steel_rack: "furniture", laundry_rack: "tension", tension_shelf: "tension",
     magnet: "magnet", shoe_rack: "shoe", toilet_rack: "toilet" };
-  var S = { room: "kitchen", place: "sink", variant: "sink-door", type: "all", w: NaN, d: NaN, h: NaN, example: false, m: 0.5, rot: true, sort: "fit", view: "front", traps: {}, amt: {}, pipePos: NaN, mstep: "intro" };
+  var S = { room: "kitchen", place: "sink", variant: "sink-door", type: "all", w: NaN, d: NaN, h: NaN, example: false, m: 0.5, rot: true, sort: "fit", view: "front", traps: {}, amt: {}, pipePos: NaN, mstep: "dims" };
   var DATA = { items: [], rooms: [], types: [], unreadable: 0 };
   var PREP = {}; // 商品がそろっていない場所・形の違い（「準備中」）
   // 計測：window.SUNPO_TRACK_URL があれば、件数を数えるための最小限だけ送る（寸法の数字・商品ID・利用者を識別するものは送らない）
@@ -69,7 +71,7 @@
   // 「入りましたか？」の送り先。#sunpo の data-feedback か window.SUNPO_FEEDBACK_URL にあるときだけボタンを出す
   var FEEDBACK = root.getAttribute("data-feedback") || window.SUNPO_FEEDBACK_URL || "";
   var TYPE_NAME = {};
-  // 携帯（860px以下）は、入口 → 場所 → 寸法 → 候補 を1画面ずつ進める
+  // 携帯（860px以下）は、寸法（よくある置き場所つき）→ 候補 を1画面ずつ。ほかの場所は「場所」の画面で選ぶ
   var MOBILE = window.matchMedia ? window.matchMedia("(max-width: 860px)") : { matches: false };
   var WIZ = function () { return !!MOBILE.matches; };
 
@@ -110,6 +112,15 @@
     } else el.outerHTML = svgIcon(el.dataset.t);
   }, true);
 
+  // 外寸では入っても、その場所の収納ではない物（商品名で判定）。size_pages.py の PLACE_EXCLUDE と同じ語にそろえる
+  var PLACE_EXCLUDE = {
+    bed: /マスク|机上|デスク|卓上|フィッツワーク|ケーブル|マグネット|リモコン|ペン|文具/,
+    "fridge-gap": /ドアポケット|冷蔵庫内|庫内/,
+    "wash-gap": /ドアポケット|冷蔵庫内|庫内/
+  };
+  function badForPlace(it, placeId) { var re = PLACE_EXCLUDE[placeId]; return !!(re && re.test(it.name || "")); }
+  // その場所の候補にしてよいか（名前で別の場所用と分かる商品と、場所に合わない商品を外す）
+  function placeOk(it, place) { return !place || ((!it.places || it.places.indexOf(place.id) >= 0) && !badForPlace(it, place.id)); }
   function findRoom(id) { return DATA.rooms.filter(function (r) { return r.id === id; })[0]; }
   function findPlace(id) {
     var hit = null;
@@ -287,7 +298,31 @@
     renderTraps();
     renderGuide();
     renderTypes();
+    renderQuick();
   }
+  var QUICK = [["sink-door", "シンク下"], ["wb-door", "洗面台下"], ["bed-15", "ベッド下 15cm"], ["fgap-15", "冷蔵庫の横"]];
+  function renderQuick() {
+    var box = $("sunpoQuick");
+    if (!box) return;
+    box.innerHTML = QUICK.filter(function (q) { return !PREP[q[0]] && findVariant(q[0]); }).map(function (q) {
+      return '<button type="button" data-qv="' + q[0] + '" aria-pressed="' + (S.variant === q[0]) + '">' + esc(q[1]) + "</button>";
+    }).join("");
+  }
+  function findVariant(vid) {
+    var hit = null;
+    DATA.rooms.forEach(function (r) { r.places.forEach(function (p) { p.variants.forEach(function (v) { if (v.id === vid) hit = { room: r, place: p, v: v }; }); }); });
+    return hit;
+  }
+  root.addEventListener("click", function (e) {
+    var b = e.target.closest && e.target.closest("#sunpoQuick button");
+    if (!b) return;
+    var f = findVariant(b.dataset.qv);
+    if (!f) return;
+    S.room = f.room.id; pickPlace(f.place); S.variant = f.v.id; S.type = "all"; resetTraps();
+    renderRooms(); renderPlaces(); syncInputs(); render();
+    var first = ["sunpoW", "sunpoD", "sunpoH"].filter(function (id) { return !$(id).value; })[0];
+    if (first) $(first).focus();
+  });
   function renderTypes() {
     var p = currentPlace();
     var list = p ? p.types : DATA.types.map(function (t) { return t.id; });
@@ -312,33 +347,49 @@
   root.addEventListener("click", function (e) { if (e.target && e.target.id === "sunpoTry2") useExample(); });
   function syncInputs() {
     var blankEx = WIZ() && S.example;
+    var p = currentPlace(), ex = p ? (p.variants.filter(function (x) { return x.id === S.variant; })[0] || p.variants[0]) : null;
     [["sunpoW", "w"], ["sunpoD", "d"], ["sunpoH", "h"]].forEach(function (pair) {
       var el = $(pair[0]), v = S[pair[1]];
       if (!el.dataset.ph) el.dataset.ph = el.placeholder;
       el.value = !blankEx && isFinite(v) ? fmt(v) : "";
-      el.placeholder = blankEx && isFinite(v) ? "例 " + fmt(v) : el.dataset.ph;
+      el.placeholder = ex ? "例：" + fmt(ex[pair[1]]) : el.dataset.ph;
     });
     $("sunpoRot").checked = S.rot;
   }
   [["sunpoW", "w"], ["sunpoD", "d"], ["sunpoH", "h"]].forEach(function (pair) {
     $(pair[0]).addEventListener("input", function (e) {
-      if (!trackState.started) { trackState.started = true; track("input_start", { place: S.variant || "none" }); }
+      trackState.started = true;
       if (WIZ()) { S.w = num($("sunpoW").value); S.d = num($("sunpoD").value); S.h = num($("sunpoH").value); }
       else S[pair[1]] = num(e.target.value);
       S.example = false; render();
-    });
-    // 携帯：3つ目を入れ終えたら候補へ進む（この画面で初めてそろったときだけ。直しているときは進まない）
-    $(pair[0]).addEventListener("change", function () {
-      if (WIZ() && S.mstep === "dims" && autoGo && dimsOk() && !S.example) { autoGo = false; goStep("res", true); }
     });
     $(pair[0]).addEventListener("keydown", function (e) {
       if (e.key !== "Enter") return;
       e.preventDefault();
       var next = { sunpoW: "sunpoD", sunpoD: "sunpoH" }[pair[0]];
-      if (next) $(next).focus(); else e.target.blur();
+      if (next) $(next).focus(); else { e.target.blur(); submit(); }
     });
   });
-  var autoGo = false;
+  // 「入る収納を見る」：3つそろっていれば計測して候補へ。足りなければ空いている欄へ
+  function submit() {
+    if (!dimsOk()) {
+      var miss = [["sunpoW", "横幅"], ["sunpoD", "奥行"], ["sunpoH", "高さ"]].filter(function (x) { return !(num($(x[0]).value) > 0); });
+      $("sunpoGoHint").hidden = false;
+      $("sunpoGoHint").textContent = (miss.length ? miss.map(function (x) { return x[1]; }).join("・") + "を入れてください。" : "") + "空いたままだと大きすぎる商品まで出てしまうので、判定しません。";
+      if (miss[0]) $(miss[0][0]).focus();
+      return;
+    }
+    $("sunpoGoHint").hidden = true;
+    S.example = false;
+    var cond = [S.variant, S.w, S.d, S.h].join("|");
+    if (trackState.doneKey !== cond) { trackState.doneKey = cond; track("input_done", { place: S.variant || "none", cause: "submit" }); }
+    if (WIZ()) goStep("res", true);
+    else {
+      var top = $("sunpoResults").getBoundingClientRect().top + window.pageYOffset - 64;
+      try { window.scrollTo({ top: top, behavior: "smooth" }); } catch (e) { window.scrollTo(0, top); }
+    }
+  }
+  $("sunpoGo").addEventListener("click", submit);
   function dimsOk() { return [S.w, S.d, S.h].every(function (v) { return isFinite(v) && v > 0; }); }
   $("sunpoRot").addEventListener("change", function (e) { S.rot = e.target.checked; render(); });
   each("#sunpoMargin button", function (b) { b.addEventListener("click", function () { S.m = parseFloat(b.dataset.m); render(); }); });
@@ -465,12 +516,12 @@
     if (typeof t !== "string" || t.indexOf("{q}") < 0 || (p.links && p.links.amazon)) return "";
     return t.replace("{q}", encodeURIComponent(p.name));
   }
-  function linksHtml(p) {
-    var az = amazonSearch(p), many = Object.keys(p.links || {}).length + (az ? 1 : 0) > 1;
+  function linksHtml(p, pos) {
+    var az = amazonSearch(p), many = Object.keys(p.links || {}).length + (az ? 1 : 0) > 1, dp = pos ? ' data-pos="' + pos + '"' : "";
     return '<span class="sunpo-prtag" aria-label="広告">PR</span>' + ["rakuten", "yahoo", "amazon"].map(function (k) {
       var u = p.links && p.links[k];
-      return u ? '<a href="' + esc(u) + '" rel="sponsored noopener" target="_blank" data-track="' + esc(p.id) + '" data-shop="' + k + '">' + (many ? SHOP_SHORT[k] : SHOP_LABEL[k]) + "</a>" : "";
-    }).join("") + (az ? '<a class="sunpo-azs" href="' + esc(az) + '" rel="sponsored nofollow noopener" referrerpolicy="no-referrer-when-downgrade" attributionsrc target="_blank" data-track="' + esc(p.id) + '" data-shop="amazon">Amazonで探す</a>' : "");
+      return u ? '<a href="' + esc(u) + '" rel="sponsored noopener" target="_blank" data-track="' + esc(p.id) + '" data-shop="' + k + '"' + dp + ">" + (many ? SHOP_SHORT[k] : SHOP_LABEL[k]) + "</a>" : "";
+    }).join("") + (az ? '<a class="sunpo-azs" href="' + esc(az) + '" rel="sponsored nofollow noopener" referrerpolicy="no-referrer-when-downgrade" attributionsrc target="_blank" data-track="' + esc(p.id) + '" data-shop="amazon"' + dp + ">Amazonで探す</a>" : "");
   }
 
   function render() {
@@ -512,7 +563,7 @@
     var perType = {};
     (place ? place.types : DATA.types.map(function (t) { return t.id; })).forEach(function (t) { perType[t] = 0; });
     DATA.items.forEach(function (it) {
-      if (place && it.places && it.places.indexOf(place.id) < 0) return;
+      if (!placeOk(it, place)) return;
       if (perType[it.type] !== undefined && evaluate(it).best) perType[it.type]++;
     });
     each(".sunpo-type .sp-n", function (el) {
@@ -520,10 +571,11 @@
       el.textContent = n;
       el.parentNode.classList.toggle("sp-zero-type", n === 0);
     });
-    var fit = [], near = [];
+    var fit = [], near = [], dropped = 0;
     DATA.items.forEach(function (p) {
       if (types.indexOf(p.type) < 0) return; // 場所に合わない種類は、惜しい商品にも出さない
       if (place && p.places && p.places.indexOf(place.id) < 0) return; // 名前で別の場所用と分かる商品
+      if (place && badForPlace(p, place.id)) { if (evaluate(p).best) dropped++; return; } // 外寸では入るが、この場所の収納ではない物
       var r = evaluate(p);
       if (r.best) fit.push({ p: p, r: r.best });
       else if (r.rotOnly) near.push({ p: p, r: r.rotOnly });
@@ -538,12 +590,14 @@
     if (S.sort === "price") fit.sort(byLevel(function (a, b) { return (a.p.price || 1e9) - (b.p.price || 1e9); }));
     near.sort(function (a, b) { return a.r.short - b.r.short; });
 
-    $("sunpoCount").innerHTML = (place ? esc(place.name) + "に" : "") + "収まりそうな収納 <b>" + fit.length + "</b>件";
+    $("sunpoCount").innerHTML = (place ? esc(place.name) + "に" : "") + "収まりそうな収納 <b>" + fit.length + "</b>件" +
+      (DATA.updated ? '<small class="sp-date">（' + esc(ymd(DATA.updated)) + "時点）</small>" : "");
     jumpBar(fit.length);
 
     var cond = [S.variant, S.w, S.d, S.h, S.m, S.rot, S.type].join("|");
     var html = "";
-    fit.forEach(function (x) {
+    fit.forEach(function (x, i) {
+      x.pos = i + 1;
       if (WIZ()) { html += cardM(x); return; }
       var r = x.r, p = x.p;
       var z = function (v) { return v < 0.5 ? ' class="sp-zero"' : ""; };
@@ -552,45 +606,48 @@
         : (boxy ? '<span class="sunpo-spec sp-est">内寸の目安 幅' + fmt(Math.max(p.w - 2, 0)) + "×奥行" + fmt(Math.max(p.d - 2, 0)) + "×高さ" + fmt(Math.max(p.h - 2, 0)) + "cm（外寸−2cmの推定）</span>" : "");
       var lv = x.lv;
       var shot = p.img
-        ? '<a class="sunpo-photo" href="' + esc(mainLink(p)) + '" rel="sponsored noopener" target="_blank" data-track="' + esc(p.id) + '" data-shop="' + srcOf(p) + '">' +
+        ? '<a class="sunpo-photo" href="' + esc(mainLink(p)) + '" rel="sponsored noopener" target="_blank" data-track="' + esc(p.id) + '" data-shop="' + srcOf(p) + '" data-pos="' + x.pos + '">' +
           '<img src="' + esc(p.img) + '" alt="' + esc(photoAlt(p)) + '" loading="lazy" decoding="async" data-t="' + p.type + '" data-photo="1">' +
           '<span class="sunpo-typetag">' + icon(p.type) + "</span></a>"
         : '<div class="sunpo-thumb">' + icon(p.type) + "</div>";
       html += '<article class="sunpo-card sp-lv-' + lv.id + '">' +
         '<div class="sp-row">' + shot +
         '<div style="display:flex;flex-direction:column;gap:2px;min-width:0">' +
-        '<span class="sunpo-shop">' + esc(TYPE_NAME[p.type] || "") + " ・ " + esc(shopsLabel(p)) + " ・ " + esc(p.shop) + "</span><h3>" + esc(p.name) + "</h3>" +
-        '<span class="sunpo-spec">外寸 幅' + fmt(p.w) + "×奥行" + fmt(p.d) + "×高さ" + fmt(p.h) + "cm</span>" + inner + "</div></div>" +
+        "<h3>" + esc(p.name) + "</h3>" +
+        '<span class="sunpo-spec">外寸 幅' + fmt(p.w) + "×奥行" + fmt(p.d) + "×高さ" + fmt(p.h) + "cm　<b class=\"sp-least\">" + leastText(r) + "</b></span>" + inner +
+        (p.price ? '<span class="sunpo-price">' + priceText(p) + "（" + ymd(p.checked_at) + " 時点）</span>" : "") +
+        '<span class="sunpo-shop">' + esc(shopsLabel(p)) + " ・ " + esc(p.shop) + " ・ " + esc(TYPE_NAME[p.type] || "") + "</span></div></div>" +
         '<div class="sunpo-badges">' +
-        '<span class="sunpo-badge ' + lv.cls + '">' + lv.label + "</span>" +
+        (r.tight < 1 ? '<span class="sunpo-badge sp-tight">要確認（余り1cm未満）</span>' : "") +
         (r.o.rot && FRONT_TYPES.indexOf(p.type) >= 0 ? '<span class="sunpo-badge sp-rot">横向きなら収まる（前面の向きに注意）</span>' : "") +
         (p.set_available ? '<span class="sunpo-badge sp-cnt">セット販売あり</span>' : "") +
         (r.n > 1 ? '<span class="sunpo-badge sp-cnt">' + (r.ny > 1 ? "横" + r.nx + "×奥" + r.ny + "で" : "") + r.n + "個並ぶ</span>" : "") + "</div>" +
         '<p class="sunpo-auto">寸法は商品説明から自動で読み取り（未確認）' + (p.confidence === "高" ? "" : "・確度" + esc(p.confidence || "中")) + "</p>" +
         '<div class="sunpo-slack" aria-label="あと何cm余るか"><div>' + (r.nxZones && r.nxZones.length > 1 ? "横（片側・1個）" : "横（1個）") + "<b" + z(r.sw) + ">+" + fmt(r.sw) + "</b></div><div>奥行<b" + z(r.sd) + ">+" + fmt(r.sd) + "</b></div><div>高さ<b" + z(r.sh) + ">+" + fmt(r.sh) + "</b></div></div>" +
-        (p.price ? '<span class="sunpo-price">' + priceText(p) + "（" + ymd(p.checked_at) + " 時点）</span>" : "") +
         (lv.why ? '<p class="sunpo-caution">' + esc(lv.why) + "</p>" : "") +
         (r.straddle ? '<p class="sunpo-info">排水管をまたいで置ける可能性があります（脚の位置・棚板の切り欠きは商品ページで確認してください）。' +
           (p.w_range ? "伸縮範囲は幅" + fmt(p.w_range[0]) + "〜" + fmt(p.w_range[1]) + "cmです。" : "伸縮範囲も商品ページで確認してください。") + "</p>" : "") +
         (p.note && !r.straddle ? '<p class="sunpo-info">' + esc(p.note) + "。</p>" : "") +
         basis(p, r) +
-        '<div class="sunpo-links">' + linksHtml(p) + "</div>" +
+        '<div class="sunpo-links">' + linksHtml(p, x.pos) + "</div>" +
         (FEEDBACK ? '<div class="sunpo-fb" data-id="' + esc(p.id) + '"><span>置いてみた方へ：入りましたか？</span>' +
           '<button type="button" data-fb="fit">入った</button><button type="button" data-fb="tight">きつかった</button><button type="button" data-fb="no">入らなかった</button></div>' : "") +
         "</article>";
     });
     clearTimeout(trackState.timer);
     trackState.timer = setTimeout(function () {
-      if (trackState.started && trackState.doneKey !== cond) { trackState.doneKey = cond; track("input_done", { place: S.variant || "none", w: S.w, d: S.d, h: S.h }); }
-      if (trackState.shownKey !== cond) { trackState.shownKey = cond; track("results_shown", { place: S.variant || "none", count: fit.length }); }
-      // 0件の原因も、入力が落ち着いてから1回だけ（打っている途中の数字で数えない）
-      if (cause && trackState.zeroKey !== cond) { trackState.zeroKey = cond; track("zero_result", { cause: cause, place: S.variant || "none" }); }
+      var dk = [S.variant, S.w, S.d, S.h].join("|");
+      if (trackState.started && !S.example && trackState.doneKey !== dk) { trackState.doneKey = dk; track("input_done", { place: S.variant || "none", cause: "typed" }); }
+      var n = fit.length, bandN = n === 0 ? "0" : n <= 5 ? "1-5" : n <= 20 ? "6-20" : "21plus";
+      if (trackState.shownKey !== cond) { trackState.shownKey = cond; track("results_shown", { place: S.variant || "none", count: n, cause: bandN }); }
     }, 900);
     if (DATA.unreadable) html += '<p class="sunpo-unread">商品説明から寸法を読み取れなかった商品（' + DATA.unreadable + '件）は、判定できないため候補に出していません。</p>';
     var cause = "";
     if (!fit.length) {
       cause = zeroCause(place);
-      html = '<div class="sunpo-empty">' + (cause === "input"
+      var wd = cause === "input" ? null : widen(place);
+      html = (wd ? '<button type="button" class="sunpo-widen" id="sunpoWiden" data-k="' + wd.k + '">' + wd.name + "を2cm広げると " + wd.n + "件</button>" : "") +
+        '<div class="sunpo-empty">' + (cause === "input"
         ? "幅・奥行・高さに、とても小さい（または大きい）数字があります。cmで入っているか確かめてください（例：385mm → 38.5cm）。"
         : cause === "strict"
           ? "今の条件では入る商品がありません。すき間なし・横向きOK・種類を「すべて」にすると、" + relaxedCount + '件あります。<br><button type="button" class="sunpo-trybtn" id="sunpoRelax">条件をゆるめて探す</button>'
@@ -614,7 +671,8 @@
       nh += '<div class="sunpo-nitem"><div><div>' + esc(p.name) + '</div><div class="sunpo-why">' + why.join("・") + "</div>" +
         (alt ? '<div class="sunpo-alt">' + esc(alt) + "</div>" : "") + '</div><span class="sunpo-nsize">' + fmt(p.w) + "×" + fmt(p.d) + "×" + fmt(p.h) + "</span></div>";
     });
-    $("sunpoNearList").innerHTML = nh || '<div class="sunpo-alt">あと少しで入る商品はありません。</div>';
+    $("sunpoNearList").innerHTML = (nh || '<div class="sunpo-alt">あと少しで入る商品はありません。</div>') +
+      (dropped ? '<div class="sunpo-alt">外寸では入るものの、' + esc(place.name) + "の収納ではないため外した商品が" + dropped + "件あります（" + (place.id === "bed" ? "マスクケース・机上トレーなど" : "冷蔵庫の中で使う物など") + "）。</div>" : "");
     $("sunpoNearSum").textContent = "惜しい商品（" + near.length + "件）と足りない寸法";
 
     $("sunpoDiagram").hidden = $("sunpoNear").hidden = $("sunpoShare").hidden = false;
@@ -635,7 +693,7 @@
     var r = x.r, p = x.p, lv = x.lv;
     var zones = r.nxZones && r.nxZones.length > 1;
     var shot = p.img
-      ? '<a class="sunpo-photo" href="' + esc(mainLink(p)) + '" rel="sponsored noopener" target="_blank" data-track="' + esc(p.id) + '" data-shop="' + srcOf(p) + '">' +
+      ? '<a class="sunpo-photo" href="' + esc(mainLink(p)) + '" rel="sponsored noopener" target="_blank" data-track="' + esc(p.id) + '" data-shop="' + srcOf(p) + '" data-pos="' + x.pos + '">' +
         '<img src="' + esc(p.img) + '" alt="' + esc(photoAlt(p)) + '" loading="lazy" decoding="async" data-t="' + p.type + '" data-photo="1">' +
         '<span class="sunpo-typetag">' + icon(p.type) + "</span></a>"
       : '<div class="sunpo-thumb">' + icon(p.type) + "</div>";
@@ -643,16 +701,17 @@
     return '<article class="sunpo-card sp-mcard sp-lv-' + lv.id + '">' +
       '<div class="sp-row">' + shot + '<div class="sp-main">' +
       "<h3>" + esc(p.name) + "</h3>" +
-      '<span class="sp-src">' + esc(shopsLabel(p)) + "</span>" +
-      '<span class="sunpo-badge ' + lv.cls + '">' + lv.label + "</span>" +
+      '<p class="sp-dims1">外寸 ' + fmt(p.w) + "×" + fmt(p.d) + "×" + fmt(p.h) + 'cm　<b class="sp-least">' + leastText(r) + "</b></p>" +
       '<p class="sp-slack1" aria-label="あと何cm余るか">余り <span>' + (zones ? "横(片側)" : "横") + "<b>+" + fmt(r.sw) + "</b></span><span>奥<b>+" + fmt(r.sd) + "</b></span><span>上<b>+" + fmt(r.sh) + "</b></span></p>" +
       (p.price ? '<p class="sunpo-price">' + priceText(p, true) + "（" + ymd(p.checked_at).slice(5) + "時点）</p>" : "") +
+      '<span class="sp-src">' + esc(shopsLabel(p)) + "</span>" +
       "</div></div>" +
-      '<div class="sunpo-badges"><span class="sunpo-badge sp-auto">自動読み取り（未確認）</span>' +
-      reasons(p, r).map(function (t) { return '<span class="sunpo-badge sp-tight">要確認：' + t + "</span>"; }).join("") +
+      '<div class="sunpo-badges">' + (r.tight < 1 ? '<span class="sunpo-badge sp-tight">要確認（余り1cm未満）</span>' : "") +
       (r.n > 1 ? '<span class="sunpo-badge sp-cnt">' + r.n + "個並ぶ</span>" : "") +
       (p.set_available ? '<span class="sunpo-badge sp-cnt">セット販売あり</span>' : "") + "</div>" +
-      '<div class="sunpo-links">' + linksHtml(p) + "</div>" +
+      (function () { var o = reasons(p, r).filter(function (t) { return t !== "余り1cm未満"; }); return o.length ? '<p class="sp-note1">注意：' + esc(o.join("・")) + "（詳しくは下の「詳しく」）</p>" : ""; })() +
+      '<p class="sp-auto1">寸法は商品説明から自動で読み取り（未確認）</p>' +
+      '<div class="sunpo-links">' + linksHtml(p, x.pos) + "</div>" +
       '<details class="sunpo-mdetail"><summary>詳しく（寸法・注意・根拠）</summary>' +
       '<p class="sp-dline">' + esc(TYPE_NAME[p.type] || "") + " ・ " + esc(p.shops ? [p.shops.rakuten, p.shops.yahoo].filter(Boolean).join("／") : p.shop) + "</p>" +
       '<p class="sp-dline">外寸 幅' + fmt(p.w) + "×奥行" + fmt(p.d) + "×高さ" + fmt(p.h) + "cm" + (inner ? "／" + inner : "") + "</p>" +
@@ -665,6 +724,10 @@
       "</details></article>";
   }
 
+  function leastText(r) {
+    var a = [["横", r.sw], ["奥行", r.sd], ["高さ", r.sh]].sort(function (x, y) { return x[1] - y[1]; })[0];
+    return a[0] + "は" + fmt(a[1]) + "cm余る";
+  }
   function priceText(p, bold) {
     var yen = function (v) { var t = Number(v).toLocaleString("ja-JP") + "円"; return bold ? "<b>" + t + "</b>" : t; };
     var ks = Object.keys(p.prices || {});
@@ -699,11 +762,28 @@
     S.m = 0; S.rot = true;
     var types = place ? place.types : DATA.types.map(function (t) { return t.id; });
     relaxedCount = DATA.items.filter(function (it) {
-      return types.indexOf(it.type) >= 0 && (!place || !it.places || it.places.indexOf(place.id) >= 0) && evaluate(it).best;
+      return types.indexOf(it.type) >= 0 && placeOk(it, place) && evaluate(it).best;
     }).length;
     S.m = keep.m; S.rot = keep.rot;
     return relaxedCount ? "strict" : "none";
   }
+  // 寸法を1つだけ2cm広げたときの件数（いちばん増える寸法を1つ出す）
+  function widen(place) {
+    var types = allowedTypes(), best = null;
+    [["h", "高さ"], ["w", "横幅"], ["d", "奥行"]].forEach(function (k) {
+      var keep = S[k[0]];
+      S[k[0]] = keep + 2;
+      var n = DATA.items.filter(function (it) { return types.indexOf(it.type) >= 0 && placeOk(it, place) && evaluate(it).best; }).length;
+      S[k[0]] = keep;
+      if (n > 0 && (!best || n > best.n)) best = { k: k[0], name: k[1], n: n };
+    });
+    return best;
+  }
+  root.addEventListener("click", function (e) {
+    if (!e.target || e.target.id !== "sunpoWiden") return;
+    var k = e.target.dataset.k;
+    S[k] = S[k] + 2; S.example = false; syncInputs(); render();
+  });
   root.addEventListener("click", function (e) {
     if (!e.target || e.target.id !== "sunpoRelax") return;
     S.m = 0; S.rot = true; S.type = "all"; syncInputs(); renderTypes(); render();
@@ -712,20 +792,37 @@
     var p = currentPlace();
     if (!p) return "場所の指定なし";
     var v = p.variants.filter(function (x) { return x.id === S.variant; })[0];
-    return p.name + (v && p.variants.length > 1 ? "（" + v.name + "）" : "");
+    return p.name + (v && p.variants.length > 1 ? "・" + v.name : "");
   }
   var TRAP_SHORT = { hinge: "扉の蝶番", base: "巾木", outlet: "コンセント" };
-  function stepQs() { return WIZ() && S.mstep !== "intro" ? "&st=" + S.mstep : ""; }
+  function stepQs() { return WIZ() && S.mstep !== "dims" ? "&st=" + S.mstep : ""; }
+  // 見本：今の置き場所の例の寸法で、入る件数と写真3枚（入力の値は使わない）
+  function sampleFit() {
+    var p = currentPlace();
+    if (!p) return null;
+    var v = p.variants.filter(function (x) { return x.id === S.variant; })[0] || p.variants[0];
+    var keep = { w: S.w, d: S.d, h: S.h };
+    S.w = v.w; S.d = v.d; S.h = v.h;
+    var types = allowedTypes(), out = [];
+    DATA.items.forEach(function (it) {
+      if (types.indexOf(it.type) < 0 || !placeOk(it, p)) return;
+      var r = evaluate(it);
+      if (r.best) out.push({ p: it, r: r.best });
+    });
+    S.w = keep.w; S.d = keep.d; S.h = keep.h;
+    out.sort(function (a, b) { return a.r.tight - b.r.tight; });
+    return { v: v, fit: out };
+  }
   function wizUpdate(fit) {
     if (!WIZ()) return;
     var ok = dimsOk(), dims = ok ? fmt(S.w) + "×" + fmt(S.d) + "×" + fmt(S.h) + "cm" : "";
-    // 入口：例の結果（件数と写真3枚）
-    $("sunpoIntroEx").hidden = !S.example;
-    $("sunpoIntroCond").textContent = placeLabel() + (ok ? "　幅" + fmt(S.w) + "×奥行" + fmt(S.d) + "×高さ" + fmt(S.h) + "cm" : "");
-    $("sunpoIntroCount").innerHTML = fit ? "収まりそうな収納 <b>" + fit.length + "</b>件" : "";
-    var shots = (fit || []).filter(function (x) { return x.p.img; }).slice(0, 3);
+    var smp = sampleFit();
+    $("sunpoIntroEx").hidden = false;
+    $("sunpoIntroCond").textContent = smp ? placeLabel() + "　幅" + fmt(smp.v.w) + "×奥行" + fmt(smp.v.d) + "×高さ" + fmt(smp.v.h) + "cmなら" : "";
+    $("sunpoIntroCount").innerHTML = smp ? "収まりそうな収納 <b>" + smp.fit.length + "</b>件" : "";
+    var shots = (smp ? smp.fit : []).filter(function (x) { return x.p.img; }).slice(0, 3);
     $("sunpoIntroPhotos").innerHTML = shots.length ? shots.map(function (x) {
-      return '<a href="' + esc(mainLink(x.p)) + '" rel="sponsored noopener" target="_blank" data-track="' + esc(x.p.id) + '" data-shop="' + srcOf(x.p) + '">' +
+      return '<a href="' + esc(mainLink(x.p)) + '" rel="sponsored noopener" target="_blank" data-track="' + esc(x.p.id) + '" data-shop="' + srcOf(x.p) + '" data-cause="sample">' +
         '<img src="' + esc(x.p.img) + '" alt="' + esc(photoAlt(x.p)) + '" decoding="async"></a>';
     }).join("") + '<span class="sp-cap">PR　' + esc(shots.map(function (x) { return SRC_NAME[srcOf(x.p)]; }).filter(function (v, i, a) { return a.indexOf(v) === i; }).join("・")) + "の商品</span>" : "";
     // 候補の画面の上の条件
@@ -747,17 +844,11 @@
     $("sunpoMore").querySelector("summary").textContent = f.length ? "絞り込み中：" + f.join("・") : "絞り込み（種類・すき間・向き）";
     // 下の「戻る／次へ」
     var back = $("sunpoBack"), next = $("sunpoNext");
-    if (S.mstep === "place") { back.dataset.go = "intro"; next.dataset.go = "dims"; next.disabled = false; next.textContent = "次へ：寸法を入れる"; }
-    if (S.mstep === "dims") {
-      back.dataset.go = "place"; next.dataset.go = "res";
-      var miss = [S.w, S.d, S.h].filter(function (v) { return !(isFinite(v) && v > 0); }).length;
-      next.disabled = !ok;
-      next.textContent = !ok ? "あと" + miss + "つ入れてください" : (S.example ? "例の寸法で候補を見る（" : "候補を見る（") + (fit ? fit.length : 0) + "件）";
-    }
+    if (S.mstep === "place") { back.dataset.go = "dims"; next.dataset.go = "dims"; next.disabled = false; next.textContent = "この場所で寸法を入れる"; }
   }
   function goStep(st, push) {
+    if (st === "intro") st = "dims"; // 入口の見本はやめた（古いリンクの ?st=intro も寸法の画面へ）
     if (st === "res" && !dimsOk()) st = "dims";
-    if (st === "dims" && S.mstep !== "dims") autoGo = !dimsOk() || S.example;
     S.mstep = st;
     root.setAttribute("data-mstep", st);
     if (st !== "dims") root.classList.remove("sp-trapopen");
@@ -769,7 +860,6 @@
     }
     syncInputs(); render(); steps(st === "res");
     if (push) window.scrollTo(0, 0);
-    track("step", { to: st, place: S.variant || "none" });
   }
   root.addEventListener("click", function (e) {
     var b = e.target.closest && e.target.closest("[data-go]");
@@ -779,9 +869,10 @@
   });
   window.addEventListener("popstate", function () {
     if (!WIZ()) return;
-    var st = (location.search.match(/[?&]st=(\w+)/) || [])[1] || "intro";
+    var st = (location.search.match(/[?&]st=(\w+)/) || [])[1] || "dims";
     goStep(st, false);
   });
+  $("sunpoIntroGo").addEventListener("click", function () { useExample(); if (WIZ()) goStep("res", true); });
   $("sunpoTrapSum").addEventListener("click", function () { root.classList.toggle("sp-trapopen"); render(); });
   $("sunpoFigBtn").addEventListener("click", function () {
     var open = root.classList.toggle("sp-fig");
@@ -883,7 +974,7 @@
 
   root.addEventListener("click", function (e) {
     var a = e.target.closest && e.target.closest("a[data-track]");
-    if (a) track("product_click", { id: a.dataset.track, shop: a.dataset.shop || "rakuten", place: S.variant || "none" });
+    if (a) track("product_click", { id: a.dataset.track, shop: a.dataset.shop || "rakuten", place: S.variant || "none", cause: a.dataset.pos ? "p" + a.dataset.pos : a.dataset.cause || "" });
     var ad = e.target.closest && e.target.closest("a[data-ad]");
     if (ad) track("ad_click", { id: ad.dataset.ad, shop: "a8", place: S.variant || "none" });
   });
@@ -938,7 +1029,7 @@
         var any = 0;
         p.variants.forEach(function (v) {
           S.place = p.id; S.variant = v.id; S.w = v.w; S.d = v.d; S.h = v.h; S.rot = true; resetTraps();
-          var n = DATA.items.filter(function (it) { return p.types.indexOf(it.type) >= 0 && (!it.places || it.places.indexOf(p.id) >= 0) && evaluate(it).best; }).length;
+          var n = DATA.items.filter(function (it) { return p.types.indexOf(it.type) >= 0 && placeOk(it, p) && evaluate(it).best; }).length;
           if (n < 3) PREP[v.id] = true; else any++;
         });
         if (!any) PREP[p.id] = true;
@@ -954,14 +1045,14 @@
     DATA.types.forEach(function (t) { TYPE_NAME[t.id] = t.name; if (t.img) TYPE_IMG[t.id] = t.img; });
     DATA.unreadable = data.unreadable || 0;
     DATA.guide_img = data.guide_img || {};
+    DATA.updated = data.updated || "";
     markPrep();
     if (!DATA.rooms.length) { S.room = "none"; S.place = null; S.variant = null; }
     readQuery();
     resetTraps(); // 最初に開いたときも、その場所の落とし穴の既定値（シンク下の排水管など）を入れる
     renderRooms();
     applyMode();
-    // 寸法の指定がなければ、例の寸法で開く（「例の寸法で表示中」の帯つき。自分で数字を入れると帯は消える）
-    if (![S.w, S.d, S.h].every(function (v) { return isFinite(v) && v > 0; })) useExample();
+    // 寸法の指定がなければ空欄のまま開く（見本は入力の下に例の寸法で出す）。?place=&w=&d=&h= があれば入れて候補まで出す
     if (WIZ()) goStep(S.mstep, false); else { syncInputs(); render(); }
   }
 

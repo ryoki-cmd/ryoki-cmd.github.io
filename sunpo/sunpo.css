@@ -289,11 +289,16 @@
   .sp-wiz{padding-block:4px 16px;gap:14px}
   .sp-wiz .sunpo-hero h1{font-size:1.3rem;line-height:1.45;word-break:keep-all}
   .sp-wiz .sunpo-pr{font-size:.8125rem}
-  .sp-wiz:not([data-mstep="intro"]) .sunpo-hero{display:none}
+  .sp-wiz:not([data-mstep="dims"]) .sunpo-hero,.sp-wiz:not([data-mstep="dims"]) .sunpo-desc{display:none}
   /* 入口 */
-  .sp-wiz[data-mstep="intro"] .sunpo-tool,.sp-wiz[data-mstep="intro"] .sunpo-steps,.sp-wiz[data-mstep="intro"] .sunpo-mnav{display:none}
-  .sp-wiz[data-mstep="intro"] .sunpo-intro{display:flex}
-  .sp-wiz[data-mstep="intro"] .sunpo-howto{display:block}
+  /* 第一画面（寸法）：見出し → よくある置き場所＋寸法＋「入る収納を見る」→ PR の1行・説明・見本・使い方（2026-10-19） */
+  .sp-wiz[data-mstep="dims"] .sunpo-steps,.sp-wiz[data-mstep="dims"] .sunpo-mnav{display:none}
+  .sp-wiz[data-mstep="dims"] .sunpo-intro{display:flex}
+  .sp-wiz[data-mstep="dims"] .sunpo-howto{display:block}
+  .sp-wiz[data-mstep="dims"] .sunpo-hero{order:0}.sp-wiz[data-mstep="dims"] .sunpo-tool{order:1}.sp-wiz[data-mstep="dims"] .sunpo-pr{order:2}
+  .sp-wiz[data-mstep="dims"] .sunpo-desc{order:3}.sp-wiz[data-mstep="dims"] .sunpo-kaden{order:4}.sp-wiz[data-mstep="dims"] .sunpo-intro{order:5}.sp-wiz[data-mstep="dims"] .sunpo-howto{order:6}
+  .sp-wiz .sunpo-desc{font-size:.875rem;color:var(--sub);line-height:1.7}
+  .sp-wiz .sunpo-other{display:block}
   .sunpo-intro{flex-direction:column;gap:10px;background:var(--card);border:1px solid var(--line);border-radius:16px;padding:14px}
   .sunpo-introcond{font-size:.875rem;color:var(--sub);line-height:1.6}
   .sunpo-introcount{font-size:1.1rem;font-weight:700}
@@ -429,3 +434,25 @@
 .sunpo .sunpo-kaden{margin:0 0 12px;font-size:.875rem}
 .sunpo .sunpo-kaden a{display:inline-flex;align-items:center;min-height:44px;color:var(--accent-ink);font-weight:700}
 .sunpo .sunpo-kaden a::after{content:"→";margin-left:4px}
+
+/* ===== 第一画面は入力だけ（2026-10-19）：よくある置き場所・主ボタン・件数の日付・カードの余り ===== */
+.sunpo-hero{order:0}.sunpo-pr{order:1}.sunpo-tool{order:2}.sunpo-desc{order:3;color:var(--sub)}.sunpo-kaden{order:4}
+.sunpo-intro,.sunpo-steps,.sunpo-howto{order:5}.sunpo-mnav{order:6}
+.sunpo-quick{display:flex;flex-wrap:wrap;gap:8px;margin:6px 0 2px}
+.sunpo-quick button{min-height:44px;padding:8px 16px;border:1.5px solid var(--line);background:var(--card);border-radius:999px;font-weight:700;font-size:.9rem;cursor:pointer}
+.sunpo-quick button[aria-pressed="true"]{background:var(--accent);border-color:var(--accent);color:#fff}
+.sunpo-other{display:none;border:0;background:none;color:var(--accent-ink);font-weight:700;font-size:.875rem;text-decoration:underline;min-height:44px;padding:0;cursor:pointer;text-align:left}
+.sunpo-go{display:block;width:100%;min-height:52px;margin-top:12px;border:0;border-radius:999px;background:var(--accent);color:#fff;font-weight:700;font-size:1.05rem;cursor:pointer}
+.sunpo-go:focus-visible{outline:3px solid var(--accent-ink);outline-offset:2px}
+.sunpo-gohint{font-size:.875rem;color:var(--sp-tight);margin-top:6px}
+.sunpo-gohint[hidden]{display:none}
+.sunpo-rhead h2 .sp-date{font-size:.8125rem;font-weight:400;color:var(--sub);margin-left:4px}
+.sp-least{color:var(--accent-ink);font-weight:700}
+.sp-dims1{font-size:.875rem;line-height:1.5}
+.sp-note1,.sp-auto1{font-size:.8125rem;color:var(--sub);margin:4px 0 0}
+.sunpo-widen{display:block;width:100%;min-height:52px;border:2px solid var(--accent);background:var(--soft);color:var(--accent-ink);border-radius:12px;font-weight:700;font-size:1rem;cursor:pointer;margin-bottom:10px}
+.sunpo .sunpo-go{color:#fff}.sunpo .sunpo-widen{color:var(--accent-ink)}
+/* パソコンは場所の一覧が見えているので「よくある置き場所」は携帯だけ。寸法が空のときは図の枠を出さない */
+.sunpo-quick{display:none}
+@media (max-width:860px){.sp-wiz .sunpo-quick{display:flex}}
+.sunpo-diagram[hidden],.sunpo-near[hidden],.sunpo-share[hidden]{display:none}
