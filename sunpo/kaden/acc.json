@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-20",
+ "updated": "2026-10-21",
  "keywords": {
   "fridge-mat": "冷蔵庫マット",
   "fridge-belt": "冷蔵庫 転倒防止 ベルト",
@@ -12,20 +12,6 @@
  "items": {
   "fridge-mat": [
    {
-    "name": "冷蔵庫マット 透明 冷蔵庫 マット 2mm 巻かず型",
-    "price": 2280,
-    "img": "https://item-shopping.c.yimg.jp/i/g/teruyukimall_f-gro-9855-s",
-    "src": "yahoo",
-    "url": "https://store.shopping.yahoo.co.jp/teruyukimall/f-gro-9855-s.html",
-    "shop": "いつも幸便",
-    "reviews": 1010,
-    "rating": 4.51,
-    "checked_at": "2026-10-20",
-    "links": {
-     "yahoo": "https://store.shopping.yahoo.co.jp/teruyukimall/f-gro-9855-s.html"
-    }
-   },
-   {
     "name": "即納 冷蔵庫 マット 透明 冷蔵庫下マット 下敷き 防カビ",
     "price": 2090,
     "img": "https://thumbnail.image.rakuten.co.jp/@0_mall/shinko9868/cabinet/10984165/10984168/imgrc0089186476.jpg?_ex=300x300",
@@ -34,23 +20,37 @@
     "shop": "新光ネット販売店",
     "reviews": 524,
     "rating": 4.5,
-    "checked_at": "2026-10-20",
+    "checked_at": "2026-10-21",
     "links": {
      "rakuten": "https://hb.afl.rakuten.co.jp/hgc/g00thrzo.d4l21b1d.g00thrzo.d4l22eeb/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fshinko9868%2Frefrigerator-mat%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fshinko9868%2Fi%2F10000414%2F&rafcid=wsc_i_is_f39725d4-39b5-46c2-8048-e2b2a03cda3a"
     }
    },
    {
-    "name": "冷蔵庫マット 透明 ポリカーボネート 傷防止 下敷き 床保護シート",
-    "price": 3430,
-    "img": "https://item-shopping.c.yimg.jp/i/g/ek-hirano_ek-kbmr01mcl",
-    "src": "yahoo",
-    "url": "https://store.shopping.yahoo.co.jp/ek-hirano/ek-kbmr01mcl.html",
-    "shop": "e-kit(いーきっと)",
-    "reviews": 523,
-    "rating": 4.68,
-    "checked_at": "2026-10-20",
+    "name": "冷蔵庫 マット M / L LF500B10b000",
+    "price": 2680,
+    "img": "https://thumbnail.image.rakuten.co.jp/@0_mall/life-inc/cabinet/11_hosyuhin-hogozai/fc-kb_350nz.jpg?_ex=300x300",
+    "src": "rakuten",
+    "url": "https://hb.afl.rakuten.co.jp/hgc/g00qvs5o.d4l2114f.g00qvs5o.d4l220ef/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Flife-inc%2F160727-1400-0004-500-10%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Flife-inc%2Fi%2F10051579%2F&rafcid=wsc_i_is_f39725d4-39b5-46c2-8048-e2b2a03cda3a",
+    "shop": "すまいのコンビニ",
+    "reviews": 338,
+    "rating": 4.62,
+    "checked_at": "2026-10-21",
     "links": {
-     "yahoo": "https://store.shopping.yahoo.co.jp/ek-hirano/ek-kbmr01mcl.html"
+     "rakuten": "https://hb.afl.rakuten.co.jp/hgc/g00qvs5o.d4l2114f.g00qvs5o.d4l220ef/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Flife-inc%2F160727-1400-0004-500-10%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Flife-inc%2Fi%2F10051579%2F&rafcid=wsc_i_is_f39725d4-39b5-46c2-8048-e2b2a03cda3a"
+    }
+   },
+   {
+    "name": "冷蔵庫マット 透明 硬質 ポリカーボネート製 S/M/Lサイズ",
+    "price": 2420,
+    "img": "https://thumbnail.image.rakuten.co.jp/@0_mall/smile88/cabinet/master/1st/a16475.jpg?_ex=300x300",
+    "src": "rakuten",
+    "url": "https://hb.afl.rakuten.co.jp/hgc/g00q6peo.d4l215da.g00q6peo.d4l22b29/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fsmile88%2Fa16475%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fsmile88%2Fi%2F10065699%2F&rafcid=wsc_i_is_f39725d4-39b5-46c2-8048-e2b2a03cda3a",
+    "shop": "タープ&テントのスマイルプライス",
+    "reviews": 176,
+    "rating": 4.59,
+    "checked_at": "2026-10-21",
+    "links": {
+     "rakuten": "https://hb.afl.rakuten.co.jp/hgc/g00q6peo.d4l215da.g00q6peo.d4l22b29/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fsmile88%2Fa16475%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fsmile88%2Fi%2F10065699%2F&rafcid=wsc_i_is_f39725d4-39b5-46c2-8048-e2b2a03cda3a"
     }
    }
   ],
@@ -64,7 +64,7 @@
     "shop": "サンワダイレクト楽天市場店",
     "reviews": 142,
     "rating": 4.54,
-    "checked_at": "2026-10-20",
+    "checked_at": "2026-10-21",
     "links": {
      "rakuten": "https://hb.afl.rakuten.co.jp/hgc/g00pmmbo.d4l2195f.g00pmmbo.d4l22913/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fsanwadirect%2F200-ql009k%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fsanwadirect%2Fi%2F10098344%2F&rafcid=wsc_i_is_f39725d4-39b5-46c2-8048-e2b2a03cda3a"
     }
@@ -78,7 +78,7 @@
     "shop": "ルクス",
     "reviews": 36,
     "rating": 4.08,
-    "checked_at": "2026-10-20",
+    "checked_at": "2026-10-21",
     "links": {
      "rakuten": "https://hb.afl.rakuten.co.jp/hgc/g00q6vlo.d4l21f82.g00q6vlo.d4l22ff4/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Frukusu%2Fhitachi-r826cv300%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Frukusu%2Fi%2F10008125%2F&rafcid=wsc_i_is_f39725d4-39b5-46c2-8048-e2b2a03cda3a"
     }
@@ -92,7 +92,7 @@
     "shop": "タツフトTFiショップ",
     "reviews": 35,
     "rating": 4.4,
-    "checked_at": "2026-10-20",
+    "checked_at": "2026-10-21",
     "links": {
      "rakuten": "https://hb.afl.rakuten.co.jp/hgc/g00u3gfo.d4l21f92.g00u3gfo.d4l22260/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Ftfi-shop%2Ftpff-5075v%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Ftfi-shop%2Fi%2F10000038%2F&rafcid=wsc_i_is_f39725d4-39b5-46c2-8048-e2b2a03cda3a"
     }
@@ -106,9 +106,9 @@
     "src": "rakuten",
     "url": "https://hb.afl.rakuten.co.jp/hgc/g00tfbho.d4l2135f.g00tfbho.d4l2293f/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fnext-online%2F10000180%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fnext-online%2Fi%2F10000180%2F&rafcid=wsc_i_is_f39725d4-39b5-46c2-8048-e2b2a03cda3a",
     "shop": "Nextオンライン",
-    "reviews": 42275,
+    "reviews": 42292,
     "rating": 4.6,
-    "checked_at": "2026-10-20",
+    "checked_at": "2026-10-21",
     "links": {
      "rakuten": "https://hb.afl.rakuten.co.jp/hgc/g00tfbho.d4l2135f.g00tfbho.d4l2293f/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fnext-online%2F10000180%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fnext-online%2Fi%2F10000180%2F&rafcid=wsc_i_is_f39725d4-39b5-46c2-8048-e2b2a03cda3a"
     }
@@ -122,7 +122,7 @@
     "shop": "電材ドットコム楽天市場店",
     "reviews": 2992,
     "rating": 4.61,
-    "checked_at": "2026-10-20",
+    "checked_at": "2026-10-21",
     "links": {
      "rakuten": "https://hb.afl.rakuten.co.jp/hgc/g00qirqo.d4l21971.g00qirqo.d4l22919/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fjoint-service%2F4518301100245%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fjoint-service%2Fi%2F10054280%2F&rafcid=wsc_i_is_f39725d4-39b5-46c2-8048-e2b2a03cda3a"
     }
@@ -134,9 +134,9 @@
     "src": "rakuten",
     "url": "https://hb.afl.rakuten.co.jp/hgc/g00u3gfo.d4l21f92.g00u3gfo.d4l22260/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Ftfi-shop%2Ftfi-9045%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Ftfi-shop%2Fi%2F10000005%2F&rafcid=wsc_i_is_f39725d4-39b5-46c2-8048-e2b2a03cda3a",
     "shop": "タツフトTFiショップ",
-    "reviews": 2918,
+    "reviews": 2920,
     "rating": 4.59,
-    "checked_at": "2026-10-20",
+    "checked_at": "2026-10-21",
     "links": {
      "rakuten": "https://hb.afl.rakuten.co.jp/hgc/g00u3gfo.d4l21f92.g00u3gfo.d4l22260/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Ftfi-shop%2Ftfi-9045%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Ftfi-shop%2Fi%2F10000005%2F&rafcid=wsc_i_is_f39725d4-39b5-46c2-8048-e2b2a03cda3a"
     }
@@ -146,105 +146,91 @@
    {
     "name": "洗濯機用ニップル 洗濯機用L型ニップル 給水ホース接続 水栓 蛇口",
     "price": 2150,
-    "img": "https://item-shopping.c.yimg.jp/i/g/kohnan-eshop_4548927008328",
-    "src": "yahoo",
-    "url": "https://store.shopping.yahoo.co.jp/kohnan-eshop/4548927008328.html",
-    "shop": "コーナンeショップ Yahoo!ショッピング店",
-    "reviews": 30,
-    "rating": 4.9,
-    "checked_at": "2026-10-20",
+    "img": "https://thumbnail.image.rakuten.co.jp/@0_mall/kohnan-eshop/cabinet/goods/202011/s1/4548927008328.jpg?_ex=300x300",
+    "src": "rakuten",
+    "url": "https://hb.afl.rakuten.co.jp/hgc/g00ssuao.d4l21e5e.g00ssuao.d4l22083/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fkohnan-eshop%2F4548927008328%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fkohnan-eshop%2Fi%2F10146709%2F&rafcid=wsc_i_is_f39725d4-39b5-46c2-8048-e2b2a03cda3a",
+    "shop": "コーナンeショップ 楽天市場店",
+    "reviews": 27,
+    "rating": 4.33,
+    "checked_at": "2026-10-21",
     "links": {
-     "yahoo": "https://store.shopping.yahoo.co.jp/kohnan-eshop/4548927008328.html"
+     "rakuten": "https://hb.afl.rakuten.co.jp/hgc/g00ssuao.d4l21e5e.g00ssuao.d4l22083/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fkohnan-eshop%2F4548927008328%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fkohnan-eshop%2Fi%2F10146709%2F&rafcid=wsc_i_is_f39725d4-39b5-46c2-8048-e2b2a03cda3a"
     }
    },
    {
     "name": "コーナン オリジナル 全自動洗濯機用給水ホース 金具付 0.5m",
     "price": 1380,
-    "img": "https://item-shopping.c.yimg.jp/i/g/kohnan-eshop_4522831508006",
-    "src": "yahoo",
-    "url": "https://store.shopping.yahoo.co.jp/kohnan-eshop/4522831508006.html",
-    "shop": "コーナンeショップ Yahoo!ショッピング店",
-    "reviews": 24,
-    "rating": 4.67,
-    "checked_at": "2026-10-20",
+    "img": "https://thumbnail.image.rakuten.co.jp/@0_mall/kohnan-eshop/cabinet/goods/202104/s1/4522831508006.jpg?_ex=300x300",
+    "src": "rakuten",
+    "url": "https://hb.afl.rakuten.co.jp/hgc/g00ssuao.d4l21e5e.g00ssuao.d4l22083/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fkohnan-eshop%2F4522831508006%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fkohnan-eshop%2Fi%2F10052810%2F&rafcid=wsc_i_is_f39725d4-39b5-46c2-8048-e2b2a03cda3a",
+    "shop": "コーナンeショップ 楽天市場店",
+    "reviews": 14,
+    "rating": 4.57,
+    "checked_at": "2026-10-21",
     "links": {
-     "yahoo": "https://store.shopping.yahoo.co.jp/kohnan-eshop/4522831508006.html"
+     "rakuten": "https://hb.afl.rakuten.co.jp/hgc/g00ssuao.d4l21e5e.g00ssuao.d4l22083/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fkohnan-eshop%2F4522831508006%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fkohnan-eshop%2Fi%2F10052810%2F&rafcid=wsc_i_is_f39725d4-39b5-46c2-8048-e2b2a03cda3a"
     }
    },
    {
-    "name": "三栄水栓 SANEI 自動洗濯機給水ホース",
-    "price": 796,
-    "img": "https://item-shopping.c.yimg.jp/i/g/yamakishi_4973987750410",
-    "src": "yahoo",
-    "url": "https://store.shopping.yahoo.co.jp/yamakishi/4973987750410.html",
-    "shop": "ヤマキシヤフー店",
-    "reviews": 17,
-    "rating": 4.94,
-    "checked_at": "2026-10-20",
+    "name": "洗濯機 給水ホース 0.8m 自動洗濯機用 ワンタッチ接続 元口付き",
+    "price": 927,
+    "img": "https://thumbnail.image.rakuten.co.jp/@0_mall/vaps/cabinet/image55/4582523948046_1.jpg?_ex=300x300",
+    "src": "rakuten",
+    "url": "https://hb.afl.rakuten.co.jp/hgc/g00pyugo.d4l21040.g00pyugo.d4l221be/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fvaps%2F4582523948046%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fvaps%2Fi%2F10205222%2F&rafcid=wsc_i_is_f39725d4-39b5-46c2-8048-e2b2a03cda3a",
+    "shop": "YouShowShop",
+    "reviews": 9,
+    "rating": 3.78,
+    "checked_at": "2026-10-21",
     "links": {
-     "yahoo": "https://store.shopping.yahoo.co.jp/yamakishi/4973987750410.html"
+     "rakuten": "https://hb.afl.rakuten.co.jp/hgc/g00pyugo.d4l21040.g00pyugo.d4l221be/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fvaps%2F4582523948046%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fvaps%2Fi%2F10205222%2F&rafcid=wsc_i_is_f39725d4-39b5-46c2-8048-e2b2a03cda3a"
     }
    }
   ],
   "washer-drain": [
    {
-    "name": "延長 排水ホース 洗濯機排水ホース 洗濯機用 延長ホース 1.2m",
-    "price": 1860,
-    "img": "https://item-shopping.c.yimg.jp/i/g/rinosuke-shop_laundry-hose",
-    "src": "yahoo",
-    "url": "https://store.shopping.yahoo.co.jp/rinosuke-shop/laundry-hose.html",
-    "shop": "りの助商店",
-    "reviews": 99,
-    "rating": 4.43,
-    "checked_at": "2026-10-20",
+    "name": "洗濯機用伸縮排水ホース L型・I型 約330〜930mm 差し込み式",
+    "price": 1280,
+    "img": "https://thumbnail.image.rakuten.co.jp/@0_mall/ernest/cabinet/default/t40/se-0001.jpg?_ex=300x300",
+    "src": "rakuten",
+    "url": "https://hb.afl.rakuten.co.jp/hgc/g00unwwo.d4l21c97.g00unwwo.d4l226db/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fernest%2Fse-0001%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fernest%2Fi%2F10000086%2F&rafcid=wsc_i_is_f39725d4-39b5-46c2-8048-e2b2a03cda3a",
+    "shop": "ERNEST【アーネスト】",
+    "reviews": 16,
+    "rating": 4.88,
+    "checked_at": "2026-10-21",
     "links": {
-     "yahoo": "https://store.shopping.yahoo.co.jp/rinosuke-shop/laundry-hose.html"
+     "rakuten": "https://hb.afl.rakuten.co.jp/hgc/g00unwwo.d4l21c97.g00unwwo.d4l226db/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fernest%2Fse-0001%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fernest%2Fi%2F10000086%2F&rafcid=wsc_i_is_f39725d4-39b5-46c2-8048-e2b2a03cda3a"
     }
    },
    {
-    "name": "洗濯機排水ホース 延長 排水ホース 洗濯機用排水ホース 延長ホース",
-    "price": 1800,
-    "img": "https://item-shopping.c.yimg.jp/i/g/rinosuke-shop_laundry-hosel",
-    "src": "yahoo",
-    "url": "https://store.shopping.yahoo.co.jp/rinosuke-shop/laundry-hosel.html",
-    "shop": "りの助商店",
-    "reviews": 33,
-    "rating": 4.48,
-    "checked_at": "2026-10-20",
+    "name": "日立洗濯機用の延長用排水ホース(長さ:約80cm) 1個",
+    "price": 1188,
+    "img": "https://thumbnail.image.rakuten.co.jp/@0_mall/denkiti/cabinet/hitachi/wash/kw-50k1023_00.jpg?_ex=300x300",
+    "src": "rakuten",
+    "url": "https://hb.afl.rakuten.co.jp/hgc/g00pob7o.d4l21b80.g00pob7o.d4l22533/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fdenkiti%2Fkw-50k1023%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fdenkiti%2Fi%2F10017630%2F&rafcid=wsc_i_is_f39725d4-39b5-46c2-8048-e2b2a03cda3a",
+    "shop": "でん吉",
+    "reviews": 12,
+    "rating": 4.42,
+    "checked_at": "2026-10-21",
     "links": {
-     "yahoo": "https://store.shopping.yahoo.co.jp/rinosuke-shop/laundry-hosel.html"
+     "rakuten": "https://hb.afl.rakuten.co.jp/hgc/g00pob7o.d4l21b80.g00pob7o.d4l22533/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fdenkiti%2Fkw-50k1023%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fdenkiti%2Fi%2F10017630%2F&rafcid=wsc_i_is_f39725d4-39b5-46c2-8048-e2b2a03cda3a"
     }
    },
    {
-    "name": "42040746 東芝 全自動洗濯機 用の 洗濯機用 排水延長ホース",
-    "price": 1540,
-    "img": "https://item-shopping.c.yimg.jp/i/g/denkiti_42040746",
-    "src": "yahoo",
-    "url": "https://store.shopping.yahoo.co.jp/denkiti/42040746.html",
-    "shop": "でん吉Yahoo!店",
-    "reviews": 25,
-    "rating": 4.32,
-    "checked_at": "2026-10-20",
+    "name": "日立 延長用排水ホース(長さ:約80cm) KW-50K1-023",
+    "price": 1636,
+    "img": "https://thumbnail.image.rakuten.co.jp/@0_mall/rukusu/cabinet/folder11/hitachi-kw50k1023_1.jpg?_ex=300x300",
+    "src": "rakuten",
+    "url": "https://hb.afl.rakuten.co.jp/hgc/g00q6vlo.d4l21f82.g00q6vlo.d4l22ff4/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Frukusu%2Fhitachi-kw50k1023%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Frukusu%2Fi%2F10008140%2F&rafcid=wsc_i_is_f39725d4-39b5-46c2-8048-e2b2a03cda3a",
+    "shop": "ルクス",
+    "reviews": 9,
+    "rating": 3.56,
+    "checked_at": "2026-10-21",
     "links": {
-     "yahoo": "https://store.shopping.yahoo.co.jp/denkiti/42040746.html"
+     "rakuten": "https://hb.afl.rakuten.co.jp/hgc/g00q6vlo.d4l21f82.g00q6vlo.d4l22ff4/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Frukusu%2Fhitachi-kw50k1023%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Frukusu%2Fi%2F10008140%2F&rafcid=wsc_i_is_f39725d4-39b5-46c2-8048-e2b2a03cda3a"
     }
    }
   ],
   "washer-mat": [
-   {
-    "name": "洗濯機用防振ゴムマット ニューしずか TW-660 4個入り",
-    "price": 1000,
-    "img": "https://item-shopping.c.yimg.jp/i/g/tokyobouon_tw-660",
-    "src": "yahoo",
-    "url": "https://store.shopping.yahoo.co.jp/tokyobouon/tw-660.html",
-    "shop": "東京防音株式会社",
-    "reviews": 203,
-    "rating": 4.54,
-    "checked_at": "2026-10-20",
-    "links": {
-     "yahoo": "https://store.shopping.yahoo.co.jp/tokyobouon/tw-660.html"
-    }
-   },
    {
     "name": "防振マット 5x5-t1cm 4枚入 硬度5種類から選択 防振ゴム",
     "price": 2500,
@@ -254,23 +240,37 @@
     "shop": "ノンブレンの枚方技研",
     "reviews": 110,
     "rating": 4.31,
-    "checked_at": "2026-10-20",
+    "checked_at": "2026-10-21",
     "links": {
      "rakuten": "https://hb.afl.rakuten.co.jp/hgc/g00rzw4o.d4l21917.g00rzw4o.d4l22579/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fhirakata-g%2F77644000%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fhirakata-g%2Fi%2F10000142%2F&rafcid=wsc_i_is_f39725d4-39b5-46c2-8048-e2b2a03cda3a"
     }
    },
    {
     "name": "WAKI 和気産業 ハイパー防振ゴムマット EGH005 ブラック",
-    "price": 1680,
+    "price": 2053,
     "img": "https://thumbnail.image.rakuten.co.jp/@0_mall/brico/cabinet/35/04463573-277335_1.jpg?_ex=300x300",
     "src": "rakuten",
     "url": "https://hb.afl.rakuten.co.jp/hgc/g00pnmgo.d4l21ae1.g00pnmgo.d4l2288d/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fbrico%2F04463573%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fbrico%2Fi%2F10008952%2F&rafcid=wsc_i_is_f39725d4-39b5-46c2-8048-e2b2a03cda3a",
     "shop": "ホームセンターブリコ",
     "reviews": 84,
     "rating": 4.4,
-    "checked_at": "2026-10-20",
+    "checked_at": "2026-10-21",
     "links": {
      "rakuten": "https://hb.afl.rakuten.co.jp/hgc/g00pnmgo.d4l21ae1.g00pnmgo.d4l2288d/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fbrico%2F04463573%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fbrico%2Fi%2F10008952%2F&rafcid=wsc_i_is_f39725d4-39b5-46c2-8048-e2b2a03cda3a"
+    }
+   },
+   {
+    "name": "WAKI 和気産業 ハイパー防振ゴムマット EGH006",
+    "price": 2053,
+    "img": "https://thumbnail.image.rakuten.co.jp/@0_mall/brico/cabinet/64/04863434-277564_1.jpg?_ex=300x300",
+    "src": "rakuten",
+    "url": "https://hb.afl.rakuten.co.jp/hgc/g00pnmgo.d4l21ae1.g00pnmgo.d4l2288d/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fbrico%2F04863434%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fbrico%2Fi%2F10012494%2F&rafcid=wsc_i_is_f39725d4-39b5-46c2-8048-e2b2a03cda3a",
+    "shop": "ホームセンターブリコ",
+    "reviews": 42,
+    "rating": 4.36,
+    "checked_at": "2026-10-21",
+    "links": {
+     "rakuten": "https://hb.afl.rakuten.co.jp/hgc/g00pnmgo.d4l21ae1.g00pnmgo.d4l2288d/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fbrico%2F04863434%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fbrico%2Fi%2F10012494%2F&rafcid=wsc_i_is_f39725d4-39b5-46c2-8048-e2b2a03cda3a"
     }
    }
   ]
