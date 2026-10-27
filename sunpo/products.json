@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-27",
+ "updated": "2026-10-28",
  "sample": false,
  "types": [
   {
@@ -1141,7 +1141,7 @@
   "D": "types/guide-d-floor.jpg",
   "colorbox": "types/guide-colorbox.jpg"
  },
- "unreadable": 385,
+ "unreadable": 366,
  "items": [
   {
    "id": "nitori:10202123",
@@ -1151,7 +1151,7 @@
    "w": 74.0,
    "shop": "ニトリ",
    "price": 11990,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "clothes_case",
    "places": [
     "oshiire",
@@ -1179,7 +1179,7 @@
    "w": 37.0,
    "shop": "ニトリ",
    "price": 5990,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "clothes_case",
    "places": [
     "oshiire",
@@ -1207,7 +1207,7 @@
    "w": 19.2,
    "shop": "ニトリ",
    "price": 699,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "inner_box",
    "places": [
     "wall",
@@ -1239,7 +1239,7 @@
    "w": 38.9,
    "shop": "ニトリ",
    "price": 699,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "inner_box",
    "places": [
     "wall",
@@ -1271,7 +1271,7 @@
    "h": 66.0,
    "shop": "ニトリ",
    "price": null,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "clothes_case",
    "places": [
     "oshiire",
@@ -1300,7 +1300,7 @@
    "h": 85.0,
    "shop": "ニトリ",
    "price": null,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "clothes_case",
    "places": [
     "oshiire",
@@ -1329,7 +1329,7 @@
    "h": 105.0,
    "shop": "ニトリ",
    "price": null,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "clothes_case",
    "places": [
     "oshiire",
@@ -1358,7 +1358,7 @@
    "h": 144.0,
    "shop": "ニトリ",
    "price": null,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "clothes_case",
    "places": [
     "oshiire",
@@ -1387,7 +1387,7 @@
    "h": 66.0,
    "shop": "ニトリ",
    "price": null,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "clothes_case",
    "places": [
     "oshiire",
@@ -1416,7 +1416,7 @@
    "h": 85.0,
    "shop": "ニトリ",
    "price": null,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "clothes_case",
    "places": [
     "oshiire",
@@ -1445,7 +1445,7 @@
    "h": 105.0,
    "shop": "ニトリ",
    "price": null,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "clothes_case",
    "places": [
     "oshiire",
@@ -1474,7 +1474,7 @@
    "h": 144.0,
    "shop": "ニトリ",
    "price": null,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "clothes_case",
    "places": [
     "oshiire",
@@ -1503,7 +1503,7 @@
    "h": 66.0,
    "shop": "ニトリ",
    "price": null,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "clothes_case",
    "places": [
     "oshiire",
@@ -1532,7 +1532,7 @@
    "h": 85.0,
    "shop": "ニトリ",
    "price": null,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "clothes_case",
    "places": [
     "oshiire",
@@ -1561,7 +1561,7 @@
    "h": 105.0,
    "shop": "ニトリ",
    "price": null,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "clothes_case",
    "places": [
     "oshiire",
@@ -1590,7 +1590,7 @@
    "h": 144.0,
    "shop": "ニトリ",
    "price": null,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "clothes_case",
    "places": [
     "oshiire",
@@ -1619,7 +1619,7 @@
    "w": 19.2,
    "shop": "ニトリ",
    "price": 499,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "inner_box",
    "places": [
     "wall",
@@ -1651,7 +1651,7 @@
    "h": 23.6,
    "shop": "ニトリ",
    "price": null,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "inner_box",
    "places": [
     "wall",
@@ -1689,7 +1689,7 @@
    "h": 23.6,
    "shop": "ニトリ",
    "price": null,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "inner_box",
    "places": [
     "wall",
@@ -1727,7 +1727,7 @@
    "h": 12.5,
    "shop": "ニトリ",
    "price": null,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "drawer_case",
    "places": [
     "sink",
@@ -1767,7 +1767,7 @@
    "h": 19.0,
    "shop": "ニトリ",
    "price": null,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "drawer_case",
    "places": [
     "sink",
@@ -1807,7 +1807,7 @@
    "h": 25.0,
    "shop": "ニトリ",
    "price": null,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "drawer_case",
    "places": [
     "sink",
@@ -1847,7 +1847,7 @@
    "h": 12.5,
    "shop": "ニトリ",
    "price": null,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "drawer_case",
    "places": [
     "sink",
@@ -1887,7 +1887,7 @@
    "h": 19.0,
    "shop": "ニトリ",
    "price": null,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "drawer_case",
    "places": [
     "sink",
@@ -1927,7 +1927,7 @@
    "h": 25.0,
    "shop": "ニトリ",
    "price": null,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "drawer_case",
    "places": [
     "sink",
@@ -1967,7 +1967,7 @@
    "w": 38.0,
    "shop": "ニトリ",
    "price": 399,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "inner_box",
    "places": [
     "wall",
@@ -1999,7 +1999,7 @@
    "w": 34.0,
    "shop": "ニトリ",
    "price": 6490,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "chest_multi",
    "places": [
     "wash-gap",
@@ -2034,7 +2034,7 @@
    "w": 30.0,
    "shop": "ニトリ",
    "price": 4490,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "u_rack",
    "places": [
     "sink",
@@ -2065,7 +2065,7 @@
    "h": 33.3,
    "shop": "ニトリ",
    "price": null,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "lid_box",
    "places": [
     "wall",
@@ -2102,7 +2102,7 @@
    "h": 33.3,
    "shop": "ニトリ",
    "price": null,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "lid_box",
    "places": [
     "wall",
@@ -2139,7 +2139,7 @@
    "h": 33.3,
    "shop": "ニトリ",
    "price": null,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "lid_box",
    "places": [
     "wall",
@@ -2176,7 +2176,7 @@
    "h": 15.0,
    "shop": "ニトリ",
    "price": null,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "small_case",
    "places": [
     "sink",
@@ -2218,7 +2218,7 @@
    "h": 18.0,
    "shop": "ニトリ",
    "price": null,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "small_case",
    "places": [
     "sink",
@@ -2260,7 +2260,7 @@
    "h": 21.0,
    "shop": "ニトリ",
    "price": null,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "small_case",
    "places": [
     "sink",
@@ -2302,7 +2302,7 @@
    "w": 39.0,
    "shop": "ニトリ",
    "price": 999,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "clothes_case",
    "places": [
     "oshiire",
@@ -2330,7 +2330,7 @@
    "h": 35.4,
    "shop": "ニトリ",
    "price": null,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "inner_box",
    "places": [
     "wall",
@@ -2368,7 +2368,7 @@
    "h": 35.4,
    "shop": "ニトリ",
    "price": null,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "inner_box",
    "places": [
     "wall",
@@ -2401,7 +2401,7 @@
    "w": 80.0,
    "shop": "ニトリ",
    "price": 29990,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "chest_multi",
    "places": [
     "wash-gap",
@@ -2431,7 +2431,7 @@
    "h": 66.0,
    "shop": "ニトリ",
    "price": null,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "chest_multi",
    "places": [
     "wash-gap",
@@ -2462,7 +2462,7 @@
    "h": 85.0,
    "shop": "ニトリ",
    "price": null,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "chest_multi",
    "places": [
     "wash-gap",
@@ -2493,7 +2493,7 @@
    "h": 105.0,
    "shop": "ニトリ",
    "price": null,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "chest_multi",
    "places": [
     "wash-gap",
@@ -2524,7 +2524,7 @@
    "h": 144.0,
    "shop": "ニトリ",
    "price": null,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "chest_multi",
    "places": [
     "wash-gap",
@@ -2555,7 +2555,7 @@
    "w": 55.0,
    "shop": "ニトリ",
    "price": 1190,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "soft",
    "places": [
     "wall",
@@ -2585,7 +2585,7 @@
    "w": 34.0,
    "shop": "ニトリ",
    "price": 4490,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "chest_multi",
    "places": [
     "wash-gap",
@@ -2620,7 +2620,7 @@
    "w": 118.0,
    "shop": "ニトリ",
    "price": 29990,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "chest_multi",
    "places": [
     "wash-gap",
@@ -2650,7 +2650,7 @@
    "w": 38.0,
    "shop": "ニトリ",
    "price": 1791,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "inner_box",
    "places": [
     "wall",
@@ -2682,7 +2682,7 @@
    "w": 44.5,
    "shop": "ニトリ",
    "price": 699,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "u_rack",
    "places": [
     "sink",
@@ -2718,7 +2718,7 @@
    "w": 13.0,
    "shop": "ニトリ",
    "price": 999,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "small_case",
    "places": [
     "sink",
@@ -2761,7 +2761,7 @@
    "w": 13.0,
    "shop": "ニトリ",
    "price": 499,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "small_case",
    "places": [
     "sink",
@@ -2790,6 +2790,102 @@
    "status": "自動抽出（未確認）"
   },
   {
+   "id": "nitori:10147790#1",
+   "name": "フレンチカントリー風フリーラック（オープンスペース）",
+   "w": 25.0,
+   "d": 28.0,
+   "h": 46.0,
+   "shop": "ニトリ",
+   "price": null,
+   "checked_at": "2026-10-28",
+   "type": "u_rack",
+   "places": [
+    "sink",
+    "stove",
+    "cupboard",
+    "appliance-top",
+    "fridge-top",
+    "washbasin"
+   ],
+   "links": {
+    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/g00py47o.d4l21296.g00py47o.d4l22b90/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fnitori%2F8880109%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fnitori%2Fi%2F10147790%2F&rafcid=wsc_i_is_f39725d4-39b5-46c2-8048-e2b2a03cda3a"
+   },
+   "item_url": "https://hb.afl.rakuten.co.jp/hgc/g00py47o.d4l21296.g00py47o.d4l22b90/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fnitori%2F8880109%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fnitori%2Fi%2F10147790%2F&rafcid=wsc_i_is_f39725d4-39b5-46c2-8048-e2b2a03cda3a",
+   "source": "rakuten",
+   "img": "https://thumbnail.image.rakuten.co.jp/@0_mall/nitori/cabinet/88801/888010901.jpg?_ex=300x300",
+   "src": "商品説明から抽出（サイズ違いを分割）",
+   "variant": "オープンスペース",
+   "evidence": "詳細サイズ】■オープンスペース:幅25×奥行28×高さ46cm",
+   "dim_kind": "外寸（表記から判断）",
+   "unit": "cm",
+   "confidence": "中",
+   "status": "自動抽出（未確認）"
+  },
+  {
+   "id": "nitori:10147790#2",
+   "name": "フレンチカントリー風フリーラック（扉内）",
+   "w": 25.0,
+   "d": 28.0,
+   "h": 33.0,
+   "shop": "ニトリ",
+   "price": null,
+   "checked_at": "2026-10-28",
+   "type": "u_rack",
+   "places": [
+    "sink",
+    "stove",
+    "cupboard",
+    "appliance-top",
+    "fridge-top",
+    "washbasin"
+   ],
+   "links": {
+    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/g00py47o.d4l21296.g00py47o.d4l22b90/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fnitori%2F8880109%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fnitori%2Fi%2F10147790%2F&rafcid=wsc_i_is_f39725d4-39b5-46c2-8048-e2b2a03cda3a"
+   },
+   "item_url": "https://hb.afl.rakuten.co.jp/hgc/g00py47o.d4l21296.g00py47o.d4l22b90/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fnitori%2F8880109%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fnitori%2Fi%2F10147790%2F&rafcid=wsc_i_is_f39725d4-39b5-46c2-8048-e2b2a03cda3a",
+   "source": "rakuten",
+   "img": "https://thumbnail.image.rakuten.co.jp/@0_mall/nitori/cabinet/88801/888010901.jpg?_ex=300x300",
+   "src": "商品説明から抽出（サイズ違いを分割）",
+   "variant": "扉内",
+   "evidence": "動ピッチ:3cm/9段階■扉内:幅25×奥行28×高さ33cm",
+   "dim_kind": "外寸（表記から判断）",
+   "unit": "cm",
+   "confidence": "中",
+   "status": "自動抽出（未確認）"
+  },
+  {
+   "id": "nitori:10147790#3",
+   "name": "フレンチカントリー風フリーラック（繊維板サイズ）",
+   "w": 30.0,
+   "d": 31.0,
+   "h": 92.0,
+   "shop": "ニトリ",
+   "price": null,
+   "checked_at": "2026-10-28",
+   "type": "u_rack",
+   "places": [
+    "sink",
+    "stove",
+    "cupboard",
+    "appliance-top",
+    "fridge-top",
+    "washbasin"
+   ],
+   "links": {
+    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/g00py47o.d4l21296.g00py47o.d4l22b90/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fnitori%2F8880109%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fnitori%2Fi%2F10147790%2F&rafcid=wsc_i_is_f39725d4-39b5-46c2-8048-e2b2a03cda3a"
+   },
+   "item_url": "https://hb.afl.rakuten.co.jp/hgc/g00py47o.d4l21296.g00py47o.d4l22b90/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fnitori%2F8880109%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fnitori%2Fi%2F10147790%2F&rafcid=wsc_i_is_f39725d4-39b5-46c2-8048-e2b2a03cda3a",
+   "source": "rakuten",
+   "img": "https://thumbnail.image.rakuten.co.jp/@0_mall/nitori/cabinet/88801/888010901.jpg?_ex=300x300",
+   "src": "商品説明から抽出（サイズ違いを分割）",
+   "variant": "繊維板サイズ",
+   "evidence": "ュ主な素材:繊維板サイズ(約):幅30×奥行31×高さ92cm",
+   "dim_kind": "外寸（表記から判断）",
+   "unit": "cm",
+   "confidence": "中",
+   "status": "自動抽出（未確認）"
+  },
+  {
    "id": "nitori:10323426",
    "name": "仕切りがはずせる ハコブ Nインボックスニトリ",
    "d": 15.5,
@@ -2797,7 +2893,7 @@
    "w": 24.6,
    "shop": "ニトリ",
    "price": 799,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "small_case",
    "places": [
     "sink",
@@ -2833,7 +2929,7 @@
    "w": 26.0,
    "shop": "ニトリ",
    "price": 2490,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "basket",
    "places": [
     "sink",
@@ -2873,7 +2969,7 @@
    "w": 150.0,
    "shop": "ニトリ",
    "price": 19990,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "furniture",
    "places": [],
    "links": {
@@ -2902,7 +2998,7 @@
    "w": 32.0,
    "shop": "ニトリ",
    "price": 1190,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "inner_box",
    "places": [
     "wall",
@@ -2934,7 +3030,7 @@
    "w": 19.1,
    "shop": "ニトリ",
    "price": 599,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "inner_box",
    "places": [
     "wall",
@@ -2966,7 +3062,7 @@
    "w": 38.7,
    "shop": "ニトリ",
    "price": 799,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "inner_box",
    "places": [
     "wall",
@@ -2998,7 +3094,7 @@
    "w": 70.0,
    "shop": "ニトリ",
    "price": 1490,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "clothes_case",
    "places": [
     "oshiire",
@@ -3026,7 +3122,7 @@
    "w": 26.0,
    "shop": "ニトリ",
    "price": 1161,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "basket",
    "places": [
     "sink",
@@ -3066,7 +3162,7 @@
    "w": 48.0,
    "shop": "ニトリ",
    "price": 1190,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "clothes_case",
    "places": [
     "oshiire",
@@ -3094,7 +3190,7 @@
    "w": 39.5,
    "shop": "ニトリ",
    "price": 4290,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "furniture",
    "places": [],
    "links": {
@@ -3118,7 +3214,7 @@
    "w": 21.5,
    "shop": "ニトリ",
    "price": 1990,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "small_case",
    "places": [
     "sink",
@@ -3154,7 +3250,7 @@
    "w": 26.0,
    "shop": "ニトリ",
    "price": 2490,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "file_box",
    "places": [
     "sink",
@@ -3183,34 +3279,6 @@
    "status": "自動抽出（未確認）"
   },
   {
-   "id": "nitori:10269086",
-   "name": "透明窓付き 衣類収納ボックス (RT7035 仕切り3マス)",
-   "d": 35.0,
-   "h": 30.0,
-   "w": 70.0,
-   "shop": "ニトリ",
-   "price": 1290,
-   "checked_at": "2026-10-27",
-   "type": "clothes_case",
-   "places": [
-    "oshiire",
-    "closet",
-    "bed"
-   ],
-   "links": {
-    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/g00py47o.d4l21296.g00py47o.d4l22b90/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fnitori%2F8490232%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fnitori%2Fi%2F10269086%2F&rafcid=wsc_i_is_f39725d4-39b5-46c2-8048-e2b2a03cda3a"
-   },
-   "item_url": "https://hb.afl.rakuten.co.jp/hgc/g00py47o.d4l21296.g00py47o.d4l22b90/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fnitori%2F8490232%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fnitori%2Fi%2F10269086%2F&rafcid=wsc_i_is_f39725d4-39b5-46c2-8048-e2b2a03cda3a",
-   "source": "rakuten",
-   "img": "https://thumbnail.image.rakuten.co.jp/@0_mall/nitori/cabinet/84902/849023201.jpg?_ex=300x300",
-   "src": "商品説明から抽出",
-   "evidence": "(約)5〜20枚【サイズ(約)】幅70×奥行35×高さ30cm",
-   "dim_kind": "外寸（表記から判断）",
-   "unit": "cm",
-   "confidence": "中",
-   "status": "自動抽出（未確認）"
-  },
-  {
    "id": "nitori:10329423",
    "name": "ファイルケース (NN03 1024)",
    "d": 24.0,
@@ -3218,7 +3286,7 @@
    "w": 9.6,
    "shop": "ニトリ",
    "price": 799,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "file_box",
    "places": [
     "sink",
@@ -3254,7 +3322,7 @@
    "w": 10.0,
    "shop": "ニトリ",
    "price": 999,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "file_box",
    "places": [
     "sink",
@@ -3290,7 +3358,7 @@
    "w": 59.0,
    "shop": "ニトリ",
    "price": 17990,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "chest_multi",
    "places": [
     "wash-gap",
@@ -3320,7 +3388,7 @@
    "h": 180.0,
    "shop": "ニトリ",
    "price": null,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "hanger_rack",
    "places": [],
    "links": {
@@ -3350,7 +3418,7 @@
    "h": 39.6,
    "shop": "ニトリ",
    "price": null,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "hanger_rack",
    "places": [],
    "links": {
@@ -3380,7 +3448,7 @@
    "w": 20.0,
    "shop": "ニトリ",
    "price": 14990,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "gap_rack",
    "places": [
     "fridge-gap",
@@ -3411,7 +3479,7 @@
    "h": 6.0,
    "shop": "ニトリ",
    "price": null,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "fridge_case",
    "places": [
     "fridge"
@@ -3438,7 +3506,7 @@
    "h": 6.0,
    "shop": "ニトリ",
    "price": null,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "fridge_case",
    "places": [
     "fridge"
@@ -3465,7 +3533,7 @@
    "w": 45.0,
    "shop": "ニトリ",
    "price": 16790,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "furniture",
    "places": [],
    "links": {
@@ -3489,7 +3557,7 @@
    "w": 40.0,
    "shop": "ニトリ",
    "price": 19990,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "gap_rack",
    "places": [
     "fridge-gap",
@@ -3520,7 +3588,7 @@
    "w": 149.3,
    "shop": "ニトリ",
    "price": 35990,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "furniture",
    "places": [],
    "links": {
@@ -3544,7 +3612,7 @@
    "w": 20.0,
    "shop": "ニトリ",
    "price": 699,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "basket",
    "places": [
     "sink",
@@ -3584,7 +3652,7 @@
    "w": 38.0,
    "shop": "ニトリ",
    "price": 1341,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "inner_box",
    "places": [
     "wall",
@@ -3616,7 +3684,7 @@
    "w": 19.0,
    "shop": "ニトリ",
    "price": 899,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "inner_box",
    "places": [
     "wall",
@@ -3648,7 +3716,7 @@
    "w": 26.0,
    "shop": "ニトリ",
    "price": 799,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "small_case",
    "places": [
     "sink",
@@ -3684,7 +3752,7 @@
    "h": 13.5,
    "shop": "ニトリ",
    "price": null,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "fridge_case",
    "places": [
     "fridge"
@@ -3711,7 +3779,7 @@
    "h": 13.5,
    "shop": "ニトリ",
    "price": null,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "fridge_case",
    "places": [
     "fridge"
@@ -3738,7 +3806,7 @@
    "h": 13.5,
    "shop": "ニトリ",
    "price": null,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "fridge_case",
    "places": [
     "fridge"
@@ -3765,7 +3833,7 @@
    "h": 60.3,
    "shop": "ニトリ",
    "price": 6978,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "gap_rack",
    "places": [
     "fridge-gap",
@@ -3796,7 +3864,7 @@
    "w": 17.4,
    "shop": "ニトリ",
    "price": 999,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "small_case",
    "places": [
     "sink",
@@ -3843,7 +3911,7 @@
    "w": 25.5,
    "shop": "ニトリ",
    "price": 1290,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "small_case",
    "places": [
     "sink",
@@ -3879,7 +3947,7 @@
    "w": 26.8,
    "shop": "ニトリ",
    "price": 1990,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "small_case",
    "places": [
     "sink",
@@ -3926,7 +3994,7 @@
    "h": 4.5,
    "shop": "ニトリ",
    "price": 2340,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "small_case",
    "places": [
     "sink",
@@ -3963,7 +4031,7 @@
    "h": 39.5,
    "shop": "ニトリ",
    "price": null,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "ext_rack",
    "places": [
     "sink",
@@ -4004,7 +4072,7 @@
    "h": 39.5,
    "shop": "ニトリ",
    "price": null,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "ext_rack",
    "places": [
     "sink",
@@ -4045,7 +4113,7 @@
    "w": 13.0,
    "shop": "ニトリ",
    "price": 1290,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "lid_box",
    "places": [
     "wall",
@@ -4076,7 +4144,7 @@
    "w": 46.7,
    "shop": "ニトリ",
    "price": 5990,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "ext_rack",
    "places": [
     "sink",
@@ -4116,7 +4184,7 @@
    "w": 45.0,
    "shop": "ニトリ",
    "price": 2490,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "ext_rack",
    "places": [
     "sink",
@@ -4156,7 +4224,7 @@
    "w": 26.0,
    "shop": "ニトリ",
    "price": 2990,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "ext_rack",
    "places": [
     "sink",
@@ -4192,7 +4260,7 @@
    "w": 13.0,
    "shop": "ニトリ",
    "price": 8566,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "ext_rack",
    "places": [
     "sink",
@@ -4229,7 +4297,7 @@
    "h": 6.0,
    "shop": "ニトリ",
    "price": null,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "tension_shelf",
    "places": [
     "washer-top",
@@ -4257,7 +4325,7 @@
    "h": 6.0,
    "shop": "ニトリ",
    "price": null,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "tension_shelf",
    "places": [
     "washer-top",
@@ -4285,7 +4353,7 @@
    "w": 18.2,
    "shop": "ニトリ",
    "price": 3490,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "gap_rack",
    "places": [
     "fridge-gap",
@@ -4316,7 +4384,7 @@
    "h": 75.0,
    "shop": "ニトリ",
    "price": null,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "gap_rack",
    "places": [
     "fridge-gap",
@@ -4348,7 +4416,7 @@
    "h": 75.0,
    "shop": "ニトリ",
    "price": null,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "gap_rack",
    "places": [
     "fridge-gap",
@@ -4380,7 +4448,7 @@
    "w": 12.5,
    "shop": "ニトリ",
    "price": 2990,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "gap_rack",
    "places": [
     "fridge-gap",
@@ -4411,7 +4479,7 @@
    "h": 89.0,
    "shop": "ニトリ",
    "price": 5489,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "gap_rack",
    "places": [
     "fridge-gap",
@@ -4442,7 +4510,7 @@
    "h": 23.5,
    "shop": "ニトリ",
    "price": null,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "drawer_case",
    "places": [
     "sink",
@@ -4477,7 +4545,7 @@
    "h": 23.5,
    "shop": "ニトリ",
    "price": null,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "drawer_case",
    "places": [
     "sink",
@@ -4512,7 +4580,7 @@
    "h": 24.1,
    "shop": "ニトリ",
    "price": null,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "drawer_case",
    "places": [
     "sink",
@@ -4547,7 +4615,7 @@
    "h": 24.1,
    "shop": "ニトリ",
    "price": null,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "drawer_case",
    "places": [
     "sink",
@@ -4582,7 +4650,7 @@
    "h": 24.1,
    "shop": "ニトリ",
    "price": null,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "drawer_case",
    "places": [
     "sink",
@@ -4617,7 +4685,7 @@
    "h": 54.0,
    "shop": "ニトリ",
    "price": null,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "hanging",
    "places": [],
    "links": {
@@ -4642,7 +4710,7 @@
    "h": 58.0,
    "shop": "ニトリ",
    "price": null,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "hanging",
    "places": [],
    "links": {
@@ -4667,7 +4735,7 @@
    "w": 25.0,
    "shop": "ニトリ",
    "price": 799,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "hanging",
    "places": [],
    "links": {
@@ -4691,7 +4759,7 @@
    "h": 10.0,
    "shop": "ニトリ",
    "price": null,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "hanging",
    "places": [],
    "links": {
@@ -4716,7 +4784,7 @@
    "h": 11.0,
    "shop": "ニトリ",
    "price": null,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "hanging",
    "places": [],
    "links": {
@@ -4741,7 +4809,7 @@
    "w": 11.5,
    "shop": "ニトリ",
    "price": 1290,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "basket",
    "places": [
     "sink",
@@ -4781,7 +4849,7 @@
    "h": 62.5,
    "shop": "アイリスオーヤマ公式 楽天市場店",
    "price": null,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "chest_multi",
    "places": [
     "wash-gap",
@@ -4817,7 +4885,7 @@
    "h": 81.0,
    "shop": "アイリスオーヤマ公式 楽天市場店",
    "price": null,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "chest_multi",
    "places": [
     "wash-gap",
@@ -4853,7 +4921,7 @@
    "h": 99.5,
    "shop": "アイリスオーヤマ公式 楽天市場店",
    "price": null,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "chest_multi",
    "places": [
     "wash-gap",
@@ -4889,7 +4957,7 @@
    "h": 81.0,
    "shop": "アイリスオーヤマ公式 楽天市場店",
    "price": null,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "chest_multi",
    "places": [
     "wash-gap",
@@ -4925,7 +4993,7 @@
    "h": 99.5,
    "shop": "アイリスオーヤマ公式 楽天市場店",
    "price": null,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "chest_multi",
    "places": [
     "wash-gap",
@@ -4961,7 +5029,7 @@
    "w": 41.5,
    "shop": "アイリスオーヤマ公式 楽天市場店",
    "price": 3480,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "furniture",
    "places": [],
    "links": {
@@ -4990,7 +5058,7 @@
    "w": 39.0,
    "shop": "アイリスオーヤマ公式 楽天市場店",
    "price": 4980,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "drawer_case",
    "places": [
     "sink",
@@ -5029,7 +5097,7 @@
    "h": 81.0,
    "shop": "アイリスオーヤマ公式 楽天市場店",
    "price": null,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "chest_multi",
    "places": [
     "wash-gap",
@@ -5060,7 +5128,7 @@
    "h": 99.5,
    "shop": "アイリスオーヤマ公式 楽天市場店",
    "price": null,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "chest_multi",
    "places": [
     "wash-gap",
@@ -5091,7 +5159,7 @@
    "w": 39.0,
    "shop": "アイリスオーヤマ公式 楽天市場店",
    "price": 21810,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "drawer_case",
    "places": [
     "sink",
@@ -5130,7 +5198,7 @@
    "w": 56.0,
    "shop": "アイリスオーヤマ公式 楽天市場店",
    "price": 10980,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "chest_multi",
    "places": [
     "wash-gap",
@@ -5165,7 +5233,7 @@
    "h": 81.6,
    "shop": "アイリスオーヤマ公式 楽天市場店",
    "price": null,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "chest_multi",
    "places": [
     "wash-gap",
@@ -5196,7 +5264,7 @@
    "h": 81.6,
    "shop": "アイリスオーヤマ公式 楽天市場店",
    "price": null,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "chest_multi",
    "places": [
     "wash-gap",
@@ -5227,7 +5295,7 @@
    "h": 81.6,
    "shop": "アイリスオーヤマ公式 楽天市場店",
    "price": null,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "chest_multi",
    "places": [
     "wash-gap",
@@ -5258,7 +5326,7 @@
    "w": 39.0,
    "shop": "アイリスオーヤマ公式 楽天市場店",
    "price": 5980,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "drawer_case",
    "places": [
     "sink",
@@ -5297,8 +5365,8 @@
    "h": 23.2,
    "w": 39.0,
    "shop": "アイリスオーヤマ公式 楽天市場店",
-   "price": 11000,
-   "checked_at": "2026-10-27",
+   "price": 9480,
+   "checked_at": "2026-10-28",
    "type": "drawer_case",
    "places": [
     "sink",
@@ -5337,7 +5405,7 @@
    "w": 78.0,
    "shop": "アイリスオーヤマ公式 楽天市場店",
    "price": 4100,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "lid_box",
    "places": [
     "wall",
@@ -5373,7 +5441,7 @@
    "w": 73.0,
    "shop": "アイリスオーヤマ公式 楽天市場店",
    "price": 15980,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "chest_multi",
    "places": [
     "wash-gap",
@@ -5408,7 +5476,7 @@
    "w": 78.0,
    "shop": "アイリスオーヤマ公式 楽天市場店",
    "price": 5300,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "lid_box",
    "places": [
     "wall",
@@ -5444,7 +5512,7 @@
    "w": 79.0,
    "shop": "アイリスオーヤマ公式 楽天市場店",
    "price": 18480,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "chest_multi",
    "places": [
     "wash-gap",
@@ -5474,7 +5542,7 @@
    "w": 30.9,
    "shop": "アイリスオーヤマ公式 楽天市場店",
    "price": 4280,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "clothes_case",
    "places": [
     "oshiire",
@@ -5507,7 +5575,7 @@
    "w": 40.0,
    "shop": "アイリスオーヤマ公式 楽天市場店",
    "price": 4700,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "lid_box",
    "places": [
     "wall",
@@ -5538,7 +5606,7 @@
    "w": 30.9,
    "shop": "アイリスオーヤマ公式 楽天市場店",
    "price": 5258,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "clothes_case",
    "places": [
     "oshiire",
@@ -5571,7 +5639,7 @@
    "w": 32.0,
    "shop": "アイリスオーヤマ公式 楽天市場店",
    "price": 5280,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "file_box",
    "places": [
     "sink",
@@ -5607,7 +5675,7 @@
    "w": 46.0,
    "shop": "アイリスオーヤマ公式 楽天市場店",
    "price": 9980,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "clothes_case",
    "places": [
     "oshiire",
@@ -5640,7 +5708,7 @@
    "w": 39.0,
    "shop": "アイリスオーヤマ公式 楽天市場店",
    "price": 2080,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "drawer_case",
    "places": [
     "sink",
@@ -5679,7 +5747,7 @@
    "w": 35.0,
    "shop": "アイリスオーヤマ公式 楽天市場店",
    "price": 4480,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "clothes_case",
    "places": [
     "oshiire",
@@ -5712,7 +5780,7 @@
    "w": 53.0,
    "shop": "アイリスオーヤマ公式 楽天市場店",
    "price": 7898,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "chest_multi",
    "places": [
     "wash-gap",
@@ -5747,7 +5815,7 @@
    "w": 35.0,
    "shop": "アイリスオーヤマ公式 楽天市場店",
    "price": 1881,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "clothes_case",
    "places": [
     "oshiire",
@@ -5780,7 +5848,7 @@
    "w": 39.0,
    "shop": "アイリスオーヤマ公式 楽天市場店",
    "price": 5550,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "drawer_case",
    "places": [
     "sink",
@@ -5819,7 +5887,7 @@
    "w": 56.0,
    "shop": "アイリスオーヤマ公式 楽天市場店",
    "price": 11980,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "chest_multi",
    "places": [
     "wash-gap",
@@ -5849,7 +5917,7 @@
    "w": 39.0,
    "shop": "アイリスオーヤマ公式 楽天市場店",
    "price": 8580,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "chest_multi",
    "places": [
     "wash-gap",
@@ -5884,7 +5952,7 @@
    "w": 41.5,
    "shop": "アイリスオーヤマ公式 楽天市場店",
    "price": 2480,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "furniture",
    "places": [],
    "links": {
@@ -5913,7 +5981,7 @@
    "w": 41.5,
    "shop": "アイリスオーヤマ公式 楽天市場店",
    "price": 2280,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "furniture",
    "places": [],
    "links": {
@@ -5942,7 +6010,7 @@
    "w": 60.0,
    "shop": "アイリスオーヤマ公式 楽天市場店",
    "price": 5700,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "furniture",
    "places": [],
    "links": {
@@ -5966,7 +6034,7 @@
    "w": 41.5,
    "shop": "アイリスオーヤマ公式 楽天市場店",
    "price": 1760,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "furniture",
    "places": [],
    "links": {
@@ -5995,7 +6063,7 @@
    "w": 41.5,
    "shop": "アイリスオーヤマ公式 楽天市場店",
    "price": 2480,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "furniture",
    "places": [],
    "links": {
@@ -6024,7 +6092,7 @@
    "w": 60.0,
    "shop": "アイリスオーヤマ公式 楽天市場店",
    "price": 3340,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "basket",
    "places": [
     "sink",
@@ -6064,7 +6132,7 @@
    "w": 130.0,
    "shop": "アイリスオーヤマ公式 楽天市場店",
    "price": 15180,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "lid_box",
    "places": [
     "wall",
@@ -6095,7 +6163,7 @@
    "w": 40.0,
    "shop": "アイリスオーヤマ公式 楽天市場店",
    "price": 13800,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "lid_box",
    "places": [
     "wall",
@@ -6131,7 +6199,7 @@
    "w": 26.5,
    "shop": "アイリスオーヤマ公式 楽天市場店",
    "price": 5880,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "clothes_case",
    "places": [
     "oshiire",
@@ -6160,7 +6228,7 @@
    "w": 22.2,
    "shop": "アイリスオーヤマ公式 楽天市場店",
    "price": 3480,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "chest_multi",
    "places": [
     "wash-gap",
@@ -6190,7 +6258,7 @@
    "w": 15.0,
    "shop": "アイリスオーヤマ公式 楽天市場店",
    "price": 900,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "file_box",
    "places": [
     "sink",
@@ -6227,7 +6295,7 @@
    "w": 15.0,
    "shop": "アイリスオーヤマ公式 楽天市場店",
    "price": 900,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "file_box",
    "places": [
     "sink",
@@ -6264,7 +6332,7 @@
    "w": 16.0,
    "shop": "アイリスオーヤマ公式 楽天市場店",
    "price": 950,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "file_box",
    "places": [
     "sink",
@@ -6300,7 +6368,7 @@
    "w": 7.7,
    "shop": "アイリスオーヤマ公式 楽天市場店",
    "price": 850,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "file_box",
    "places": [
     "sink",
@@ -6336,7 +6404,7 @@
    "w": 15.2,
    "shop": "アイリスオーヤマ公式 楽天市場店",
    "price": 1001,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "basket",
    "places": [
     "sink",
@@ -6377,7 +6445,7 @@
    "w": 10.0,
    "shop": "アイリスオーヤマ公式 楽天市場店",
    "price": 800,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "file_box",
    "places": [
     "sink",
@@ -6414,7 +6482,7 @@
    "w": 13.0,
    "shop": "アイリスオーヤマ公式 楽天市場店",
    "price": 891,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "file_box",
    "places": [
     "sink",
@@ -6450,7 +6518,7 @@
    "w": 10.0,
    "shop": "アイリスオーヤマ公式 楽天市場店",
    "price": 800,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "file_box",
    "places": [
     "sink",
@@ -6487,7 +6555,7 @@
    "w": 26.0,
    "shop": "アイリスオーヤマ公式 楽天市場店",
    "price": 1090,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "file_box",
    "places": [
     "sink",
@@ -6523,7 +6591,7 @@
    "w": 79.0,
    "shop": "アイリスオーヤマ公式 楽天市場店",
    "price": 20680,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "chest_multi",
    "places": [
     "wash-gap",
@@ -6553,7 +6621,7 @@
    "w": 39.0,
    "shop": "アイリスオーヤマ公式 楽天市場店",
    "price": 4600,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "chest_multi",
    "places": [
     "wash-gap",
@@ -6588,7 +6656,7 @@
    "w": 32.0,
    "shop": "アイリスオーヤマ公式 楽天市場店",
    "price": 7280,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "file_box",
    "places": [
     "sink",
@@ -6624,7 +6692,7 @@
    "w": 54.0,
    "shop": "アイリスオーヤマ公式 楽天市場店",
    "price": 5358,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "chest_multi",
    "places": [
     "wash-gap",
@@ -6659,7 +6727,7 @@
    "w": 30.0,
    "shop": "アイリスオーヤマ公式 楽天市場店",
    "price": 4050,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "small_case",
    "places": [
     "sink",
@@ -6700,7 +6768,7 @@
    "w": 37.6,
    "shop": "アイリスオーヤマ公式 楽天市場店",
    "price": 8400,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "drawer_case",
    "places": [
     "sink",
@@ -6739,7 +6807,7 @@
    "w": 38.5,
    "shop": "アイリスオーヤマ公式 楽天市場店",
    "price": 1780,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "lid_box",
    "places": [
     "wall",
@@ -6775,7 +6843,7 @@
    "h": 38.5,
    "shop": "アイリスオーヤマ公式 楽天市場店",
    "price": null,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "inner_box",
    "places": [
     "wall",
@@ -6813,7 +6881,7 @@
    "h": 27.0,
    "shop": "アイリスオーヤマ公式 楽天市場店",
    "price": null,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "inner_box",
    "places": [
     "wall",
@@ -6851,7 +6919,7 @@
    "w": 27.0,
    "shop": "アイリスオーヤマ公式 楽天市場店",
    "price": 1331,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "drawer_case",
    "places": [
     "sink",
@@ -6890,7 +6958,7 @@
    "h": 38.5,
    "shop": "アイリスオーヤマ公式 楽天市場店",
    "price": null,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "inner_box",
    "places": [
     "wall",
@@ -6928,7 +6996,7 @@
    "h": 27.0,
    "shop": "アイリスオーヤマ公式 楽天市場店",
    "price": null,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "inner_box",
    "places": [
     "wall",
@@ -6966,7 +7034,7 @@
    "w": 38.0,
    "shop": "アイリスオーヤマ公式 楽天市場店",
    "price": 4980,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "inner_box",
    "places": [
     "wall",
@@ -6998,7 +7066,7 @@
    "w": 38.0,
    "shop": "アイリスオーヤマ公式 楽天市場店",
    "price": 2080,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "drawer_case",
    "places": [
     "sink",
@@ -7032,7 +7100,7 @@
    "w": 26.0,
    "shop": "アイリスオーヤマ公式 楽天市場店",
    "price": 3180,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "inner_box",
    "places": [
     "wall",
@@ -7064,7 +7132,7 @@
    "w": 38.0,
    "shop": "アイリスオーヤマ公式 楽天市場店",
    "price": 4580,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "inner_box",
    "places": [
     "wall",
@@ -7096,7 +7164,7 @@
    "w": 38.0,
    "shop": "アイリスオーヤマ公式 楽天市場店",
    "price": 1380,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "drawer_case",
    "places": [
     "sink",
@@ -7135,7 +7203,7 @@
    "w": 26.0,
    "shop": "アイリスオーヤマ公式 楽天市場店",
    "price": 1870,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "drawer_case",
    "places": [
     "sink",
@@ -7169,7 +7237,7 @@
    "w": 38.0,
    "shop": "アイリスオーヤマ公式 楽天市場店",
    "price": 1430,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "drawer_case",
    "places": [
     "sink",
@@ -7208,7 +7276,7 @@
    "w": 38.0,
    "shop": "アイリスオーヤマ公式 楽天市場店",
    "price": 1881,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "inner_box",
    "places": [
     "wall",
@@ -7240,7 +7308,7 @@
    "w": 27.6,
    "shop": "アイリスオーヤマ公式 楽天市場店",
    "price": 2101,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "file_box",
    "places": [
     "sink",
@@ -7277,7 +7345,7 @@
    "h": 10.0,
    "shop": "アイリスオーヤマ公式 楽天市場店",
    "price": null,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "fridge_case",
    "places": [
     "fridge"
@@ -7304,7 +7372,7 @@
    "h": 5.5,
    "shop": "アイリスオーヤマ公式 楽天市場店",
    "price": null,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "fridge_case",
    "places": [
     "fridge"
@@ -7331,7 +7399,7 @@
    "w": 13.5,
    "shop": "アイリスオーヤマ公式 楽天市場店",
    "price": 548,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "fridge_case",
    "places": [
     "fridge"
@@ -7357,7 +7425,7 @@
    "w": 20.5,
    "shop": "アイリスオーヤマ公式 楽天市場店",
    "price": 658,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "fridge_case",
    "places": [
     "fridge"
@@ -7383,7 +7451,7 @@
    "w": 10.5,
    "shop": "アイリスオーヤマ公式 楽天市場店",
    "price": 498,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "fridge_case",
    "places": [
     "fridge"
@@ -7409,7 +7477,7 @@
    "w": 10.0,
    "shop": "アイリスオーヤマ公式 楽天市場店",
    "price": 438,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "fridge_case",
    "places": [
     "fridge"
@@ -7435,7 +7503,7 @@
    "w": 20.5,
    "shop": "アイリスオーヤマ公式 楽天市場店",
    "price": 548,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "fridge_case",
    "places": [
     "fridge"
@@ -7461,7 +7529,7 @@
    "w": 20.0,
    "shop": "アイリスオーヤマ公式 楽天市場店",
    "price": 4700,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "ext_rack",
    "places": [
     "sink",
@@ -7497,7 +7565,7 @@
    "w": 42.0,
    "shop": "アイリスオーヤマ公式 楽天市場店",
    "price": 2700,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "ext_rack",
    "places": [
     "sink",
@@ -7537,7 +7605,7 @@
    "w": 26.7,
    "shop": "アイリスオーヤマ公式 楽天市場店",
    "price": 5920,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "ext_rack",
    "places": [
     "sink",
@@ -7573,7 +7641,7 @@
    "w": 41.6,
    "shop": "アイリスオーヤマ公式 楽天市場店",
    "price": 1280,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "ext_rack",
    "places": [
     "sink",
@@ -7613,7 +7681,7 @@
    "w": 42.0,
    "shop": "アイリスオーヤマ公式 楽天市場店",
    "price": 2011,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "ext_rack",
    "places": [
     "sink",
@@ -7653,7 +7721,7 @@
    "w": 16.0,
    "shop": "アイリスオーヤマ公式 楽天市場店",
    "price": 15200,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "gap_rack",
    "places": [
     "fridge-gap",
@@ -7684,7 +7752,7 @@
    "w": 22.0,
    "shop": "アイリスオーヤマ公式 楽天市場店",
    "price": 17800,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "laundry_rack",
    "places": [
     "pan-top",
@@ -7711,7 +7779,7 @@
    "h": 82.7,
    "shop": "アイリスオーヤマ公式 楽天市場店",
    "price": null,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "gap_rack",
    "places": [
     "fridge-gap",
@@ -7743,7 +7811,7 @@
    "h": 82.7,
    "shop": "アイリスオーヤマ公式 楽天市場店",
    "price": null,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "gap_rack",
    "places": [
     "fridge-gap",
@@ -7775,7 +7843,7 @@
    "h": 82.7,
    "shop": "アイリスオーヤマ公式 楽天市場店",
    "price": null,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "gap_rack",
    "places": [
     "fridge-gap",
@@ -7807,7 +7875,7 @@
    "w": 39.0,
    "shop": "アイリスオーヤマ公式 楽天市場店",
    "price": 3280,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "laundry_rack",
    "places": [
     "pan-top",
@@ -7834,7 +7902,7 @@
    "w": 22.5,
    "shop": "アイリスオーヤマ公式 楽天市場店",
    "price": 3060,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "kitchen_wagon",
    "places": [
     "wash-gap",
@@ -7861,7 +7929,7 @@
    "w": 20.0,
    "shop": "アイリスオーヤマ公式 楽天市場店",
    "price": 8809,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "chest_multi",
    "places": [
     "wash-gap",
@@ -7891,7 +7959,7 @@
    "w": 20.0,
    "shop": "アイリスオーヤマ公式 楽天市場店",
    "price": 5582,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "gap_rack",
    "places": [
     "fridge-gap",
@@ -7927,7 +7995,7 @@
    "w": 33.5,
    "shop": "アイリスオーヤマ公式 楽天市場店",
    "price": 3166,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "kitchen_wagon",
    "places": [
     "wash-gap",
@@ -7954,7 +8022,7 @@
    "h": 80.8,
    "shop": "アイリスオーヤマ公式 楽天市場店",
    "price": null,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "kitchen_wagon",
    "places": [
     "wash-gap",
@@ -7982,7 +8050,7 @@
    "h": 80.8,
    "shop": "アイリスオーヤマ公式 楽天市場店",
    "price": null,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "kitchen_wagon",
    "places": [
     "wash-gap",
@@ -8010,7 +8078,7 @@
    "w": 40.0,
    "shop": "アイリスオーヤマ公式 楽天市場店",
    "price": 4980,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "file_box",
    "places": [
     "sink",
@@ -8046,7 +8114,7 @@
    "w": 20.0,
    "shop": "アイリスオーヤマ公式 楽天市場店",
    "price": 5358,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "gap_rack",
    "places": [
     "fridge-gap",
@@ -8077,7 +8145,7 @@
    "w": 44.0,
    "shop": "アイリスオーヤマ公式 楽天市場店",
    "price": 10100,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "lid_box",
    "places": [
     "wall",
@@ -8113,7 +8181,7 @@
    "w": 37.6,
    "shop": "アイリスオーヤマ公式 楽天市場店",
    "price": 5480,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "clothes_case",
    "places": [
     "oshiire",
@@ -8146,7 +8214,7 @@
    "w": 44.0,
    "shop": "アイリスオーヤマ公式 楽天市場店",
    "price": 16225,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "chest_multi",
    "places": [
     "wash-gap",
@@ -8181,7 +8249,7 @@
    "w": 73.0,
    "shop": "アイリスオーヤマ公式 楽天市場店",
    "price": 13068,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "chest_multi",
    "places": [
     "wash-gap",
@@ -8216,7 +8284,7 @@
    "w": 26.5,
    "shop": "アイリスオーヤマ公式 楽天市場店",
    "price": 1480,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "clothes_case",
    "places": [
     "oshiire",
@@ -8244,7 +8312,7 @@
    "w": 55.0,
    "shop": "アイリスオーヤマ公式 楽天市場店",
    "price": 9880,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "chest_multi",
    "places": [
     "wash-gap",
@@ -8279,7 +8347,7 @@
    "h": 15.2,
    "shop": "テンマフィッツワールド楽天市場店",
    "price": null,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "drawer_case",
    "places": [
     "sink",
@@ -8314,7 +8382,7 @@
    "h": 25.2,
    "shop": "テンマフィッツワールド楽天市場店",
    "price": null,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "drawer_case",
    "places": [
     "sink",
@@ -8349,7 +8417,7 @@
    "h": 35.2,
    "shop": "テンマフィッツワールド楽天市場店",
    "price": null,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "drawer_case",
    "places": [
     "sink",
@@ -8384,7 +8452,7 @@
    "w": 18.5,
    "shop": "テンマフィッツワールド楽天市場店",
    "price": 1580,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "file_box",
    "places": [
     "sink",
@@ -8425,7 +8493,7 @@
    "w": 17.0,
    "shop": "テンマフィッツワールド楽天市場店",
    "price": 1980,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "media",
    "places": [
     "colorbox",
@@ -8458,7 +8526,7 @@
    "w": 17.5,
    "shop": "テンマフィッツワールド楽天市場店",
    "price": 1580,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "media",
    "places": [
     "colorbox",
@@ -8491,7 +8559,7 @@
    "w": 14.5,
    "shop": "テンマフィッツワールド楽天市場店",
    "price": 1480,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "media",
    "places": [
     "colorbox",
@@ -8524,7 +8592,7 @@
    "w": 39.0,
    "shop": "テンマフィッツワールド楽天市場店",
    "price": 4980,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "drawer_case",
    "places": [
     "sink",
@@ -8563,7 +8631,7 @@
    "w": 17.5,
    "shop": "テンマフィッツワールド楽天市場店",
    "price": 1580,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "media",
    "places": [
     "colorbox",
@@ -8596,7 +8664,7 @@
    "w": 19.5,
    "shop": "テンマフィッツワールド楽天市場店",
    "price": 2380,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "media",
    "places": [
     "colorbox",
@@ -8629,7 +8697,7 @@
    "w": 39.0,
    "shop": "テンマフィッツワールド楽天市場店",
    "price": 5480,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "drawer_case",
    "places": [
     "sink",
@@ -8668,7 +8736,7 @@
    "w": 41.0,
    "shop": "テンマフィッツワールド楽天市場店",
    "price": 2680,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "media",
    "places": [
     "colorbox",
@@ -8701,7 +8769,7 @@
    "w": 39.0,
    "shop": "テンマフィッツワールド楽天市場店",
    "price": 3780,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "clothes_case",
    "places": [
     "oshiire",
@@ -8734,7 +8802,7 @@
    "w": 29.0,
    "shop": "テンマフィッツワールド楽天市場店",
    "price": 2680,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "media",
    "places": [
     "colorbox",
@@ -8767,7 +8835,7 @@
    "w": 35.0,
    "shop": "テンマフィッツワールド楽天市場店",
    "price": 2180,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "drawer_case",
    "places": [
     "sink",
@@ -8806,7 +8874,7 @@
    "w": 29.0,
    "shop": "テンマフィッツワールド楽天市場店",
    "price": 1980,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "drawer_case",
    "places": [
     "sink",
@@ -8845,7 +8913,7 @@
    "w": 30.0,
    "shop": "テンマフィッツワールド楽天市場店",
    "price": 4480,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "drawer_case",
    "places": [
     "sink",
@@ -8884,7 +8952,7 @@
    "w": 44.0,
    "shop": "テンマフィッツワールド楽天市場店",
    "price": 5980,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "drawer_case",
    "places": [
     "sink",
@@ -8923,7 +8991,7 @@
    "w": 35.0,
    "shop": "テンマフィッツワールド楽天市場店",
    "price": 2380,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "drawer_case",
    "places": [
     "sink",
@@ -8962,7 +9030,7 @@
    "w": 39.0,
    "shop": "テンマフィッツワールド楽天市場店",
    "price": 1980,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "clothes_case",
    "places": [
     "oshiire",
@@ -8988,45 +9056,6 @@
    "status": "自動抽出（未確認）"
   },
   {
-   "id": "tenmafitsworld:10000222",
-   "name": "フィッツケース クローゼット S-53 クラシック",
-   "d": 53.0,
-   "h": 18.0,
-   "w": 39.0,
-   "shop": "テンマフィッツワールド楽天市場店",
-   "price": 4480,
-   "checked_at": "2026-10-27",
-   "type": "drawer_case",
-   "places": [
-    "sink",
-    "washbasin",
-    "oshiire",
-    "closet",
-    "colorbox",
-    "steelrack",
-    "bed",
-    "desk",
-    "counter"
-   ],
-   "links": {
-    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/g00qg64o.d4l2117d.g00qg64o.d4l22008/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Ftenmafitsworld%2F4904746299185%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Ftenmafitsworld%2Fi%2F10000222%2F&rafcid=wsc_i_is_f39725d4-39b5-46c2-8048-e2b2a03cda3a"
-   },
-   "item_url": "https://hb.afl.rakuten.co.jp/hgc/g00qg64o.d4l2117d.g00qg64o.d4l22008/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Ftenmafitsworld%2F4904746299185%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Ftenmafitsworld%2Fi%2F10000222%2F&rafcid=wsc_i_is_f39725d4-39b5-46c2-8048-e2b2a03cda3a",
-   "source": "rakuten",
-   "img": "https://thumbnail.image.rakuten.co.jp/@0_mall/tenmafitsworld/cabinet/fits/closet/4904746299185_r5.jpg?_ex=300x300",
-   "src": "商品説明から抽出",
-   "inner": {
-    "w": 33.9,
-    "d": 48.6,
-    "h": 13.0
-   },
-   "evidence": "ー カプチーノ 最大外寸(約) 幅39×奥行53×高さ18cm",
-   "dim_kind": "外寸",
-   "unit": "cm",
-   "confidence": "高",
-   "status": "自動抽出（未確認）"
-  },
-  {
    "id": "tenmafitsworld:10000224",
    "name": "フィッツケース クローゼット L-53 クラシック",
    "d": 53.0,
@@ -9034,7 +9063,7 @@
    "w": 39.0,
    "shop": "テンマフィッツワールド楽天市場店",
    "price": 5480,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "drawer_case",
    "places": [
     "sink",
@@ -9073,7 +9102,7 @@
    "w": 42.5,
    "shop": "テンマフィッツワールド楽天市場店",
    "price": 3280,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "media",
    "places": [
     "colorbox",
@@ -9106,7 +9135,7 @@
    "w": 44.0,
    "shop": "テンマフィッツワールド楽天市場店",
    "price": 3980,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "clothes_case",
    "places": [
     "oshiire",
@@ -9139,7 +9168,7 @@
    "w": 44.0,
    "shop": "テンマフィッツワールド楽天市場店",
    "price": 6480,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "drawer_case",
    "places": [
     "sink",
@@ -9178,7 +9207,7 @@
    "w": 39.0,
    "shop": "テンマフィッツワールド楽天市場店",
    "price": 3480,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "clothes_case",
    "places": [
     "oshiire",
@@ -9211,7 +9240,7 @@
    "w": 44.0,
    "shop": "テンマフィッツワールド楽天市場店",
    "price": 5480,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "drawer_case",
    "places": [
     "sink",
@@ -9250,7 +9279,7 @@
    "w": 30.0,
    "shop": "テンマフィッツワールド楽天市場店",
    "price": 4980,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "drawer_case",
    "places": [
     "sink",
@@ -9289,7 +9318,7 @@
    "w": 39.0,
    "shop": "テンマフィッツワールド楽天市場店",
    "price": 2980,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "clothes_case",
    "places": [
     "oshiire",
@@ -9322,7 +9351,7 @@
    "w": 10.0,
    "shop": "テンマフィッツワールド楽天市場店",
    "price": 2480,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "file_box",
    "places": [
     "sink",
@@ -9358,7 +9387,7 @@
    "w": 39.0,
    "shop": "テンマフィッツワールド楽天市場店",
    "price": 3680,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "drawer_case",
    "places": [
     "sink",
@@ -9397,7 +9426,7 @@
    "w": 39.0,
    "shop": "テンマフィッツワールド楽天市場店",
    "price": 4480,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "drawer_case",
    "places": [
     "sink",
@@ -9436,7 +9465,7 @@
    "w": 18.0,
    "shop": "テンマフィッツワールド楽天市場店",
    "price": 1980,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "drawer_case",
    "places": [
     "sink",
@@ -9470,7 +9499,7 @@
    "w": 30.0,
    "shop": "テンマフィッツワールド楽天市場店",
    "price": 2480,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "small_case",
    "places": [
     "sink",
@@ -9511,7 +9540,7 @@
    "w": 39.0,
    "shop": "テンマフィッツワールド楽天市場店",
    "price": 3180,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "drawer_case",
    "places": [
     "sink",
@@ -9550,7 +9579,7 @@
    "w": 39.0,
    "shop": "テンマフィッツワールド楽天市場店",
    "price": 1980,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "clothes_case",
    "places": [
     "oshiire",
@@ -9583,7 +9612,7 @@
    "w": 15.0,
    "shop": "テンマフィッツワールド楽天市場店",
    "price": 780,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "drawer_case",
    "places": [
     "sink",
@@ -9617,7 +9646,7 @@
    "w": 40.0,
    "shop": "テンマフィッツワールド楽天市場店",
    "price": 3280,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "drawer_case",
    "places": [
     "sink",
@@ -9656,7 +9685,7 @@
    "w": 63.0,
    "shop": "テンマフィッツワールド楽天市場店",
    "price": 9980,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "basket",
    "places": [
     "sink",
@@ -9701,7 +9730,7 @@
    "w": 39.0,
    "shop": "テンマフィッツワールド楽天市場店",
    "price": 7480,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "clothes_case",
    "places": [
     "oshiire",
@@ -9734,7 +9763,7 @@
    "w": 45.0,
    "shop": "テンマフィッツワールド楽天市場店",
    "price": 1980,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "drawer_case",
    "places": [
     "sink",
@@ -9768,7 +9797,7 @@
    "h": 22.0,
    "shop": "テンマフィッツワールド楽天市場店",
    "price": null,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "drawer_case",
    "places": [
     "sink",
@@ -9808,7 +9837,7 @@
    "h": 31.0,
    "shop": "テンマフィッツワールド楽天市場店",
    "price": null,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "drawer_case",
    "places": [
     "sink",
@@ -9848,7 +9877,7 @@
    "h": 41.0,
    "shop": "テンマフィッツワールド楽天市場店",
    "price": null,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "drawer_case",
    "places": [
     "sink",
@@ -9888,7 +9917,7 @@
    "h": 22.0,
    "shop": "テンマフィッツワールド楽天市場店",
    "price": null,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "drawer_case",
    "places": [
     "sink",
@@ -9928,7 +9957,7 @@
    "h": 31.0,
    "shop": "テンマフィッツワールド楽天市場店",
    "price": null,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "drawer_case",
    "places": [
     "sink",
@@ -9968,7 +9997,7 @@
    "h": 41.0,
    "shop": "テンマフィッツワールド楽天市場店",
    "price": null,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "drawer_case",
    "places": [
     "sink",
@@ -10008,7 +10037,7 @@
    "h": 31.0,
    "shop": "テンマフィッツワールド楽天市場店",
    "price": null,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "drawer_case",
    "places": [
     "sink",
@@ -10048,7 +10077,7 @@
    "w": 33.0,
    "shop": "テンマフィッツワールド楽天市場店",
    "price": 5980,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "gap_rack",
    "places": [
     "fridge-gap",
@@ -10079,7 +10108,7 @@
    "w": 22.0,
    "shop": "テンマフィッツワールド楽天市場店",
    "price": 4980,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "gap_rack",
    "places": [
     "fridge-gap",
@@ -10110,7 +10139,7 @@
    "w": 33.0,
    "shop": "テンマフィッツワールド楽天市場店",
    "price": 4980,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "gap_rack",
    "places": [
     "fridge-gap",
@@ -10141,7 +10170,7 @@
    "w": 39.0,
    "shop": "テンマフィッツワールド楽天市場店",
    "price": 1680,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "clothes_case",
    "places": [
     "oshiire",
@@ -10174,7 +10203,7 @@
    "w": 39.0,
    "shop": "テンマフィッツワールド楽天市場店",
    "price": 4980,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "drawer_case",
    "places": [
     "sink",
@@ -10208,7 +10237,7 @@
    "w": 39.0,
    "shop": "テンマフィッツワールド楽天市場店",
    "price": 1680,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "clothes_case",
    "places": [
     "oshiire",
@@ -10241,7 +10270,7 @@
    "w": 22.5,
    "shop": "テンマフィッツワールド楽天市場店",
    "price": 2980,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "drawer_case",
    "places": [
     "sink",
@@ -10280,7 +10309,7 @@
    "w": 39.0,
    "shop": "テンマフィッツワールド楽天市場店",
    "price": 3480,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "clothes_case",
    "places": [
     "oshiire",
@@ -10313,7 +10342,7 @@
    "w": 39.0,
    "shop": "テンマフィッツワールド楽天市場店",
    "price": 1480,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "clothes_case",
    "places": [
     "oshiire",
@@ -10346,7 +10375,7 @@
    "w": 39.0,
    "shop": "テンマフィッツワールド楽天市場店",
    "price": 3980,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "clothes_case",
    "places": [
     "oshiire",
@@ -10379,7 +10408,7 @@
    "w": 39.0,
    "shop": "テンマフィッツワールド楽天市場店",
    "price": 2480,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "clothes_case",
    "places": [
     "oshiire",
@@ -10412,7 +10441,7 @@
    "h": 30.0,
    "shop": "テンマフィッツワールド楽天市場店",
    "price": null,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "drawer_case",
    "places": [
     "sink",
@@ -10447,7 +10476,7 @@
    "w": 45.0,
    "shop": "テンマフィッツワールド楽天市場店",
    "price": 9980,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "drawer_case",
    "places": [
     "sink",
@@ -10486,7 +10515,7 @@
    "w": 44.0,
    "shop": "テンマフィッツワールド楽天市場店",
    "price": 11480,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "drawer_case",
    "places": [
     "sink",
@@ -10525,7 +10554,7 @@
    "w": 40.0,
    "shop": "テンマフィッツワールド楽天市場店",
    "price": 8480,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "drawer_case",
    "places": [
     "sink",
@@ -10564,7 +10593,7 @@
    "w": 39.0,
    "shop": "テンマフィッツワールド楽天市場店",
    "price": 2980,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "clothes_case",
    "places": [
     "oshiire",
@@ -10590,39 +10619,6 @@
    "status": "自動抽出（未確認）"
   },
   {
-   "id": "tenmafitsworld:10004498",
-   "name": "ビュートケース ワイドW-23収納ケース 衣装ケース",
-   "d": 74.0,
-   "h": 23.0,
-   "w": 44.0,
-   "shop": "テンマフィッツワールド楽天市場店",
-   "price": 4480,
-   "checked_at": "2026-10-27",
-   "type": "clothes_case",
-   "places": [
-    "oshiire",
-    "closet",
-    "bed"
-   ],
-   "links": {
-    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/g00qg64o.d4l2117d.g00qg64o.d4l22008/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Ftenmafitsworld%2F4904746640086%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Ftenmafitsworld%2Fi%2F10004498%2F&rafcid=wsc_i_is_f39725d4-39b5-46c2-8048-e2b2a03cda3a"
-   },
-   "item_url": "https://hb.afl.rakuten.co.jp/hgc/g00qg64o.d4l2117d.g00qg64o.d4l22008/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Ftenmafitsworld%2F4904746640086%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Ftenmafitsworld%2Fi%2F10004498%2F&rafcid=wsc_i_is_f39725d4-39b5-46c2-8048-e2b2a03cda3a",
-   "source": "rakuten",
-   "img": "https://thumbnail.image.rakuten.co.jp/@0_mall/tenmafitsworld/cabinet/beautcase/4904746640086.jpg?_ex=300x300",
-   "src": "商品説明から抽出",
-   "inner": {
-    "w": 36.8,
-    "d": 68.8,
-    "h": 17.0
-   },
-   "evidence": "ー カプチーノ 最大外寸(約) 幅44×奥行74×高さ23cm",
-   "dim_kind": "外寸",
-   "unit": "cm",
-   "confidence": "高",
-   "status": "自動抽出（未確認）"
-  },
-  {
    "id": "nitori:10317602",
    "name": "洗面台下丸ごと収納7点セット(幅29〜45cm) 洗面台",
    "w": 29.0,
@@ -10630,7 +10626,7 @@
    "h": 31.0,
    "shop": "ニトリ",
    "price": 4384,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "ext_rack",
    "places": [
     "stove",
@@ -10670,7 +10666,7 @@
    "h": 31.0,
    "shop": "ニトリ",
    "price": 6380,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "ext_rack",
    "places": [
     "stove",
@@ -10710,7 +10706,7 @@
    "h": 31.0,
    "shop": "ニトリ",
    "price": 7380,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "ext_rack",
    "places": [
     "stove",
@@ -10743,7 +10739,7 @@
    "h": 31.0,
    "shop": "ニトリ",
    "price": 4884,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "ext_rack",
    "places": [
     "stove",
@@ -10776,7 +10772,7 @@
    "h": 60.0,
    "shop": "アイリスオーヤマ公式 楽天市場店",
    "price": null,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "furniture",
    "places": [],
    "links": {
@@ -10801,7 +10797,7 @@
    "h": 60.0,
    "shop": "アイリスオーヤマ公式 楽天市場店",
    "price": null,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "furniture",
    "places": [],
    "links": {
@@ -10826,7 +10822,7 @@
    "h": 60.0,
    "shop": "アイリスオーヤマ公式 楽天市場店",
    "price": null,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "furniture",
    "places": [],
    "links": {
@@ -10851,7 +10847,7 @@
    "h": 10.0,
    "shop": "アイリスオーヤマ公式 楽天市場店",
    "price": null,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "furniture",
    "places": [],
    "links": {
@@ -10883,7 +10879,7 @@
    "h": 16.5,
    "shop": "アイリスオーヤマ公式 楽天市場店",
    "price": null,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "furniture",
    "places": [],
    "links": {
@@ -10908,7 +10904,7 @@
    "w": 72.0,
    "shop": "アイリスオーヤマ公式 楽天市場店",
    "price": 7359,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "under_bed",
    "places": [
     "bed"
@@ -10934,7 +10930,7 @@
    "h": 14.8,
    "shop": "アイリスオーヤマ公式 楽天市場店",
    "price": null,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "media",
    "places": [
     "colorbox",
@@ -10963,7 +10959,7 @@
    "h": 25.6,
    "shop": "アイリスオーヤマ公式 楽天市場店",
    "price": null,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "media",
    "places": [
     "colorbox",
@@ -10992,7 +10988,7 @@
    "w": 72.5,
    "shop": "アイリスオーヤマ公式 楽天市場店",
    "price": 12800,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "under_bed",
    "places": [
     "bed"
@@ -11024,7 +11020,7 @@
    "w": 46.0,
    "shop": "アイリスオーヤマ公式 楽天市場店",
    "price": 3480,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "clothes_case",
    "places": [
     "oshiire",
@@ -11057,7 +11053,7 @@
    "w": 118.0,
    "shop": "アイリスオーヤマ公式 楽天市場店",
    "price": 13000,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "furniture",
    "places": [],
    "links": {
@@ -11081,7 +11077,7 @@
    "w": 99.5,
    "shop": "アイリスオーヤマ公式 楽天市場店",
    "price": 11880,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "furniture",
    "places": [],
    "links": {
@@ -11105,7 +11101,7 @@
    "w": 72.5,
    "shop": "アイリスオーヤマ公式 楽天市場店",
    "price": 3480,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "under_bed",
    "places": [
     "bed"
@@ -11136,7 +11132,7 @@
    "w": 23.2,
    "shop": "アイリスオーヤマ公式 楽天市場店",
    "price": 1500,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "media",
    "places": [
     "colorbox",
@@ -11164,7 +11160,7 @@
    "h": 50.0,
    "shop": "アイリスオーヤマ公式 楽天市場店",
    "price": null,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "under_bed",
    "places": [
     "bed"
@@ -11191,7 +11187,7 @@
    "h": 20.8,
    "shop": "アイリスオーヤマ公式 楽天市場店",
    "price": null,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "under_bed",
    "places": [
     "bed"
@@ -11218,7 +11214,7 @@
    "h": 50.0,
    "shop": "アイリスオーヤマ公式 楽天市場店",
    "price": null,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "under_bed",
    "places": [
     "bed"
@@ -11245,7 +11241,7 @@
    "w": 47.5,
    "shop": "アイリスオーヤマ公式 楽天市場店",
    "price": 9180,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "under_bed",
    "places": [
     "bed"
@@ -11277,7 +11273,7 @@
    "w": 47.5,
    "shop": "アイリスオーヤマ公式 楽天市場店",
    "price": 2280,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "under_bed",
    "places": [
     "bed"
@@ -11308,7 +11304,7 @@
    "w": 96.8,
    "shop": "アイリスオーヤマ公式 楽天市場店",
    "price": 7980,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "under_bed",
    "places": [
     "bed"
@@ -11334,7 +11330,7 @@
    "w": 137.0,
    "shop": "アイリスオーヤマ公式 楽天市場店",
    "price": 17578,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "furniture",
    "places": [],
    "links": {
@@ -11358,7 +11354,7 @@
    "w": 208.0,
    "shop": "ニトリ",
    "price": 15990,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "under_bed",
    "places": [
     "bed"
@@ -11384,7 +11380,7 @@
    "w": 75.0,
    "shop": "ニトリ",
    "price": 1490,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "under_bed",
    "places": [
     "bed"
@@ -11410,7 +11406,7 @@
    "w": 75.0,
    "shop": "ニトリ",
    "price": 1490,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "under_bed",
    "places": [
     "bed"
@@ -11436,7 +11432,7 @@
    "w": 75.0,
    "shop": "ニトリ",
    "price": 1990,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "under_bed",
    "places": [
     "bed"
@@ -11462,7 +11458,7 @@
    "w": 75.0,
    "shop": "ニトリ",
    "price": 1990,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "under_bed",
    "places": [
     "bed"
@@ -11488,7 +11484,7 @@
    "w": 70.0,
    "shop": "ニトリ",
    "price": 499,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "under_bed",
    "places": [
     "bed"
@@ -11514,7 +11510,7 @@
    "h": 22.3,
    "shop": "ニトリ",
    "price": null,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "lid_box",
    "places": [
     "wall",
@@ -11551,7 +11547,7 @@
    "h": 22.3,
    "shop": "ニトリ",
    "price": null,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "lid_box",
    "places": [
     "wall",
@@ -11588,7 +11584,7 @@
    "w": 19.8,
    "shop": "アイリスオーヤマ公式 楽天市場店",
    "price": 10210,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "gap_rack",
    "places": [
     "fridge-gap",
@@ -11619,7 +11615,7 @@
    "w": 17.8,
    "shop": "ニトリ",
    "price": 999,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "door_pocket",
    "places": [
     "fridge"
@@ -11646,7 +11642,7 @@
    "w": 15.0,
    "shop": "ニトリ",
    "price": 23990,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "gap_rack",
    "places": [
     "fridge-gap",
@@ -11678,7 +11674,7 @@
    "h": 154.0,
    "shop": "アイリスオーヤマ公式 楽天市場店",
    "price": null,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "chest_multi",
    "places": [
     "wash-gap",
@@ -11709,7 +11705,7 @@
    "h": 154.0,
    "shop": "アイリスオーヤマ公式 楽天市場店",
    "price": null,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "chest_multi",
    "places": [
     "wash-gap",
@@ -11740,7 +11736,7 @@
    "h": 154.0,
    "shop": "アイリスオーヤマ公式 楽天市場店",
    "price": null,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "chest_multi",
    "places": [
     "wash-gap",
@@ -11771,7 +11767,7 @@
    "w": 65.0,
    "shop": "ニトリ",
    "price": 3990,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "laundry_rack",
    "places": [
     "pan-top",
@@ -11810,7 +11806,7 @@
    "w": 55.0,
    "shop": "ニトリ",
    "price": 7990,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "laundry_rack",
    "places": [
     "pan-top",
@@ -11844,7 +11840,7 @@
    "w": 17.0,
    "shop": "ニトリ",
    "price": 1990,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "magnet",
    "places": [
     "fridge-gap",
@@ -11876,7 +11872,7 @@
    "w": 57.0,
    "shop": "ニトリ",
    "price": 9990,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "laundry_rack",
    "places": [
     "pan-top",
@@ -11915,7 +11911,7 @@
    "w": 95.0,
    "shop": "ニトリ",
    "price": 4990,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "laundry_rack",
    "places": [
     "pan-top",
@@ -11942,7 +11938,7 @@
    "h": 186.0,
    "shop": "ニトリ",
    "price": null,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "laundry_rack",
    "places": [
     "pan-top",
@@ -11981,7 +11977,7 @@
    "h": 30.5,
    "shop": "ニトリ",
    "price": null,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "laundry_rack",
    "places": [
     "pan-top",
@@ -12009,7 +12005,7 @@
    "w": 48.0,
    "shop": "ニトリ",
    "price": 2490,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "laundry_rack",
    "places": [
     "pan-top",
@@ -12036,7 +12032,7 @@
    "w": 28.0,
    "shop": "ニトリ",
    "price": 2990,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "magnet",
    "places": [
     "fridge-gap",
@@ -12063,7 +12059,7 @@
    "w": 48.0,
    "shop": "ニトリ",
    "price": 2990,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "laundry_rack",
    "places": [
     "pan-top",
@@ -12090,7 +12086,7 @@
    "h": 89.0,
    "shop": "ニトリ",
    "price": null,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "gap_rack",
    "places": [
     "fridge-gap",
@@ -12122,7 +12118,7 @@
    "h": 6.7,
    "shop": "ニトリ",
    "price": null,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "gap_rack",
    "places": [
     "fridge-gap",
@@ -12154,7 +12150,7 @@
    "h": 6.0,
    "shop": "ニトリ",
    "price": null,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "gap_rack",
    "places": [
     "fridge-gap",
@@ -12186,7 +12182,7 @@
    "h": 60.3,
    "shop": "ニトリ",
    "price": null,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "gap_rack",
    "places": [
     "fridge-gap",
@@ -12218,7 +12214,7 @@
    "h": 12.0,
    "shop": "ニトリ",
    "price": null,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "u_rack",
    "places": [
     "sink",
@@ -12257,7 +12253,7 @@
    "h": 12.0,
    "shop": "ニトリ",
    "price": null,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "u_rack",
    "places": [
     "sink",
@@ -12289,7 +12285,7 @@
    "h": 8.0,
    "shop": "ニトリ",
    "price": null,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "basket",
    "places": [
     "sink",
@@ -12337,7 +12333,7 @@
    "h": 15.0,
    "shop": "ニトリ",
    "price": null,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "basket",
    "places": [
     "sink",
@@ -12385,7 +12381,7 @@
    "h": 15.1,
    "shop": "ニトリ",
    "price": null,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "basket",
    "places": [
     "sink",
@@ -12426,7 +12422,7 @@
    "h": 20.0,
    "shop": "ニトリ",
    "price": null,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "basket",
    "places": [
     "sink",
@@ -12474,7 +12470,7 @@
    "w": 65.0,
    "shop": "ニトリ",
    "price": 12990,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "laundry_rack",
    "places": [
     "pan-top",
@@ -12501,7 +12497,7 @@
    "w": 29.0,
    "shop": "ニトリ",
    "price": 12990,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "laundry_rack",
    "places": [
     "pan-top",
@@ -12528,7 +12524,7 @@
    "w": 33.5,
    "shop": "ニトリ",
    "price": 9990,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "laundry_rack",
    "places": [
     "pan-top",
@@ -12555,7 +12551,7 @@
    "w": 40.0,
    "shop": "ニトリ",
    "price": 5990,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "laundry_rack",
    "places": [
     "pan-top",
@@ -12593,7 +12589,7 @@
    "w": 7.0,
    "shop": "ニトリ",
    "price": 1490,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "magnet",
    "places": [
     "fridge-gap",
@@ -12620,7 +12616,7 @@
    "h": 30.5,
    "shop": "ニトリ",
    "price": null,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "laundry_rack",
    "places": [
     "pan-top",
@@ -12648,7 +12644,7 @@
    "w": 59.5,
    "shop": "ニトリ",
    "price": 9990,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "clothes_case",
    "places": [
     "oshiire",
@@ -12687,7 +12683,7 @@
    "w": 60.0,
    "shop": "アイリスオーヤマ公式 楽天市場店",
    "price": 13690,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "laundry_rack",
    "places": [
     "pan-top",
@@ -12721,7 +12717,7 @@
    "w": 93.0,
    "shop": "アイリスオーヤマ公式 楽天市場店",
    "price": 8230,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "hanger_rack",
    "places": [],
    "links": {
@@ -12753,7 +12749,7 @@
    "w": 65.5,
    "shop": "アイリスオーヤマ公式 楽天市場店",
    "price": 9980,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "laundry_rack",
    "places": [
     "pan-top",
@@ -12791,7 +12787,7 @@
    "w": 80.0,
    "shop": "アイリスオーヤマ公式 楽天市場店",
    "price": 2900,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "hanger_rack",
    "places": [],
    "links": {
@@ -12822,7 +12818,7 @@
    "w": 70.0,
    "shop": "アイリスオーヤマ公式 楽天市場店",
    "price": 15800,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "laundry_rack",
    "places": [
     "pan-top",
@@ -12860,7 +12856,7 @@
    "w": 66.5,
    "shop": "アイリスオーヤマ公式 楽天市場店",
    "price": 5970,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "laundry_rack",
    "places": [
     "pan-top",
@@ -12898,7 +12894,7 @@
    "w": 60.0,
    "shop": "アイリスオーヤマ公式 楽天市場店",
    "price": 6780,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "laundry_rack",
    "places": [
     "pan-top",
@@ -12932,7 +12928,7 @@
    "h": 85.0,
    "shop": "アイリスオーヤマ公式 楽天市場店",
    "price": null,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "laundry_rack",
    "places": [
     "pan-top",
@@ -12960,7 +12956,7 @@
    "h": 85.0,
    "shop": "アイリスオーヤマ公式 楽天市場店",
    "price": null,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "laundry_rack",
    "places": [
     "pan-top",
@@ -12988,7 +12984,7 @@
    "w": 65.0,
    "shop": "アイリスオーヤマ公式 楽天市場店",
    "price": 3100,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "laundry_rack",
    "places": [
     "pan-top",
@@ -13026,7 +13022,7 @@
    "h": 93.5,
    "shop": "アイリスオーヤマ公式 楽天市場店",
    "price": 4820,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "laundry_rack",
    "places": [
     "pan-top",
@@ -13053,7 +13049,7 @@
    "w": 66.5,
    "shop": "アイリスオーヤマ公式 楽天市場店",
    "price": 4030,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "laundry_rack",
    "places": [
     "pan-top",
@@ -13091,7 +13087,7 @@
    "w": 70.0,
    "shop": "アイリスオーヤマ公式 楽天市場店",
    "price": 5920,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "laundry_rack",
    "places": [
     "pan-top",
@@ -13118,7 +13114,7 @@
    "w": 31.9,
    "shop": "アイリスオーヤマ公式 楽天市場店",
    "price": 10650,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "laundry_rack",
    "places": [
     "pan-top",
@@ -13145,7 +13141,7 @@
    "w": 65.7,
    "shop": "アイリスオーヤマ公式 楽天市場店",
    "price": 6550,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "laundry_rack",
    "places": [
     "pan-top",
@@ -13187,7 +13183,7 @@
    "w": 45.0,
    "shop": "アイリスオーヤマ公式 楽天市場店",
    "price": 10650,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "laundry_rack",
    "places": [
     "pan-top",
@@ -13214,7 +13210,7 @@
    "w": 41.6,
    "shop": "アイリスオーヤマ公式 楽天市場店",
    "price": 1080,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "hanger_rack",
    "places": [],
    "links": {
@@ -13238,7 +13234,7 @@
    "w": 67.0,
    "shop": "アイリスオーヤマ公式 楽天市場店",
    "price": 12980,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "laundry_rack",
    "places": [
     "pan-top",
@@ -13276,7 +13272,7 @@
    "w": 65.6,
    "shop": "アイリスオーヤマ公式 楽天市場店",
    "price": 6580,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "laundry_rack",
    "places": [
     "pan-top",
@@ -13314,7 +13310,7 @@
    "w": 40.5,
    "shop": "アイリスオーヤマ公式 楽天市場店",
    "price": 12980,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "laundry_rack",
    "places": [
     "pan-top",
@@ -13341,7 +13337,7 @@
    "h": 97.0,
    "shop": "アイリスオーヤマ公式 楽天市場店",
    "price": null,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "laundry_rack",
    "places": [
     "pan-top",
@@ -13369,7 +13365,7 @@
    "h": 97.0,
    "shop": "アイリスオーヤマ公式 楽天市場店",
    "price": null,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "laundry_rack",
    "places": [
     "pan-top",
@@ -13397,7 +13393,7 @@
    "w": 20.5,
    "shop": "アイリスオーヤマ公式 楽天市場店",
    "price": 8990,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "laundry_rack",
    "places": [
     "pan-top",
@@ -13424,7 +13420,7 @@
    "w": 50.5,
    "shop": "アイリスオーヤマ公式 楽天市場店",
    "price": 13990,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "laundry_rack",
    "places": [
     "pan-top",
@@ -13451,7 +13447,7 @@
    "h": 207.0,
    "shop": "ニトリ",
    "price": 9586,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "laundry_rack",
    "places": [
     "pan-top",
@@ -13485,7 +13481,7 @@
    "h": 72.5,
    "shop": "ニトリ",
    "price": null,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "gap_rack",
    "places": [
     "fridge-gap",
@@ -13517,7 +13513,7 @@
    "h": 82.5,
    "shop": "ニトリ",
    "price": null,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "gap_rack",
    "places": [
     "fridge-gap",
@@ -13556,7 +13552,7 @@
    "w": 20.0,
    "shop": "ニトリ",
    "price": 3990,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "gap_rack",
    "places": [
     "fridge-gap",
@@ -13587,7 +13583,7 @@
    "w": 15.7,
    "shop": "ニトリ",
    "price": 12000,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "laundry_rack",
    "places": [
     "pan-top",
@@ -13614,7 +13610,7 @@
    "w": 75.5,
    "shop": "ニトリ",
    "price": 5990,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "laundry_rack",
    "places": [
     "pan-top",
@@ -13641,7 +13637,7 @@
    "w": 61.0,
    "shop": "アイリスオーヤマ公式 楽天市場店",
    "price": 6501,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "steel_rack",
    "places": [
     "oshiire"
@@ -13667,7 +13663,7 @@
    "w": 67.0,
    "shop": "アイリスオーヤマ公式 楽天市場店",
    "price": 5260,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "tension_shelf",
    "places": [
     "washer-top",
@@ -13701,7 +13697,7 @@
    "w": 61.0,
    "shop": "アイリスオーヤマ公式 楽天市場店",
    "price": 9636,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "steel_rack",
    "places": [
     "oshiire"
@@ -13727,7 +13723,7 @@
    "w": 76.0,
    "shop": "アイリスオーヤマ公式 楽天市場店",
    "price": 8400,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "steel_rack",
    "places": [
     "oshiire"
@@ -13753,7 +13749,7 @@
    "w": 190.0,
    "shop": "ニトリ",
    "price": 2990,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "tension_shelf",
    "places": [
     "washer-top",
@@ -13780,7 +13776,7 @@
    "h": 3.3,
    "shop": "ニトリ",
    "price": null,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "tension_shelf",
    "places": [
     "washer-top",
@@ -13819,7 +13815,7 @@
    "h": 3.3,
    "shop": "ニトリ",
    "price": null,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "tension_shelf",
    "places": [
     "washer-top",
@@ -13847,7 +13843,7 @@
    "w": 112.0,
    "shop": "ニトリ",
    "price": 1490,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "tension_shelf",
    "places": [
     "washer-top",
@@ -13874,7 +13870,7 @@
    "w": 57.5,
    "shop": "ニトリ",
    "price": 14990,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "tension_shelf",
    "places": [
     "washer-top",
@@ -13908,7 +13904,7 @@
    "w": 96.5,
    "shop": "ニトリ",
    "price": 19990,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "tension_shelf",
    "places": [
     "washer-top",
@@ -13942,7 +13938,7 @@
    "h": 200.0,
    "shop": "ニトリ",
    "price": null,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "tension_shelf",
    "places": [
     "washer-top",
@@ -13977,7 +13973,7 @@
    "h": 24.0,
    "shop": "ニトリ",
    "price": null,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "tension_shelf",
    "places": [
     "washer-top",
@@ -14005,7 +14001,7 @@
    "h": 2.7,
    "shop": "ニトリ",
    "price": null,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "tension_shelf",
    "places": [
     "washer-top",
@@ -14033,7 +14029,7 @@
    "h": 200.0,
    "shop": "ニトリ",
    "price": null,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "tension_shelf",
    "places": [
     "washer-top",
@@ -14068,7 +14064,7 @@
    "h": 24.0,
    "shop": "ニトリ",
    "price": null,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "tension_shelf",
    "places": [
     "washer-top",
@@ -14096,7 +14092,7 @@
    "h": 2.7,
    "shop": "ニトリ",
    "price": null,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "tension_shelf",
    "places": [
     "washer-top",
@@ -14124,7 +14120,7 @@
    "h": 200.0,
    "shop": "ニトリ",
    "price": null,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "tension_shelf",
    "places": [
     "washer-top",
@@ -14159,7 +14155,7 @@
    "h": 24.0,
    "shop": "ニトリ",
    "price": null,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "tension_shelf",
    "places": [
     "washer-top",
@@ -14187,7 +14183,7 @@
    "h": 2.7,
    "shop": "ニトリ",
    "price": null,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "tension_shelf",
    "places": [
     "washer-top",
@@ -14215,7 +14211,7 @@
    "w": 76.5,
    "shop": "ニトリ",
    "price": 17990,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "tension_shelf",
    "places": [
     "washer-top",
@@ -14249,7 +14245,7 @@
    "h": 170.0,
    "shop": "アイリスオーヤマ公式 楽天市場店",
    "price": null,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "tension_shelf",
    "places": [
     "washer-top",
@@ -14284,7 +14280,7 @@
    "h": 170.0,
    "shop": "アイリスオーヤマ公式 楽天市場店",
    "price": null,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "tension_shelf",
    "places": [
     "washer-top",
@@ -14319,7 +14315,7 @@
    "w": 92.0,
    "shop": "アイリスオーヤマ公式 楽天市場店",
    "price": 11800,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "tension_shelf",
    "places": [
     "washer-top",
@@ -14361,7 +14357,7 @@
    "w": 42.0,
    "shop": "アイリスオーヤマ公式 楽天市場店",
    "price": 4600,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "tension_shelf",
    "places": [
     "washer-top",
@@ -14395,7 +14391,7 @@
    "w": 62.0,
    "shop": "アイリスオーヤマ公式 楽天市場店",
    "price": 10800,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "tension_shelf",
    "places": [
     "washer-top",
@@ -14437,7 +14433,7 @@
    "w": 70.0,
    "shop": "アイリスオーヤマ公式 楽天市場店",
    "price": 4600,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "tension_shelf",
    "places": [
     "washer-top",
@@ -14464,7 +14460,7 @@
    "w": 61.7,
    "shop": "アイリスオーヤマ公式 楽天市場店",
    "price": 7514,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "tension_shelf",
    "places": [
     "washer-top",
@@ -14498,7 +14494,7 @@
    "w": 82.6,
    "shop": "アイリスオーヤマ公式 楽天市場店",
    "price": 10978,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "tension_shelf",
    "places": [
     "washer-top",
@@ -14532,7 +14528,7 @@
    "w": 25.6,
    "shop": "ニトリ",
    "price": 3990,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "toilet_rack",
    "places": [
     "toilet"
@@ -14558,7 +14554,7 @@
    "w": 18.0,
    "shop": "ニトリ",
    "price": 12990,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "toilet_rack",
    "places": [
     "toilet"
@@ -14584,7 +14580,7 @@
    "w": 16.9,
    "shop": "ニトリ",
    "price": 3990,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "toilet_rack",
    "places": [
     "toilet"
@@ -14610,7 +14606,7 @@
    "w": 18.0,
    "shop": "ニトリ",
    "price": 11990,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "toilet_rack",
    "places": [
     "toilet"
@@ -14636,7 +14632,7 @@
    "h": 36.0,
    "shop": "アイリスオーヤマ公式 楽天市場店",
    "price": null,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "toilet_rack",
    "places": [
     "toilet"
@@ -14663,7 +14659,7 @@
    "h": 47.0,
    "shop": "アイリスオーヤマ公式 楽天市場店",
    "price": null,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "toilet_rack",
    "places": [
     "toilet"
@@ -14690,7 +14686,7 @@
    "w": 80.0,
    "shop": "ニトリ",
    "price": 19990,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "furniture",
    "places": [],
    "links": {
@@ -14714,7 +14710,7 @@
    "w": 54.8,
    "shop": "ニトリ",
    "price": 2990,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "shoe_rack",
    "places": [
     "shoebox",
@@ -14741,7 +14737,7 @@
    "w": 49.0,
    "shop": "ニトリ",
    "price": 3990,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "furniture",
    "places": [],
    "links": {
@@ -14765,7 +14761,7 @@
    "w": 46.0,
    "shop": "ニトリ",
    "price": 1990,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "u_rack",
    "places": [
     "sink",
@@ -14796,7 +14792,7 @@
    "w": 87.0,
    "shop": "ニトリ",
    "price": 19990,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "furniture",
    "places": [],
    "links": {
@@ -14821,7 +14817,7 @@
    "w": 45.0,
    "shop": "ニトリ",
    "price": 11490,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "furniture",
    "places": [],
    "links": {
@@ -14850,7 +14846,7 @@
    "w": 120.0,
    "shop": "ニトリ",
    "price": 44990,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "furniture",
    "places": [],
    "links": {
@@ -14874,7 +14870,7 @@
    "w": 83.5,
    "shop": "ニトリ",
    "price": 31990,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "furniture",
    "places": [],
    "links": {
@@ -14898,7 +14894,7 @@
    "h": 78.0,
    "shop": "ニトリ",
    "price": null,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "furniture",
    "places": [],
    "links": {
@@ -14923,7 +14919,7 @@
    "h": 78.0,
    "shop": "ニトリ",
    "price": null,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "furniture",
    "places": [],
    "links": {
@@ -14948,7 +14944,7 @@
    "h": 93.0,
    "shop": "ニトリ",
    "price": null,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "furniture",
    "places": [],
    "links": {
@@ -14973,7 +14969,7 @@
    "w": 60.0,
    "shop": "ニトリ",
    "price": 12490,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "furniture",
    "places": [],
    "links": {
@@ -15002,7 +14998,7 @@
    "h": 174.0,
    "shop": "ニトリ",
    "price": null,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "shoe_rack",
    "places": [
     "shoebox",
@@ -15030,7 +15026,7 @@
    "h": 174.0,
    "shop": "ニトリ",
    "price": null,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "shoe_rack",
    "places": [
     "shoebox",
@@ -15058,7 +15054,7 @@
    "w": 10.0,
    "shop": "ニトリ",
    "price": 499,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "shoe_rack",
    "places": [
     "shoebox",
@@ -15085,7 +15081,7 @@
    "w": 58.0,
    "shop": "ニトリ",
    "price": 12990,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "furniture",
    "places": [],
    "links": {
@@ -15109,7 +15105,7 @@
    "w": 90.0,
    "shop": "ニトリ",
    "price": 68090,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "shoe_rack",
    "places": [
     "shoebox",
@@ -15136,7 +15132,7 @@
    "w": 41.0,
    "shop": "ニトリ",
    "price": 1990,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "shoe_rack",
    "places": [
     "shoebox",
@@ -15167,24 +15163,24 @@
    "status": "自動抽出（未確認）"
   },
   {
-   "id": "nitori:10303657",
-   "name": "シューズボックスリアル (100ロー)",
+   "id": "nitori:10278642",
+   "name": "シューズボックスリアル (75)",
    "d": 35.0,
-   "h": 101.0,
-   "w": 100.0,
+   "h": 184.5,
+   "w": 75.2,
    "shop": "ニトリ",
-   "price": 42990,
-   "checked_at": "2026-10-27",
+   "price": 47990,
+   "checked_at": "2026-10-28",
    "type": "furniture",
    "places": [],
    "links": {
-    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/g00py47o.d4l21296.g00py47o.d4l22b90/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fnitori%2F5692076-%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fnitori%2Fi%2F10303657%2F&rafcid=wsc_i_is_f39725d4-39b5-46c2-8048-e2b2a03cda3a"
+    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/g00py47o.d4l21296.g00py47o.d4l22b90/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fnitori%2F0610071-%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fnitori%2Fi%2F10278642%2F&rafcid=wsc_i_is_f39725d4-39b5-46c2-8048-e2b2a03cda3a"
    },
-   "item_url": "https://hb.afl.rakuten.co.jp/hgc/g00py47o.d4l21296.g00py47o.d4l22b90/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fnitori%2F5692076-%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fnitori%2Fi%2F10303657%2F&rafcid=wsc_i_is_f39725d4-39b5-46c2-8048-e2b2a03cda3a",
+   "item_url": "https://hb.afl.rakuten.co.jp/hgc/g00py47o.d4l21296.g00py47o.d4l22b90/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fnitori%2F0610071-%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fnitori%2Fi%2F10278642%2F&rafcid=wsc_i_is_f39725d4-39b5-46c2-8048-e2b2a03cda3a",
    "source": "rakuten",
-   "img": "https://thumbnail.image.rakuten.co.jp/@0_mall/nitori/cabinet/56920/5692076-01.jpg?_ex=300x300",
+   "img": "https://thumbnail.image.rakuten.co.jp/@0_mall/nitori/cabinet/06100/0610071-01-.jpg?_ex=300x300",
    "src": "商品説明から抽出",
-   "evidence": "リント化粧紙繊維板サイズ(約):幅100×奥行35×高さ101cm",
+   "evidence": "リント化粧紙繊維板サイズ(約):幅75.2×奥行35×高さ184.5cm",
    "dim_kind": "外寸（表記から判断）",
    "unit": "cm",
    "confidence": "中",
@@ -15198,7 +15194,7 @@
    "w": 42.0,
    "shop": "ニトリ",
    "price": 1790,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "shoe_rack",
    "places": [
     "shoebox",
@@ -15236,7 +15232,7 @@
    "w": 28.2,
    "shop": "アイリスオーヤマ公式 楽天市場店",
    "price": 1400,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "furniture",
    "places": [],
    "links": {
@@ -15260,7 +15256,7 @@
    "w": 80.0,
    "shop": "アイリスオーヤマ公式 楽天市場店",
    "price": 7280,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "u_rack",
    "places": [
     "sink",
@@ -15291,7 +15287,7 @@
    "w": 80.0,
    "shop": "アイリスオーヤマ公式 楽天市場店",
    "price": 8481,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "u_rack",
    "places": [
     "sink",
@@ -15322,7 +15318,7 @@
    "w": 63.0,
    "shop": "アイリスオーヤマ公式 楽天市場店",
    "price": 2580,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "shoe_rack",
    "places": [
     "shoebox",
@@ -15349,7 +15345,7 @@
    "w": 23.5,
    "shop": "アイリスオーヤマ公式 楽天市場店",
    "price": 1280,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "furniture",
    "places": [],
    "links": {
@@ -15373,7 +15369,7 @@
    "w": 80.0,
    "shop": "アイリスオーヤマ公式 楽天市場店",
    "price": 5280,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "u_rack",
    "places": [
     "sink",
@@ -15404,7 +15400,7 @@
    "w": 23.5,
    "shop": "アイリスオーヤマ公式 楽天市場店",
    "price": 8380,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "furniture",
    "places": [],
    "links": {
@@ -15428,7 +15424,7 @@
    "w": 28.2,
    "shop": "アイリスオーヤマ公式 楽天市場店",
    "price": 9980,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "furniture",
    "places": [],
    "links": {
@@ -15452,7 +15448,7 @@
    "h": 47.5,
    "shop": "アイリスオーヤマ公式 楽天市場店",
    "price": null,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "shoe_rack",
    "places": [
     "shoebox",
@@ -15492,7 +15488,7 @@
    "h": 47.5,
    "shop": "アイリスオーヤマ公式 楽天市場店",
    "price": null,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "shoe_rack",
    "places": [
     "shoebox",
@@ -15521,7 +15517,7 @@
    "h": 46.0,
    "shop": "アイリスオーヤマ公式 楽天市場店",
    "price": null,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "shoe_rack",
    "places": [
     "shoebox",
@@ -15560,7 +15556,7 @@
    "h": 46.0,
    "shop": "アイリスオーヤマ公式 楽天市場店",
    "price": null,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "shoe_rack",
    "places": [
     "shoebox",
@@ -15588,7 +15584,7 @@
    "w": 63.0,
    "shop": "アイリスオーヤマ公式 楽天市場店",
    "price": 1780,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "shoe_rack",
    "places": [
     "shoebox",
@@ -15615,7 +15611,7 @@
    "w": 16.0,
    "shop": "アイリスオーヤマ公式 楽天市場店",
    "price": 341,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "furniture",
    "places": [],
    "links": {
@@ -15639,7 +15635,7 @@
    "w": 30.0,
    "shop": "アイリスオーヤマ公式 楽天市場店",
    "price": 1480,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "furniture",
    "places": [],
    "links": {
@@ -15663,7 +15659,7 @@
    "w": 72.5,
    "shop": "アイリスオーヤマ公式 楽天市場店",
    "price": 3980,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "furniture",
    "places": [],
    "links": {
@@ -15687,7 +15683,7 @@
    "h": 22.0,
    "shop": "アイリスオーヤマ公式 楽天市場店",
    "price": null,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "basket",
    "places": [
     "sink",
@@ -15728,7 +15724,7 @@
    "h": 22.0,
    "shop": "アイリスオーヤマ公式 楽天市場店",
    "price": null,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "basket",
    "places": [
     "sink",
@@ -15769,7 +15765,7 @@
    "h": 18.0,
    "shop": "アイリスオーヤマ公式 楽天市場店",
    "price": null,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "basket",
    "places": [
     "sink",
@@ -15810,7 +15806,7 @@
    "h": 18.5,
    "shop": "アイリスオーヤマ公式 楽天市場店",
    "price": null,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "basket",
    "places": [
     "sink",
@@ -15851,7 +15847,7 @@
    "w": 36.0,
    "shop": "テンマフィッツワールド楽天市場店",
    "price": 2480,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "shoe_rack",
    "places": [
     "shoebox",
@@ -15878,7 +15874,7 @@
    "h": 59.5,
    "shop": "ニトリ",
    "price": null,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "desk_wagon",
    "places": [
     "desk"
@@ -15910,7 +15906,7 @@
    "h": 100.0,
    "shop": "ニトリ",
    "price": null,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "desk_wagon",
    "places": [
     "desk"
@@ -15942,7 +15938,7 @@
    "w": 107.0,
    "shop": "ニトリ",
    "price": 16390,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "desk_wagon",
    "places": [
     "desk"
@@ -15968,7 +15964,7 @@
    "w": 35.0,
    "shop": "ニトリ",
    "price": 24990,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "desk_wagon",
    "places": [
     "desk"
@@ -15994,7 +15990,7 @@
    "h": 76.0,
    "shop": "ニトリ",
    "price": null,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "desk_wagon",
    "places": [
     "desk"
@@ -16021,7 +16017,7 @@
    "h": 59.5,
    "shop": "ニトリ",
    "price": null,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "desk_wagon",
    "places": [
     "desk"
@@ -16048,7 +16044,7 @@
    "h": 126.0,
    "shop": "ニトリ",
    "price": null,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "desk_wagon",
    "places": [
     "desk"
@@ -16075,7 +16071,7 @@
    "w": 120.0,
    "shop": "ニトリ",
    "price": 19990,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "desk_wagon",
    "places": [
     "desk"
@@ -16102,7 +16098,7 @@
    "w": 100.0,
    "shop": "ニトリ",
    "price": 54980,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "desk_wagon",
    "places": [
     "desk"
@@ -16128,7 +16124,7 @@
    "h": 59.0,
    "shop": "ニトリ",
    "price": 39980,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "desk_wagon",
    "places": [
     "desk"
@@ -16148,32 +16144,6 @@
    "set_available": true
   },
   {
-   "id": "nitori:10227228",
-   "name": "デスクワゴン (GRC)",
-   "d": 45.0,
-   "h": 59.0,
-   "w": 40.0,
-   "shop": "ニトリ",
-   "price": 17490,
-   "checked_at": "2026-10-27",
-   "type": "desk_wagon",
-   "places": [
-    "desk"
-   ],
-   "links": {
-    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/g00py47o.d4l21296.g00py47o.d4l22b90/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fnitori%2F5631671-%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fnitori%2Fi%2F10227228%2F&rafcid=wsc_i_is_f39725d4-39b5-46c2-8048-e2b2a03cda3a"
-   },
-   "item_url": "https://hb.afl.rakuten.co.jp/hgc/g00py47o.d4l21296.g00py47o.d4l22b90/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fnitori%2F5631671-%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fnitori%2Fi%2F10227228%2F&rafcid=wsc_i_is_f39725d4-39b5-46c2-8048-e2b2a03cda3a",
-   "source": "rakuten",
-   "img": "https://thumbnail.image.rakuten.co.jp/@0_mall/nitori/cabinet/56316/5631671-01.jpg?_ex=300x300",
-   "src": "商品説明から抽出",
-   "evidence": "板ホワイト:繊維板サイズ(約):幅40×奥行45×高さ59cm",
-   "dim_kind": "外寸（表記から判断）",
-   "unit": "cm",
-   "confidence": "中",
-   "status": "自動抽出（未確認）"
-  },
-  {
    "id": "nitori:10277598",
    "name": "タモ突板の木目がうつくしい天然木デスクワゴン 3段",
    "d": 43.0,
@@ -16181,7 +16151,7 @@
    "w": 42.0,
    "shop": "ニトリ",
    "price": 20990,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "desk_wagon",
    "places": [
     "desk"
@@ -16208,7 +16178,7 @@
    "w": 40.0,
    "shop": "ニトリ",
    "price": 21890,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "furniture",
    "places": [],
    "links": {
@@ -16230,6 +16200,32 @@
    "status": "自動抽出（未確認）"
   },
   {
+   "id": "nitori:10227228",
+   "name": "デスクワゴン (GRC)",
+   "d": 45.0,
+   "h": 59.0,
+   "w": 40.0,
+   "shop": "ニトリ",
+   "price": 17990,
+   "checked_at": "2026-10-28",
+   "type": "desk_wagon",
+   "places": [
+    "desk"
+   ],
+   "links": {
+    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/g00py47o.d4l21296.g00py47o.d4l22b90/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fnitori%2F5631671-%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fnitori%2Fi%2F10227228%2F&rafcid=wsc_i_is_f39725d4-39b5-46c2-8048-e2b2a03cda3a"
+   },
+   "item_url": "https://hb.afl.rakuten.co.jp/hgc/g00py47o.d4l21296.g00py47o.d4l22b90/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fnitori%2F5631671-%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fnitori%2Fi%2F10227228%2F&rafcid=wsc_i_is_f39725d4-39b5-46c2-8048-e2b2a03cda3a",
+   "source": "rakuten",
+   "img": "https://thumbnail.image.rakuten.co.jp/@0_mall/nitori/cabinet/56316/5631671-01.jpg?_ex=300x300",
+   "src": "商品説明から抽出",
+   "evidence": "板ホワイト:繊維板サイズ(約):幅40×奥行45×高さ59cm",
+   "dim_kind": "外寸（表記から判断）",
+   "unit": "cm",
+   "confidence": "中",
+   "status": "自動抽出（未確認）"
+  },
+  {
    "id": "irisplaza-r:10129502",
    "name": "デスクワゴン スリム キャスター デスクサイドワゴン",
    "d": 59.4,
@@ -16237,7 +16233,7 @@
    "w": 32.0,
    "shop": "アイリスオーヤマ公式 楽天市場店",
    "price": 10511,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "furniture",
    "places": [],
    "links": {
@@ -16261,7 +16257,7 @@
    "w": 53.2,
    "shop": "アイリスオーヤマ公式 楽天市場店",
    "price": 2950,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "fridge_case",
    "places": [
     "fridge"
@@ -16287,7 +16283,7 @@
    "h": 43.7,
    "shop": "アイリスオーヤマ公式 楽天市場店",
    "price": 4880,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "u_rack",
    "places": [
     "sink",
@@ -16329,7 +16325,7 @@
    "w": 41.0,
    "shop": "アイリスオーヤマ公式 楽天市場店",
    "price": 9480,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "u_rack",
    "places": [
     "sink",
@@ -16371,7 +16367,7 @@
    "w": 41.0,
    "shop": "アイリスオーヤマ公式 楽天市場店",
    "price": 4980,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "u_rack",
    "places": [
     "sink",
@@ -16413,7 +16409,7 @@
    "w": 62.0,
    "shop": "ニトリ",
    "price": 12990,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "fridge_case",
    "places": [
     "fridge"
@@ -16439,7 +16435,7 @@
    "w": 58.0,
    "shop": "ニトリ",
    "price": 11990,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "fridge_case",
    "places": [
     "fridge"
@@ -16465,7 +16461,7 @@
    "w": 62.5,
    "shop": "ニトリ",
    "price": 12990,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "fridge_case",
    "places": [
     "fridge"
@@ -16491,7 +16487,7 @@
    "w": 60.0,
    "shop": "ニトリ",
    "price": 17990,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "fridge_case",
    "places": [
     "fridge"
@@ -16517,7 +16513,7 @@
    "w": 62.0,
    "shop": "ニトリ",
    "price": 12990,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "fridge_case",
    "places": [
     "fridge"
@@ -16543,7 +16539,7 @@
    "w": 47.4,
    "shop": "アイリスオーヤマ公式 楽天市場店",
    "price": 4580,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "fridge_case",
    "places": [
     "fridge"
@@ -16576,7 +16572,7 @@
    "w": 58.0,
    "shop": "アイリスオーヤマ公式 楽天市場店",
    "price": 13120,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "furniture",
    "places": [],
    "links": {
@@ -16600,7 +16596,7 @@
    "w": 47.4,
    "shop": "アイリスオーヤマ公式 楽天市場店",
    "price": 5000,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "fridge_case",
    "places": [
     "fridge"
@@ -16633,7 +16629,7 @@
    "w": 42.0,
    "shop": "くらしのeショップ",
    "price": 4199,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "furniture",
    "places": [],
    "links": {
@@ -16663,7 +16659,7 @@
    "w": 34.5,
    "shop": "エア・リゾームインテリア",
    "price": 1486,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "inner_box",
    "places": [
     "wall",
@@ -16695,7 +16691,7 @@
    "w": 60.0,
    "shop": "快適インテリアYahoo!店",
    "price": 3000,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "furniture",
    "places": [],
    "links": {
@@ -16720,7 +16716,7 @@
    "w": 40.1,
    "shop": "サンワダイレクト",
    "price": 5180,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "furniture",
    "places": [],
    "links": {
@@ -16745,7 +16741,7 @@
    "w": 10.8,
    "shop": "サンワダイレクト",
    "price": 2480,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "media",
    "places": [
     "colorbox",
@@ -16775,7 +16771,7 @@
    "w": 76.0,
    "shop": "サンワダイレクト",
    "price": 4480,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "drawer_case",
    "places": [
     "sink",
@@ -16815,7 +16811,7 @@
    "w": 36.0,
    "shop": "くらしのeショップ",
    "price": 4724,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "furniture",
    "places": [],
    "links": {
@@ -16845,7 +16841,7 @@
    "w": 38.0,
    "shop": "サンワダイレクト",
    "price": 2480,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "furniture",
    "places": [],
    "links": {
@@ -16875,7 +16871,7 @@
    "w": 55.0,
    "shop": "マックスシェアーヤフー店",
    "price": 6820,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "gap_rack",
    "places": [
     "fridge-gap",
@@ -16906,7 +16902,7 @@
    "w": 38.0,
    "shop": "サンワダイレクト",
    "price": 2980,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "furniture",
    "places": [],
    "links": {
@@ -16936,7 +16932,7 @@
    "w": 20.0,
    "shop": "ヤマソロ Yahoo!店",
    "price": 2420,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "hanger_rack",
    "places": [],
    "links": {
@@ -16968,7 +16964,7 @@
    "w": 20.0,
    "shop": "ヤマソロ Yahoo!店",
    "price": 2530,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "hanger_rack",
    "places": [],
    "links": {
@@ -17001,7 +16997,7 @@
    "w": 34.0,
    "shop": "くらしのeショップ",
    "price": 8820,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "clothes_case",
    "places": [
     "oshiire",
@@ -17029,7 +17025,7 @@
    "w": 110.0,
    "shop": "エア・リゾームインテリア",
    "price": 26970,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "furniture",
    "places": [],
    "links": {
@@ -17064,7 +17060,7 @@
    "w": 58.0,
    "shop": "Life Glad",
    "price": 890,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "clothes_case",
    "places": [
     "oshiire",
@@ -17093,7 +17089,7 @@
    "w": 56.0,
    "shop": "家具インテリア館Yahoo!店",
    "price": 10480,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "chest_multi",
    "places": [
     "wash-gap",
@@ -17124,7 +17120,7 @@
    "w": 54.0,
    "shop": "くらしのeショップ",
    "price": 14333,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "clothes_case",
    "places": [
     "oshiire",
@@ -17152,7 +17148,7 @@
    "w": 73.0,
    "shop": "家具インテリア館Yahoo!店",
    "price": 17800,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "clothes_case",
    "places": [
     "oshiire",
@@ -17181,7 +17177,7 @@
    "w": 45.0,
    "shop": "ヤマソロ Yahoo!店",
    "price": 3960,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "ext_rack",
    "places": [
     "sink",
@@ -17222,7 +17218,7 @@
    "w": 12.5,
    "shop": "ヤマソロ Yahoo!店",
    "price": 15950,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "u_rack",
    "places": [
     "sink",
@@ -17261,7 +17257,7 @@
    "w": 34.5,
    "shop": "アウトレット家具リバップ",
    "price": 2980,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "basket",
    "places": [
     "sink",
@@ -17301,7 +17297,7 @@
    "w": 98.0,
    "shop": "モダンデコ",
    "price": 19999,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "furniture",
    "places": [],
    "links": {
@@ -17324,38 +17320,6 @@
    "status": "自動抽出（未確認）"
   },
   {
-   "id": "yahoo:aandi-lilita_10002206",
-   "name": "リセ スリムストッカー S2M1L1 4段 18cm",
-   "d": 40.0,
-   "h": 85.0,
-   "w": 18.0,
-   "shop": "リリータ生活倶楽部ヤフー店",
-   "price": 5280,
-   "checked_at": "2026-10-27",
-   "type": "lid_box",
-   "places": [
-    "wall",
-    "fridge-top",
-    "oshiire",
-    "closet",
-    "steelrack",
-    "bed"
-   ],
-   "links": {
-    "yahoo": "https://store.shopping.yahoo.co.jp/aandi-lilita/10002206.html"
-   },
-   "item_url": "https://store.shopping.yahoo.co.jp/aandi-lilita/10002206.html",
-   "source": "yahoo",
-   "jan": "4528302911160",
-   "img": "https://item-shopping.c.yimg.jp/i/g/aandi-lilita_10002206",
-   "src": "商品説明から抽出",
-   "evidence": "【スペック】 ■サイズ:(約)幅18×奥行40×高さ85cm",
-   "dim_kind": "外寸（表記から判断）",
-   "unit": "cm",
-   "confidence": "中",
-   "status": "自動抽出（未確認）"
-  },
-  {
    "id": "yahoo:e-kurashi_op-xe665#1",
    "name": "ラック スリム 3段 幅47 奥行27 高さ63.5cm 棚（幅47cm）",
    "w": 47.0,
@@ -17363,7 +17327,7 @@
    "h": 63.5,
    "shop": "くらしのeショップ",
    "price": null,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "u_rack",
    "places": [
     "sink",
@@ -17396,7 +17360,7 @@
    "h": 27.0,
    "shop": "くらしのeショップ",
    "price": null,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "u_rack",
    "places": [
     "sink",
@@ -17429,7 +17393,7 @@
    "h": 93.0,
    "shop": "くらしのeショップ",
    "price": null,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "u_rack",
    "places": [
     "sink",
@@ -17462,7 +17426,7 @@
    "h": 27.0,
    "shop": "くらしのeショップ",
    "price": null,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "u_rack",
    "places": [
     "sink",
@@ -17495,7 +17459,7 @@
    "w": 45.5,
    "shop": "ラックとインテリア通販 an-non",
    "price": 3980,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "steel_rack",
    "places": [
     "oshiire"
@@ -17522,7 +17486,7 @@
    "w": 59.5,
    "shop": "ラックとインテリア通販 an-non",
    "price": 5980,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "hanger_rack",
    "places": [],
    "links": {
@@ -17547,7 +17511,7 @@
    "w": 47.0,
    "shop": "ラッシュモール",
    "price": 6000,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "lid_box",
    "places": [
     "wall",
@@ -17579,7 +17543,7 @@
    "h": 23.6,
    "shop": "リビングート ヤフー店",
    "price": null,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "inner_box",
    "places": [
     "wall",
@@ -17612,7 +17576,7 @@
    "h": 24.0,
    "shop": "リビングート ヤフー店",
    "price": null,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "inner_box",
    "places": [
     "wall",
@@ -17645,7 +17609,7 @@
    "w": 22.2,
    "shop": "ヤマソロ Yahoo!店",
    "price": 2420,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "door_pocket",
    "places": [
     "fridge"
@@ -17672,7 +17636,7 @@
    "w": 8.6,
    "shop": "ヤマソロ Yahoo!店",
    "price": 1760,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "gap_rack",
    "places": [
     "fridge-gap",
@@ -17704,7 +17668,7 @@
    "w": 22.0,
    "shop": "リビングート ヤフー店",
    "price": 6270,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "u_rack",
    "places": [
     "sink",
@@ -17736,7 +17700,7 @@
    "w": 25.0,
    "shop": "ヤマソロ Yahoo!店",
    "price": 2200,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "small_case",
    "places": [
     "sink",
@@ -17780,7 +17744,7 @@
    "h": 39.5,
    "shop": "アイリスプラザ Yahoo!店",
    "price": null,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "ext_rack",
    "places": [
     "sink",
@@ -17826,7 +17790,7 @@
    "h": 8.0,
    "shop": "アイリスプラザ Yahoo!店",
    "price": null,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "ext_rack",
    "places": [
     "sink",
@@ -17857,7 +17821,7 @@
    "w": 41.0,
    "shop": "リビングート ヤフー店",
    "price": 5500,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "magnet",
    "places": [
     "fridge-gap",
@@ -17885,7 +17849,7 @@
    "w": 20.5,
    "shop": "アシストワン",
    "price": 2970,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "drawer_case",
    "places": [
     "sink",
@@ -17920,7 +17884,7 @@
    "w": 55.0,
    "shop": "くらしのeショップ",
    "price": 7349,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "u_rack",
    "places": [
     "sink",
@@ -17952,7 +17916,7 @@
    "w": 40.0,
    "shop": "ヤマソロ Yahoo!店",
    "price": 3300,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "ext_rack",
    "places": [
     "sink",
@@ -17982,7 +17946,7 @@
    "w": 75.0,
    "shop": "リビングート ヤフー店",
    "price": 2790,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "ext_rack",
    "places": [
     "sink",
@@ -18012,7 +17976,7 @@
    "w": 35.8,
    "shop": "リビングート ヤフー店",
    "price": 3630,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "basket",
    "places": [
     "sink",
@@ -18052,7 +18016,7 @@
    "w": 60.0,
    "shop": "Relieve",
    "price": 2420,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "u_rack",
    "places": [
     "sink",
@@ -18083,7 +18047,7 @@
    "h": 82.5,
    "shop": "くらしのeショップ",
    "price": null,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "steel_rack",
    "places": [
     "oshiire"
@@ -18111,7 +18075,7 @@
    "h": 78.5,
    "shop": "くらしのeショップ",
    "price": null,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "steel_rack",
    "places": [
     "oshiire"
@@ -18139,7 +18103,7 @@
    "h": 70.0,
    "shop": "サンワダイレクト",
    "price": null,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "furniture",
    "places": [],
    "links": {
@@ -18165,7 +18129,7 @@
    "h": 66.4,
    "shop": "サンワダイレクト",
    "price": null,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "furniture",
    "places": [],
    "links": {
@@ -18191,7 +18155,7 @@
    "w": 45.5,
    "shop": "ラックとインテリア通販 an-non",
    "price": 3480,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "steel_rack",
    "places": [
     "oshiire"
@@ -18218,7 +18182,7 @@
    "h": 82.0,
    "shop": "リビングート ヤフー店",
    "price": null,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "gap_rack",
    "places": [
     "fridge-gap",
@@ -18250,7 +18214,7 @@
    "h": 91.0,
    "shop": "リビングート ヤフー店",
    "price": null,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "gap_rack",
    "places": [
     "fridge-gap",
@@ -18289,7 +18253,7 @@
    "w": 45.2,
    "shop": "エア・リゾームインテリア",
    "price": 8990,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "kitchen_wagon",
    "places": [
     "wash-gap",
@@ -18317,7 +18281,7 @@
    "h": 49.5,
    "shop": "くらしのeショップ",
    "price": null,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "steel_rack",
    "places": [
     "oshiire"
@@ -18345,7 +18309,7 @@
    "h": 46.0,
    "shop": "くらしのeショップ",
    "price": null,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "steel_rack",
    "places": [
     "oshiire"
@@ -18373,7 +18337,7 @@
    "w": 55.0,
    "shop": "サンワダイレクト",
    "price": 7980,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "furniture",
    "places": [],
    "links": {
@@ -18398,7 +18362,7 @@
    "w": 14.0,
    "shop": "ヤマソロ Yahoo!店",
    "price": 8360,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "lid_box",
    "places": [
     "wall",
@@ -18430,7 +18394,7 @@
    "w": 20.0,
    "shop": "ラクチーナ Yahoo!店",
    "price": 5260,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "kitchen_wagon",
    "places": [
     "wash-gap",
@@ -18458,7 +18422,7 @@
    "w": 12.0,
    "shop": "リリータ生活倶楽部ヤフー店",
    "price": 2680,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "gap_rack",
    "places": [
     "fridge-gap",
@@ -18490,7 +18454,7 @@
    "w": 12.0,
    "shop": "ベリベリモッコ",
    "price": 4200,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "gap_rack",
    "places": [
     "fridge-gap",
@@ -18522,7 +18486,7 @@
    "w": 10.5,
    "shop": "リビングート ヤフー店",
    "price": 2900,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "kitchen_wagon",
    "places": [
     "wash-gap",
@@ -18549,7 +18513,7 @@
    "h": 82.0,
    "shop": "リビングート ヤフー店",
    "price": null,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "gap_rack",
    "places": [
     "fridge-gap",
@@ -18581,7 +18545,7 @@
    "h": 91.0,
    "shop": "リビングート ヤフー店",
    "price": null,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "gap_rack",
    "places": [
     "fridge-gap",
@@ -18620,7 +18584,7 @@
    "w": 14.0,
    "shop": "リビングート ヤフー店",
    "price": 8360,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "small_case",
    "places": [
     "sink",
@@ -18656,7 +18620,7 @@
    "w": 20.0,
    "shop": "ラクチーナ Yahoo!店",
    "price": 3720,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "kitchen_wagon",
    "places": [
     "wash-gap",
@@ -18689,7 +18653,7 @@
    "w": 55.0,
    "shop": "LOHACO by アスクル",
    "price": 5380,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "drawer_case",
    "places": [
     "sink",
@@ -18724,7 +18688,7 @@
    "w": 35.0,
    "shop": "リブウェルYahoo!店",
    "price": 5980,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "clothes_case",
    "places": [
     "oshiire",
@@ -18757,7 +18721,7 @@
    "w": 40.0,
    "shop": "LOHACO by アスクル",
    "price": 5980,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "clothes_case",
    "places": [
     "oshiire",
@@ -18786,7 +18750,7 @@
    "w": 44.0,
    "shop": "LOHACO by アスクル",
    "price": 5380,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "basket",
    "places": [
     "sink",
@@ -18827,7 +18791,7 @@
    "w": 52.0,
    "shop": "リブウェルYahoo!店",
    "price": 7800,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "clothes_case",
    "places": [
     "oshiire",
@@ -18860,7 +18824,7 @@
    "w": 34.0,
    "shop": "くらしのeショップ",
    "price": 7718,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "clothes_case",
    "places": [
     "oshiire",
@@ -18888,7 +18852,7 @@
    "w": 55.0,
    "shop": "LOHACO by アスクル",
    "price": 4580,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "drawer_case",
    "places": [
     "sink",
@@ -18923,7 +18887,7 @@
    "w": 34.0,
    "shop": "くらしのeショップ",
    "price": 6615,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "clothes_case",
    "places": [
     "oshiire",
@@ -18951,7 +18915,7 @@
    "w": 34.5,
    "shop": "LIRE ライル",
    "price": 2999,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "clothes_case",
    "places": [
     "oshiire",
@@ -18980,7 +18944,7 @@
    "w": 18.5,
    "shop": "びーんず生活雑貨デポ",
    "price": 2420,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "fridge_case",
    "places": [
     "fridge"
@@ -19007,7 +18971,7 @@
    "w": 105.0,
    "shop": "Living雑貨 リスonlineshop",
    "price": 2380,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "fridge_case",
    "places": [
     "fridge"
@@ -19033,7 +18997,7 @@
    "w": 18.5,
    "shop": "びーんず生活雑貨デポ",
    "price": 2980,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "fridge_case",
    "places": [
     "fridge"
@@ -19060,7 +19024,7 @@
    "w": 85.5,
    "shop": "くらしのeショップ",
    "price": 10499,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "u_rack",
    "places": [
     "sink",
@@ -19092,7 +19056,7 @@
    "w": 85.5,
    "shop": "くらしのeショップ",
    "price": 15749,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "u_rack",
    "places": [
     "sink",
@@ -19124,7 +19088,7 @@
    "w": 85.5,
    "shop": "くらしのeショップ",
    "price": 14174,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "u_rack",
    "places": [
     "sink",
@@ -19156,7 +19120,7 @@
    "w": 37.0,
    "shop": "智恒ショッピング店",
    "price": 3290,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "u_rack",
    "places": [
     "sink",
@@ -19199,7 +19163,7 @@
    "w": 81.0,
    "shop": "Luminous メーカー公式店",
    "price": 10800,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "u_rack",
    "places": [
     "sink",
@@ -19231,7 +19195,7 @@
    "h": 85.0,
    "shop": "くらしのeショップ",
    "price": null,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "lid_box",
    "places": [
     "wall",
@@ -19264,7 +19228,7 @@
    "h": 85.0,
    "shop": "くらしのeショップ",
    "price": null,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "lid_box",
    "places": [
     "wall",
@@ -19297,7 +19261,7 @@
    "w": 27.0,
    "shop": "TTWO",
    "price": 3580,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "ext_rack",
    "places": [
     "sink",
@@ -19331,7 +19295,7 @@
    "w": 70.0,
    "shop": "空調作業服のtantobazarshop",
    "price": 1700,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "kitchen_wagon",
    "places": [
     "wash-gap",
@@ -19358,7 +19322,7 @@
    "w": 50.0,
    "shop": "リビングート ヤフー店",
    "price": 2690,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "ext_rack",
    "places": [
     "sink",
@@ -19398,7 +19362,7 @@
    "w": 23.0,
    "shop": "リビングート ヤフー店",
    "price": 4240,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "ext_rack",
    "places": [
     "sink",
@@ -19427,7 +19391,7 @@
    "w": 19.0,
    "shop": "リビングート ヤフー店",
    "price": 3930,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "ext_rack",
    "places": [
     "sink",
@@ -19456,7 +19420,7 @@
    "w": 41.5,
    "shop": "pickupplazashop",
    "price": 1650,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "ext_rack",
    "places": [
     "sink",
@@ -19496,7 +19460,7 @@
    "w": 29.6,
    "shop": "くらしのeショップ",
    "price": 3674,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "ext_rack",
    "places": [
     "sink",
@@ -19526,7 +19490,7 @@
    "w": 50.0,
    "shop": "リビングート ヤフー店",
    "price": 4880,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "ext_rack",
    "places": [
     "sink",
@@ -19566,7 +19530,7 @@
    "w": 50.0,
    "shop": "住マイル",
    "price": 1980,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "u_rack",
    "places": [
     "stove",
@@ -19608,7 +19572,7 @@
    "w": 70.0,
    "shop": "WEIMALL公式ストア Yahoo!店",
    "price": 1650,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "ext_rack",
    "places": [
     "sink",
@@ -19637,7 +19601,7 @@
    "w": 50.0,
    "shop": "リビングート ヤフー店",
    "price": 3980,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "ext_rack",
    "places": [
     "sink",
@@ -19677,7 +19641,7 @@
    "w": 29.0,
    "shop": "快適インテリアYahoo!店",
    "price": 2980,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "basket",
    "places": [
     "sink",
@@ -19718,7 +19682,7 @@
    "w": 98.0,
    "shop": "ゆにでのこづち Yahoo!店",
    "price": 12800,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "furniture",
    "places": [],
    "links": {
@@ -19743,7 +19707,7 @@
    "w": 63.5,
    "shop": "ヴァストマート",
    "price": 4680,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "hanger_rack",
    "places": [],
    "links": {
@@ -19767,7 +19731,7 @@
    "w": 102.0,
    "shop": "クオリアル Yahoo!ショッピング店",
    "price": 25990,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "furniture",
    "places": [],
    "links": {
@@ -19791,7 +19755,7 @@
    "w": 35.0,
    "shop": "くらしのeショップ",
    "price": 13649,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "drawer_case",
    "places": [
     "sink",
@@ -19826,7 +19790,7 @@
    "w": 24.0,
    "shop": "リビングート ヤフー店",
    "price": 988,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "drawer_case",
    "places": [
     "sink",
@@ -19861,7 +19825,7 @@
    "w": 29.0,
    "shop": "リビングート ヤフー店",
    "price": 2380,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "basket",
    "places": [
     "sink",
@@ -19907,7 +19871,7 @@
    "h": 23.0,
    "shop": "リビングート ヤフー店",
    "price": null,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "basket",
    "places": [
     "sink",
@@ -19949,7 +19913,7 @@
    "h": 23.0,
    "shop": "リビングート ヤフー店",
    "price": null,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "basket",
    "places": [
     "sink",
@@ -19991,7 +19955,7 @@
    "w": 18.5,
    "shop": "リビングート ヤフー店",
    "price": 948,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "drawer_case",
    "places": [
     "sink",
@@ -20026,7 +19990,7 @@
    "h": 22.0,
    "shop": "びーんず生活雑貨デポ",
    "price": null,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "basket",
    "places": [
     "sink",
@@ -20068,7 +20032,7 @@
    "h": 22.0,
    "shop": "びーんず生活雑貨デポ",
    "price": null,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "basket",
    "places": [
     "sink",
@@ -20110,7 +20074,7 @@
    "w": 24.0,
    "shop": "pratique by kkヤフー店",
    "price": 670,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "basket",
    "places": [
     "sink",
@@ -20151,7 +20115,7 @@
    "w": 24.0,
    "shop": "pratique by kkヤフー店",
    "price": 670,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "basket",
    "places": [
     "sink",
@@ -20192,7 +20156,7 @@
    "w": 18.5,
    "shop": "pratique by kkヤフー店",
    "price": 680,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "basket",
    "places": [
     "sink",
@@ -20233,7 +20197,7 @@
    "w": 18.5,
    "shop": "pratique by kkヤフー店",
    "price": 680,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "basket",
    "places": [
     "sink",
@@ -20279,7 +20243,7 @@
    "h": 16.0,
    "shop": "リビングート ヤフー店",
    "price": null,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "basket",
    "places": [
     "sink",
@@ -20320,7 +20284,7 @@
    "h": 15.5,
    "shop": "リビングート ヤフー店",
    "price": null,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "basket",
    "places": [
     "sink",
@@ -20361,7 +20325,7 @@
    "w": 24.0,
    "shop": "住マイル",
    "price": 880,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "basket",
    "places": [
     "sink",
@@ -20407,7 +20371,7 @@
    "w": 19.1,
    "shop": "リビングート ヤフー店",
    "price": 538,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "drawer_case",
    "places": [
     "sink",
@@ -20441,7 +20405,7 @@
    "w": 18.0,
    "shop": "KEYUCA Yahoo!ショッピング店",
    "price": 715,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "lid_box",
    "places": [
     "wall",
@@ -20477,7 +20441,7 @@
    "w": 22.5,
    "shop": "KEYUCA Yahoo!ショッピング店",
    "price": 759,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "ext_rack",
    "places": [
     "sink",
@@ -20511,7 +20475,7 @@
    "w": 15.7,
    "shop": "リビングート ヤフー店",
    "price": 558,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "lid_box",
    "places": [
     "wall",
@@ -20542,7 +20506,7 @@
    "w": 14.5,
    "shop": "リビングート ヤフー店",
    "price": 1080,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "drawer_case",
    "places": [
     "sink",
@@ -20575,7 +20539,7 @@
    "w": 22.5,
    "shop": "KEYUCA Yahoo!ショッピング店",
    "price": 715,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "ext_rack",
    "places": [
     "sink",
@@ -20609,7 +20573,7 @@
    "w": 90.5,
    "shop": "くらしのeショップ",
    "price": 14699,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "media",
    "places": [
     "colorbox",
@@ -20638,7 +20602,7 @@
    "h": 170.5,
    "shop": "エア・リゾームインテリア",
    "price": null,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "gap_rack",
    "places": [
     "fridge-gap",
@@ -20671,7 +20635,7 @@
    "h": 24.0,
    "shop": "エア・リゾームインテリア",
    "price": null,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "gap_rack",
    "places": [
     "fridge-gap",
@@ -20704,7 +20668,7 @@
    "w": 40.0,
    "shop": "くらしのeショップ",
    "price": 3884,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "u_rack",
    "places": [
     "sink",
@@ -20736,7 +20700,7 @@
    "h": 179.0,
    "shop": "収納 本棚&食器棚 ラック YMWORLD",
    "price": null,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "laundry_rack",
    "places": [
     "pan-top",
@@ -20776,7 +20740,7 @@
    "h": 179.0,
    "shop": "収納 本棚&食器棚 ラック YMWORLD",
    "price": null,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "laundry_rack",
    "places": [
     "pan-top",
@@ -20816,7 +20780,7 @@
    "w": 42.0,
    "shop": "快適インテリアYahoo!店",
    "price": 4600,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "tension_shelf",
    "places": [
     "washer-top",
@@ -20851,7 +20815,7 @@
    "w": 24.6,
    "shop": "本棚・食器棚・収納家具の家具衛門",
    "price": 19980,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "gap_rack",
    "places": [
     "fridge-gap",
@@ -20883,7 +20847,7 @@
    "w": 20.0,
    "shop": "くらしのeショップ",
    "price": 4724,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "basket",
    "places": [
     "sink",
@@ -20924,7 +20888,7 @@
    "w": 30.0,
    "shop": "サンワダイレクト",
    "price": 5980,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "furniture",
    "places": [],
    "links": {
@@ -20949,7 +20913,7 @@
    "w": 63.0,
    "shop": "スチールラックのキタジマ",
    "price": 4280,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "steel_rack",
    "places": [
     "oshiire"
@@ -20976,7 +20940,7 @@
    "w": 29.0,
    "shop": "家具工場直販 家具ファクトリー",
    "price": 27800,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "furniture",
    "places": [],
    "links": {
@@ -21000,7 +20964,7 @@
    "h": 85.0,
    "shop": "ベリベリモッコ",
    "price": null,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "gap_rack",
    "places": [
     "fridge-gap",
@@ -21033,7 +20997,7 @@
    "h": 11.4,
    "shop": "ベリベリモッコ",
    "price": null,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "gap_rack",
    "places": [
     "fridge-gap",
@@ -21066,7 +21030,7 @@
    "h": 18.2,
    "shop": "ベリベリモッコ",
    "price": null,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "gap_rack",
    "places": [
     "fridge-gap",
@@ -21099,7 +21063,7 @@
    "h": 32.0,
    "shop": "ベリベリモッコ",
    "price": null,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "gap_rack",
    "places": [
     "fridge-gap",
@@ -21132,7 +21096,7 @@
    "w": 67.5,
    "shop": "kawako online Yahoo!店",
    "price": 8680,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "u_rack",
    "places": [
     "sink",
@@ -21164,7 +21128,7 @@
    "h": 85.0,
    "shop": "リビングート ヤフー店",
    "price": null,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "lid_box",
    "places": [
     "wall",
@@ -21197,7 +21161,7 @@
    "h": 11.4,
    "shop": "リビングート ヤフー店",
    "price": null,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "lid_box",
    "places": [
     "wall",
@@ -21230,7 +21194,7 @@
    "h": 18.2,
    "shop": "リビングート ヤフー店",
    "price": null,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "lid_box",
    "places": [
     "wall",
@@ -21263,7 +21227,7 @@
    "h": 32.0,
    "shop": "リビングート ヤフー店",
    "price": null,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "lid_box",
    "places": [
     "wall",
@@ -21296,7 +21260,7 @@
    "w": 10.5,
    "shop": "うさぎ屋 インテリア&DIY",
    "price": 3880,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "gap_rack",
    "places": [
     "fridge-gap",
@@ -21327,7 +21291,7 @@
    "w": 10.5,
    "shop": "うさぎ屋 インテリア&DIY",
    "price": 3580,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "gap_rack",
    "places": [
     "fridge-gap",
@@ -21358,7 +21322,7 @@
    "w": 15.0,
    "shop": "mottole Yahoo!店",
    "price": 5660,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "gap_rack",
    "places": [
     "fridge-gap",
@@ -21390,7 +21354,7 @@
    "w": 12.5,
    "shop": "ザッカーグplus いいもの見つけた",
    "price": 3230,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "laundry_rack",
    "places": [
     "pan-top",
@@ -21417,7 +21381,7 @@
    "w": 12.5,
    "shop": "住マイル",
    "price": 2200,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "gap_rack",
    "places": [
     "fridge-gap",
@@ -21449,7 +21413,7 @@
    "w": 15.6,
    "shop": "生活空間",
    "price": 15900,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "gap_rack",
    "places": [
     "fridge-gap",
@@ -21482,7 +21446,7 @@
    "w": 10.5,
    "shop": "うさぎ屋 インテリア&DIY",
    "price": 3380,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "gap_rack",
    "places": [
     "fridge-gap",
@@ -21513,7 +21477,7 @@
    "w": 12.5,
    "shop": "うさぎ屋 インテリア&DIY",
    "price": 3294,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "gap_rack",
    "places": [
     "fridge-gap",
@@ -21544,7 +21508,7 @@
    "w": 15.0,
    "shop": "マックスシェアーヤフー店",
    "price": 3740,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "gap_rack",
    "places": [
     "fridge-gap",
@@ -21575,7 +21539,7 @@
    "w": 12.5,
    "shop": "ザッカーグplus いいもの見つけた",
    "price": 3390,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "toilet_rack",
    "places": [
     "toilet"
@@ -21601,7 +21565,7 @@
    "w": 10.5,
    "shop": "ザッカーグplus いいもの見つけた",
    "price": 2590,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "gap_rack",
    "places": [
     "fridge-gap",
@@ -21632,7 +21596,7 @@
    "w": 10.5,
    "shop": "ザッカーグplus いいもの見つけた",
    "price": 3340,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "gap_rack",
    "places": [
     "fridge-gap",
@@ -21663,7 +21627,7 @@
    "w": 13.0,
    "shop": "リビングート ヤフー店",
    "price": 12650,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "gap_rack",
    "places": [
     "fridge-gap",
@@ -21695,7 +21659,7 @@
    "w": 2.5,
    "shop": "リビングート ヤフー店",
    "price": 4510,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "fridge_case",
    "places": [
     "fridge"
@@ -21729,7 +21693,7 @@
    "w": 10.5,
    "shop": "住マイル",
    "price": 2750,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "gap_rack",
    "places": [
     "fridge-gap",
@@ -21761,7 +21725,7 @@
    "w": 10.5,
    "shop": "うさぎ屋 インテリア&DIY",
    "price": 3380,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "gap_rack",
    "places": [
     "fridge-gap",
@@ -21792,7 +21756,7 @@
    "h": 85.0,
    "shop": "リビングート ヤフー店",
    "price": null,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "lid_box",
    "places": [
     "wall",
@@ -21824,7 +21788,7 @@
    "h": 11.4,
    "shop": "リビングート ヤフー店",
    "price": null,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "lid_box",
    "places": [
     "wall",
@@ -21856,7 +21820,7 @@
    "h": 18.2,
    "shop": "リビングート ヤフー店",
    "price": null,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "lid_box",
    "places": [
     "wall",
@@ -21888,7 +21852,7 @@
    "h": 32.0,
    "shop": "リビングート ヤフー店",
    "price": null,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "lid_box",
    "places": [
     "wall",
@@ -21920,7 +21884,7 @@
    "w": 25.0,
    "shop": "マックスシェアーヤフー店",
    "price": 4400,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "gap_rack",
    "places": [
     "fridge-gap",
@@ -21951,7 +21915,7 @@
    "w": 10.5,
    "shop": "ザッカーグplus いいもの見つけた",
    "price": 3500,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "gap_rack",
    "places": [
     "fridge-gap",
@@ -21982,7 +21946,7 @@
    "w": 30.0,
    "shop": "ヤマソロ Yahoo!店",
    "price": 2970,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "u_rack",
    "places": [
     "sink",
@@ -22021,7 +21985,7 @@
    "w": 40.0,
    "shop": "ライフスタイルショップfunfun",
    "price": 7680,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "drawer_case",
    "places": [
     "sink",
@@ -22055,7 +22019,7 @@
    "w": 11.0,
    "shop": "ヤマソロ Yahoo!店",
    "price": 880,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "magnet",
    "places": [
     "fridge-gap",
@@ -22083,7 +22047,7 @@
    "h": 15.0,
    "shop": "ZEN Camps ヤフー店",
    "price": null,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "soft",
    "places": [
     "wall",
@@ -22114,7 +22078,7 @@
    "h": 13.0,
    "shop": "ZEN Camps ヤフー店",
    "price": null,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "soft",
    "places": [
     "wall",
@@ -22145,7 +22109,7 @@
    "h": 11.0,
    "shop": "八番屋",
    "price": null,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "fridge_case",
    "places": [
     "fridge"
@@ -22172,7 +22136,7 @@
    "h": 11.0,
    "shop": "八番屋",
    "price": null,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "fridge_case",
    "places": [
     "fridge"
@@ -22199,7 +22163,7 @@
    "w": 10.0,
    "shop": "住マイル",
    "price": 1380,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "basket",
    "places": [
     "sink",
@@ -22240,7 +22204,7 @@
    "w": 15.0,
    "shop": "くらしのeショップ",
    "price": 2939,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "u_rack",
    "places": [
     "sink",
@@ -22272,7 +22236,7 @@
    "w": 45.0,
    "shop": "ラクチーナ Yahoo!店",
    "price": 3180,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "ext_rack",
    "places": [
     "sink",
@@ -22317,7 +22281,7 @@
    "w": 64.0,
    "shop": "LOWYA(ロウヤ)Yahoo!ショッピング店",
    "price": 45000,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "u_rack",
    "places": [
     "sink",
@@ -22348,7 +22312,7 @@
    "w": 29.0,
    "shop": "家具工場直販 家具ファクトリー",
    "price": 27800,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "furniture",
    "places": [],
    "links": {
@@ -22372,7 +22336,7 @@
    "w": 29.0,
    "shop": "家具工場直販 家具ファクトリー",
    "price": 27800,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "furniture",
    "places": [],
    "links": {
@@ -22396,7 +22360,7 @@
    "h": 39.0,
    "shop": "ココチのくらし雑貨店",
    "price": null,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "basket",
    "places": [
     "sink",
@@ -22438,7 +22402,7 @@
    "h": 41.0,
    "shop": "ココチのくらし雑貨店",
    "price": null,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "basket",
    "places": [
     "sink",
@@ -22480,7 +22444,7 @@
    "h": 33.0,
    "shop": "ココチのくらし雑貨店",
    "price": null,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "basket",
    "places": [
     "sink",
@@ -22522,7 +22486,7 @@
    "h": 34.0,
    "shop": "ココチのくらし雑貨店",
    "price": null,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "basket",
    "places": [
     "sink",
@@ -22564,7 +22528,7 @@
    "w": 15.0,
    "shop": "リビングート ヤフー店",
    "price": 2530,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "laundry_rack",
    "places": [
     "pan-top",
@@ -22592,7 +22556,7 @@
    "w": 25.0,
    "shop": "くらしのeショップ",
    "price": 5249,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "gap_rack",
    "places": [
     "fridge-gap",
@@ -22628,7 +22592,7 @@
    "h": 179.0,
    "shop": "おしゃれ 北欧 食器棚 albero",
    "price": null,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "laundry_rack",
    "places": [
     "pan-top",
@@ -22668,7 +22632,7 @@
    "h": 179.0,
    "shop": "おしゃれ 北欧 食器棚 albero",
    "price": null,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "laundry_rack",
    "places": [
     "pan-top",
@@ -22708,7 +22672,7 @@
    "h": 60.0,
    "shop": "雑貨ショップK・T",
    "price": null,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "kitchen_wagon",
    "places": [
     "wash-gap",
@@ -22736,7 +22700,7 @@
    "h": 88.0,
    "shop": "雑貨ショップK・T",
    "price": null,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "kitchen_wagon",
    "places": [
     "wash-gap",
@@ -22764,7 +22728,7 @@
    "w": 59.5,
    "shop": "ラックとインテリア通販 an-non",
    "price": 4980,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "steel_rack",
    "places": [
     "oshiire"
@@ -22791,7 +22755,7 @@
    "w": 68.5,
    "shop": "くらしにふぃっとYahoo!店",
    "price": 10980,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "laundry_rack",
    "places": [
     "pan-top",
@@ -22829,7 +22793,7 @@
    "w": 63.5,
    "shop": "くらしにふぃっとYahoo!店",
    "price": 6580,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "laundry_rack",
    "places": [
     "pan-top",
@@ -22867,7 +22831,7 @@
    "w": 84.0,
    "shop": "LOWYA(ロウヤ)Yahoo!ショッピング店",
    "price": 14990,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "clothes_case",
    "places": [
     "oshiire",
@@ -22896,7 +22860,7 @@
    "w": 42.0,
    "shop": "空調作業服のtantobazarshop",
    "price": 4230,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "basket",
    "places": [
     "sink",
@@ -22936,7 +22900,7 @@
    "h": 87.0,
    "shop": "くらしにふぃっとYahoo!店",
    "price": 2980,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "hanger_rack",
    "places": [],
    "links": {
@@ -22960,7 +22924,7 @@
    "w": 42.0,
    "shop": "空調作業服のtantobazarshop",
    "price": 3830,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "gap_rack",
    "places": [
     "fridge-gap",
@@ -22991,7 +22955,7 @@
    "w": 28.0,
    "shop": "ヤマソロ Yahoo!店",
    "price": 3960,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "magnet",
    "places": [
     "fridge-gap",
@@ -23012,6 +22976,38 @@
    "status": "自動抽出（未確認）"
   },
   {
+   "id": "yahoo:aandi-lilita_10002206",
+   "name": "リセ スリムストッカー S2M1L1 4段 18cm",
+   "d": 40.0,
+   "h": 85.0,
+   "w": 18.0,
+   "shop": "リリータ生活倶楽部ヤフー店",
+   "price": 4980,
+   "checked_at": "2026-10-28",
+   "type": "lid_box",
+   "places": [
+    "wall",
+    "fridge-top",
+    "oshiire",
+    "closet",
+    "steelrack",
+    "bed"
+   ],
+   "links": {
+    "yahoo": "https://store.shopping.yahoo.co.jp/aandi-lilita/10002206.html"
+   },
+   "item_url": "https://store.shopping.yahoo.co.jp/aandi-lilita/10002206.html",
+   "source": "yahoo",
+   "jan": "4528302911160",
+   "img": "https://item-shopping.c.yimg.jp/i/g/aandi-lilita_10002206",
+   "src": "商品説明から抽出",
+   "evidence": "【スペック】 ■サイズ:(約)幅18×奥行40×高さ85cm",
+   "dim_kind": "外寸（表記から判断）",
+   "unit": "cm",
+   "confidence": "中",
+   "status": "自動抽出（未確認）"
+  },
+  {
    "id": "yahoo:e-alamode_3605-3830",
    "name": "山崎実業 タワー 洗濯機横 マグネット折り畳み棚 tower",
    "d": 27.0,
@@ -23019,7 +23015,7 @@
    "w": 41.0,
    "shop": "ヤマソロ Yahoo!店",
    "price": 3850,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "magnet",
    "places": [
     "fridge-gap",
@@ -23047,7 +23043,7 @@
    "h": 16.0,
    "shop": "智恒ショッピング店",
    "price": null,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "tension_shelf",
    "places": [
     "washer-top",
@@ -23076,7 +23072,7 @@
    "h": 16.0,
    "shop": "智恒ショッピング店",
    "price": null,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "tension_shelf",
    "places": [
     "washer-top",
@@ -23105,7 +23101,7 @@
    "h": 16.0,
    "shop": "智恒ショッピング店",
    "price": null,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "tension_shelf",
    "places": [
     "washer-top",
@@ -23134,7 +23130,7 @@
    "w": 61.5,
    "shop": "エア・リゾームインテリア",
    "price": 9990,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "tension_shelf",
    "places": [
     "washer-top",
@@ -23169,7 +23165,7 @@
    "w": 60.0,
    "shop": "JAJAN-ANNEX",
    "price": 38500,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "tension_shelf",
    "places": [
     "washer-top",
@@ -23196,7 +23192,7 @@
    "h": 185.0,
    "shop": "収納 本棚&食器棚 ラック YMWORLD",
    "price": null,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "tension_shelf",
    "places": [
     "washer-top",
@@ -23232,7 +23228,7 @@
    "h": 185.0,
    "shop": "収納 本棚&食器棚 ラック YMWORLD",
    "price": null,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "tension_shelf",
    "places": [
     "washer-top",
@@ -23268,7 +23264,7 @@
    "h": 185.0,
    "shop": "収納 本棚&食器棚 ラック YMWORLD",
    "price": null,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "tension_shelf",
    "places": [
     "washer-top",
@@ -23304,7 +23300,7 @@
    "h": 185.0,
    "shop": "収納 本棚&食器棚 ラック YMWORLD",
    "price": null,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "tension_shelf",
    "places": [
     "washer-top",
@@ -23340,7 +23336,7 @@
    "w": 48.5,
    "shop": "燕三条水切り直販店",
    "price": 13999,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "tension_shelf",
    "places": [
     "washer-top",
@@ -23375,7 +23371,7 @@
    "w": 81.5,
    "shop": "エア・リゾームインテリア",
    "price": 11990,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "tension_shelf",
    "places": [
     "washer-top",
@@ -23410,7 +23406,7 @@
    "w": 46.5,
    "shop": "エア・リゾームインテリア",
    "price": 8680,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "tension_shelf",
    "places": [
     "washer-top",
@@ -23445,7 +23441,7 @@
    "h": 200.0,
    "shop": "エムール EMOOR 健康家具専門店",
    "price": null,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "tension_shelf",
    "places": [
     "washer-top",
@@ -23473,7 +23469,7 @@
    "h": 200.0,
    "shop": "エムール EMOOR 健康家具専門店",
    "price": null,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "tension_shelf",
    "places": [
     "washer-top",
@@ -23501,7 +23497,7 @@
    "w": 60.0,
    "shop": "エア・リゾームインテリア",
    "price": 12990,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "furniture",
    "places": [],
    "links": {
@@ -23533,7 +23529,7 @@
    "w": 59.5,
    "shop": "くらしのeショップ",
    "price": 6614,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "media",
    "places": [
     "colorbox",
@@ -23567,7 +23563,7 @@
    "w": 14.0,
    "shop": "クオリアル Yahoo!ショッピング店",
    "price": 6990,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "toilet_rack",
    "places": [
     "toilet"
@@ -23593,7 +23589,7 @@
    "w": 33.0,
    "shop": "びーんず生活雑貨デポ",
    "price": 4980,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "toilet_rack",
    "places": [
     "toilet"
@@ -23620,7 +23616,7 @@
    "w": 74.5,
    "shop": "LOWYA(ロウヤ)Yahoo!ショッピング店",
    "price": 8990,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "toilet_rack",
    "places": [
     "toilet"
@@ -23647,7 +23643,7 @@
    "w": 44.0,
    "shop": "LOWYA(ロウヤ)Yahoo!ショッピング店",
    "price": 6990,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "toilet_rack",
    "places": [
     "toilet"
@@ -23674,7 +23670,7 @@
    "w": 16.0,
    "shop": "ヤマソロ Yahoo!店",
    "price": 7920,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "toilet_rack",
    "places": [
     "toilet"
@@ -23701,7 +23697,7 @@
    "h": 230.4,
    "shop": "インテリアショップファンボヌール",
    "price": null,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "tension_shelf",
    "places": [
     "washer-top",
@@ -23716,7 +23712,7 @@
    "img": "https://item-shopping.c.yimg.jp/i/g/furnbonheur_pln4danwc",
    "src": "商品説明から抽出（サイズ違いを分割）",
    "variant": "支柱3本連結時",
-   "evidence": "面収納■サイズ 支柱3本連結時:幅55.4〜96.4 x 奥行28.7 x高さ230.4〜290.9cm",
+   "evidence": "爆買 ■サイズ 支柱3本連結時:幅55.4〜96.4 x 奥行28.7 x高さ230.4〜290.9cm",
    "dim_kind": "外寸（表記から判断）",
    "unit": "cm",
    "confidence": "中",
@@ -23745,7 +23741,7 @@
    "h": 168.7,
    "shop": "インテリアショップファンボヌール",
    "price": null,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "tension_shelf",
    "places": [
     "washer-top",
@@ -23789,7 +23785,7 @@
    "w": 60.0,
    "shop": "ヤマソロ Yahoo!店",
    "price": 2200,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "basket",
    "places": [
     "sink",
@@ -23830,7 +23826,7 @@
    "w": 5.5,
    "shop": "アシストワン",
    "price": 1320,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "toilet_rack",
    "places": [
     "toilet"
@@ -23857,7 +23853,7 @@
    "w": 33.0,
    "shop": "アシストワン",
    "price": 6930,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "toilet_rack",
    "places": [
     "toilet"
@@ -23884,7 +23880,7 @@
    "w": 5.5,
    "shop": "ヤマソロ Yahoo!店",
    "price": 1320,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "toilet_rack",
    "places": [
     "toilet"
@@ -23911,7 +23907,7 @@
    "w": 63.0,
    "shop": "リコメン堂インテリア館",
    "price": 1999,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "shoe_rack",
    "places": [
     "shoebox",
@@ -23938,8 +23934,8 @@
    "h": 93.0,
    "w": 90.5,
    "shop": "家具通販のグランデ",
-   "price": 13980,
-   "checked_at": "2026-10-27",
+   "price": 12990,
+   "checked_at": "2026-10-28",
    "type": "furniture",
    "places": [],
    "links": {
@@ -23964,7 +23960,7 @@
    "w": 60.0,
    "shop": "タンスのゲン Design the Future",
    "price": 8999,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "furniture",
    "places": [],
    "links": {
@@ -23987,8 +23983,8 @@
    "h": 93.0,
    "w": 60.0,
    "shop": "家具通販のグランデ",
-   "price": 9780,
-   "checked_at": "2026-10-27",
+   "price": 8990,
+   "checked_at": "2026-10-28",
    "type": "furniture",
    "places": [],
    "links": {
@@ -24011,8 +24007,8 @@
    "h": 93.0,
    "w": 74.5,
    "shop": "家具通販のグランデ",
-   "price": 11280,
-   "checked_at": "2026-10-27",
+   "price": 10590,
+   "checked_at": "2026-10-28",
    "type": "furniture",
    "places": [],
    "links": {
@@ -24037,7 +24033,7 @@
    "w": 33.0,
    "shop": "アカネA SHOP",
    "price": 2680,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "furniture",
    "places": [],
    "links": {
@@ -24062,7 +24058,7 @@
    "h": 93.0,
    "shop": "家具通販のグランデ",
    "price": null,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "furniture",
    "places": [],
    "links": {
@@ -24088,7 +24084,7 @@
    "h": 93.0,
    "shop": "家具通販のグランデ",
    "price": null,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "furniture",
    "places": [],
    "links": {
@@ -24114,7 +24110,7 @@
    "h": 186.0,
    "shop": "家具通販のグランデ",
    "price": null,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "furniture",
    "places": [],
    "links": {
@@ -24140,7 +24136,7 @@
    "w": 80.5,
    "shop": "エア・リゾームインテリア",
    "price": 11490,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "furniture",
    "places": [],
    "links": {
@@ -24165,7 +24161,7 @@
    "w": 75.0,
    "shop": "マーベラスファニチャー",
    "price": 45990,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "furniture",
    "places": [],
    "links": {
@@ -24189,7 +24185,7 @@
    "w": 45.0,
    "shop": "リビングート ヤフー店",
    "price": 2780,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "shoe_rack",
    "places": [
     "shoebox",
@@ -24216,7 +24212,7 @@
    "w": 126.0,
    "shop": "壱番館STORE Yahoo!ショッピング店",
    "price": 7480,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "furniture",
    "places": [],
    "links": {
@@ -24241,7 +24237,7 @@
    "w": 23.0,
    "shop": "ヴァストマート",
    "price": 2580,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "furniture",
    "places": [],
    "links": {
@@ -24265,7 +24261,7 @@
    "w": 30.5,
    "shop": "くらしのeショップ",
    "price": 6299,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "shoe_rack",
    "places": [
     "shoebox",
@@ -24293,7 +24289,7 @@
    "w": 45.5,
    "shop": "ヤマソロ Yahoo!店",
    "price": 3520,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "shoe_rack",
    "places": [
     "shoebox",
@@ -24332,7 +24328,7 @@
    "h": 70.5,
    "shop": "ヤマソロ Yahoo!店",
    "price": null,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "furniture",
    "places": [],
    "links": {
@@ -24358,7 +24354,7 @@
    "h": 71.5,
    "shop": "ヤマソロ Yahoo!店",
    "price": null,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "furniture",
    "places": [],
    "links": {
@@ -24384,7 +24380,7 @@
    "h": 70.5,
    "shop": "ヤマソロ Yahoo!店",
    "price": null,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "furniture",
    "places": [],
    "links": {
@@ -24410,7 +24406,7 @@
    "w": 25.0,
    "shop": "ヤマソロ Yahoo!店",
    "price": 5830,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "shoe_rack",
    "places": [
     "shoebox",
@@ -24438,7 +24434,7 @@
    "h": 13.5,
    "shop": "ロイヤル通販",
    "price": null,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "shoe_rack",
    "places": [
     "shoebox",
@@ -24467,7 +24463,7 @@
    "h": 13.5,
    "shop": "ロイヤル通販",
    "price": null,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "shoe_rack",
    "places": [
     "shoebox",
@@ -24496,7 +24492,7 @@
    "w": 24.5,
    "shop": "びーんず生活雑貨デポ",
    "price": 2750,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "magnet",
    "places": [
     "fridge-gap",
@@ -24525,7 +24521,7 @@
    "w": 40.0,
    "shop": "ヤマソロ Yahoo!店",
    "price": 8800,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "shoe_rack",
    "places": [
     "shoebox",
@@ -24553,7 +24549,7 @@
    "w": 70.0,
    "shop": "びーんず生活雑貨デポ",
    "price": 4980,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "shoe_rack",
    "places": [
     "shoebox",
@@ -24582,7 +24578,7 @@
    "w": 26.5,
    "shop": "住マイル",
    "price": 4180,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "shoe_rack",
    "places": [
     "shoebox",
@@ -24609,7 +24605,7 @@
    "h": 17.5,
    "shop": "びーんず生活雑貨デポ",
    "price": null,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "shoe_rack",
    "places": [
     "shoebox",
@@ -24649,7 +24645,7 @@
    "h": 17.5,
    "shop": "びーんず生活雑貨デポ",
    "price": null,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "shoe_rack",
    "places": [
     "shoebox",
@@ -24678,7 +24674,7 @@
    "w": 21.5,
    "shop": "Relieve",
    "price": 2310,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "furniture",
    "places": [],
    "links": {
@@ -24702,7 +24698,7 @@
    "w": 10.0,
    "shop": "リビングート ヤフー店",
    "price": 1280,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "shoe_rack",
    "places": [
     "shoebox",
@@ -24729,7 +24725,7 @@
    "w": 21.5,
    "shop": "アシストワン",
    "price": 2090,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "magnet",
    "places": [
     "fridge-gap",
@@ -24757,7 +24753,7 @@
    "w": 10.0,
    "shop": "リビングート ヤフー店",
    "price": 2380,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "shoe_rack",
    "places": [
     "shoebox",
@@ -24784,7 +24780,7 @@
    "w": 40.0,
    "shop": "ベリベリモッコ",
    "price": 2630,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "kitchen_wagon",
    "places": [
     "wash-gap",
@@ -24817,7 +24813,7 @@
    "w": 39.0,
    "shop": "オフィス家具通販のオフィスコム",
    "price": 11990,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "desk_wagon",
    "places": [
     "desk"
@@ -24844,7 +24840,7 @@
    "w": 38.5,
    "shop": "doris",
    "price": 6990,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "desk_wagon",
    "places": [
     "desk"
@@ -24870,7 +24866,7 @@
    "w": 39.0,
    "shop": "ioffice Yahoo!店",
    "price": 10980,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "desk_wagon",
    "places": [
     "desk"
@@ -24897,7 +24893,7 @@
    "w": 39.0,
    "shop": "LOOKIT オフィス家具 インテリア",
    "price": 11880,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "desk_wagon",
    "places": [
     "desk"
@@ -24924,7 +24920,7 @@
    "w": 45.0,
    "shop": "アウトレット家具リバップ",
    "price": 8580,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "basket",
    "places": [
     "sink",
@@ -24964,7 +24960,7 @@
    "w": 36.0,
    "shop": "新生Myhome店",
    "price": 8880,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "desk_wagon",
    "places": [
     "desk"
@@ -24990,7 +24986,7 @@
    "h": 60.0,
    "shop": "サンワダイレクト",
    "price": null,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "desk_wagon",
    "places": [
     "desk"
@@ -25018,7 +25014,7 @@
    "h": 60.0,
    "shop": "サンワダイレクト",
    "price": null,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "desk_wagon",
    "places": [
     "desk"
@@ -25046,7 +25042,7 @@
    "w": 39.0,
    "shop": "新生Myhome店",
    "price": 10780,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "desk_wagon",
    "places": [
     "desk"
@@ -25072,7 +25068,7 @@
    "h": 72.0,
    "shop": "Bestsign",
    "price": null,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "furniture",
    "places": [],
    "links": {
@@ -25097,7 +25093,7 @@
    "h": 78.0,
    "shop": "Bestsign",
    "price": null,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "furniture",
    "places": [],
    "links": {
@@ -25122,7 +25118,7 @@
    "w": 39.0,
    "shop": "タンスのゲン Design the Future",
    "price": 11499,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "desk_wagon",
    "places": [
     "desk"
@@ -25148,7 +25144,7 @@
    "w": 60.0,
    "shop": "doris",
    "price": 8490,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "u_rack",
    "places": [
     "sink",
@@ -25179,7 +25175,7 @@
    "w": 60.0,
    "shop": "doris",
    "price": 6990,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "kitchen_wagon",
    "places": [
     "wash-gap",
@@ -25206,7 +25202,7 @@
    "w": 66.0,
    "shop": "くらしのeショップ",
    "price": 2888,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "u_rack",
    "places": [
     "sink",
@@ -25238,7 +25234,7 @@
    "w": 60.0,
    "shop": "doris",
    "price": 14990,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "furniture",
    "places": [],
    "links": {
@@ -25262,7 +25258,7 @@
    "h": 92.0,
    "shop": "LOWYA(ロウヤ)Yahoo!ショッピング店",
    "price": null,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "furniture",
    "places": [],
    "links": {
@@ -25287,7 +25283,7 @@
    "h": 90.0,
    "shop": "LOWYA(ロウヤ)Yahoo!ショッピング店",
    "price": null,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "furniture",
    "places": [],
    "links": {
@@ -25312,7 +25308,7 @@
    "h": 95.0,
    "shop": "LOWYA(ロウヤ)Yahoo!ショッピング店",
    "price": null,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "furniture",
    "places": [],
    "links": {
@@ -25337,7 +25333,7 @@
    "w": 80.0,
    "shop": "エア・リゾームインテリア",
    "price": 12990,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "furniture",
    "places": [],
    "links": {
@@ -25362,7 +25358,7 @@
    "w": 39.0,
    "shop": "TTWO",
    "price": 3280,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "u_rack",
    "places": [
     "sink",
@@ -25404,7 +25400,7 @@
    "w": 60.0,
    "shop": "タンスのゲン Design the Future",
    "price": 9999,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "furniture",
    "places": [],
    "links": {
@@ -25428,7 +25424,7 @@
    "w": 80.0,
    "shop": "doris",
    "price": 9990,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "furniture",
    "places": [],
    "links": {
@@ -25452,7 +25448,7 @@
    "w": 120.0,
    "shop": "エア・リゾームインテリア",
    "price": 15999,
-   "checked_at": "2026-10-27",
+   "checked_at": "2026-10-28",
    "type": "furniture",
    "places": [],
    "links": {
@@ -25467,1104 +25463,6 @@
    "dim_kind": "外寸（表記から判断）",
    "unit": "cm",
    "confidence": "中",
-   "status": "自動抽出（未確認）"
-  },
-  {
-   "id": "yahoo:air-r_miy-ar-kc44#1",
-   "name": "食器棚 レンジ台 キッチンラック キッチンボード 棚（幅93.5cm） 幅93.5cm・高さ182cm・奥行40cm",
-   "w": 93.5,
-   "d": 40.0,
-   "h": 182.0,
-   "shop": "エア・リゾームインテリア",
-   "price": null,
-   "checked_at": "2026-10-27",
-   "type": "furniture",
-   "places": [],
-   "links": {
-    "yahoo": "https://store.shopping.yahoo.co.jp/air-r/miy-ar-kc44.html"
-   },
-   "item_url": "https://store.shopping.yahoo.co.jp/air-r/miy-ar-kc44.html",
-   "source": "yahoo",
-   "img": "https://item-shopping.c.yimg.jp/i/g/air-r_miy-ar-kc44",
-   "src": "商品説明から抽出（サイズ違いを分割）",
-   "variant": "幅93.5cm",
-   "evidence": "1営業日後出荷  【サイズ】 約幅93.5×奥行き40×高さ182cm",
-   "dim_kind": "外寸（表記から判断）",
-   "unit": "cm",
-   "confidence": "中",
-   "status": "自動抽出（未確認）"
-  },
-  {
-   "id": "yahoo:air-r_miy-ar-kc44#2",
-   "name": "食器棚 レンジ台 キッチンラック キッチンボード 棚（幅93.5cm） 幅93.5cm・高さ182cm・奥行42cm",
-   "w": 93.5,
-   "d": 42.0,
-   "h": 182.0,
-   "shop": "エア・リゾームインテリア",
-   "price": null,
-   "checked_at": "2026-10-27",
-   "type": "furniture",
-   "places": [],
-   "links": {
-    "yahoo": "https://store.shopping.yahoo.co.jp/air-r/miy-ar-kc44.html"
-   },
-   "item_url": "https://store.shopping.yahoo.co.jp/air-r/miy-ar-kc44.html",
-   "source": "yahoo",
-   "img": "https://item-shopping.c.yimg.jp/i/g/air-r_miy-ar-kc44",
-   "src": "商品説明から抽出（サイズ違いを分割）",
-   "variant": "幅93.5cm",
-   "evidence": "×高さ182cm (取っ手含/約幅93.5×奥行き42×高さ182cm",
-   "dim_kind": "外寸（表記から判断）",
-   "unit": "cm",
-   "confidence": "中",
-   "status": "自動抽出（未確認）"
-  },
-  {
-   "id": "yahoo:livingut_4903208071277",
-   "name": "山崎実業 tower マグネットキッチンペーパーホルダー",
-   "d": 5.2,
-   "h": 24.5,
-   "w": 6.0,
-   "shop": "リビングート ヤフー店",
-   "price": 1320,
-   "checked_at": "2026-10-27",
-   "type": "magnet",
-   "places": [
-    "fridge-gap",
-    "wash-gap"
-   ],
-   "links": {
-    "yahoo": "https://store.shopping.yahoo.co.jp/livingut/4903208071277.html"
-   },
-   "item_url": "https://store.shopping.yahoo.co.jp/livingut/4903208071277.html",
-   "source": "yahoo",
-   "jan": "4903208071277",
-   "img": "https://item-shopping.c.yimg.jp/i/g/livingut_4903208071277",
-   "src": "商品説明から抽出",
-   "evidence": "冷蔵庫横に 爆買 爆買サイズ/約幅6×奥行5.2×高さ24.5cm",
-   "dim_kind": "外寸（表記から判断）",
-   "unit": "cm",
-   "confidence": "中",
-   "status": "自動抽出（未確認）"
-  },
-  {
-   "id": "yahoo:takuhaibin_m7064007",
-   "name": "レンジ台 幅60 キッチンラック スリム 冷蔵庫ラック 収納",
-   "d": 41.0,
-   "h": 180.5,
-   "w": 59.5,
-   "shop": "ラクチーナ Yahoo!店",
-   "price": 10480,
-   "checked_at": "2026-10-27",
-   "type": "furniture",
-   "places": [],
-   "links": {
-    "yahoo": "https://store.shopping.yahoo.co.jp/takuhaibin/m7064007.html"
-   },
-   "item_url": "https://store.shopping.yahoo.co.jp/takuhaibin/m7064007.html",
-   "source": "yahoo",
-   "jan": "4967576214117",
-   "img": "https://item-shopping.c.yimg.jp/i/g/takuhaibin_m7064007",
-   "src": "商品説明から抽出",
-   "inner": {
-    "w": 54.9,
-    "d": 36.0,
-    "h": 172.0
-   },
-   "evidence": "♪ ●商品サイズ(cm) 外寸:幅約59.5cm×奥行約41cm×高さ約180.5cm",
-   "dim_kind": "外寸",
-   "unit": "cm",
-   "confidence": "高",
-   "status": "自動抽出（未確認）"
-  },
-  {
-   "id": "yahoo:ttwo_sh35-yh",
-   "name": "冷蔵庫上ラック レンジラック",
-   "d": 43.5,
-   "h": 45.0,
-   "w": 47.5,
-   "shop": "TTWO",
-   "price": 4980,
-   "checked_at": "2026-10-27",
-   "type": "fridge_case",
-   "places": [
-    "fridge"
-   ],
-   "links": {
-    "yahoo": "https://store.shopping.yahoo.co.jp/ttwo/sh35-yh.html"
-   },
-   "item_url": "https://store.shopping.yahoo.co.jp/ttwo/sh35-yh.html",
-   "source": "yahoo",
-   "img": "https://item-shopping.c.yimg.jp/i/g/ttwo_sh35-yh",
-   "src": "商品説明から抽出",
-   "evidence": "冷蔵庫上ラック レンジラック 幅47.5×奥行43.5〜69.5×高さ45",
-   "dim_kind": "外寸（表記から判断）",
-   "unit": "cm",
-   "confidence": "中",
-   "ranges": {
-    "d": [
-     43.5,
-     69.5
-    ]
-   },
-   "note": "調整範囲 奥行43.5〜69.5cm。縮めたときの寸法で判定しています。置き場所の寸法がこの範囲に入るか確認してください",
-   "status": "自動抽出（未確認）"
-  },
-  {
-   "id": "yahoo:joy-island_4941651080415-nb-975025#1",
-   "name": "電子レンジ上ラック ラップホルダー付 YS-02 キッチン（幅40cm）",
-   "w": 40.0,
-   "d": 23.0,
-   "h": 11.5,
-   "shop": "JOYアイランド",
-   "price": null,
-   "checked_at": "2026-10-27",
-   "type": "u_rack",
-   "places": [
-    "sink",
-    "stove",
-    "cupboard",
-    "appliance-top",
-    "fridge-top",
-    "washbasin"
-   ],
-   "links": {
-    "yahoo": "https://store.shopping.yahoo.co.jp/joy-island/4941651080415-nb-975025.html"
-   },
-   "item_url": "https://store.shopping.yahoo.co.jp/joy-island/4941651080415-nb-975025.html",
-   "source": "yahoo",
-   "jan": "4941651080415",
-   "img": "https://item-shopping.c.yimg.jp/i/g/joy-island_4941651080415-nb-975025",
-   "src": "商品説明から抽出（サイズ違いを分割）",
-   "variant": "幅40cm",
-   "evidence": "ズ】 ラップホルダーなし:(約)幅400×奥行230×高さ115mm",
-   "dim_kind": "外寸（表記から判断）",
-   "unit": "mm",
-   "confidence": "中",
-   "status": "自動抽出（未確認）"
-  },
-  {
-   "id": "yahoo:joy-island_4941651080415-nb-975025#2",
-   "name": "電子レンジ上ラック ラップホルダー付 YS-02 キッチン（幅53cm）",
-   "w": 53.0,
-   "d": 23.0,
-   "h": 25.0,
-   "shop": "JOYアイランド",
-   "price": null,
-   "checked_at": "2026-10-27",
-   "type": "u_rack",
-   "places": [
-    "sink",
-    "stove",
-    "cupboard",
-    "appliance-top",
-    "fridge-top",
-    "washbasin"
-   ],
-   "links": {
-    "yahoo": "https://store.shopping.yahoo.co.jp/joy-island/4941651080415-nb-975025.html"
-   },
-   "item_url": "https://store.shopping.yahoo.co.jp/joy-island/4941651080415-nb-975025.html",
-   "source": "yahoo",
-   "jan": "4941651080415",
-   "img": "https://item-shopping.c.yimg.jp/i/g/joy-island_4941651080415-nb-975025",
-   "src": "商品説明から抽出（サイズ違いを分割）",
-   "variant": "幅53cm",
-   "evidence": "mm ラップホルダーあり:(約)幅530×奥行230×高さ250mm",
-   "dim_kind": "外寸（表記から判断）",
-   "unit": "mm",
-   "confidence": "中",
-   "status": "自動抽出（未確認）"
-  },
-  {
-   "id": "yahoo:ttwo_sh26",
-   "name": "ゴミ箱上ラック 電子レンジラック レンジ台 幅60〜80cm",
-   "d": 42.0,
-   "h": 125.0,
-   "w": 60.0,
-   "shop": "TTWO",
-   "price": 9280,
-   "checked_at": "2026-10-27",
-   "type": "furniture",
-   "places": [],
-   "links": {
-    "yahoo": "https://store.shopping.yahoo.co.jp/ttwo/sh26.html"
-   },
-   "item_url": "https://store.shopping.yahoo.co.jp/ttwo/sh26.html",
-   "source": "yahoo",
-   "img": "https://item-shopping.c.yimg.jp/i/g/ttwo_sh26",
-   "src": "商品説明から抽出",
-   "evidence": "ンジ台 キッチンラックサイズ:約幅60〜80×奥行き42×高さ125cm",
-   "dim_kind": "外寸（表記から判断）",
-   "unit": "cm",
-   "confidence": "中",
-   "ranges": {
-    "w": [
-     60.0,
-     80.0
-    ]
-   },
-   "w_range": [
-    60.0,
-    80.0
-   ],
-   "note": "調整範囲 幅60〜80cm。縮めたときの寸法で判定しています。置き場所の寸法がこの範囲に入るか確認してください",
-   "status": "自動抽出（未確認）"
-  },
-  {
-   "id": "yahoo:e-kurashi_op-70211",
-   "name": "冷蔵庫上ラック ゴミ箱上ラック 幅59.5 奥行41.5",
-   "d": 41.5,
-   "h": 180.0,
-   "w": 59.5,
-   "shop": "くらしのeショップ",
-   "price": 11549,
-   "checked_at": "2026-10-27",
-   "type": "fridge_case",
-   "places": [
-    "fridge"
-   ],
-   "links": {
-    "yahoo": "https://store.shopping.yahoo.co.jp/e-kurashi/op-70211.html"
-   },
-   "item_url": "https://store.shopping.yahoo.co.jp/e-kurashi/op-70211.html",
-   "source": "yahoo",
-   "jan": "4983771142413",
-   "img": "https://item-shopping.c.yimg.jp/i/g/e-kurashi_op-70211",
-   "src": "商品説明から抽出",
-   "inner": {
-    "w": 54.5,
-    "d": 40.0,
-    "h": 104.5
-   },
-   "evidence": "冷蔵庫上ラック ゴミ箱上ラック 幅59.5 奥行41.5 高さ180cm",
-   "dim_kind": "外寸（表記から判断）",
-   "unit": "cm",
-   "confidence": "中",
-   "status": "自動抽出（未確認）"
-  },
-  {
-   "id": "yahoo:ttwo_sh38-yh",
-   "name": "ゴミ箱上ラック 冷蔵庫上ラック 電子レンジラック",
-   "d": 42.0,
-   "h": 170.0,
-   "w": 50.0,
-   "shop": "TTWO",
-   "price": 13980,
-   "checked_at": "2026-10-27",
-   "type": "fridge_case",
-   "places": [
-    "fridge"
-   ],
-   "links": {
-    "yahoo": "https://store.shopping.yahoo.co.jp/ttwo/sh38-yh.html"
-   },
-   "item_url": "https://store.shopping.yahoo.co.jp/ttwo/sh38-yh.html",
-   "source": "yahoo",
-   "img": "https://item-shopping.c.yimg.jp/i/g/ttwo_sh38-yh",
-   "src": "商品説明から抽出",
-   "evidence": "ジラック 洗濯機ラックサイズ:約幅50〜80×奥行き42×高さ170cm",
-   "dim_kind": "外寸（表記から判断）",
-   "unit": "cm",
-   "confidence": "中",
-   "ranges": {
-    "w": [
-     50.0,
-     80.0
-    ]
-   },
-   "w_range": [
-    50.0,
-    80.0
-   ],
-   "note": "調整範囲 幅50〜80cm。縮めたときの寸法で判定しています。置き場所の寸法がこの範囲に入るか確認してください",
-   "status": "自動抽出（未確認）"
-  },
-  {
-   "id": "yahoo:futureoffice_00-341#1",
-   "name": "冷蔵庫ラック 上 レンジ台 幅60cm レンジラック（幅60cm）",
-   "w": 60.0,
-   "d": 40.0,
-   "h": 180.5,
-   "shop": "収納 本棚&食器棚 ラック YMWORLD",
-   "price": null,
-   "checked_at": "2026-10-27",
-   "type": "furniture",
-   "places": [],
-   "links": {
-    "yahoo": "https://store.shopping.yahoo.co.jp/futureoffice/00-341.html"
-   },
-   "item_url": "https://store.shopping.yahoo.co.jp/futureoffice/00-341.html",
-   "source": "yahoo",
-   "jan": "4560468697298",
-   "img": "https://item-shopping.c.yimg.jp/i/g/futureoffice_00-341",
-   "src": "商品説明から抽出（サイズ違いを分割）",
-   "variant": "幅60cm",
-   "evidence": "15kg  ■商品サイズ (約)幅60cm×奥行き40cm×高さ180.5cm",
-   "dim_kind": "外寸（表記から判断）",
-   "unit": "cm",
-   "confidence": "中",
-   "status": "自動抽出（未確認）"
-  },
-  {
-   "id": "yahoo:futureoffice_00-341#2",
-   "name": "冷蔵庫ラック 上 レンジ台 幅60cm レンジラック（幅61cm）",
-   "w": 61.0,
-   "d": 41.0,
-   "h": 180.5,
-   "shop": "収納 本棚&食器棚 ラック YMWORLD",
-   "price": null,
-   "checked_at": "2026-10-27",
-   "type": "furniture",
-   "places": [],
-   "links": {
-    "yahoo": "https://store.shopping.yahoo.co.jp/futureoffice/00-341.html"
-   },
-   "item_url": "https://store.shopping.yahoo.co.jp/futureoffice/00-341.html",
-   "source": "yahoo",
-   "jan": "4560468697298",
-   "img": "https://item-shopping.c.yimg.jp/i/g/futureoffice_00-341",
-   "src": "商品説明から抽出（サイズ違いを分割）",
-   "variant": "幅61cm",
-   "evidence": "さ180.5cm 最大値:(約)幅61cm×奥行き41cm×高さ180.5cm",
-   "dim_kind": "外寸（表記から判断）",
-   "unit": "cm",
-   "confidence": "中",
-   "status": "自動抽出（未確認）"
-  },
-  {
-   "id": "yahoo:grazia-doris_dr-toruto#1",
-   "name": "冷蔵庫ラック キッチンラック 収納 冷蔵庫上ラック（スライド棚）",
-   "w": 47.5,
-   "d": 45.0,
-   "h": 39.5,
-   "shop": "doris",
-   "price": null,
-   "checked_at": "2026-10-27",
-   "type": "fridge_case",
-   "places": [
-    "fridge"
-   ],
-   "links": {
-    "yahoo": "https://store.shopping.yahoo.co.jp/grazia-doris/dr-toruto.html"
-   },
-   "item_url": "https://store.shopping.yahoo.co.jp/grazia-doris/dr-toruto.html",
-   "source": "yahoo",
-   "img": "https://item-shopping.c.yimg.jp/i/g/grazia-doris_dr-toruto",
-   "src": "商品説明から抽出（サイズ違いを分割）",
-   "variant": "スライド棚",
-   "evidence": "■本体サイズ 【スライド棚】幅47.5×奥行45×高さ39.5",
-   "dim_kind": "外寸（表記から判断）",
-   "unit": "cm",
-   "confidence": "中",
-   "status": "自動抽出（未確認）"
-  },
-  {
-   "id": "yahoo:grazia-doris_dr-toruto#2",
-   "name": "冷蔵庫ラック キッチンラック 収納 冷蔵庫上ラック（引き出し）",
-   "w": 47.5,
-   "d": 42.0,
-   "h": 48.0,
-   "shop": "doris",
-   "price": null,
-   "checked_at": "2026-10-27",
-   "type": "fridge_case",
-   "places": [
-    "fridge"
-   ],
-   "links": {
-    "yahoo": "https://store.shopping.yahoo.co.jp/grazia-doris/dr-toruto.html"
-   },
-   "item_url": "https://store.shopping.yahoo.co.jp/grazia-doris/dr-toruto.html",
-   "source": "yahoo",
-   "img": "https://item-shopping.c.yimg.jp/i/g/grazia-doris_dr-toruto",
-   "src": "商品説明から抽出（サイズ違いを分割）",
-   "variant": "引き出し",
-   "evidence": "(cm) 【引出し】【引き出し】幅47.5×奥行42×高さ48",
-   "dim_kind": "外寸（表記から判断）",
-   "unit": "cm",
-   "confidence": "中",
-   "status": "自動抽出（未確認）"
-  },
-  {
-   "id": "yahoo:at-emoor_yo-kr90d-hi#1",
-   "name": "キッチンラック ゴミ箱 レンジ台 幅60 幅90 3段（幅60cm）",
-   "w": 60.0,
-   "d": 43.0,
-   "h": 180.0,
-   "shop": "エムール EMOOR 健康家具専門店",
-   "price": null,
-   "checked_at": "2026-10-27",
-   "type": "furniture",
-   "places": [],
-   "links": {
-    "yahoo": "https://store.shopping.yahoo.co.jp/at-emoor/yo-kr90d-hi.html"
-   },
-   "item_url": "https://store.shopping.yahoo.co.jp/at-emoor/yo-kr90d-hi.html",
-   "source": "yahoo",
-   "img": "https://item-shopping.c.yimg.jp/i/g/at-emoor_yo-kr90d-hi",
-   "src": "商品説明から抽出（サイズ違いを分割）",
-   "variant": "幅60cm",
-   "evidence": "ック  ■サイズ 幅60cm:約幅60×奥行43×高さ180cm",
-   "dim_kind": "外寸（表記から判断）",
-   "unit": "cm",
-   "confidence": "中",
-   "status": "自動抽出（未確認）"
-  },
-  {
-   "id": "yahoo:at-emoor_yo-kr90d-hi#2",
-   "name": "キッチンラック ゴミ箱 レンジ台 幅60 幅90 3段（幅90cm）",
-   "w": 90.0,
-   "d": 43.0,
-   "h": 180.0,
-   "shop": "エムール EMOOR 健康家具専門店",
-   "price": null,
-   "checked_at": "2026-10-27",
-   "type": "furniture",
-   "places": [],
-   "links": {
-    "yahoo": "https://store.shopping.yahoo.co.jp/at-emoor/yo-kr90d-hi.html"
-   },
-   "item_url": "https://store.shopping.yahoo.co.jp/at-emoor/yo-kr90d-hi.html",
-   "source": "yahoo",
-   "img": "https://item-shopping.c.yimg.jp/i/g/at-emoor_yo-kr90d-hi",
-   "src": "商品説明から抽出（サイズ違いを分割）",
-   "variant": "幅90cm",
-   "evidence": "×高さ180cm 幅90cm:約幅90×奥行43×高さ180cm",
-   "dim_kind": "外寸（表記から判断）",
-   "unit": "cm",
-   "confidence": "中",
-   "status": "自動抽出（未確認）"
-  },
-  {
-   "id": "yahoo:livingut_4903208024563",
-   "name": "山崎実業 tower マグネット布巾ハンガー タワー",
-   "d": 1.0,
-   "h": 6.0,
-   "w": 24.0,
-   "shop": "リビングート ヤフー店",
-   "price": 2200,
-   "checked_at": "2026-10-27",
-   "type": "magnet",
-   "places": [
-    "fridge-gap",
-    "wash-gap"
-   ],
-   "links": {
-    "yahoo": "https://store.shopping.yahoo.co.jp/livingut/4903208024563.html"
-   },
-   "item_url": "https://store.shopping.yahoo.co.jp/livingut/4903208024563.html",
-   "source": "yahoo",
-   "jan": "4903208024563",
-   "img": "https://item-shopping.c.yimg.jp/i/g/livingut_4903208024563",
-   "src": "商品説明から抽出",
-   "evidence": "ネルや冷蔵庫横に 爆買サイズ/約幅24×奥行1×高さ6cm",
-   "dim_kind": "外寸（表記から判断）",
-   "unit": "cm",
-   "confidence": "中",
-   "status": "自動抽出（未確認）"
-  },
-  {
-   "id": "yahoo:ttwo_sh32-yh",
-   "name": "冷蔵庫上ラック ゴミ箱上ラック 洗濯機ラック",
-   "d": 40.0,
-   "h": 180.0,
-   "w": 60.0,
-   "shop": "TTWO",
-   "price": 9580,
-   "checked_at": "2026-10-27",
-   "type": "fridge_case",
-   "places": [
-    "fridge"
-   ],
-   "links": {
-    "yahoo": "https://store.shopping.yahoo.co.jp/ttwo/sh32-yh.html"
-   },
-   "item_url": "https://store.shopping.yahoo.co.jp/ttwo/sh32-yh.html",
-   "source": "yahoo",
-   "img": "https://item-shopping.c.yimg.jp/i/g/ttwo_sh32-yh",
-   "src": "商品説明から抽出",
-   "evidence": "ゴミ箱上ラック 洗濯機ラック W60×D40×H180",
-   "dim_kind": "外寸（表記から判断）",
-   "unit": "cm",
-   "confidence": "中",
-   "status": "自動抽出（未確認）"
-  },
-  {
-   "id": "yahoo:akaneashop_ny531",
-   "name": "レンジ台 レンジラック キッチンラック レンジ上ラック 2段",
-   "d": 36.0,
-   "h": 35.0,
-   "w": 40.0,
-   "shop": "アカネA SHOP",
-   "price": 2680,
-   "checked_at": "2026-10-27",
-   "type": "u_rack",
-   "places": [
-    "sink",
-    "stove",
-    "cupboard",
-    "appliance-top",
-    "fridge-top",
-    "washbasin"
-   ],
-   "links": {
-    "yahoo": "https://store.shopping.yahoo.co.jp/akaneashop/ny531.html"
-   },
-   "item_url": "https://store.shopping.yahoo.co.jp/akaneashop/ny531.html",
-   "source": "yahoo",
-   "img": "https://item-shopping.c.yimg.jp/i/g/akaneashop_ny531",
-   "src": "商品説明から抽出",
-   "evidence": "ンジ上ラック 【サイズ】:(約)幅40〜54cm×奥行き36cm×高さ35cm",
-   "dim_kind": "外寸（表記から判断）",
-   "unit": "cm",
-   "confidence": "中",
-   "ranges": {
-    "w": [
-     40.0,
-     54.0
-    ]
-   },
-   "w_range": [
-    40.0,
-    54.0
-   ],
-   "note": "調整範囲 幅40〜54cm。縮めたときの寸法で判定しています。置き場所の寸法がこの範囲に入るか確認してください",
-   "status": "自動抽出（未確認）"
-  },
-  {
-   "id": "yahoo:livingut_295629",
-   "name": "山崎実業 tower 1合分別 冷蔵庫用米びつ タワー",
-   "d": 8.5,
-   "h": 24.5,
-   "w": 18.5,
-   "shop": "リビングート ヤフー店",
-   "price": 2420,
-   "checked_at": "2026-10-27",
-   "type": "fridge_case",
-   "places": [
-    "fridge"
-   ],
-   "links": {
-    "yahoo": "https://store.shopping.yahoo.co.jp/livingut/295629.html"
-   },
-   "item_url": "https://store.shopping.yahoo.co.jp/livingut/295629.html",
-   "source": "yahoo",
-   "jan": "4903208037600",
-   "img": "https://item-shopping.c.yimg.jp/i/g/livingut_295629",
-   "src": "商品説明から抽出",
-   "evidence": "け出せる冷蔵庫用米びつサイズ/約幅18.5×奥行8.5×高さ24.5cm",
-   "dim_kind": "外寸（表記から判断）",
-   "unit": "cm",
-   "confidence": "中",
-   "status": "自動抽出（未確認）"
-  },
-  {
-   "id": "yahoo:livingut_345587",
-   "name": "冷蔵庫収納 冷蔵庫 収納ケース 深型 冷蔵室収納トレー",
-   "d": 32.5,
-   "h": 10.0,
-   "w": 20.5,
-   "shop": "リビングート ヤフー店",
-   "price": 628,
-   "checked_at": "2026-10-27",
-   "type": "fridge_case",
-   "places": [
-    "fridge"
-   ],
-   "links": {
-    "yahoo": "https://store.shopping.yahoo.co.jp/livingut/345587.html"
-   },
-   "item_url": "https://store.shopping.yahoo.co.jp/livingut/345587.html",
-   "source": "yahoo",
-   "img": "https://item-shopping.c.yimg.jp/i/g/livingut_345587",
-   "src": "商品説明から抽出",
-   "inner": {
-    "w": 19.6,
-    "d": 29.5,
-    "h": 9.0
-   },
-   "evidence": "超PayPay祭サイズ/外寸:約幅20.5×奥行32.5×高さ10cm",
-   "dim_kind": "外寸",
-   "unit": "cm",
-   "confidence": "高",
-   "status": "自動抽出（未確認）"
-  },
-  {
-   "id": "yahoo:livingut_338138",
-   "name": "米びつ 2kg用 リベラリスタ ライスストッカー",
-   "d": 20.0,
-   "h": 24.8,
-   "w": 10.5,
-   "shop": "リビングート ヤフー店",
-   "price": 1380,
-   "checked_at": "2026-10-27",
-   "type": "lid_box",
-   "places": [
-    "wall",
-    "fridge-top",
-    "oshiire",
-    "closet",
-    "steelrack",
-    "bed"
-   ],
-   "links": {
-    "yahoo": "https://store.shopping.yahoo.co.jp/livingut/338138.html"
-   },
-   "item_url": "https://store.shopping.yahoo.co.jp/livingut/338138.html",
-   "source": "yahoo",
-   "img": "https://item-shopping.c.yimg.jp/i/g/livingut_338138",
-   "src": "商品説明から抽出",
-   "evidence": "びつ 超PayPay祭サイズ/約幅10.5×奥行20×高さ24.8cm",
-   "dim_kind": "外寸（表記から判断）",
-   "unit": "cm",
-   "confidence": "中",
-   "status": "自動抽出（未確認）"
-  },
-  {
-   "id": "yahoo:livingut_270545",
-   "name": "米びつ 5kg用 システムキッチン用 引き出し米びつ",
-   "d": 32.7,
-   "h": 16.4,
-   "w": 22.3,
-   "shop": "リビングート ヤフー店",
-   "price": 1080,
-   "checked_at": "2026-10-27",
-   "type": "drawer_case",
-   "places": [
-    "sink",
-    "washbasin",
-    "oshiire",
-    "closet",
-    "colorbox",
-    "steelrack",
-    "bed",
-    "desk",
-    "counter"
-   ],
-   "links": {
-    "yahoo": "https://store.shopping.yahoo.co.jp/livingut/270545.html"
-   },
-   "item_url": "https://store.shopping.yahoo.co.jp/livingut/270545.html",
-   "source": "yahoo",
-   "img": "https://item-shopping.c.yimg.jp/i/g/livingut_270545",
-   "src": "商品説明から抽出",
-   "evidence": "びつ 超PayPay祭サイズ/約幅22.3×奥行32.7×高さ16.4cm",
-   "dim_kind": "外寸（表記から判断）",
-   "unit": "cm",
-   "confidence": "中",
-   "status": "自動抽出（未確認）"
-  },
-  {
-   "id": "yahoo:livingut_345588",
-   "name": "冷蔵庫収納 冷蔵庫 収納ケース 深型 スリム",
-   "d": 32.5,
-   "h": 10.0,
-   "w": 10.0,
-   "shop": "リビングート ヤフー店",
-   "price": 518,
-   "checked_at": "2026-10-27",
-   "type": "fridge_case",
-   "places": [
-    "fridge"
-   ],
-   "links": {
-    "yahoo": "https://store.shopping.yahoo.co.jp/livingut/345588.html"
-   },
-   "item_url": "https://store.shopping.yahoo.co.jp/livingut/345588.html",
-   "source": "yahoo",
-   "img": "https://item-shopping.c.yimg.jp/i/g/livingut_345588",
-   "src": "商品説明から抽出",
-   "inner": {
-    "w": 9.5,
-    "d": 29.6,
-    "h": 9.0
-   },
-   "evidence": "超PayPay祭サイズ/外寸:約幅10×奥行32.5×高さ10cm",
-   "dim_kind": "外寸",
-   "unit": "cm",
-   "confidence": "高",
-   "status": "自動抽出（未確認）"
-  },
-  {
-   "id": "yahoo:livingut_345594",
-   "name": "冷蔵庫収納 冷蔵庫 収納ケース 野菜室・冷凍室収納トレー",
-   "d": 25.0,
-   "h": 15.0,
-   "w": 10.5,
-   "shop": "リビングート ヤフー店",
-   "price": 448,
-   "checked_at": "2026-10-27",
-   "type": "fridge_case",
-   "places": [
-    "fridge"
-   ],
-   "links": {
-    "yahoo": "https://store.shopping.yahoo.co.jp/livingut/345594.html"
-   },
-   "item_url": "https://store.shopping.yahoo.co.jp/livingut/345594.html",
-   "source": "yahoo",
-   "img": "https://item-shopping.c.yimg.jp/i/g/livingut_345594",
-   "src": "商品説明から抽出",
-   "inner": {
-    "w": 9.5,
-    "d": 24.5,
-    "h": 14.0
-   },
-   "evidence": "超PayPay祭サイズ/外寸:約幅10.5×奥行25×高さ15cm",
-   "dim_kind": "外寸",
-   "unit": "cm",
-   "confidence": "高",
-   "status": "自動抽出（未確認）"
-  },
-  {
-   "id": "yahoo:livingut_345592",
-   "name": "冷蔵庫収納 缶ストッカー 冷蔵庫 収納ケース 350ml缶用",
-   "d": 35.0,
-   "h": 9.0,
-   "w": 13.5,
-   "shop": "リビングート ヤフー店",
-   "price": 568,
-   "checked_at": "2026-10-27",
-   "type": "fridge_case",
-   "places": [
-    "fridge"
-   ],
-   "links": {
-    "yahoo": "https://store.shopping.yahoo.co.jp/livingut/345592.html"
-   },
-   "item_url": "https://store.shopping.yahoo.co.jp/livingut/345592.html",
-   "source": "yahoo",
-   "img": "https://item-shopping.c.yimg.jp/i/g/livingut_345592",
-   "src": "商品説明から抽出",
-   "inner": {
-    "w": 12.8,
-    "d": 34.5,
-    "h": 8.0
-   },
-   "evidence": "超PayPay祭サイズ/外寸:約幅13.5×奥行35×高さ9cm",
-   "dim_kind": "外寸",
-   "unit": "cm",
-   "confidence": "高",
-   "status": "自動抽出（未確認）"
-  },
-  {
-   "id": "yahoo:k-lalala_bedshita-4set-#1",
-   "name": "(同色4個セット) 収納ボックス 収納ケース（幅39cm）",
-   "w": 39.0,
-   "d": 80.0,
-   "h": 16.5,
-   "shop": "ベリベリモッコ",
-   "price": null,
-   "checked_at": "2026-10-27",
-   "type": "drawer_case",
-   "places": [
-    "sink",
-    "washbasin",
-    "oshiire",
-    "closet",
-    "colorbox",
-    "steelrack",
-    "bed",
-    "desk",
-    "counter"
-   ],
-   "links": {
-    "yahoo": "https://store.shopping.yahoo.co.jp/k-lalala/bedshita-4set-.html"
-   },
-   "item_url": "https://store.shopping.yahoo.co.jp/k-lalala/bedshita-4set-.html",
-   "source": "yahoo",
-   "jan": "4991068176829",
-   "img": "https://item-shopping.c.yimg.jp/i/g/k-lalala_bedshita-4set-",
-   "src": "商品説明から抽出（サイズ違いを分割）",
-   "variant": "幅39cm",
-   "evidence": "ター付き 隙間収納 衣装ケース 幅39cm 奥行80cm 高さ16.5cm",
-   "dim_kind": "外寸（表記から判断）",
-   "unit": "cm",
-   "confidence": "中",
-   "status": "自動抽出（未確認）"
-  },
-  {
-   "id": "yahoo:k-lalala_bedshita-4set-#2",
-   "name": "(同色4個セット) 収納ボックス 収納ケース（幅32.5cm）",
-   "w": 32.5,
-   "d": 72.5,
-   "h": 13.8,
-   "shop": "ベリベリモッコ",
-   "price": null,
-   "checked_at": "2026-10-27",
-   "type": "drawer_case",
-   "places": [
-    "sink",
-    "washbasin",
-    "oshiire",
-    "closet",
-    "colorbox",
-    "steelrack",
-    "bed",
-    "desk",
-    "counter"
-   ],
-   "links": {
-    "yahoo": "https://store.shopping.yahoo.co.jp/k-lalala/bedshita-4set-.html"
-   },
-   "item_url": "https://store.shopping.yahoo.co.jp/k-lalala/bedshita-4set-.html",
-   "source": "yahoo",
-   "jan": "4991068176829",
-   "img": "https://item-shopping.c.yimg.jp/i/g/k-lalala_bedshita-4set-",
-   "src": "商品説明から抽出（サイズ違いを分割）",
-   "variant": "幅32.5cm",
-   "evidence": "5cm  【内寸サイズ】 (約)幅32.5cm×奥行72.5cm×高さ13.8cm",
-   "dim_kind": "外寸（表記から判断）",
-   "unit": "cm",
-   "confidence": "中",
-   "status": "自動抽出（未確認）"
-  },
-  {
-   "id": "yahoo:k-lalala_bedshita-2set-#1",
-   "name": "(同色2個セット) ベッド下収納ボックス キャスター付き（幅39cm）",
-   "w": 39.0,
-   "d": 80.0,
-   "h": 16.5,
-   "shop": "ベリベリモッコ",
-   "price": null,
-   "checked_at": "2026-10-27",
-   "type": "under_bed",
-   "places": [
-    "bed"
-   ],
-   "links": {
-    "yahoo": "https://store.shopping.yahoo.co.jp/k-lalala/bedshita-2set-.html"
-   },
-   "item_url": "https://store.shopping.yahoo.co.jp/k-lalala/bedshita-2set-.html",
-   "source": "yahoo",
-   "jan": "4991068176829",
-   "img": "https://item-shopping.c.yimg.jp/i/g/k-lalala_bedshita-2set-",
-   "src": "商品説明から抽出（サイズ違いを分割）",
-   "variant": "幅39cm",
-   "evidence": "収納ボックス プラスチック収納 幅39cm 奥行80cm 高さ16.5cm",
-   "dim_kind": "外寸（表記から判断）",
-   "unit": "cm",
-   "confidence": "中",
-   "status": "自動抽出（未確認）"
-  },
-  {
-   "id": "yahoo:k-lalala_bedshita-2set-#2",
-   "name": "(同色2個セット) ベッド下収納ボックス キャスター付き（幅32.5cm）",
-   "w": 32.5,
-   "d": 72.5,
-   "h": 13.8,
-   "shop": "ベリベリモッコ",
-   "price": null,
-   "checked_at": "2026-10-27",
-   "type": "under_bed",
-   "places": [
-    "bed"
-   ],
-   "links": {
-    "yahoo": "https://store.shopping.yahoo.co.jp/k-lalala/bedshita-2set-.html"
-   },
-   "item_url": "https://store.shopping.yahoo.co.jp/k-lalala/bedshita-2set-.html",
-   "source": "yahoo",
-   "jan": "4991068176829",
-   "img": "https://item-shopping.c.yimg.jp/i/g/k-lalala_bedshita-2set-",
-   "src": "商品説明から抽出（サイズ違いを分割）",
-   "variant": "幅32.5cm",
-   "evidence": "5cm  【内寸サイズ】 (約)幅32.5cm×奥行72.5cm×高さ13.8cm",
-   "dim_kind": "外寸（表記から判断）",
-   "unit": "cm",
-   "confidence": "中",
-   "status": "自動抽出（未確認）"
-  },
-  {
-   "id": "yahoo:discount-spirits2_a000000141965",
-   "name": "収納ボックス ベッド下 収納 キャスター 折りたたみ",
-   "d": 42.0,
-   "h": 16.0,
-   "w": 66.0,
-   "shop": "Earth Wing",
-   "price": 2780,
-   "checked_at": "2026-10-27",
-   "type": "under_bed",
-   "places": [
-    "bed"
-   ],
-   "links": {
-    "yahoo": "https://store.shopping.yahoo.co.jp/discount-spirits2/a000000141965.html"
-   },
-   "item_url": "https://store.shopping.yahoo.co.jp/discount-spirits2/a000000141965.html",
-   "source": "yahoo",
-   "img": "https://item-shopping.c.yimg.jp/i/g/discount-spirits2_a000000141965",
-   "src": "商品説明から抽出",
-   "evidence": "品詳細】 商品サイズ(展開時):W66×D42×H16cm",
-   "dim_kind": "外寸（表記から判断）",
-   "unit": "cm",
-   "confidence": "中",
-   "status": "自動抽出（未確認）"
-  },
-  {
-   "id": "yahoo:livingut_4528302117104#1",
-   "name": "収納ケース ベッド下 幅39×奥行80×高さ17cm（幅39cm） 幅39cm・高さ17cm",
-   "w": 39.0,
-   "d": 80.0,
-   "h": 17.0,
-   "shop": "リビングート ヤフー店",
-   "price": null,
-   "checked_at": "2026-10-27",
-   "type": "under_bed",
-   "places": [
-    "bed"
-   ],
-   "links": {
-    "yahoo": "https://store.shopping.yahoo.co.jp/livingut/4528302117104.html"
-   },
-   "item_url": "https://store.shopping.yahoo.co.jp/livingut/4528302117104.html",
-   "source": "yahoo",
-   "img": "https://item-shopping.c.yimg.jp/i/g/livingut_4528302117104",
-   "src": "商品説明から抽出（サイズ違いを分割）",
-   "variant": "幅39cm",
-   "evidence": "収納ケース ベッド下 幅39×奥行80×高さ17cm",
-   "dim_kind": "外寸（表記から判断）",
-   "unit": "cm",
-   "confidence": "中",
-   "status": "自動抽出（未確認）"
-  },
-  {
-   "id": "yahoo:livingut_4528302117104#2",
-   "name": "収納ケース ベッド下 幅39×奥行80×高さ17cm（幅39cm） 幅39cm・高さ16.5cm",
-   "w": 39.0,
-   "d": 80.0,
-   "h": 16.5,
-   "shop": "リビングート ヤフー店",
-   "price": null,
-   "checked_at": "2026-10-27",
-   "type": "under_bed",
-   "places": [
-    "bed"
-   ],
-   "links": {
-    "yahoo": "https://store.shopping.yahoo.co.jp/livingut/4528302117104.html"
-   },
-   "item_url": "https://store.shopping.yahoo.co.jp/livingut/4528302117104.html",
-   "source": "yahoo",
-   "img": "https://item-shopping.c.yimg.jp/i/g/livingut_4528302117104",
-   "src": "商品説明から抽出（サイズ違いを分割）",
-   "variant": "幅39cm",
-   "evidence": "超PayPay祭サイズ/外寸:約幅39×奥行80×高さ16.5cm",
-   "dim_kind": "外寸",
-   "unit": "cm",
-   "confidence": "中",
-   "status": "自動抽出（未確認）"
-  },
-  {
-   "id": "yahoo:meichepro_xh6pcs",
-   "name": "シューズラック シューズボックス 靴収納 6個セット クリア",
-   "d": 27.8,
-   "h": 22.0,
-   "w": 36.0,
-   "shop": "MEICHEPRO",
-   "price": 6980,
-   "checked_at": "2026-10-27",
-   "type": "furniture",
-   "places": [],
-   "links": {
-    "yahoo": "https://store.shopping.yahoo.co.jp/meichepro/xh6pcs.html"
-   },
-   "item_url": "https://store.shopping.yahoo.co.jp/meichepro/xh6pcs.html",
-   "source": "yahoo",
-   "img": "https://item-shopping.c.yimg.jp/i/g/meichepro_xh6pcs",
-   "src": "商品説明から抽出",
-   "inner": {
-    "w": 34.0,
-    "d": 26.0,
-    "h": 19.5
-   },
-   "evidence": "(PS)  【サイズ】 (外寸)W36cm×D27.8cm×H22cm",
-   "dim_kind": "外寸",
-   "unit": "cm",
-   "confidence": "高",
-   "status": "自動抽出（未確認）"
-  },
-  {
-   "id": "yahoo:k-lalala_bedshita#1",
-   "name": "ベッド下収納ボックス 収納ケース 収納ボックス（幅39cm）",
-   "w": 39.0,
-   "d": 80.0,
-   "h": 16.5,
-   "shop": "ベリベリモッコ",
-   "price": null,
-   "checked_at": "2026-10-27",
-   "type": "under_bed",
-   "places": [
-    "bed"
-   ],
-   "links": {
-    "yahoo": "https://store.shopping.yahoo.co.jp/k-lalala/bedshita.html"
-   },
-   "item_url": "https://store.shopping.yahoo.co.jp/k-lalala/bedshita.html",
-   "source": "yahoo",
-   "jan": "4991068176829",
-   "img": "https://item-shopping.c.yimg.jp/i/g/k-lalala_bedshita",
-   "src": "商品説明から抽出（サイズ違いを分割）",
-   "variant": "幅39cm",
-   "evidence": "収納 衣装ケース プラスチック 幅39cm 奥行80cm 高さ16.5cm",
-   "dim_kind": "外寸（表記から判断）",
-   "unit": "cm",
-   "confidence": "中",
-   "status": "自動抽出（未確認）"
-  },
-  {
-   "id": "yahoo:k-lalala_bedshita#2",
-   "name": "ベッド下収納ボックス 収納ケース 収納ボックス（幅32.5cm）",
-   "w": 32.5,
-   "d": 72.5,
-   "h": 13.8,
-   "shop": "ベリベリモッコ",
-   "price": null,
-   "checked_at": "2026-10-27",
-   "type": "under_bed",
-   "places": [
-    "bed"
-   ],
-   "links": {
-    "yahoo": "https://store.shopping.yahoo.co.jp/k-lalala/bedshita.html"
-   },
-   "item_url": "https://store.shopping.yahoo.co.jp/k-lalala/bedshita.html",
-   "source": "yahoo",
-   "jan": "4991068176829",
-   "img": "https://item-shopping.c.yimg.jp/i/g/k-lalala_bedshita",
-   "src": "商品説明から抽出（サイズ違いを分割）",
-   "variant": "幅32.5cm",
-   "evidence": "5cm  【内寸サイズ】 (約)幅32.5cm×奥行72.5cm×高さ13.8cm",
-   "dim_kind": "外寸（表記から判断）",
-   "unit": "cm",
-   "confidence": "中",
-   "status": "自動抽出（未確認）"
-  },
-  {
-   "id": "yahoo:ad-hitshop_f04-2ax2",
-   "name": "ベッド下収納ボックス キャスター付き 2個セット 2カラー",
-   "d": 42.0,
-   "h": 16.0,
-   "w": 62.0,
-   "shop": "ヒットショップ",
-   "price": 4980,
-   "checked_at": "2026-10-27",
-   "type": "under_bed",
-   "places": [
-    "bed"
-   ],
-   "links": {
-    "yahoo": "https://store.shopping.yahoo.co.jp/ad-hitshop/f04-2ax2.html"
-   },
-   "item_url": "https://store.shopping.yahoo.co.jp/ad-hitshop/f04-2ax2.html",
-   "source": "yahoo",
-   "img": "https://item-shopping.c.yimg.jp/i/g/ad-hitshop_f04-2ax2",
-   "src": "商品説明から抽出（幅×奥行×高さの順と推定）",
-   "evidence": "【製品】サイズ約62x42x16cm",
-   "dim_kind": "外寸（推定）",
-   "unit": "cm",
-   "confidence": "要確認",
    "status": "自動抽出（未確認）"
   }
  ]
