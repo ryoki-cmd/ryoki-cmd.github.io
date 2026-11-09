@@ -1,4 +1,4 @@
-:root{--bg:#fbf8f3;--card:#fff;--ink:#2e2a25;--head:#4a4138;--sub:#6f675e;--line:#ece5da;--accent:#c47850;--accent-ink:#9a5530;--soft:#f5e8dd;
+:root{--bg:#fbf8f3;--card:#fff;--ink:#2e2a25;--head:#4a4138;--sub:#6f675e;--line:#ece5da;--accent:#c47850;--accent-ink:#9a5530;--accent-fill:#9a5530;--soft:#f5e8dd;
 --money:#8f6aa8;--money-ink:#6d4b88;--money-soft:#efe8f4;
 --r-lg:16px;--r-md:12px;--r-sm:8px;--s2:8px;--s3:12px;--s4:16px;--s5:24px;--s6:40px;--s7:64px;
 --shadow:0 1px 3px rgba(60,40,20,.06),0 4px 12px rgba(60,40,20,.05);--shadow-hi:0 12px 28px rgba(60,40,20,.12)}
@@ -45,7 +45,7 @@ body.menu-open{overflow:hidden}
 .chips{display:flex;gap:var(--s2);overflow-x:auto;padding:var(--s3) var(--s4);scrollbar-width:none;max-width:1080px;margin:0 auto;mask-image:linear-gradient(90deg,#000 90%,transparent)}
 .chips::-webkit-scrollbar{display:none}
 .chips a{flex:0 0 auto;text-decoration:none;font-size:.85rem;padding:8px 14px;min-height:36px;display:inline-flex;align-items:center;border-radius:999px;background:var(--card);border:1px solid var(--line);color:var(--sub);transition:background .18s,color .18s}
-.chips a.on{background:var(--accent);border-color:var(--accent);color:#fff}
+.chips a.on{background:var(--accent-fill);border-color:var(--accent-fill);color:#fff}
 .chips a.money.on{background:var(--money);border-color:var(--money)}
 /* ヒーロー */
 .hero{display:grid;gap:var(--s4);padding:var(--s5) 0 var(--s2)}
@@ -98,7 +98,7 @@ body.menu-open{overflow:hidden}
 .tag{display:inline-block;font-size:.74rem;font-weight:700;color:var(--accent-ink);background:var(--soft);border-radius:999px;padding:2px 10px;margin-bottom:6px;line-height:1.5}
 .tag.money{color:var(--money-ink);background:var(--money-soft)}
 .tag.idea{color:var(--sub);background:color-mix(in srgb,var(--line) 60%,var(--card))}
-.new{display:inline-block;font-size:.68rem;font-weight:700;color:#fff;background:var(--accent);border-radius:6px;padding:1px 6px;line-height:1.5;margin-left:6px;vertical-align:1px}
+.new{display:inline-block;font-size:.68rem;font-weight:700;color:#fff;background:var(--accent-fill);border-radius:6px;padding:1px 6px;line-height:1.5;margin-left:6px;vertical-align:1px}
 .card .new{position:absolute;top:10px;left:10px;margin:0;box-shadow:var(--shadow)}
 /* 行型（一覧・次に読む） */
 .rows{display:grid;gap:0}
@@ -113,7 +113,7 @@ body.menu-open{overflow:hidden}
 .filter{display:flex;gap:var(--s2);flex-wrap:wrap;margin:var(--s4) 0 var(--s2)}
 .filter input{position:absolute;opacity:0;pointer-events:none;width:0;height:0}
 .filter label{cursor:pointer;font-size:.85rem;padding:8px 14px;min-height:36px;display:inline-flex;align-items:center;border-radius:999px;background:var(--card);border:1px solid var(--line);color:var(--sub);transition:background .18s,color .18s}
-body:has(#f-all:checked) .filter label[for=f-all],body:has(#f-guide:checked) .filter label[for=f-guide]{background:var(--accent);border-color:var(--accent);color:#fff}
+body:has(#f-all:checked) .filter label[for=f-all],body:has(#f-guide:checked) .filter label[for=f-guide]{background:var(--accent-fill);border-color:var(--accent-fill);color:#fff}
 body:has(#f-money:checked) .filter label[for=f-money]{background:var(--money);border-color:var(--money);color:#fff}
 body:has(#f-guide:checked) [data-kind=money],body:has(#f-money:checked) [data-kind=guide]{display:none}
 /* 商品 */
@@ -139,7 +139,7 @@ body:has(#f-guide:checked) [data-kind=money],body:has(#f-money:checked) [data-ki
 .col-sec{border-left:4px solid var(--accent);padding:4px 0 4px 16px;margin:var(--s5) 0}
 .money .col-sec{border-left-color:var(--money)}
 .col-sec h2{font-size:1.3rem;line-height:1.45;margin:0 0 10px}
-.col-sec h2 span{display:inline-grid;place-items:center;width:28px;height:28px;border-radius:50%;background:var(--accent);color:#fff;font-size:.85rem;margin-right:8px;vertical-align:2px}
+.col-sec h2 span{display:inline-grid;place-items:center;width:28px;height:28px;border-radius:50%;background:var(--accent-fill);color:#fff;font-size:.85rem;margin-right:8px;vertical-align:2px}
 .money .col-sec h2 span{background:var(--money)}
 .col-sec .point{font-weight:700;color:var(--accent-ink);background:var(--soft);border-radius:var(--r-sm);padding:8px 12px;margin:0 0 12px;font-size:.95rem;line-height:1.6}
 .money .col-sec .point{color:var(--money-ink);background:var(--money-soft)}
@@ -147,7 +147,7 @@ body:has(#f-guide:checked) [data-kind=money],body:has(#f-money:checked) [data-ki
 .tip{display:grid;grid-template-columns:110px 1fr;gap:var(--s4);background:var(--card);border-radius:var(--r-lg);padding:var(--s4);margin:var(--s4) 0;box-shadow:var(--shadow);border:1px solid var(--line)}
 .tip img{width:110px;height:110px;object-fit:cover;border-radius:var(--r-sm)}
 .tip h2{margin:0 0 4px;font-size:1.05rem;line-height:1.5;font-family:"Zen Maru Gothic","Noto Sans JP",sans-serif;letter-spacing:.03em;color:var(--ink)}
-.tip h2 span{display:inline-grid;place-items:center;width:26px;height:26px;border-radius:50%;background:var(--accent);color:#fff;font-size:.85rem;margin-right:6px;vertical-align:2px}
+.tip h2 span{display:inline-grid;place-items:center;width:26px;height:26px;border-radius:50%;background:var(--accent-fill);color:#fff;font-size:.85rem;margin-right:6px;vertical-align:2px}
 .tip p{margin:0;font-size:.95rem;line-height:1.8}
 @media (min-width:600px){.tip{grid-template-columns:160px 1fr}.tip img{width:160px;height:160px}}
 .col-chk{background:var(--card);border:2px dashed var(--accent);border-radius:var(--r-lg);padding:var(--s4) 20px;margin:var(--s5) 0}
@@ -185,7 +185,7 @@ body:has(#f-guide:checked) [data-kind=money],body:has(#f-money:checked) [data-ki
 .doc h1{font-size:1.4rem;margin-top:0}.doc h2{font-size:1.2rem;margin:1.6em 0 .5em}.doc h3{margin-top:1.6em}
 .pager{display:flex;gap:var(--s2);justify-content:center;margin:var(--s5) 0}
 .pager a,.pager span{min-width:40px;min-height:40px;display:inline-flex;align-items:center;justify-content:center;border:1px solid var(--line);border-radius:999px;text-decoration:none;background:var(--card);padding:0 12px}
-.pager span{background:var(--accent);color:#fff;border-color:var(--accent)}
+.pager span{background:var(--accent-fill);color:#fff;border-color:var(--accent-fill)}
 /* 読了バー（対応ブラウザだけ） */
 @supports (animation-timeline:scroll()){.progress{position:fixed;top:0;left:0;height:3px;width:100%;background:var(--accent);transform-origin:0 50%;transform:scaleX(0);animation:grow linear both;animation-timeline:scroll();z-index:20}@keyframes grow{to{transform:scaleX(1)}}}
 footer{margin-top:var(--s7);border-top:1px solid var(--line);padding:28px 0 44px;color:var(--sub);font-size:.82rem;text-align:center}
@@ -205,4 +205,6 @@ footer .links{display:flex;flex-wrap:wrap;gap:8px 16px;justify-content:center;ma
 .sizecta{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:10px;background:var(--soft);border-radius:var(--r-md);padding:12px 14px;margin:14px 0 4px}
 .sizecta p{margin:0;font-size:.92rem;line-height:1.55}.sizecta .btn{flex:0 0 auto}
 @media not all and (prefers-color-scheme:dark){.pick .pimg{mix-blend-mode:multiply;border:0;background:transparent}}
+/* 2026-11-10 axe：寸法アシスタントの白文字ボタン（dist 側は触らず、ここで色だけ濃く） */
+#sunpoGo,.sunpo-chip[aria-pressed="true"],.sunpo-quick button[data-qv][aria-pressed="true"]{background:var(--accent-fill);border-color:var(--accent-fill)}
 .chips .chip-menu{flex:0 0 auto;font:inherit;font-size:.85rem;padding:8px 14px;min-height:36px;display:inline-flex;align-items:center;gap:6px;border-radius:999px;background:var(--card);border:1px solid var(--line);color:var(--sub);cursor:pointer}
