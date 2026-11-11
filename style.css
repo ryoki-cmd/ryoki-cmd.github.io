@@ -207,4 +207,16 @@ footer .links{display:flex;flex-wrap:wrap;gap:8px 16px;justify-content:center;ma
 @media not all and (prefers-color-scheme:dark){.pick .pimg{mix-blend-mode:multiply;border:0;background:transparent}}
 /* 2026-11-10 axe：寸法アシスタントの白文字ボタン（dist 側は触らず、ここで色だけ濃く） */
 #sunpoGo,.sunpo-chip[aria-pressed="true"],.sunpo-quick button[data-qv][aria-pressed="true"]{background:var(--accent-fill);border-color:var(--accent-fill)}
+/* 2026-11-11 案件に沿った記事：PR 表記・縦長の表紙・箇条書き・参考ページ */
+.artpr{display:flex;align-items:center;gap:8px;background:var(--soft);border-radius:var(--r-md);padding:10px 14px;margin:var(--s3) 0 0;font-size:.85rem;line-height:1.6}
+.article .cover.tall{aspect-ratio:2/3;max-width:380px;margin:var(--s4) auto 0;display:block;object-position:center}
+.col-sec ul{margin:0 0 12px;padding-left:1.3em;font-size:.97rem;line-height:1.85}.col-sec li{margin:4px 0}
+.art-src h2{font-size:1.05rem;margin:0 0 6px}
+/* 2026-11-11 記事の中の案件カード：画像を左に小さく、文を右、ボタンは下に全幅 */
+.artad{margin:var(--s5) 0}
+.artad-h{display:flex;align-items:center;gap:8px;font-size:.85rem;color:var(--sub);margin:0 0 8px}
+.artad .card.item{display:grid;grid-template-columns:96px 1fr;gap:0 14px;align-items:start;padding:14px}
+.artad .card.item>img{width:96px;height:auto;border-radius:10px;grid-column:1;grid-row:1}
+.artad .card.item .t{grid-column:2;grid-row:1;padding:0;min-width:0}
+.artad .card.item .btn{grid-column:1/-1;margin:12px 0 0;text-align:center;justify-content:center}
 .chips .chip-menu{flex:0 0 auto;font:inherit;font-size:.85rem;padding:8px 14px;min-height:36px;display:inline-flex;align-items:center;gap:6px;border-radius:999px;background:var(--card);border:1px solid var(--line);color:var(--sub);cursor:pointer}
