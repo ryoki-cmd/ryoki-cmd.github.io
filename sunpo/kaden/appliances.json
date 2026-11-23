@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-23",
+ "updated": "2026-11-24",
  "items": [
   {
    "id": "fridge:PRC-B051D",
@@ -21,8 +21,8 @@
     "yahoo": "https://store.shopping.yahoo.co.jp/irisplaza/7155745f.html"
    },
    "img": "https://thumbnail.image.rakuten.co.jp/@0_mall/kadenrand/cabinet/sinkitouroku/sinkitouroku2/7088061_.jpg?_ex=300x300",
-   "checked_at": "2026-11-23",
-   "reviews": 2276,
+   "checked_at": "2026-11-24",
+   "reviews": 2277,
    "doors": 1,
    "capacity_l": 46.0,
    "size_class": "small"
@@ -47,36 +47,10 @@
     "yahoo": "https://store.shopping.yahoo.co.jp/insdenki-y/572638.html"
    },
    "img": "https://thumbnail.image.rakuten.co.jp/@0_mall/enetroom/cabinet/eigyo/12625356/imgrc0132812143.jpg?_ex=300x300",
-   "checked_at": "2026-11-23",
+   "checked_at": "2026-11-24",
    "reviews": 1655,
    "doors": 2,
    "capacity_l": 170.0,
-   "size_class": "small"
-  },
-  {
-   "id": "fridge:IRSD-13A",
-   "kind": "fridge",
-   "model": "IRSD-13A",
-   "maker": "アイリスオーヤマ",
-   "name": "アイリスオーヤマ 冷蔵庫 IRSD-13A",
-   "w": 47.0,
-   "d": 52.1,
-   "h": 124.0,
-   "evidence": "54.9×高さ約121.5 幅約47.0×奥行約52.1×高さ約124.0",
-   "confidence": "高",
-   "listings": 10,
-   "agree": 6,
-   "price": 27800,
-   "price_max": 32980,
-   "links": {
-    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/g00rqkto.d4l211b8.g00rqkto.d4l22e56/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Feleking%2F513864%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Feleking%2Fi%2F10041343%2F&rafcid=wsc_i_is_f39725d4-39b5-46c2-8048-e2b2a03cda3a",
-    "yahoo": "https://store.shopping.yahoo.co.jp/insdenki-y/p513864.html"
-   },
-   "img": "https://thumbnail.image.rakuten.co.jp/@0_mall/eleking/cabinet/jishahin49/imgrc0103608505.jpg?_ex=300x300",
-   "checked_at": "2026-11-23",
-   "reviews": 1472,
-   "doors": 2,
-   "capacity_l": 133.0,
    "size_class": "small"
   },
   {
@@ -99,7 +73,7 @@
     "yahoo": "https://store.shopping.yahoo.co.jp/ichibankanshop/sr-r4802.html"
    },
    "img": "https://thumbnail.image.rakuten.co.jp/@0_mall/sunruck-direct/cabinet/item77/sr-r4805-01.jpg?_ex=300x300",
-   "checked_at": "2026-11-23",
+   "checked_at": "2026-11-24",
    "reviews": 1300,
    "doors": 1,
    "capacity_l": 48.0,
@@ -124,7 +98,7 @@
     "rakuten": "https://hb.afl.rakuten.co.jp/hgc/g00q660o.d4l21526.g00q660o.d4l22bd6/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fichibankanshop%2Fsr-rf48w%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fichibankanshop%2Fi%2F10201289%2F&rafcid=wsc_i_is_f39725d4-39b5-46c2-8048-e2b2a03cda3a"
    },
    "img": "https://thumbnail.image.rakuten.co.jp/@0_mall/ichibankanshop/cabinet/item79/sr-r4805-01.jpg?_ex=300x300",
-   "checked_at": "2026-11-23",
+   "checked_at": "2026-11-24",
    "reviews": 1196,
    "doors": 1,
    "capacity_l": 48.0,
@@ -149,8 +123,8 @@
     "rakuten": "https://hb.afl.rakuten.co.jp/hgc/g00prkeo.d4l218b9.g00prkeo.d4l2265e/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fenetroom%2F7096214%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fenetroom%2Fi%2F10153507%2F&rafcid=wsc_i_is_f39725d4-39b5-46c2-8048-e2b2a03cda3a"
    },
    "img": "https://thumbnail.image.rakuten.co.jp/@0_mall/enetroom/cabinet/tenposupport03/imgrc0119399349.jpg?_ex=300x300",
-   "checked_at": "2026-11-23",
-   "reviews": 1152,
+   "checked_at": "2026-11-24",
+   "reviews": 1153,
    "doors": 2,
    "capacity_l": 87.0,
    "size_class": "small"
@@ -175,7 +149,7 @@
     "yahoo": "https://store.shopping.yahoo.co.jp/joshin/4580341985564-21-18844.html"
    },
    "img": "https://thumbnail.image.rakuten.co.jp/@0_mall/e-kurashi/cabinet/main-img/020/main-xu337_a.jpg?_ex=300x300",
-   "checked_at": "2026-11-23",
+   "checked_at": "2026-11-24",
    "reviews": 675,
    "doors": 2,
    "capacity_l": 162.0,
@@ -201,7 +175,7 @@
     "yahoo": "https://store.shopping.yahoo.co.jp/recommendo/eu-4589668450069.html"
    },
    "img": "https://thumbnail.image.rakuten.co.jp/@0_mall/rcmdin/cabinet/eu01/eu-4589668450069.jpg?_ex=300x300",
-   "checked_at": "2026-11-23",
+   "checked_at": "2026-11-24",
    "reviews": 661,
    "doors": 1,
    "capacity_l": 47.0,
@@ -226,8 +200,8 @@
     "rakuten": "https://hb.afl.rakuten.co.jp/hgc/g00sk3qo.d4l21405.g00sk3qo.d4l22bd1/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fh2brothers%2Frefrigerator01%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fh2brothers%2Fi%2F10001935%2F&rafcid=wsc_i_is_f39725d4-39b5-46c2-8048-e2b2a03cda3a"
    },
    "img": "https://thumbnail.image.rakuten.co.jp/@0_mall/h2brothers/cabinet/furniture/refrigerator01_0_2r2.jpg?_ex=300x300",
-   "checked_at": "2026-11-23",
-   "reviews": 651,
+   "checked_at": "2026-11-24",
+   "reviews": 652,
    "doors": 2,
    "capacity_l": 60.0,
    "size_class": "small"
@@ -252,8 +226,8 @@
     "yahoo": "https://store.shopping.yahoo.co.jp/recommendo/eu-4589668450113.html"
    },
    "img": "https://thumbnail.image.rakuten.co.jp/@0_mall/rcmdin/cabinet/eu01/eu-4589668450113.jpg?_ex=300x300",
-   "checked_at": "2026-11-23",
-   "reviews": 601,
+   "checked_at": "2026-11-24",
+   "reviews": 602,
    "doors": 2,
    "capacity_l": 90.0,
    "size_class": "small"
@@ -278,7 +252,7 @@
     "yahoo": "https://store.shopping.yahoo.co.jp/joylight/m7166775.html"
    },
    "img": "https://thumbnail.image.rakuten.co.jp/@0_mall/unidy/cabinet/09625090/b_7166775.jpg?_ex=300x300",
-   "checked_at": "2026-11-23",
+   "checked_at": "2026-11-24",
    "reviews": 548,
    "doors": 2,
    "capacity_l": 81.0,
@@ -304,7 +278,7 @@
     "yahoo": "https://store.shopping.yahoo.co.jp/e-kurashi/op-93784.html"
    },
    "img": "https://thumbnail.image.rakuten.co.jp/@0_mall/e-kurashi/cabinet/main-img/020/main-93784_a.jpg?_ex=300x300",
-   "checked_at": "2026-11-23",
+   "checked_at": "2026-11-24",
    "reviews": 391,
    "doors": 2,
    "capacity_l": 175.0,
@@ -329,7 +303,7 @@
     "rakuten": "https://hb.afl.rakuten.co.jp/hgc/g00sk3qo.d4l21405.g00sk3qo.d4l22bd1/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fh2brothers%2Frefrigerator04%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fh2brothers%2Fi%2F10002112%2F&rafcid=wsc_i_is_f39725d4-39b5-46c2-8048-e2b2a03cda3a"
    },
    "img": "https://thumbnail.image.rakuten.co.jp/@0_mall/h2brothers/cabinet/furniture/refrigerator05_0_1.jpg?_ex=300x300",
-   "checked_at": "2026-11-23",
+   "checked_at": "2026-11-24",
    "reviews": 375,
    "doors": 1,
    "capacity_l": 50.0,
@@ -355,7 +329,7 @@
     "yahoo": "https://store.shopping.yahoo.co.jp/insdenki-y/p517563.html"
    },
    "img": "https://thumbnail.image.rakuten.co.jp/@0_mall/kadenrand/cabinet/jishahin46/7049124.jpg?_ex=300x300",
-   "checked_at": "2026-11-23",
+   "checked_at": "2026-11-24",
    "reviews": 346,
    "doors": 2,
    "capacity_l": 90.0,
@@ -381,7 +355,7 @@
     "yahoo": "https://store.shopping.yahoo.co.jp/sake-premoa/4571495432240.html"
    },
    "img": "https://thumbnail.image.rakuten.co.jp/@0_mall/a-price/cabinet/pics/1253/0-4571495432240.jpg?_ex=300x300",
-   "checked_at": "2026-11-23",
+   "checked_at": "2026-11-24",
    "reviews": 300,
    "doors": 2,
    "capacity_l": 85.0,
@@ -407,7 +381,7 @@
     "yahoo": "https://store.shopping.yahoo.co.jp/aprice/4571495431045.html"
    },
    "img": "https://thumbnail.image.rakuten.co.jp/@0_mall/a-price/cabinet/mailmaga/08814302/4571495431045_2.jpg?_ex=300x300",
-   "checked_at": "2026-11-23",
+   "checked_at": "2026-11-24",
    "reviews": 277,
    "doors": 2,
    "capacity_l": 87.0,
@@ -433,7 +407,7 @@
     "yahoo": "https://store.shopping.yahoo.co.jp/e-kurashi/75462.html"
    },
    "img": "https://thumbnail.image.rakuten.co.jp/@0_mall/e-kurashi/cabinet/main-img/012/main-75462.jpg?_ex=300x300",
-   "checked_at": "2026-11-23",
+   "checked_at": "2026-11-24",
    "reviews": 275,
    "doors": 2,
    "capacity_l": 106.0,
@@ -459,7 +433,7 @@
     "yahoo": "https://store.shopping.yahoo.co.jp/insdenki-y/p517344.html"
    },
    "img": "https://thumbnail.image.rakuten.co.jp/@0_mall/enetroom/cabinet/11375185/11760512/517344enet.jpg?_ex=300x300",
-   "checked_at": "2026-11-23",
+   "checked_at": "2026-11-24",
    "reviews": 244,
    "doors": 2,
    "capacity_l": 274.0,
@@ -484,7 +458,7 @@
     "yahoo": "https://store.shopping.yahoo.co.jp/insdenki-y/572488.html"
    },
    "img": "https://item-shopping.c.yimg.jp/i/g/insdenki-y_572488",
-   "checked_at": "2026-11-23",
+   "checked_at": "2026-11-24",
    "reviews": 228,
    "doors": null,
    "capacity_l": 45.0,
@@ -509,7 +483,7 @@
     "rakuten": "https://hb.afl.rakuten.co.jp/hgc/g00qn68o.d4l218aa.g00qn68o.d4l2288d/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fa-price%2F4571495432660%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fa-price%2Fi%2F10994417%2F&rafcid=wsc_i_is_f39725d4-39b5-46c2-8048-e2b2a03cda3a"
    },
    "img": "https://thumbnail.image.rakuten.co.jp/@0_mall/a-price/cabinet/design/21/0-4571495432660.jpg?_ex=300x300",
-   "checked_at": "2026-11-23",
+   "checked_at": "2026-11-24",
    "reviews": 203,
    "doors": 2,
    "capacity_l": 117.0,
@@ -535,8 +509,8 @@
     "yahoo": "https://store.shopping.yahoo.co.jp/rcmdin/eu-4589668450120.html"
    },
    "img": "https://thumbnail.image.rakuten.co.jp/@0_mall/rcmdse/cabinet/eu01/imgrc0068934678.jpg?_ex=300x300",
-   "checked_at": "2026-11-23",
-   "reviews": 191,
+   "checked_at": "2026-11-24",
+   "reviews": 192,
    "doors": 2,
    "capacity_l": 50.0,
    "size_class": "small"
@@ -561,7 +535,7 @@
     "yahoo": "https://store.shopping.yahoo.co.jp/sake-premoa/4571495432394.html"
    },
    "img": "https://thumbnail.image.rakuten.co.jp/@0_mall/a-price/cabinet/mailmaga/08814302/4571495432400.jpg?_ex=300x300",
-   "checked_at": "2026-11-23",
+   "checked_at": "2026-11-24",
    "reviews": 165,
    "doors": 2,
    "capacity_l": 112.0,
@@ -587,7 +561,7 @@
     "yahoo": "https://store.shopping.yahoo.co.jp/petkan/m7160369.html"
    },
    "img": "https://thumbnail.image.rakuten.co.jp/@0_mall/enetroom/cabinet/11375185/11760512/7160369.jpg?_ex=300x300",
-   "checked_at": "2026-11-23",
+   "checked_at": "2026-11-24",
    "reviews": 127,
    "doors": 2,
    "capacity_l": 130.0,
@@ -613,7 +587,7 @@
     "yahoo": "https://store.shopping.yahoo.co.jp/irisplaza/7617566f.html"
    },
    "img": "https://thumbnail.image.rakuten.co.jp/@0_mall/kadenrand/cabinet/11075038/tenposupport03/imgrc0093877497.jpg?_ex=300x300",
-   "checked_at": "2026-11-23",
+   "checked_at": "2026-11-24",
    "reviews": 119,
    "doors": 3,
    "capacity_l": 235.0,
@@ -639,10 +613,36 @@
     "yahoo": "https://store.shopping.yahoo.co.jp/e-kurashi/r8d89.html"
    },
    "img": "https://thumbnail.image.rakuten.co.jp/@0_mall/e-kurashi/cabinet/main-img/020/main-r8d89_a.jpg?_ex=300x300",
-   "checked_at": "2026-11-23",
+   "checked_at": "2026-11-24",
    "reviews": 115,
    "doors": 2,
    "capacity_l": 87.0,
+   "size_class": "small"
+  },
+  {
+   "id": "fridge:ZFR-F140",
+   "kind": "fridge",
+   "model": "ZFR-F140",
+   "maker": "山善",
+   "name": "山善 冷蔵庫 ZFR-F140",
+   "w": 49.5,
+   "d": 55.3,
+   "h": 125.3,
+   "evidence": "40 ホワイト 本体サイズ 幅49.5×奥行55.3×高さ125.3cm",
+   "confidence": "高",
+   "listings": 3,
+   "agree": 3,
+   "price": 37800,
+   "price_max": 37800,
+   "links": {
+    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/g00tlfdo.d4l21fcf.g00tlfdo.d4l22252/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fyamazenkaden%2F96578%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fyamazenkaden%2Fi%2F10003409%2F&rafcid=wsc_i_is_f39725d4-39b5-46c2-8048-e2b2a03cda3a",
+    "yahoo": "https://store.shopping.yahoo.co.jp/e-kurashi/96578.html"
+   },
+   "img": "https://thumbnail.image.rakuten.co.jp/@0_mall/yamazenkaden/cabinet/main-img/020/main-t1r69.jpg?_ex=300x300",
+   "checked_at": "2026-11-24",
+   "reviews": 109,
+   "doors": 2,
+   "capacity_l": 140.0,
    "size_class": "small"
   },
   {
@@ -664,7 +664,7 @@
     "rakuten": "https://hb.afl.rakuten.co.jp/hgc/g00twl4o.d4l21869.g00twl4o.d4l226c5/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fjimo%2Fskfgu40jp-01%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fjimo%2Fi%2F10000277%2F&rafcid=wsc_i_is_f39725d4-39b5-46c2-8048-e2b2a03cda3a"
    },
    "img": "https://thumbnail.image.rakuten.co.jp/@0_mall/jimo/cabinet/13854150/imgrc0119710826.jpg?_ex=300x300",
-   "checked_at": "2026-11-23",
+   "checked_at": "2026-11-24",
    "reviews": 104,
    "doors": 1,
    "capacity_l": 48.0,
@@ -690,7 +690,7 @@
     "yahoo": "https://store.shopping.yahoo.co.jp/aprice/4571495433841.html"
    },
    "img": "https://thumbnail.image.rakuten.co.jp/@0_mall/a-price/cabinet/pics/563/0-4571495432417.jpg?_ex=300x300",
-   "checked_at": "2026-11-23",
+   "checked_at": "2026-11-24",
    "reviews": 98,
    "doors": 6,
    "capacity_l": 430.0,
@@ -709,14 +709,14 @@
    "confidence": "高",
    "listings": 13,
    "agree": 3,
-   "price": 189700,
+   "price": 189000,
    "price_max": 228000,
    "links": {
     "rakuten": "https://hb.afl.rakuten.co.jp/hgc/g00q3omo.d4l21f89.g00q3omo.d4l22f8c/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Femedama%2F4549873185750%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Femedama%2Fi%2F11116290%2F&rafcid=wsc_i_is_f39725d4-39b5-46c2-8048-e2b2a03cda3a",
     "yahoo": "https://store.shopping.yahoo.co.jp/emedama/4549873185750.html"
    },
    "img": "https://thumbnail.image.rakuten.co.jp/@0_mall/emedama/cabinet/5750/4549873185750_1.jpg?_ex=300x300",
-   "checked_at": "2026-11-23",
+   "checked_at": "2026-11-24",
    "reviews": 95,
    "install": {
     "w": 69.5,
@@ -746,7 +746,7 @@
     "rakuten": "https://hb.afl.rakuten.co.jp/hgc/g00qn68o.d4l218aa.g00qn68o.d4l2288d/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fa-price%2F4571495433162%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fa-price%2Fi%2F11052164%2F&rafcid=wsc_i_is_f39725d4-39b5-46c2-8048-e2b2a03cda3a"
    },
    "img": "https://thumbnail.image.rakuten.co.jp/@0_mall/a-price/cabinet/mailmaga/08814302/12654252/4571495433162.jpg?_ex=300x300",
-   "checked_at": "2026-11-23",
+   "checked_at": "2026-11-24",
    "reviews": 87,
    "doors": 2,
    "capacity_l": 121.0,
@@ -771,36 +771,10 @@
     "rakuten": "https://hb.afl.rakuten.co.jp/hgc/g00twl4o.d4l21869.g00twl4o.d4l226c5/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fjimo%2Fskgu165jp-01%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fjimo%2Fi%2F10000235%2F&rafcid=wsc_i_is_f39725d4-39b5-46c2-8048-e2b2a03cda3a"
    },
    "img": "https://thumbnail.image.rakuten.co.jp/@0_mall/jimo/cabinet/13854150/imgrc0119710844.jpg?_ex=300x300",
-   "checked_at": "2026-11-23",
+   "checked_at": "2026-11-24",
    "reviews": 79,
    "doors": null,
    "capacity_l": 165.0,
-   "size_class": "small"
-  },
-  {
-   "id": "fridge:ZFR-F140",
-   "kind": "fridge",
-   "model": "ZFR-F140",
-   "maker": "山善",
-   "name": "山善 冷蔵庫 ZFR-F140",
-   "w": 49.5,
-   "d": 55.3,
-   "h": 125.3,
-   "evidence": "40 ホワイト 本体サイズ 幅49.5×奥行55.3×高さ125.3cm",
-   "confidence": "高",
-   "listings": 2,
-   "agree": 2,
-   "price": 37800,
-   "price_max": 37800,
-   "links": {
-    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/g00tlfdo.d4l21fcf.g00tlfdo.d4l22252/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fyamazenkaden%2F96578%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fyamazenkaden%2Fi%2F10003409%2F&rafcid=wsc_i_is_f39725d4-39b5-46c2-8048-e2b2a03cda3a",
-    "yahoo": "https://store.shopping.yahoo.co.jp/e-kurashi/96578.html"
-   },
-   "img": "https://thumbnail.image.rakuten.co.jp/@0_mall/yamazenkaden/cabinet/main-img/020/main-t1r69.jpg?_ex=300x300",
-   "checked_at": "2026-11-23",
-   "reviews": 77,
-   "doors": 2,
-   "capacity_l": 140.0,
    "size_class": "small"
   },
   {
@@ -822,7 +796,7 @@
     "yahoo": "https://store.shopping.yahoo.co.jp/insdenki-y/573000.html"
    },
    "img": "https://item-shopping.c.yimg.jp/i/g/insdenki-y_573000",
-   "checked_at": "2026-11-23",
+   "checked_at": "2026-11-24",
    "reviews": 73,
    "doors": 2,
    "capacity_l": 118.0,
@@ -847,7 +821,7 @@
     "rakuten": "https://hb.afl.rakuten.co.jp/hgc/g00twl4o.d4l21869.g00twl4o.d4l226c5/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fjimo%2Fskfgu95sjp%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fjimo%2Fi%2F10000266%2F&rafcid=wsc_i_is_f39725d4-39b5-46c2-8048-e2b2a03cda3a"
    },
    "img": "https://thumbnail.image.rakuten.co.jp/@0_mall/jimo/cabinet/13854150/imgrc0119710831.jpg?_ex=300x300",
-   "checked_at": "2026-11-23",
+   "checked_at": "2026-11-24",
    "reviews": 66,
    "doors": 1,
    "capacity_l": 95.0,
@@ -869,12 +843,12 @@
    "price": 31650,
    "price_max": 36130,
    "links": {
-    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/g00qddyo.d4l218b3.g00qddyo.d4l22ff9/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fden-ki-ya2%2Fsj-h13e-s%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fden-ki-ya2%2Fi%2F10005239%2F&rafcid=wsc_i_is_f39725d4-39b5-46c2-8048-e2b2a03cda3a",
+    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/g00s8b0o.d4l21271.g00s8b0o.d4l2280d/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fgbft-ltd%2Fbx-vn56-9szz%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fgbft-ltd%2Fi%2F10026997%2F&rafcid=wsc_i_is_f39725d4-39b5-46c2-8048-e2b2a03cda3a",
     "yahoo": "https://store.shopping.yahoo.co.jp/aprice/4974019123387.html"
    },
-   "img": "https://thumbnail.image.rakuten.co.jp/@0_mall/den-ki-ya2/cabinet/imgrc0078806539.jpg?_ex=300x300",
-   "checked_at": "2026-11-23",
-   "reviews": 64,
+   "img": "https://thumbnail.image.rakuten.co.jp/@0_mall/gbft-ltd/cabinet/image29/bx-vn56-9szz_1.jpg?_ex=300x300",
+   "checked_at": "2026-11-24",
+   "reviews": 65,
    "install": {
     "w": 52.0,
     "d": 57.0,
@@ -883,37 +857,6 @@
    "doors": 2,
    "capacity_l": 128.0,
    "size_class": "small"
-  },
-  {
-   "id": "fridge:R-HW54V",
-   "kind": "fridge",
-   "model": "R-HW54V",
-   "maker": "日立",
-   "name": "日立 冷蔵庫 R-HW54V",
-   "w": 65.0,
-   "d": 70.1,
-   "h": 183.3,
-   "evidence": "ースの目安■外形寸法(約):幅650×奥行き701×高さ1833(mm)",
-   "confidence": "中",
-   "listings": 14,
-   "agree": 1,
-   "price": 174800,
-   "price_max": 218000,
-   "links": {
-    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/g00qn68o.d4l218aa.g00qn68o.d4l2288d/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fa-price%2F4549873185774%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fa-price%2Fi%2F11193622%2F&rafcid=wsc_i_is_f39725d4-39b5-46c2-8048-e2b2a03cda3a",
-    "yahoo": "https://store.shopping.yahoo.co.jp/emedama/4549873185774.html"
-   },
-   "img": "https://thumbnail.image.rakuten.co.jp/@0_mall/a-price/cabinet/pics/740/4549873185774.jpg?_ex=300x300",
-   "checked_at": "2026-11-23",
-   "reviews": 63,
-   "install": {
-    "w": 66.0,
-    "d": 70.1,
-    "h": 187.3
-   },
-   "doors": 6,
-   "capacity_l": 540.0,
-   "size_class": "large"
   },
   {
    "id": "fridge:NR-A80D",
@@ -935,7 +878,7 @@
     "yahoo": "https://store.shopping.yahoo.co.jp/yamada-denki/3100765015.html"
    },
    "img": "https://thumbnail.image.rakuten.co.jp/@0_mall/jism/cabinet/1527/4549980421536.jpg?_ex=300x300",
-   "checked_at": "2026-11-23",
+   "checked_at": "2026-11-24",
    "reviews": 58,
    "install": {
     "w": 50.0,
@@ -966,7 +909,7 @@
     "yahoo": "https://store.shopping.yahoo.co.jp/yamada-denki/3100630016.html"
    },
    "img": "https://thumbnail.image.rakuten.co.jp/@0_mall/jism/cabinet/1439/4549980421512.jpg?_ex=300x300",
-   "checked_at": "2026-11-23",
+   "checked_at": "2026-11-24",
    "reviews": 58,
    "install": {
     "w": 48.0,
@@ -997,7 +940,7 @@
     "yahoo": "https://store.shopping.yahoo.co.jp/aprice/4571495432790.html"
    },
    "img": "https://thumbnail.image.rakuten.co.jp/@0_mall/a-price/cabinet/pics/611/0-4571495434244.jpg?_ex=300x300",
-   "checked_at": "2026-11-23",
+   "checked_at": "2026-11-24",
    "reviews": 57,
    "doors": 2,
    "capacity_l": 253.0,
@@ -1023,7 +966,7 @@
     "yahoo": "https://store.shopping.yahoo.co.jp/aprice/4571495436330.html"
    },
    "img": "https://thumbnail.image.rakuten.co.jp/@0_mall/a-price/cabinet/pics/912/0-4571495436323.jpg?_ex=300x300",
-   "checked_at": "2026-11-23",
+   "checked_at": "2026-11-24",
    "reviews": 55,
    "doors": 2,
    "capacity_l": 254.0,
@@ -1048,7 +991,7 @@
     "rakuten": "https://hb.afl.rakuten.co.jp/hgc/g00twl4o.d4l21869.g00twl4o.d4l226c5/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fjimo%2Fskfgu65sjp-01%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fjimo%2Fi%2F10000253%2F&rafcid=wsc_i_is_f39725d4-39b5-46c2-8048-e2b2a03cda3a"
    },
    "img": "https://thumbnail.image.rakuten.co.jp/@0_mall/jimo/cabinet/13854150/imgrc0119710829.jpg?_ex=300x300",
-   "checked_at": "2026-11-23",
+   "checked_at": "2026-11-24",
    "reviews": 53,
    "doors": 1,
    "capacity_l": 65.0,
@@ -1067,13 +1010,13 @@
    "confidence": "中",
    "listings": 1,
    "agree": 1,
-   "price": 23800,
-   "price_max": 23800,
+   "price": 24800,
+   "price_max": 24800,
    "links": {
     "rakuten": "https://hb.afl.rakuten.co.jp/hgc/g00twu2o.d4l21fbc.g00twu2o.d4l22b19/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fcomfee-kitchen%2Frct90bl%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fcomfee-kitchen%2Fi%2F10000217%2F&rafcid=wsc_i_is_f39725d4-39b5-46c2-8048-e2b2a03cda3a"
    },
    "img": "https://thumbnail.image.rakuten.co.jp/@0_mall/comfee-kitchen/cabinet/12397585/12397586/1.jpg?_ex=300x300",
-   "checked_at": "2026-11-23",
+   "checked_at": "2026-11-24",
    "reviews": 52,
    "doors": 2,
    "capacity_l": 132.0,
@@ -1098,7 +1041,7 @@
     "rakuten": "https://hb.afl.rakuten.co.jp/hgc/g00prkeo.d4l218b9.g00prkeo.d4l2265e/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fenetroom%2F573648%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fenetroom%2Fi%2F10171540%2F&rafcid=wsc_i_is_f39725d4-39b5-46c2-8048-e2b2a03cda3a"
    },
    "img": "https://thumbnail.image.rakuten.co.jp/@0_mall/enetroom/cabinet/jishahin36/574579_00.jpg?_ex=300x300",
-   "checked_at": "2026-11-23",
+   "checked_at": "2026-11-24",
    "reviews": 51,
    "doors": 2,
    "capacity_l": 162.0,
@@ -1123,7 +1066,7 @@
     "yahoo": "https://store.shopping.yahoo.co.jp/recommendo/eu-4589668450120.html"
    },
    "img": "https://item-shopping.c.yimg.jp/i/g/recommendo_eu-4589668450120",
-   "checked_at": "2026-11-23",
+   "checked_at": "2026-11-24",
    "reviews": 49,
    "doors": 2,
    "capacity_l": 50.0,
@@ -1148,7 +1091,7 @@
     "yahoo": "https://store.shopping.yahoo.co.jp/insair-y/p517344.html"
    },
    "img": "https://item-shopping.c.yimg.jp/i/g/insair-y_p517344",
-   "checked_at": "2026-11-23",
+   "checked_at": "2026-11-24",
    "reviews": 49,
    "doors": null,
    "capacity_l": 274.0,
@@ -1174,7 +1117,7 @@
     "yahoo": "https://store.shopping.yahoo.co.jp/aprice/4571495433858.html"
    },
    "img": "https://thumbnail.image.rakuten.co.jp/@0_mall/a-price/cabinet/design/18/0-4571495434077.jpg?_ex=300x300",
-   "checked_at": "2026-11-23",
+   "checked_at": "2026-11-24",
    "reviews": 46,
    "doors": 6,
    "capacity_l": 415.0,
@@ -1199,7 +1142,7 @@
     "yahoo": "https://store.shopping.yahoo.co.jp/e-kurashi/75452.html"
    },
    "img": "https://item-shopping.c.yimg.jp/i/g/e-kurashi_75452",
-   "checked_at": "2026-11-23",
+   "checked_at": "2026-11-24",
    "reviews": 44,
    "doors": 1,
    "capacity_l": 46.0,
@@ -1216,8 +1159,8 @@
    "h": 183.3,
    "evidence": "製氷:有* 外形寸法(約):幅650×奥行651×高さ1833mm",
    "confidence": "高",
-   "listings": 11,
-   "agree": 3,
+   "listings": 10,
+   "agree": 2,
    "price": 164800,
    "price_max": 208000,
    "links": {
@@ -1225,8 +1168,8 @@
     "yahoo": "https://store.shopping.yahoo.co.jp/emedama/4549873185798.html"
    },
    "img": "https://thumbnail.image.rakuten.co.jp/@0_mall/a-price/cabinet/pics/751/4549873185798.jpg?_ex=300x300",
-   "checked_at": "2026-11-23",
-   "reviews": 41,
+   "checked_at": "2026-11-24",
+   "reviews": 42,
    "install": {
     "w": 66.0,
     "d": 65.1,
@@ -1256,10 +1199,36 @@
     "yahoo": "https://store.shopping.yahoo.co.jp/petkan/m539828.html"
    },
    "img": "https://thumbnail.image.rakuten.co.jp/@0_mall/insair/cabinet/06008711/08148320/539828.jpg?_ex=300x300",
-   "checked_at": "2026-11-23",
+   "checked_at": "2026-11-24",
    "reviews": 38,
    "doors": 2,
    "capacity_l": 299.0,
+   "size_class": "small"
+  },
+  {
+   "id": "fridge:h2brothers:10002029",
+   "kind": "fridge",
+   "model": "",
+   "maker": "",
+   "name": "冷蔵庫 一人暮らし 小型 ミニ冷蔵庫 3ドア ソフト冷凍室",
+   "w": 40.5,
+   "d": 43.5,
+   "h": 108.0,
+   "evidence": "。 【製品詳細】 ・サイズ:横幅約40.5cm×奥行約43.5cm×高さ約108cm",
+   "confidence": "高",
+   "listings": 4,
+   "agree": 4,
+   "price": 20580,
+   "price_max": 23980,
+   "links": {
+    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/g00sk3qo.d4l21405.g00sk3qo.d4l22bd1/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fh2brothers%2Frefrigerator02%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fh2brothers%2Fi%2F10002029%2F&rafcid=wsc_i_is_f39725d4-39b5-46c2-8048-e2b2a03cda3a",
+    "yahoo": "https://store.shopping.yahoo.co.jp/notify/refrigerator02.html"
+   },
+   "img": "https://thumbnail.image.rakuten.co.jp/@0_mall/h2brothers/cabinet/furniture/refrigerator02_0_1.jpg?_ex=300x300",
+   "checked_at": "2026-11-24",
+   "reviews": 36,
+   "doors": 3,
+   "capacity_l": 75.0,
    "size_class": "small"
   },
   {
@@ -1282,7 +1251,7 @@
     "yahoo": "https://store.shopping.yahoo.co.jp/insdenki-y/p574750.html"
    },
    "img": "https://thumbnail.image.rakuten.co.jp/@0_mall/enetroom/cabinet/jishahin50/imgrc0096143925.jpg?_ex=300x300",
-   "checked_at": "2026-11-23",
+   "checked_at": "2026-11-24",
    "reviews": 33,
    "doors": 6,
    "capacity_l": 418.0,
@@ -1308,7 +1277,7 @@
     "yahoo": "https://store.shopping.yahoo.co.jp/best-denki/3104914013.html"
    },
    "img": "https://thumbnail.image.rakuten.co.jp/@0_mall/e-wellness/cabinet/a07000280/3104914013.jpg?_ex=300x300",
-   "checked_at": "2026-11-23",
+   "checked_at": "2026-11-24",
    "reviews": 33,
    "install": {
     "w": 59.5,
@@ -1330,17 +1299,17 @@
    "h": 118.4,
    "evidence": "ります。 【仕様】外形寸法:幅500×奥行568×高さ1184mm",
    "confidence": "高",
-   "listings": 8,
+   "listings": 9,
    "agree": 3,
    "price": 37447,
-   "price_max": 37449,
+   "price_max": 37998,
    "links": {
-    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/g00pukwo.d4l2193f.g00pukwo.d4l220b2/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fjism%2F4582678514929-21-18844-n%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fjism%2Fi%2F14677757%2F&rafcid=wsc_i_is_f39725d4-39b5-46c2-8048-e2b2a03cda3a",
+    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/g00t3jpo.d4l21eac.g00t3jpo.d4l22a68/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fyamada-denki%2F3105701018%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fyamada-denki%2Fi%2F10673666%2F&rafcid=wsc_i_is_f39725d4-39b5-46c2-8048-e2b2a03cda3a",
     "yahoo": "https://store.shopping.yahoo.co.jp/joshin/4582678514929-21-18844.html"
    },
-   "img": "https://thumbnail.image.rakuten.co.jp/@0_mall/jism/cabinet/0025/4582678514929.jpg?_ex=300x300",
-   "checked_at": "2026-11-23",
-   "reviews": 27,
+   "img": "https://thumbnail.image.rakuten.co.jp/@0_mall/yamada-denki/cabinet/a07000492/3105701018.jpg?_ex=300x300",
+   "checked_at": "2026-11-24",
+   "reviews": 28,
    "install": {
     "w": 54.0,
     "d": 56.8,
@@ -1369,7 +1338,7 @@
     "yahoo": "https://store.shopping.yahoo.co.jp/e-kurashi/25876.html"
    },
    "img": "https://item-shopping.c.yimg.jp/i/g/e-kurashi_25876",
-   "checked_at": "2026-11-23",
+   "checked_at": "2026-11-24",
    "reviews": 26,
    "doors": 1,
    "capacity_l": 92.0,
@@ -1394,7 +1363,7 @@
     "yahoo": "https://store.shopping.yahoo.co.jp/insdenki-y/p103253.html"
    },
    "img": "https://item-shopping.c.yimg.jp/i/g/insdenki-y_p103253",
-   "checked_at": "2026-11-23",
+   "checked_at": "2026-11-24",
    "reviews": 25,
    "doors": 6,
    "capacity_l": 320.0,
@@ -1420,7 +1389,7 @@
     "yahoo": "https://store.shopping.yahoo.co.jp/joshin/4573637003349-21-45217.html"
    },
    "img": "https://thumbnail.image.rakuten.co.jp/@0_mall/denkichiweb/cabinet/12203101/4573637003349_1.jpg?_ex=300x300",
-   "checked_at": "2026-11-23",
+   "checked_at": "2026-11-24",
    "reviews": 19,
    "install": {
     "w": 61.0,
@@ -1451,7 +1420,7 @@
     "yahoo": "https://store.shopping.yahoo.co.jp/joshin/4550719035153-21-18844.html"
    },
    "img": "https://thumbnail.image.rakuten.co.jp/@0_mall/jism/cabinet/0002/4550719035153.jpg?_ex=300x300",
-   "checked_at": "2026-11-23",
+   "checked_at": "2026-11-24",
    "reviews": 19,
    "install": {
     "w": 53.7,
@@ -1476,13 +1445,13 @@
    "listings": 6,
    "agree": 2,
    "price": 88400,
-   "price_max": 113590,
+   "price_max": 92820,
    "links": {
     "rakuten": "https://hb.afl.rakuten.co.jp/hgc/g00t3jpo.d4l21eac.g00t3jpo.d4l22a68/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fyamada-denki%2F3105712038%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fyamada-denki%2Fi%2F10673743%2F&rafcid=wsc_i_is_f39725d4-39b5-46c2-8048-e2b2a03cda3a",
     "yahoo": "https://store.shopping.yahoo.co.jp/yamada-denki/3105712014.html"
    },
    "img": "https://thumbnail.image.rakuten.co.jp/@0_mall/yamada-denki/cabinet/a07000492/3105712038.jpg?_ex=300x300",
-   "checked_at": "2026-11-23",
+   "checked_at": "2026-11-24",
    "reviews": 19,
    "doors": 4,
    "capacity_l": 362.0,
@@ -1508,7 +1477,7 @@
     "yahoo": "https://store.shopping.yahoo.co.jp/joshin/4550719035092-21-18844.html"
    },
    "img": "https://thumbnail.image.rakuten.co.jp/@0_mall/yamada-denki/cabinet/a07000476/3105667017.jpg?_ex=300x300",
-   "checked_at": "2026-11-23",
+   "checked_at": "2026-11-24",
    "reviews": 18,
    "install": {
     "w": 53.7,
@@ -1517,6 +1486,37 @@
    },
    "doors": 2,
    "capacity_l": 180.0,
+   "size_class": "small"
+  },
+  {
+   "id": "fridge:AQR-20A",
+   "kind": "fridge",
+   "model": "AQR-20A",
+   "maker": "アクア",
+   "name": "アクア 冷蔵庫 AQR-20A",
+   "w": 53.0,
+   "d": 60.1,
+   "h": 137.5,
+   "evidence": "自動製氷:-外形寸法(約):幅530×奥行601×高さ1375mm",
+   "confidence": "高",
+   "listings": 5,
+   "agree": 3,
+   "price": 45574,
+   "price_max": 45574,
+   "links": {
+    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/g00pukwo.d4l2193f.g00pukwo.d4l220b2/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fjism%2F4582678514950-21-373-n%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fjism%2Fi%2F14682098%2F&rafcid=wsc_i_is_f39725d4-39b5-46c2-8048-e2b2a03cda3a",
+    "yahoo": "https://store.shopping.yahoo.co.jp/yamada-denki/3105703029.html"
+   },
+   "img": "https://thumbnail.image.rakuten.co.jp/@0_mall/jism/cabinet/0028/4582678514950.jpg?_ex=300x300",
+   "checked_at": "2026-11-24",
+   "reviews": 18,
+   "install": {
+    "w": 57.0,
+    "d": 60.1,
+    "h": 147.5
+   },
+   "doors": 2,
+   "capacity_l": 201.0,
    "size_class": "small"
   },
   {
@@ -1539,7 +1539,7 @@
     "yahoo": "https://store.shopping.yahoo.co.jp/yamada-denki/3105763023.html"
    },
    "img": "https://thumbnail.image.rakuten.co.jp/@0_mall/yamada-denki/cabinet/a07000498/3105763016.jpg?_ex=300x300",
-   "checked_at": "2026-11-23",
+   "checked_at": "2026-11-24",
    "reviews": 17,
    "install": {
     "w": 57.0,
@@ -1548,62 +1548,6 @@
    },
    "doors": 2,
    "capacity_l": 280.0,
-   "size_class": "small"
-  },
-  {
-   "id": "fridge:AQR-20A",
-   "kind": "fridge",
-   "model": "AQR-20A",
-   "maker": "アクア",
-   "name": "アクア 冷蔵庫 AQR-20A",
-   "w": 53.0,
-   "d": 60.1,
-   "h": 137.5,
-   "evidence": "自動製氷:-外形寸法(約):幅530×奥行601×高さ1375mm",
-   "confidence": "高",
-   "listings": 6,
-   "agree": 4,
-   "price": 43499,
-   "price_max": 46130,
-   "links": {
-    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/g00u78wo.d4l211f5.g00u78wo.d4l22a79/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fe-wellness%2F3105703012%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fe-wellness%2Fi%2F10194210%2F&rafcid=wsc_i_is_f39725d4-39b5-46c2-8048-e2b2a03cda3a",
-    "yahoo": "https://store.shopping.yahoo.co.jp/joshin/4582678514943-21-373.html"
-   },
-   "img": "https://thumbnail.image.rakuten.co.jp/@0_mall/e-wellness/cabinet/a07000325/3105703012.jpg?_ex=300x300",
-   "checked_at": "2026-11-23",
-   "reviews": 17,
-   "install": {
-    "w": 57.0,
-    "d": 60.1,
-    "h": 147.5
-   },
-   "doors": 2,
-   "capacity_l": 201.0,
-   "size_class": "small"
-  },
-  {
-   "id": "fridge:h2brothers:10002029",
-   "kind": "fridge",
-   "model": "",
-   "maker": "",
-   "name": "冷蔵庫 一人暮らし 小型 ミニ冷蔵庫 3ドア ソフト冷凍室",
-   "w": 40.5,
-   "d": 43.5,
-   "h": 108.0,
-   "evidence": "。 【製品詳細】 ・サイズ:横幅約40.5cm×奥行約43.5cm×高さ約108cm",
-   "confidence": "高",
-   "listings": 3,
-   "agree": 3,
-   "price": 23980,
-   "price_max": 23980,
-   "links": {
-    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/g00sk3qo.d4l21405.g00sk3qo.d4l22bd1/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fh2brothers%2Frefrigerator02%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fh2brothers%2Fi%2F10002029%2F&rafcid=wsc_i_is_f39725d4-39b5-46c2-8048-e2b2a03cda3a"
-   },
-   "img": "https://thumbnail.image.rakuten.co.jp/@0_mall/h2brothers/cabinet/furniture/refrigerator02_0_1.jpg?_ex=300x300",
-   "checked_at": "2026-11-23",
-   "reviews": 16,
-   "doors": 3,
-   "capacity_l": 75.0,
    "size_class": "small"
   },
   {
@@ -1625,7 +1569,7 @@
     "yahoo": "https://store.shopping.yahoo.co.jp/joshin/4571526731915-21-18844.html"
    },
    "img": "https://item-shopping.c.yimg.jp/i/g/joshin_4571526731915-21-18844",
-   "checked_at": "2026-11-23",
+   "checked_at": "2026-11-24",
    "reviews": 15,
    "doors": 2,
    "capacity_l": 148.0,
@@ -1651,7 +1595,7 @@
     "yahoo": "https://store.shopping.yahoo.co.jp/aprice/4549980780862.html"
    },
    "img": "https://thumbnail.image.rakuten.co.jp/@0_mall/a-price/cabinet/pics/694/4549980780862.jpg?_ex=300x300",
-   "checked_at": "2026-11-23",
+   "checked_at": "2026-11-24",
    "reviews": 12,
    "doors": 6,
    "capacity_l": 501.0,
@@ -1677,7 +1621,7 @@
     "yahoo": "https://store.shopping.yahoo.co.jp/aprice/4549980788288.html"
    },
    "img": "https://thumbnail.image.rakuten.co.jp/@0_mall/a-price/cabinet/pics/863/4549980788271.jpg?_ex=300x300",
-   "checked_at": "2026-11-23",
+   "checked_at": "2026-11-24",
    "reviews": 11,
    "doors": 3,
    "capacity_l": 326.0,
@@ -1703,7 +1647,7 @@
     "yahoo": "https://store.shopping.yahoo.co.jp/joshin/4582678514936-21-18844.html"
    },
    "img": "https://thumbnail.image.rakuten.co.jp/@0_mall/jism/cabinet/0025/4582678514936.jpg?_ex=300x300",
-   "checked_at": "2026-11-23",
+   "checked_at": "2026-11-24",
    "reviews": 11,
    "install": {
     "w": 57.0,
@@ -1713,6 +1657,37 @@
    "doors": 2,
    "capacity_l": 170.0,
    "size_class": "small"
+  },
+  {
+   "id": "fridge:GR-Y36SC",
+   "kind": "fridge",
+   "model": "GR-Y36SC",
+   "maker": "東芝",
+   "name": "東芝 冷蔵庫 GR-Y36SC",
+   "w": 60.0,
+   "d": 66.5,
+   "h": 175.7,
+   "evidence": "自動製氷:有外形寸法(約):幅600×奥行665×高さ1757mm",
+   "confidence": "中",
+   "listings": 3,
+   "agree": 1,
+   "price": 88700,
+   "price_max": 92836,
+   "links": {
+    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/g00r7ldo.d4l2173e.g00r7ldo.d4l22f72/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fbiccamera%2F4904530136849%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fbiccamera%2Fi%2F15307421%2F&rafcid=wsc_i_is_f39725d4-39b5-46c2-8048-e2b2a03cda3a",
+    "yahoo": "https://store.shopping.yahoo.co.jp/y-kojima/4904530136849.html"
+   },
+   "img": "https://thumbnail.image.rakuten.co.jp/@0_mall/biccamera/cabinet/product/14939/00000014627232_a01.jpg?_ex=300x300",
+   "checked_at": "2026-11-24",
+   "reviews": 10,
+   "install": {
+    "w": 61.0,
+    "d": 68.1,
+    "h": 180.7
+   },
+   "doors": 3,
+   "capacity_l": 356.0,
+   "size_class": "large"
   },
   {
    "id": "fridge:JR-CV34C",
@@ -1727,13 +1702,13 @@
    "confidence": "中",
    "listings": 3,
    "agree": 1,
-   "price": 74800,
+   "price": 68799,
    "price_max": 74800,
    "links": {
-    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/g00t3jpo.d4l21eac.g00t3jpo.d4l22a68/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fyamada-denki%2F3104531012%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fyamada-denki%2Fi%2F10635423%2F&rafcid=wsc_i_is_f39725d4-39b5-46c2-8048-e2b2a03cda3a"
+    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/g00r7ldo.d4l2173e.g00r7ldo.d4l22f72/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fbiccamera%2F4571526732745%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fbiccamera%2Fi%2F14946721%2F&rafcid=wsc_i_is_f39725d4-39b5-46c2-8048-e2b2a03cda3a"
    },
-   "img": "https://thumbnail.image.rakuten.co.jp/@0_mall/yamada-denki/cabinet/a07000403/3104531012.jpg?_ex=300x300",
-   "checked_at": "2026-11-23",
+   "img": "https://thumbnail.image.rakuten.co.jp/@0_mall/biccamera/cabinet/product/10983/00000013458523_a01.jpg?_ex=300x300",
+   "checked_at": "2026-11-24",
    "reviews": 9,
    "install": {
     "w": 58.0,
@@ -1764,7 +1739,7 @@
     "yahoo": "https://store.shopping.yahoo.co.jp/joshin/4582678514127-21-18844.html"
    },
    "img": "https://thumbnail.image.rakuten.co.jp/@0_mall/yamada-denki/cabinet/a07000483/3105669028.jpg?_ex=300x300",
-   "checked_at": "2026-11-23",
+   "checked_at": "2026-11-24",
    "reviews": 9,
    "install": {
     "w": 50.0,
@@ -1794,7 +1769,7 @@
     "rakuten": "https://hb.afl.rakuten.co.jp/hgc/g00t3zto.d4l21d33.g00t3zto.d4l22088/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Firisplaza-r%2F7619400%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Firisplaza-r%2Fi%2F10162360%2F&rafcid=wsc_i_is_f39725d4-39b5-46c2-8048-e2b2a03cda3a"
    },
    "img": "https://thumbnail.image.rakuten.co.jp/@0_mall/irisplaza-r/cabinet/12113165/imgrc0131617467.jpg?_ex=300x300",
-   "checked_at": "2026-11-23",
+   "checked_at": "2026-11-24",
    "reviews": 7,
    "doors": 4,
    "capacity_l": 428.0,
@@ -1813,13 +1788,13 @@
    "confidence": "中",
    "listings": 1,
    "agree": 1,
-   "price": 40851,
-   "price_max": 40851,
+   "price": 40850,
+   "price_max": 40850,
    "links": {
     "yahoo": "https://store.shopping.yahoo.co.jp/joshin/4571526732677-21-18844.html"
    },
    "img": "https://item-shopping.c.yimg.jp/i/g/joshin_4571526732677-21-18844",
-   "checked_at": "2026-11-23",
+   "checked_at": "2026-11-24",
    "reviews": 7,
    "doors": 2,
    "capacity_l": 121.0,
@@ -1844,7 +1819,7 @@
     "yahoo": "https://store.shopping.yahoo.co.jp/joshin/4571526731908-21-18844.html"
    },
    "img": "https://item-shopping.c.yimg.jp/i/g/joshin_4571526731908-21-18844",
-   "checked_at": "2026-11-23",
+   "checked_at": "2026-11-24",
    "reviews": 7,
    "doors": 2,
    "capacity_l": 148.0,
@@ -1869,7 +1844,7 @@
     "yahoo": "https://store.shopping.yahoo.co.jp/insdenki-y/596417.html"
    },
    "img": "https://item-shopping.c.yimg.jp/i/g/insdenki-y_596417",
-   "checked_at": "2026-11-23",
+   "checked_at": "2026-11-24",
    "reviews": 7,
    "doors": 1,
    "capacity_l": 142.0,
@@ -1895,7 +1870,7 @@
     "yahoo": "https://store.shopping.yahoo.co.jp/aprice/4549980700877.html"
    },
    "img": "https://thumbnail.image.rakuten.co.jp/@0_mall/a-price/cabinet/orj/20/0-4549980700877.jpg?_ex=300x300",
-   "checked_at": "2026-11-23",
+   "checked_at": "2026-11-24",
    "reviews": 6,
    "install": {
     "w": 60.0,
@@ -1925,7 +1900,7 @@
     "rakuten": "https://hb.afl.rakuten.co.jp/hgc/g00ptaho.d4l21661.g00ptaho.d4l22dac/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Ftno%2Ffj-hm7k-h%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Ftno%2Fi%2F10004457%2F&rafcid=wsc_i_is_f39725d4-39b5-46c2-8048-e2b2a03cda3a"
    },
    "img": "https://thumbnail.image.rakuten.co.jp/@0_mall/tno/cabinet/p5/fj-hm7k_01_p5.jpg?_ex=300x300",
-   "checked_at": "2026-11-23",
+   "checked_at": "2026-11-24",
    "reviews": 6,
    "install": {
     "w": 53.5,
@@ -1955,7 +1930,7 @@
     "yahoo": "https://store.shopping.yahoo.co.jp/bestexcel/p574750.html"
    },
    "img": "https://item-shopping.c.yimg.jp/i/g/bestexcel_p574750",
-   "checked_at": "2026-11-23",
+   "checked_at": "2026-11-24",
    "reviews": 6,
    "doors": 6,
    "capacity_l": 320.0,
@@ -1980,7 +1955,7 @@
     "yahoo": "https://store.shopping.yahoo.co.jp/irisplaza/h100883f.html"
    },
    "img": "https://item-shopping.c.yimg.jp/i/g/irisplaza_h100883f",
-   "checked_at": "2026-11-23",
+   "checked_at": "2026-11-24",
    "reviews": 6,
    "doors": 6,
    "capacity_l": 400.0,
@@ -1997,16 +1972,16 @@
    "h": 182.0,
    "evidence": "(約17dB)・寸法(約):幅600×奥行656×高さ1820mm",
    "confidence": "中",
-   "listings": 3,
+   "listings": 4,
    "agree": 1,
-   "price": 109800,
+   "price": 71800,
    "price_max": 116000,
    "links": {
-    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/g00rgcgo.d4l2118d.g00rgcgo.d4l2262e/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Furutoragion%2Fmr-cx37ml-h%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Furutoragion%2Fi%2F10187046%2F&rafcid=wsc_i_is_f39725d4-39b5-46c2-8048-e2b2a03cda3a",
+    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/g00qbcco.d4l21af9.g00qbcco.d4l22b6e/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fauc-gion%2Fmr-cx37m-w-he5%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fauc-gion%2Fi%2F10248559%2F&rafcid=wsc_i_is_f39725d4-39b5-46c2-8048-e2b2a03cda3a",
     "yahoo": "https://store.shopping.yahoo.co.jp/joshin/4573637003424-21-45211.html"
    },
-   "img": "https://thumbnail.image.rakuten.co.jp/@0_mall/urutoragion/cabinet/shopping261/mr-cx37ml-h.jpg?_ex=300x300",
-   "checked_at": "2026-11-23",
+   "img": "https://thumbnail.image.rakuten.co.jp/@0_mall/auc-gion/cabinet/shopping316/mr-cx37m-w-he5.jpg?_ex=300x300",
+   "checked_at": "2026-11-24",
    "reviews": 5,
    "doors": 3,
    "capacity_l": 365.0,
@@ -2022,17 +1997,17 @@
    "d": 69.9,
    "h": 170.5,
    "evidence": "蔵庫 ●商品サイズ(cm) 幅約68.5×奥行約69.9×高さ約170.5",
-   "confidence": "中",
-   "listings": 2,
-   "agree": 1,
-   "price": 225800,
+   "confidence": "高",
+   "listings": 3,
+   "agree": 2,
+   "price": 193800,
    "price_max": 225800,
    "links": {
-    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/g00t3zto.d4l21d33.g00t3zto.d4l22088/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Firisplaza-r%2F7619679%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Firisplaza-r%2Fi%2F10164841%2F&rafcid=wsc_i_is_f39725d4-39b5-46c2-8048-e2b2a03cda3a",
+    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/g00tux1o.d4l21192.g00tux1o.d4l222ff/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fs-kodawari%2F7619679%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fs-kodawari%2Fi%2F10007523%2F&rafcid=wsc_i_is_f39725d4-39b5-46c2-8048-e2b2a03cda3a",
     "yahoo": "https://store.shopping.yahoo.co.jp/irisplaza/7619679.html"
    },
-   "img": "https://thumbnail.image.rakuten.co.jp/@0_mall/irisplaza-r/cabinet/12113165/imgrc0120104759.jpg?_ex=300x300",
-   "checked_at": "2026-11-23",
+   "img": "https://thumbnail.image.rakuten.co.jp/@0_mall/s-kodawari/cabinet/11072962/11509656/12167158/108196_enet.jpg?_ex=300x300",
+   "checked_at": "2026-11-24",
    "reviews": 5,
    "doors": 6,
    "capacity_l": 439.0,
@@ -2051,14 +2026,14 @@
    "confidence": "高",
    "listings": 2,
    "agree": 2,
-   "price": 164800,
+   "price": 159800,
    "price_max": 169800,
    "links": {
     "rakuten": "https://hb.afl.rakuten.co.jp/hgc/g00pukwo.d4l2193f.g00pukwo.d4l220b2/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fjism%2F4904530145100-21-22057-n%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fjism%2Fi%2F14786449%2F&rafcid=wsc_i_is_f39725d4-39b5-46c2-8048-e2b2a03cda3a",
     "yahoo": "https://store.shopping.yahoo.co.jp/joshin/4904530145100-21-22057.html"
    },
    "img": "https://thumbnail.image.rakuten.co.jp/@0_mall/jism/cabinet/0074/4904530145100.jpg?_ex=300x300",
-   "checked_at": "2026-11-23",
+   "checked_at": "2026-11-24",
    "reviews": 4,
    "install": {
     "w": 66.0,
@@ -2088,7 +2063,7 @@
     "yahoo": "https://store.shopping.yahoo.co.jp/joshin/4571526732684-21-18844.html"
    },
    "img": "https://item-shopping.c.yimg.jp/i/g/joshin_4571526732684-21-18844",
-   "checked_at": "2026-11-23",
+   "checked_at": "2026-11-24",
    "reviews": 4,
    "doors": 2,
    "capacity_l": 140.0,
@@ -2107,13 +2082,13 @@
    "confidence": "中",
    "listings": 1,
    "agree": 1,
-   "price": 58906,
-   "price_max": 58906,
+   "price": 58905,
+   "price_max": 58905,
    "links": {
     "yahoo": "https://store.shopping.yahoo.co.jp/joshin/4571526733773-21-373.html"
    },
    "img": "https://item-shopping.c.yimg.jp/i/g/joshin_4571526733773-21-373",
-   "checked_at": "2026-11-23",
+   "checked_at": "2026-11-24",
    "reviews": 4,
    "doors": 2,
    "capacity_l": 208.0,
@@ -2138,11 +2113,42 @@
     "yahoo": "https://store.shopping.yahoo.co.jp/joshin/4550556187497-21-18844.html"
    },
    "img": "https://item-shopping.c.yimg.jp/i/g/joshin_4550556187497-21-18844",
-   "checked_at": "2026-11-23",
+   "checked_at": "2026-11-24",
    "reviews": 4,
    "doors": 2,
    "capacity_l": 179.0,
    "size_class": "small"
+  },
+  {
+   "id": "fridge:R-K40T",
+   "kind": "fridge",
+   "model": "R-K40T",
+   "maker": "日立",
+   "name": "日立 冷蔵庫 R-K40T",
+   "w": 60.0,
+   "d": 68.0,
+   "h": 179.8,
+   "evidence": "自動製氷:有* 外形寸法:幅600×奥行680×高さ1798mm",
+   "confidence": "中",
+   "listings": 3,
+   "agree": 1,
+   "price": 154800,
+   "price_max": 168113,
+   "links": {
+    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/g00qn68o.d4l218aa.g00qn68o.d4l2288d/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fa-price%2F4549873183510%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fa-price%2Fi%2F11144529%2F&rafcid=wsc_i_is_f39725d4-39b5-46c2-8048-e2b2a03cda3a",
+    "yahoo": "https://store.shopping.yahoo.co.jp/yamada-denki/3103348017.html"
+   },
+   "img": "https://thumbnail.image.rakuten.co.jp/@0_mall/a-price/cabinet/pics/617/4549873183510.jpg?_ex=300x300",
+   "checked_at": "2026-11-24",
+   "reviews": 3,
+   "install": {
+    "w": 61.0,
+    "d": 68.0,
+    "h": 183.8
+   },
+   "doors": 5,
+   "capacity_l": 401.0,
+   "size_class": "large"
   },
   {
    "id": "fridge:IRSN-8A",
@@ -2163,7 +2169,7 @@
     "yahoo": "https://store.shopping.yahoo.co.jp/insdenki-y/100592.html"
    },
    "img": "https://item-shopping.c.yimg.jp/i/g/insdenki-y_100592",
-   "checked_at": "2026-11-23",
+   "checked_at": "2026-11-24",
    "reviews": 3,
    "doors": null,
    "capacity_l": 80.0,
@@ -2188,7 +2194,7 @@
     "yahoo": "https://store.shopping.yahoo.co.jp/joshin/4573637003462-21-22061.html"
    },
    "img": "https://item-shopping.c.yimg.jp/i/g/joshin_4573637003462-21-22061",
-   "checked_at": "2026-11-23",
+   "checked_at": "2026-11-24",
    "reviews": 3,
    "doors": 4,
    "capacity_l": 403.0,
@@ -2213,7 +2219,7 @@
     "yahoo": "https://store.shopping.yahoo.co.jp/joshin/4550556174978-21-22201.html"
    },
    "img": "https://item-shopping.c.yimg.jp/i/g/joshin_4550556174978-21-22201",
-   "checked_at": "2026-11-23",
+   "checked_at": "2026-11-24",
    "reviews": 3,
    "doors": 5,
    "capacity_l": 408.0,
@@ -2238,10 +2244,36 @@
     "rakuten": "https://hb.afl.rakuten.co.jp/hgc/g00py47o.d4l21296.g00py47o.d4l22b90/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fnitori%2F2113400054226s%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fnitori%2Fi%2F10321026%2F&rafcid=wsc_i_is_f39725d4-39b5-46c2-8048-e2b2a03cda3a"
    },
    "img": "https://thumbnail.image.rakuten.co.jp/@0_mall/nitori/cabinet/211340/imgrc0103321710.jpg?_ex=300x300",
-   "checked_at": "2026-11-23",
+   "checked_at": "2026-11-24",
    "reviews": 2,
    "doors": 3,
    "capacity_l": 271.0,
+   "size_class": "large"
+  },
+  {
+   "id": "fridge:R-H49Y",
+   "kind": "fridge",
+   "model": "R-H49Y",
+   "maker": "日立",
+   "name": "日立 冷蔵庫 R-H49Y",
+   "w": 65.0,
+   "d": 65.1,
+   "h": 183.3,
+   "evidence": "でおいしく保存・寸法(約):幅650×奥行651×高さ1833mm",
+   "confidence": "中",
+   "listings": 2,
+   "agree": 1,
+   "price": 198000,
+   "price_max": 223222,
+   "links": {
+    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/g00qt9uo.d4l21411.g00qt9uo.d4l22ef9/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fa-denki%2F78250%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fa-denki%2Fi%2F10060720%2F&rafcid=wsc_i_is_f39725d4-39b5-46c2-8048-e2b2a03cda3a",
+    "yahoo": "https://store.shopping.yahoo.co.jp/joshin/4549873229089-21-22057.html"
+   },
+   "img": "https://thumbnail.image.rakuten.co.jp/@0_mall/a-denki/cabinet/shouhingazou/16/78250.jpg?_ex=300x300",
+   "checked_at": "2026-11-24",
+   "reviews": 2,
+   "doors": 6,
+   "capacity_l": 500.0,
    "size_class": "large"
   },
   {
@@ -2263,36 +2295,11 @@
     "rakuten": "https://hb.afl.rakuten.co.jp/hgc/g00psjvo.d4l2108e.g00psjvo.d4l22ac8/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Ftry3%2F4549873158587%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Ftry3%2Fi%2F10033968%2F&rafcid=wsc_i_is_f39725d4-39b5-46c2-8048-e2b2a03cda3a"
    },
    "img": "https://thumbnail.image.rakuten.co.jp/@0_mall/try3/cabinet/08981582/4549873158587.jpg?_ex=300x300",
-   "checked_at": "2026-11-23",
+   "checked_at": "2026-11-24",
    "reviews": 2,
    "doors": 1,
    "capacity_l": 73.0,
    "size_class": "small"
-  },
-  {
-   "id": "fridge:R-H49Y",
-   "kind": "fridge",
-   "model": "R-H49Y",
-   "maker": "日立",
-   "name": "日立 冷蔵庫 R-H49Y",
-   "w": 65.0,
-   "d": 65.1,
-   "h": 183.3,
-   "evidence": "でおいしく保存・寸法(約):幅650×奥行651×高さ1833mm",
-   "confidence": "中",
-   "listings": 1,
-   "agree": 1,
-   "price": 198000,
-   "price_max": 198000,
-   "links": {
-    "yahoo": "https://store.shopping.yahoo.co.jp/joshin/4549873229089-21-22057.html"
-   },
-   "img": "https://item-shopping.c.yimg.jp/i/g/joshin_4549873229089-21-22057",
-   "checked_at": "2026-11-23",
-   "reviews": 2,
-   "doors": 6,
-   "capacity_l": 485.0,
-   "size_class": "large"
   },
   {
    "id": "fridge:e-kitchen:10116827",
@@ -2313,7 +2320,7 @@
     "rakuten": "https://hb.afl.rakuten.co.jp/hgc/g00qwnlo.d4l21def.g00qwnlo.d4l2290a/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fe-kitchen%2F100883%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fe-kitchen%2Fi%2F10116827%2F&rafcid=wsc_i_is_f39725d4-39b5-46c2-8048-e2b2a03cda3a"
    },
    "img": "https://thumbnail.image.rakuten.co.jp/@0_mall/e-kitchen/cabinet/jishahin33/imgrc0121600797.jpg?_ex=300x300",
-   "checked_at": "2026-11-23",
+   "checked_at": "2026-11-24",
    "reviews": 1,
    "doors": 6,
    "capacity_l": 503.0,
@@ -2339,10 +2346,40 @@
     "yahoo": "https://store.shopping.yahoo.co.jp/irisplaza/h100884f.html"
    },
    "img": "https://thumbnail.image.rakuten.co.jp/@0_mall/bungudo/cabinet/jishahin20/imgrc0324715491.jpg?_ex=300x300",
-   "checked_at": "2026-11-23",
+   "checked_at": "2026-11-24",
    "reviews": 1,
    "doors": 6,
    "capacity_l": 503.0,
+   "size_class": "large"
+  },
+  {
+   "id": "fridge:MR-JM49N",
+   "kind": "fridge",
+   "model": "MR-JM49N",
+   "maker": "三菱電機",
+   "name": "三菱電機 冷蔵庫 MR-JM49N",
+   "w": 65.0,
+   "d": 66.0,
+   "h": 183.3,
+   "evidence": "自動製氷:有外形寸法(約):幅650×奥行660×高さ1833mm",
+   "confidence": "中",
+   "listings": 1,
+   "agree": 1,
+   "price": 270752,
+   "price_max": 270752,
+   "links": {
+    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/g00pukwo.d4l2193f.g00pukwo.d4l220b2/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fjism%2F4573637027574-21-22057-n%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fjism%2Fi%2F14715482%2F&rafcid=wsc_i_is_f39725d4-39b5-46c2-8048-e2b2a03cda3a"
+   },
+   "img": "https://thumbnail.image.rakuten.co.jp/@0_mall/jism/cabinet/0049/4573637027574.jpg?_ex=300x300",
+   "checked_at": "2026-11-24",
+   "reviews": 1,
+   "install": {
+    "w": 66.0,
+    "d": 66.0,
+    "h": 188.3
+   },
+   "doors": 6,
+   "capacity_l": 485.0,
    "size_class": "large"
   },
   {
@@ -2364,7 +2401,7 @@
     "rakuten": "https://hb.afl.rakuten.co.jp/hgc/g00r8gxo.d4l21b9a.g00r8gxo.d4l22160/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fpremoa%2F4904530129711%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fpremoa%2Fi%2F11229494%2F&rafcid=wsc_i_is_f39725d4-39b5-46c2-8048-e2b2a03cda3a"
    },
    "img": "https://thumbnail.image.rakuten.co.jp/@0_mall/premoa/cabinet/pics/986/4904530129711.jpg?_ex=300x300",
-   "checked_at": "2026-11-23",
+   "checked_at": "2026-11-24",
    "reviews": 1,
    "install": {
     "w": 66.0,
@@ -2374,6 +2411,31 @@
    "doors": 6,
    "capacity_l": 461.0,
    "size_class": "large"
+  },
+  {
+   "id": "fridge:GR-W15BZ1",
+   "kind": "fridge",
+   "model": "GR-W15BZ1",
+   "maker": "東芝",
+   "name": "東芝 冷蔵庫 GR-W15BZ1",
+   "w": 47.9,
+   "d": 58.2,
+   "h": 126.9,
+   "evidence": "5日にて発送外形寸法 *  幅47.9*奥行58.2*高さ126.9",
+   "confidence": "中",
+   "listings": 1,
+   "agree": 1,
+   "price": 47080,
+   "price_max": 47080,
+   "links": {
+    "yahoo": "https://store.shopping.yahoo.co.jp/nijiirogn/wss-21wly87rkr4i.html"
+   },
+   "img": "https://item-shopping.c.yimg.jp/i/g/nijiirogn_wss-21wly87rkr4i",
+   "checked_at": "2026-11-24",
+   "reviews": 1,
+   "doors": 2,
+   "capacity_l": 153.0,
+   "size_class": "small"
   },
   {
    "id": "fridge:MR-JW55N-M",
@@ -2394,11 +2456,75 @@
     "rakuten": "https://hb.afl.rakuten.co.jp/hgc/g00quxbo.d4l21022.g00quxbo.d4l2263c/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fksheep1%2F4573637027383%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fksheep1%2Fi%2F10133903%2F&rafcid=wsc_i_is_f39725d4-39b5-46c2-8048-e2b2a03cda3a"
    },
    "img": "https://thumbnail.image.rakuten.co.jp/@0_mall/ksheep1/cabinet/09737601/4573637027383.jpg?_ex=300x300",
-   "checked_at": "2026-11-23",
+   "checked_at": "2026-11-24",
    "reviews": 0,
    "doors": 6,
    "capacity_l": 547.0,
    "size_class": "large"
+  },
+  {
+   "id": "fridge:JR-LX45A",
+   "kind": "fridge",
+   "model": "JR-LX45A",
+   "maker": "ハイアール",
+   "name": "ハイアール 冷蔵庫 JR-LX45A",
+   "w": 59.5,
+   "d": 71.5,
+   "h": 185.0,
+   "evidence": ":265外形寸法(mm): 幅595×奥行715×高さ1850",
+   "confidence": "中",
+   "listings": 1,
+   "agree": 1,
+   "price": 112000,
+   "price_max": 112000,
+   "links": {
+    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/g00qbcco.d4l21af9.g00qbcco.d4l22b6e/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fauc-gion%2Fjrlx45ah-re%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fauc-gion%2Fi%2F10248137%2F&rafcid=wsc_i_is_f39725d4-39b5-46c2-8048-e2b2a03cda3a"
+   },
+   "img": "https://thumbnail.image.rakuten.co.jp/@0_mall/auc-gion/cabinet/shopping319/jrlx45ah-re.jpg?_ex=300x300",
+   "checked_at": "2026-11-24",
+   "reviews": 0,
+   "doors": 5,
+   "capacity_l": 450.0,
+   "size_class": "large"
+  },
+  {
+   "id": "fridge:IRSD-13A",
+   "kind": "fridge",
+   "model": "IRSD-13A",
+   "maker": "アイリスオーヤマ",
+   "name": "アイリスオーヤマ 冷蔵庫 IRSD-13A",
+   "w": 50.0,
+   "d": 54.9,
+   "h": 124.0,
+   "evidence": "変更後 商品サイズ(cm) 幅約50.0×奥行約54.9×高さ約121.5",
+   "confidence": "要確認",
+   "listings": 10,
+   "agree": 0,
+   "price": 27800,
+   "price_max": 32980,
+   "links": {
+    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/g00rqkto.d4l211b8.g00rqkto.d4l22e56/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Feleking%2F513864%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Feleking%2Fi%2F10041343%2F&rafcid=wsc_i_is_f39725d4-39b5-46c2-8048-e2b2a03cda3a",
+    "yahoo": "https://store.shopping.yahoo.co.jp/insdenki-y/p513864.html"
+   },
+   "img": "https://thumbnail.image.rakuten.co.jp/@0_mall/eleking/cabinet/jishahin49/imgrc0103608505.jpg?_ex=300x300",
+   "checked_at": "2026-11-24",
+   "reviews": 1473,
+   "note": "商品説明に寸法が2通り以上あるため、大きいほうの値で判定",
+   "dims_seen": [
+    [
+     47.0,
+     52.1,
+     124.0
+    ],
+    [
+     50.0,
+     54.9,
+     121.5
+    ]
+   ],
+   "doors": 2,
+   "capacity_l": 133.0,
+   "size_class": "small"
   },
   {
    "id": "fridge:IRSN-23B",
@@ -2420,7 +2546,7 @@
     "yahoo": "https://store.shopping.yahoo.co.jp/insdenki-y/573712.html"
    },
    "img": "https://thumbnail.image.rakuten.co.jp/@0_mall/eleking/cabinet/mbimg/i-44/imgrc0106711122.jpg?_ex=300x300",
-   "checked_at": "2026-11-23",
+   "checked_at": "2026-11-24",
    "reviews": 287,
    "note": "商品説明に寸法が2通り以上あるため、大きいほうの値で判定",
    "dims_seen": [
@@ -2437,45 +2563,6 @@
    ],
    "doors": 2,
    "capacity_l": 230.0,
-   "size_class": "small"
-  },
-  {
-   "id": "fridge:IRSD-14A",
-   "kind": "fridge",
-   "model": "IRSD-14A",
-   "maker": "アイリスオーヤマ",
-   "name": "アイリスオーヤマ 冷蔵庫 IRSD-14A",
-   "w": 50.0,
-   "d": 54.9,
-   "h": 124.0,
-   "evidence": "した ・商品サイズ(cm) 幅約50.0×奥行約54.9×高さ約121.5",
-   "confidence": "要確認",
-   "listings": 2,
-   "agree": 0,
-   "price": 27800,
-   "price_max": 29800,
-   "links": {
-    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/g00t3zto.d4l21d33.g00t3zto.d4l22088/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Firisplaza-r%2F513864%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Firisplaza-r%2Fi%2F10107273%2F&rafcid=wsc_i_is_f39725d4-39b5-46c2-8048-e2b2a03cda3a",
-    "yahoo": "https://store.shopping.yahoo.co.jp/irisplaza/k517476.html"
-   },
-   "img": "https://thumbnail.image.rakuten.co.jp/@0_mall/irisplaza-r/cabinet/samune/513864.jpg?_ex=300x300",
-   "checked_at": "2026-11-23",
-   "reviews": 136,
-   "note": "商品説明に寸法が2通り以上あるため、大きいほうの値で判定",
-   "dims_seen": [
-    [
-     47.0,
-     52.1,
-     124.0
-    ],
-    [
-     50.0,
-     54.9,
-     121.5
-    ]
-   ],
-   "doors": 2,
-   "capacity_l": 142.0,
    "size_class": "small"
   },
   {
@@ -2497,7 +2584,7 @@
     "yahoo": "https://store.shopping.yahoo.co.jp/petkan/573712.html"
    },
    "img": "https://item-shopping.c.yimg.jp/i/g/petkan_573712",
-   "checked_at": "2026-11-23",
+   "checked_at": "2026-11-24",
    "reviews": 42,
    "note": "商品説明に寸法が2通り以上あるため、大きいほうの値で判定",
    "dims_seen": [
@@ -2536,7 +2623,7 @@
     "yahoo": "https://store.shopping.yahoo.co.jp/insdenki-y/573828.html"
    },
    "img": "https://thumbnail.image.rakuten.co.jp/@0_mall/eleking/cabinet/description/106620_240419/imgrc0105686916.jpg?_ex=300x300",
-   "checked_at": "2026-11-23",
+   "checked_at": "2026-11-24",
    "reviews": 1052,
    "capacity_kg": 6.0,
    "washer_type": "top"
@@ -2561,7 +2648,7 @@
     "yahoo": "https://store.shopping.yahoo.co.jp/aprice/4571495430710.html"
    },
    "img": "https://thumbnail.image.rakuten.co.jp/@0_mall/a-price/cabinet/mailmaga/08814302/4571495430710.jpg?_ex=300x300",
-   "checked_at": "2026-11-23",
+   "checked_at": "2026-11-24",
    "reviews": 975,
    "capacity_kg": 6.0,
    "washer_type": "top"
@@ -2585,7 +2672,7 @@
     "rakuten": "https://hb.afl.rakuten.co.jp/hgc/g00qn68o.d4l218aa.g00qn68o.d4l2288d/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fa-price%2F4571495430680%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fa-price%2Fi%2F10726047%2F&rafcid=wsc_i_is_f39725d4-39b5-46c2-8048-e2b2a03cda3a"
    },
    "img": "https://thumbnail.image.rakuten.co.jp/@0_mall/a-price/cabinet/pics/vari01/0-4571495430680v.jpg?_ex=300x300",
-   "checked_at": "2026-11-23",
+   "checked_at": "2026-11-24",
    "reviews": 968,
    "capacity_kg": 7.0,
    "washer_type": "top"
@@ -2610,8 +2697,8 @@
     "yahoo": "https://store.shopping.yahoo.co.jp/aprice/4571495430680.html"
    },
    "img": "https://thumbnail.image.rakuten.co.jp/@0_mall/meiritu-shop/cabinet/11150563/d0000050-1.jpg?_ex=300x300",
-   "checked_at": "2026-11-23",
-   "reviews": 958,
+   "checked_at": "2026-11-24",
+   "reviews": 959,
    "capacity_kg": 7.0,
    "washer_type": "top"
   },
@@ -2635,7 +2722,7 @@
     "yahoo": "https://store.shopping.yahoo.co.jp/insdenki-y/517636.html"
    },
    "img": "https://thumbnail.image.rakuten.co.jp/@0_mall/enetroom/cabinet/04746494/10288996/572874_rank.jpg?_ex=300x300",
-   "checked_at": "2026-11-23",
+   "checked_at": "2026-11-24",
    "reviews": 934,
    "capacity_kg": 4.5,
    "washer_type": "top"
@@ -2659,7 +2746,7 @@
     "rakuten": "https://hb.afl.rakuten.co.jp/hgc/g00qn68o.d4l218aa.g00qn68o.d4l2288d/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fa-price%2F4571495431410%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fa-price%2Fi%2F10850007%2F&rafcid=wsc_i_is_f39725d4-39b5-46c2-8048-e2b2a03cda3a"
    },
    "img": "https://thumbnail.image.rakuten.co.jp/@0_mall/a-price/cabinet/pics/1219/0-4571495431410.jpg?_ex=300x300",
-   "checked_at": "2026-11-23",
+   "checked_at": "2026-11-24",
    "reviews": 315,
    "capacity_kg": 5.0,
    "washer_type": "top"
@@ -2678,13 +2765,13 @@
    "listings": 10,
    "agree": 1,
    "price": 56160,
-   "price_max": 60800,
+   "price_max": 60790,
    "links": {
     "rakuten": "https://hb.afl.rakuten.co.jp/hgc/g00r7ldo.d4l2173e.g00r7ldo.d4l22f72/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fbiccamera%2F4904530115998%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fbiccamera%2Fi%2F13890035%2F&rafcid=wsc_i_is_f39725d4-39b5-46c2-8048-e2b2a03cda3a",
     "yahoo": "https://store.shopping.yahoo.co.jp/gbft/34-twwl-jgp6.html"
    },
    "img": "https://thumbnail.image.rakuten.co.jp/@0_mall/biccamera/cabinet/product/7358/00000010712790_a01.jpg?_ex=300x300",
-   "checked_at": "2026-11-23",
+   "checked_at": "2026-11-24",
    "reviews": 313,
    "capacity_kg": 10.0,
    "washer_type": "top"
@@ -2708,7 +2795,7 @@
     "yahoo": "https://store.shopping.yahoo.co.jp/petkan/572905.html"
    },
    "img": "https://item-shopping.c.yimg.jp/i/g/petkan_572905",
-   "checked_at": "2026-11-23",
+   "checked_at": "2026-11-24",
    "reviews": 264,
    "capacity_kg": 8.0,
    "washer_type": "drum"
@@ -2724,8 +2811,8 @@
    "h": 99.0,
    "evidence": "ルター●商品サイズ(cm):幅約55.5×奥行約56×高さ約99",
    "confidence": "高",
-   "listings": 21,
-   "agree": 15,
+   "listings": 22,
+   "agree": 16,
    "price": 51931,
    "price_max": 57800,
    "links": {
@@ -2733,7 +2820,7 @@
     "yahoo": "https://store.shopping.yahoo.co.jp/joshin/4904530129933-21-482.html"
    },
    "img": "https://thumbnail.image.rakuten.co.jp/@0_mall/bbstyle/cabinet/tasya175/7359460-e.jpg?_ex=300x300",
-   "checked_at": "2026-11-23",
+   "checked_at": "2026-11-24",
    "reviews": 156,
    "capacity_kg": 7.0,
    "washer_type": "top"
@@ -2757,7 +2844,7 @@
     "yahoo": "https://store.shopping.yahoo.co.jp/insdenki-y/516583.html"
    },
    "img": "https://item-shopping.c.yimg.jp/i/g/insdenki-y_516583",
-   "checked_at": "2026-11-23",
+   "checked_at": "2026-11-24",
    "reviews": 148,
    "capacity_kg": 8.0,
    "washer_type": "drum"
@@ -2781,7 +2868,7 @@
     "yahoo": "https://store.shopping.yahoo.co.jp/eccurrent/4902530117943.html"
    },
    "img": "https://item-shopping.c.yimg.jp/i/g/eccurrent_4902530117943",
-   "checked_at": "2026-11-23",
+   "checked_at": "2026-11-24",
    "reviews": 131,
    "capacity_kg": 5.5,
    "washer_type": "twin"
@@ -2806,7 +2893,7 @@
     "yahoo": "https://store.shopping.yahoo.co.jp/e-kurashi/89955.html"
    },
    "img": "https://thumbnail.image.rakuten.co.jp/@0_mall/e-kurashi/cabinet/main-img/012/main-89955.jpg?_ex=300x300",
-   "checked_at": "2026-11-23",
+   "checked_at": "2026-11-24",
    "reviews": 82,
    "capacity_kg": 8.0,
    "washer_type": "top"
@@ -2830,7 +2917,7 @@
     "yahoo": "https://store.shopping.yahoo.co.jp/gion/ps-65as2-w.html"
    },
    "img": "https://item-shopping.c.yimg.jp/i/g/gion_ps-65as2-w",
-   "checked_at": "2026-11-23",
+   "checked_at": "2026-11-24",
    "reviews": 75,
    "capacity_kg": 6.5,
    "washer_type": "twin"
@@ -2855,7 +2942,7 @@
     "yahoo": "https://store.shopping.yahoo.co.jp/e-kurashi/89956.html"
    },
    "img": "https://thumbnail.image.rakuten.co.jp/@0_mall/e-kurashi/cabinet/main-img/012/main-89956.jpg?_ex=300x300",
-   "checked_at": "2026-11-23",
+   "checked_at": "2026-11-24",
    "reviews": 68,
    "capacity_kg": 10.0,
    "washer_type": "top"
@@ -2877,37 +2964,37 @@
    "price_max": 43010,
    "links": {
     "rakuten": "https://hb.afl.rakuten.co.jp/hgc/g00r7ldo.d4l2173e.g00r7ldo.d4l22f72/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fbiccamera%2F4904530129957%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fbiccamera%2Fi%2F14927786%2F&rafcid=wsc_i_is_f39725d4-39b5-46c2-8048-e2b2a03cda3a",
-    "yahoo": "https://store.shopping.yahoo.co.jp/joshin/4904530129957-21-484.html"
+    "yahoo": "https://store.shopping.yahoo.co.jp/best-denki/404568014.html"
    },
    "img": "https://thumbnail.image.rakuten.co.jp/@0_mall/biccamera/cabinet/product/10850/00000013386303_a01.jpg?_ex=300x300",
-   "checked_at": "2026-11-23",
+   "checked_at": "2026-11-24",
    "reviews": 55,
    "capacity_kg": 5.0,
    "washer_type": "top"
   },
   {
-   "id": "washer:AW-6GA4",
+   "id": "washer:JW-HD100A",
    "kind": "washer",
-   "model": "AW-6GA4",
-   "maker": "東芝",
-   "name": "東芝 洗濯機 AW-6GA4",
-   "w": 55.5,
-   "d": 56.0,
-   "h": 97.0,
-   "evidence": "ト式糸くずフィルター・寸法:幅555×奥行560×高さ970mm",
-   "confidence": "中",
+   "model": "JW-HD100A",
+   "maker": "ハイアール",
+   "name": "ハイアール 洗濯機 JW-HD100A",
+   "w": 59.0,
+   "d": 57.5,
+   "h": 94.0,
+   "evidence": "50mm●商品サイズ(cm)幅約59×奥行約57.5×高さ約94",
+   "confidence": "高",
    "listings": 5,
-   "agree": 1,
-   "price": 42064,
-   "price_max": 46760,
+   "agree": 2,
+   "price": 57800,
+   "price_max": 65910,
    "links": {
-    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/g00r7ldo.d4l2173e.g00r7ldo.d4l22f72/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fbiccamera%2F4904530129940%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fbiccamera%2Fi%2F14927785%2F&rafcid=wsc_i_is_f39725d4-39b5-46c2-8048-e2b2a03cda3a",
-    "yahoo": "https://store.shopping.yahoo.co.jp/y-kojima/4904530129940.html"
+    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/g00qwnlo.d4l21def.g00qwnlo.d4l2290a/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fe-kitchen%2F7296509%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fe-kitchen%2Fi%2F10124096%2F&rafcid=wsc_i_is_f39725d4-39b5-46c2-8048-e2b2a03cda3a",
+    "yahoo": "https://store.shopping.yahoo.co.jp/yamada-denki/404195012.html"
    },
-   "img": "https://thumbnail.image.rakuten.co.jp/@0_mall/biccamera/cabinet/product/10850/00000013386302_a01.jpg?_ex=300x300",
-   "checked_at": "2026-11-23",
+   "img": "https://thumbnail.image.rakuten.co.jp/@0_mall/e-kitchen/cabinet/11074597/12301215/7296509.jpg?_ex=300x300",
+   "checked_at": "2026-11-24",
    "reviews": 37,
-   "capacity_kg": 6.0,
+   "capacity_kg": 10.0,
    "washer_type": "top"
   },
   {
@@ -2929,7 +3016,7 @@
     "yahoo": "https://store.shopping.yahoo.co.jp/e-kurashi/q2817.html"
    },
    "img": "https://item-shopping.c.yimg.jp/i/g/e-kurashi_q2817",
-   "checked_at": "2026-11-23",
+   "checked_at": "2026-11-24",
    "reviews": 37,
    "capacity_kg": 7.0,
    "washer_type": "top"
@@ -2953,10 +3040,35 @@
     "yahoo": "https://store.shopping.yahoo.co.jp/yamada-denki/404139016.html"
    },
    "img": "https://item-shopping.c.yimg.jp/i/g/yamada-denki_404139016",
-   "checked_at": "2026-11-23",
+   "checked_at": "2026-11-24",
    "reviews": 30,
    "capacity_kg": 9.0,
    "washer_type": "drum"
+  },
+  {
+   "id": "washer:AW-6GA4",
+   "kind": "washer",
+   "model": "AW-6GA4",
+   "maker": "東芝",
+   "name": "東芝 洗濯機 AW-6GA4",
+   "w": 55.5,
+   "d": 56.0,
+   "h": 97.0,
+   "evidence": "ト式糸くずフィルター・寸法:幅555×奥行560×高さ970mm",
+   "confidence": "中",
+   "listings": 4,
+   "agree": 1,
+   "price": 42064,
+   "price_max": 46760,
+   "links": {
+    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/g00r7ldo.d4l2173e.g00r7ldo.d4l22f72/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fbiccamera%2F4904530129940%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fbiccamera%2Fi%2F14927785%2F&rafcid=wsc_i_is_f39725d4-39b5-46c2-8048-e2b2a03cda3a",
+    "yahoo": "https://store.shopping.yahoo.co.jp/y-kojima/4904530129940.html"
+   },
+   "img": "https://thumbnail.image.rakuten.co.jp/@0_mall/biccamera/cabinet/product/10850/00000013386302_a01.jpg?_ex=300x300",
+   "checked_at": "2026-11-24",
+   "reviews": 29,
+   "capacity_kg": 6.0,
+   "washer_type": "top"
   },
   {
    "id": "washer:ES-GE7K",
@@ -2978,7 +3090,7 @@
     "yahoo": "https://store.shopping.yahoo.co.jp/aprice/4550556185363.html"
    },
    "img": "https://thumbnail.image.rakuten.co.jp/@0_mall/biccamera/cabinet/product/14928/00000014592712_a01.jpg?_ex=300x300",
-   "checked_at": "2026-11-23",
+   "checked_at": "2026-11-24",
    "reviews": 27,
    "capacity_kg": 7.0,
    "washer_type": "top"
@@ -3002,7 +3114,7 @@
     "yahoo": "https://store.shopping.yahoo.co.jp/y-kojima/4904530125980.html"
    },
    "img": "https://item-shopping.c.yimg.jp/i/g/y-kojima_4904530125980",
-   "checked_at": "2026-11-23",
+   "checked_at": "2026-11-24",
    "reviews": 22,
    "capacity_kg": 8.0,
    "washer_type": "top"
@@ -3027,7 +3139,7 @@
     "yahoo": "https://store.shopping.yahoo.co.jp/sofort/m104573.html"
    },
    "img": "https://thumbnail.image.rakuten.co.jp/@0_mall/kaguin/cabinet/jishahin50/104573.jpg?_ex=300x300",
-   "checked_at": "2026-11-23",
+   "checked_at": "2026-11-24",
    "reviews": 20,
    "capacity_kg": 7.0,
    "washer_type": "top"
@@ -3051,7 +3163,7 @@
     "rakuten": "https://hb.afl.rakuten.co.jp/hgc/g00qn68o.d4l218aa.g00qn68o.d4l2288d/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fa-price%2F4571495438129%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fa-price%2Fi%2F11364401%2F&rafcid=wsc_i_is_f39725d4-39b5-46c2-8048-e2b2a03cda3a"
    },
    "img": "https://thumbnail.image.rakuten.co.jp/@0_mall/a-price/cabinet/pics/1219/0-4571495438129.jpg?_ex=300x300",
-   "checked_at": "2026-11-23",
+   "checked_at": "2026-11-24",
    "reviews": 15,
    "capacity_kg": 10.0,
    "washer_type": "top"
@@ -3075,8 +3187,8 @@
     "yahoo": "https://store.shopping.yahoo.co.jp/recommendo/b8-sp-nwm02.html"
    },
    "img": "https://item-shopping.c.yimg.jp/i/g/recommendo_b8-sp-nwm02",
-   "checked_at": "2026-11-23",
-   "reviews": 14,
+   "checked_at": "2026-11-24",
+   "reviews": 15,
    "capacity_kg": 7.0,
    "washer_type": "twin"
   },
@@ -3099,7 +3211,7 @@
     "yahoo": "https://store.shopping.yahoo.co.jp/unidy-y/572874.html"
    },
    "img": "https://item-shopping.c.yimg.jp/i/g/unidy-y_572874",
-   "checked_at": "2026-11-23",
+   "checked_at": "2026-11-24",
    "reviews": 10,
    "capacity_kg": 5.0,
    "washer_type": "top"
@@ -3117,14 +3229,14 @@
    "confidence": "中",
    "listings": 4,
    "agree": 1,
-   "price": 94176,
+   "price": 94450,
    "price_max": 104280,
    "links": {
     "rakuten": "https://hb.afl.rakuten.co.jp/hgc/g00pme3o.d4l21532.g00pme3o.d4l22dfa/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Ftantan%2F3179243%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Ftantan%2Fi%2F13372033%2F&rafcid=wsc_i_is_f39725d4-39b5-46c2-8048-e2b2a03cda3a",
     "yahoo": "https://store.shopping.yahoo.co.jp/a-denki/75971.html"
    },
    "img": "https://thumbnail.image.rakuten.co.jp/@0_mall/tantan/cabinet/m003/179/3179243.jpg?_ex=300x300",
-   "checked_at": "2026-11-23",
+   "checked_at": "2026-11-24",
    "reviews": 9,
    "capacity_kg": 10.0,
    "washer_type": "top"
@@ -3148,7 +3260,7 @@
     "rakuten": "https://hb.afl.rakuten.co.jp/hgc/g00qn68o.d4l218aa.g00qn68o.d4l2288d/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fa-price%2F4571495438082%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fa-price%2Fi%2F11364400%2F&rafcid=wsc_i_is_f39725d4-39b5-46c2-8048-e2b2a03cda3a"
    },
    "img": "https://thumbnail.image.rakuten.co.jp/@0_mall/a-price/cabinet/pics/1219/0-4571495438082.jpg?_ex=300x300",
-   "checked_at": "2026-11-23",
+   "checked_at": "2026-11-24",
    "reviews": 5,
    "capacity_kg": 8.0,
    "washer_type": "top"
@@ -3173,7 +3285,7 @@
     "yahoo": "https://store.shopping.yahoo.co.jp/best-denki/404913029.html"
    },
    "img": "https://thumbnail.image.rakuten.co.jp/@0_mall/biccamera/cabinet/product/16812/00000015018634_a01.jpg?_ex=300x300",
-   "checked_at": "2026-11-23",
+   "checked_at": "2026-11-24",
    "reviews": 5,
    "capacity_kg": 8.0,
    "washer_type": "top"
@@ -3197,7 +3309,7 @@
     "yahoo": "https://store.shopping.yahoo.co.jp/naco/ps65as2w.html"
    },
    "img": "https://item-shopping.c.yimg.jp/i/g/naco_ps65as2w",
-   "checked_at": "2026-11-23",
+   "checked_at": "2026-11-24",
    "reviews": 5,
    "capacity_kg": 6.5,
    "washer_type": "twin"
@@ -3221,10 +3333,35 @@
     "yahoo": "https://store.shopping.yahoo.co.jp/joshin/4571526732363-21-32889.html"
    },
    "img": "https://item-shopping.c.yimg.jp/i/g/joshin_4571526732363-21-32889",
-   "checked_at": "2026-11-23",
+   "checked_at": "2026-11-24",
    "reviews": 3,
    "capacity_kg": 4.5,
    "washer_type": "drum"
+  },
+  {
+   "id": "washer:ES-SV8L",
+   "kind": "washer",
+   "model": "ES-SV8L",
+   "maker": "シャープ",
+   "name": "シャープ 洗濯機 ES-SV8L",
+   "w": 56.5,
+   "d": 59.6,
+   "h": 101.8,
+   "evidence": "洗剤・柔軟剤自動投入・寸法:幅565×奥行596×高さ1018mm",
+   "confidence": "中",
+   "listings": 3,
+   "agree": 1,
+   "price": 134939,
+   "price_max": 150319,
+   "links": {
+    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/g00r7ldo.d4l2173e.g00r7ldo.d4l22f72/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fbiccamera%2F4550556194426%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fbiccamera%2Fi%2F15505231%2F&rafcid=wsc_i_is_f39725d4-39b5-46c2-8048-e2b2a03cda3a",
+    "yahoo": "https://store.shopping.yahoo.co.jp/joshin/4550556194426-21-481.html"
+   },
+   "img": "https://thumbnail.image.rakuten.co.jp/@0_mall/biccamera/cabinet/product/17068/00000015068905_a01.jpg?_ex=300x300",
+   "checked_at": "2026-11-24",
+   "reviews": 2,
+   "capacity_kg": 8.0,
+   "washer_type": "top"
   },
   {
    "id": "washer:NA-LX127FL",
@@ -3245,7 +3382,7 @@
     "yahoo": "https://store.shopping.yahoo.co.jp/ebest/iset000005985.html"
    },
    "img": "https://item-shopping.c.yimg.jp/i/g/ebest_iset000005985",
-   "checked_at": "2026-11-23",
+   "checked_at": "2026-11-24",
    "reviews": 2,
    "capacity_kg": 12.0,
    "washer_type": "drum"
@@ -3261,7 +3398,7 @@
    "h": 104.3,
    "evidence": "L ホワイト  本体サイズ 幅63.8×奥行71.5×高さ104.3cm",
    "confidence": "中",
-   "listings": 5,
+   "listings": 4,
    "agree": 1,
    "price": 138000,
    "price_max": 171398,
@@ -3269,7 +3406,7 @@
     "yahoo": "https://store.shopping.yahoo.co.jp/e-kurashi/xadyj.html"
    },
    "img": "https://item-shopping.c.yimg.jp/i/g/e-kurashi_xadyj",
-   "checked_at": "2026-11-23",
+   "checked_at": "2026-11-24",
    "reviews": 2,
    "capacity_kg": 11.0,
    "washer_type": "drum"
@@ -3293,32 +3430,7 @@
     "rakuten": "https://hb.afl.rakuten.co.jp/hgc/g00prkeo.d4l218b9.g00prkeo.d4l2265e/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fenetroom%2F7296508%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fenetroom%2Fi%2F10204757%2F&rafcid=wsc_i_is_f39725d4-39b5-46c2-8048-e2b2a03cda3a"
    },
    "img": "https://thumbnail.image.rakuten.co.jp/@0_mall/enetroom/cabinet/tenposupport08/12023616/enet_7296508.jpg?_ex=300x300",
-   "checked_at": "2026-11-23",
-   "reviews": 1,
-   "capacity_kg": 8.0,
-   "washer_type": "top"
-  },
-  {
-   "id": "washer:ES-SV8L",
-   "kind": "washer",
-   "model": "ES-SV8L",
-   "maker": "シャープ",
-   "name": "シャープ 洗濯機 ES-SV8L",
-   "w": 56.5,
-   "d": 59.6,
-   "h": 101.8,
-   "evidence": "洗剤・柔軟剤自動投入・寸法:幅565×奥行596×高さ1018mm",
-   "confidence": "中",
-   "listings": 2,
-   "agree": 1,
-   "price": 134939,
-   "price_max": 137560,
-   "links": {
-    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/g00r7ldo.d4l2173e.g00r7ldo.d4l22f72/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fbiccamera%2F4550556194426%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fbiccamera%2Fi%2F15505231%2F&rafcid=wsc_i_is_f39725d4-39b5-46c2-8048-e2b2a03cda3a",
-    "yahoo": "https://store.shopping.yahoo.co.jp/joshin/4550556194426-21-481.html"
-   },
-   "img": "https://thumbnail.image.rakuten.co.jp/@0_mall/biccamera/cabinet/product/17068/00000015068905_a01.jpg?_ex=300x300",
-   "checked_at": "2026-11-23",
+   "checked_at": "2026-11-24",
    "reviews": 1,
    "capacity_kg": 8.0,
    "washer_type": "top"
@@ -3342,7 +3454,7 @@
     "yahoo": "https://store.shopping.yahoo.co.jp/e-kurashi/op-eaagn.html"
    },
    "img": "https://item-shopping.c.yimg.jp/i/g/e-kurashi_op-eaagn",
-   "checked_at": "2026-11-23",
+   "checked_at": "2026-11-24",
    "reviews": 1,
    "capacity_kg": 10.0,
    "washer_type": "drum"
@@ -3366,10 +3478,34 @@
     "yahoo": "https://store.shopping.yahoo.co.jp/2ndhand/drumwash02-60.html"
    },
    "img": "https://item-shopping.c.yimg.jp/i/g/2ndhand_drumwash02-60",
-   "checked_at": "2026-11-23",
+   "checked_at": "2026-11-24",
    "reviews": 1,
    "capacity_kg": 6.0,
    "washer_type": "drum"
+  },
+  {
+   "id": "washer:JW-UD70A",
+   "kind": "washer",
+   "model": "JW-UD70A",
+   "maker": "ハイアール",
+   "name": "ハイアール 洗濯機 JW-UD70A",
+   "w": 55.0,
+   "d": 54.5,
+   "h": 97.0,
+   "evidence": "きます。●商品サイズ(cm)幅約55×奥行約54.5×高さ約97",
+   "confidence": "中",
+   "listings": 1,
+   "agree": 1,
+   "price": 58800,
+   "price_max": 58800,
+   "links": {
+    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/g00qr6eo.d4l21d88.g00qr6eo.d4l22e4b/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fbandc%2F7296507%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fbandc%2Fi%2F10211444%2F&rafcid=wsc_i_is_f39725d4-39b5-46c2-8048-e2b2a03cda3a"
+   },
+   "img": "https://thumbnail.image.rakuten.co.jp/@0_mall/bandc/cabinet/10835099/11848835/7296507.jpg?_ex=300x300",
+   "checked_at": "2026-11-24",
+   "reviews": 0,
+   "capacity_kg": 7.0,
+   "washer_type": "top"
   },
   {
    "id": "washer:IAW-T606",
@@ -3390,7 +3526,7 @@
     "rakuten": "https://hb.afl.rakuten.co.jp/hgc/g00prkeo.d4l218b9.g00prkeo.d4l2265e/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fenetroom%2F573828%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fenetroom%2Fi%2F10177484%2F&rafcid=wsc_i_is_f39725d4-39b5-46c2-8048-e2b2a03cda3a"
    },
    "img": "https://thumbnail.image.rakuten.co.jp/@0_mall/enetroom/cabinet/11375185/13810779/108963_1104cp_.jpg?_ex=300x300",
-   "checked_at": "2026-11-23",
+   "checked_at": "2026-11-24",
    "reviews": 1852,
    "note": "商品説明に寸法が2通り以上あるため、大きいほうの値で判定",
    "dims_seen": [
@@ -3428,7 +3564,7 @@
     "yahoo": "https://store.shopping.yahoo.co.jp/takuhaibin/574712.html"
    },
    "img": "https://thumbnail.image.rakuten.co.jp/@0_mall/enetroom/cabinet/11375185/13810779/574712_1104cp_.jpg?_ex=300x300",
-   "checked_at": "2026-11-23",
+   "checked_at": "2026-11-24",
    "reviews": 1703,
    "note": "商品説明に寸法が2通り以上あるため、大きいほうの値で判定",
    "dims_seen": [
@@ -3466,7 +3602,7 @@
     "yahoo": "https://store.shopping.yahoo.co.jp/insdenki-y/516315.html"
    },
    "img": "https://thumbnail.image.rakuten.co.jp/@0_mall/enetroom/cabinet/tenposupport24/imgrc0131369872.jpg?_ex=300x300",
-   "checked_at": "2026-11-23",
+   "checked_at": "2026-11-24",
    "reviews": 1419,
    "note": "商品説明に寸法が2通り以上あるため、大きいほうの値で判定",
    "dims_seen": [
@@ -3519,7 +3655,7 @@
     "yahoo": "https://store.shopping.yahoo.co.jp/insdenki-y/509664.html"
    },
    "img": "https://thumbnail.image.rakuten.co.jp/@0_mall/u-denki/cabinet/10834726/imgrc0107140412.jpg?_ex=300x300",
-   "checked_at": "2026-11-23",
+   "checked_at": "2026-11-24",
    "reviews": 1268,
    "note": "商品説明に寸法が2通り以上あるため、大きいほうの値で判定",
    "dims_seen": [
@@ -3562,7 +3698,7 @@
     "yahoo": "https://store.shopping.yahoo.co.jp/insair-y/k572257.html"
    },
    "img": "https://thumbnail.image.rakuten.co.jp/@0_mall/u-denki/cabinet/tenposupport07/13850207/115612.jpg?_ex=300x300",
-   "checked_at": "2026-11-23",
+   "checked_at": "2026-11-24",
    "reviews": 468,
    "note": "商品説明に寸法が2通り以上あるため、大きいほうの値で判定",
    "dims_seen": [
@@ -3596,7 +3732,7 @@
    "h": 107.1,
    "evidence": "した ●商品サイズ(cm):幅約58.6×奥行き約64.7×高さ約100.3",
    "confidence": "要確認",
-   "listings": 9,
+   "listings": 8,
    "agree": 0,
    "price": 57800,
    "price_max": 71280,
@@ -3605,8 +3741,8 @@
     "yahoo": "https://store.shopping.yahoo.co.jp/irisplaza/h104381.html"
    },
    "img": "https://thumbnail.image.rakuten.co.jp/@0_mall/enetroom/cabinet/tenposupport02/509663.jpg?_ex=300x300",
-   "checked_at": "2026-11-23",
-   "reviews": 297,
+   "checked_at": "2026-11-24",
+   "reviews": 298,
    "note": "商品説明に寸法が2通り以上あるため、大きいほうの値で判定",
    "dims_seen": [
     [
@@ -3647,7 +3783,7 @@
     "rakuten": "https://hb.afl.rakuten.co.jp/hgc/g00qvevo.d4l21cf6.g00qvevo.d4l22645/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fkadenrand%2F514087%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fkadenrand%2Fi%2F10164462%2F&rafcid=wsc_i_is_f39725d4-39b5-46c2-8048-e2b2a03cda3a"
    },
    "img": "https://thumbnail.image.rakuten.co.jp/@0_mall/kadenrand/cabinet/11075038/13209852/13486961/imgrc0119533072.jpg?_ex=300x300",
-   "checked_at": "2026-11-23",
+   "checked_at": "2026-11-24",
    "reviews": 88,
    "note": "商品説明に寸法が2通り以上あるため、大きいほうの値で判定",
    "dims_seen": [
@@ -3685,7 +3821,7 @@
     "yahoo": "https://store.shopping.yahoo.co.jp/irisplaza/112861f.html"
    },
    "img": "https://thumbnail.image.rakuten.co.jp/@0_mall/irisplaza-r/cabinet/tenpogmk02/116784_00.jpg?_ex=300x300",
-   "checked_at": "2026-11-23",
+   "checked_at": "2026-11-24",
    "reviews": 53,
    "note": "商品説明に寸法が2通り以上あるため、大きいほうの値で判定",
    "dims_seen": [
@@ -3722,7 +3858,7 @@
     "rakuten": "https://hb.afl.rakuten.co.jp/hgc/g00qea0o.d4l21b57.g00qea0o.d4l22ce5/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fkaguin%2F517556%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fkaguin%2Fi%2F10099437%2F&rafcid=wsc_i_is_f39725d4-39b5-46c2-8048-e2b2a03cda3a"
    },
    "img": "https://thumbnail.image.rakuten.co.jp/@0_mall/kaguin/cabinet/tenposupport20/113756sku.jpg?_ex=300x300",
-   "checked_at": "2026-11-23",
+   "checked_at": "2026-11-24",
    "reviews": 5,
    "note": "商品説明に寸法が2通り以上あるため、大きいほうの値で判定",
    "dims_seen": [
